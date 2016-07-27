@@ -1,0 +1,106 @@
+#usage "List of components that no longer have a valid library component listed.<p>"
+       "<author>Author: alf@cadsoft.de</author>"
+
+string Version = "1.0.0"; // 2011-04-14 alf@cadsoft.de
+
+
+string LbrName[];
+int    Lcnt = 0;
+string MissLbr[];
+int    Mcnt = 0;
+string NoExist[];
+
+int    Ln = 0;
+do {
+  string l[];
+  int cnt = fileglob(l, path_lbr[Ln]+"/*.lbr");
+  Ln++;
+  if (cnt) {
+    for (int n  = 0; n < cnt; n++) {
+      LbrName[Lcnt] = filename(l[n]);
+      Lcnt++;
+    }
+  }
+} while (path_lbr[Ln]);
+
+
+void test(void) {
+  int sel = -1;
+  int srt = 0;
+  dlgDialog("test") {
+    dlgHBoxLayout dlgSpacing(400);
+    dlgHBoxLayout {
+      dlgVBoxLayout dlgSpacing(400);
+      dlgListView("Librarys", LbrName, sel, srt);
+    }
+    dlgHBoxLayout {
+      dlgStretch(1);
+      dlgPushButton("+OK") dlgAccept();
+      dlgStretch(1);
+    }
+  };
+  return;
+}
+
+void showmiss(string header, string Listheader) {
+  for (int n = 0; n < Mcnt; n++) {
+    MissLbr[n] += "\t" + NoExist[n];
+  }
+  int sl = -1;
+  int sel = -1;
+  dlgDialog(header) {
+    dlgHBoxLayout dlgSpacing(400);
+    dlgListView("LBRs searched in ", path_lbr, sl);
+    dlgHBoxLayout {
+      dlgVBoxLayout dlgSpacing(400);
+      dlgListView(Listheader, MissLbr, sel);
+    }
+    dlgLabel("Note: This ULP works case sensitive!");
+    dlgHBoxLayout {
+      dlgStretch(1);
+      dlgPushButton("+OK") dlgAccept();
+      dlgStretch(1);
+    }
+  };
+  return;
+}
+
+
+int  checklibary(string name) {
+  int n;
+  for (n = 0; n < Lcnt; n++) {
+    if (name == LbrName[n]) return -1;  // LBR in lirary list.
+  }
+  for (n = 0 ; n < Mcnt; n++) {
+    if (MissLbr[n] == name) return n;   // LBR in missing LBR list.
+  }
+  MissLbr[Mcnt] = name;                 // add to missing LBR list.
+  Mcnt++;
+  return Mcnt -1;
+}
+
+
+if (schematic) {
+  schematic(SCH) {
+    SCH.parts(P) {
+      int no = checklibary(P.deviceset.library);
+      if (no >= 0) NoExist[no] += P.name + " ";
+    }
+  }
+  if (Mcnt) showmiss("Missing LBRs for used parts in Schematic", "Used libraries not found\tParts");
+  exit(0);
+}
+
+else if (board) {
+  board(B) {
+    B.elements(E) {
+      int no = checklibary(E.package.library);
+      if (no >= 0) NoExist[no] += E.name + " ";
+    }
+  }
+  if (Mcnt) showmiss("Missing LBRs for used elements in Board", "Used libraries not found\tElements");
+  exit(0);
+}
+
+dlgMessageBox("Start this ULP in a SCH or BRD!", "OK");
+
