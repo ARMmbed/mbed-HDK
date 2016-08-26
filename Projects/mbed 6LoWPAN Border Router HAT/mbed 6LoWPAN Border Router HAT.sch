@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3872,7 +3872,8 @@ and up to 54 general purpose I/O pins.
 <part name="GND10" library="mbed-HDK" deviceset="GND" device=""/>
 <part name="R6" library="mbed-HDK" deviceset="R" device="0402" value="10k"/>
 <part name="PWR6" library="mbed-HDK" deviceset="+3.3V" device=""/>
-<part name="R9" library="mbed-HDK" deviceset="R" device="0402" value="10k"/>
+<part name="R9" library="mbed-HDK" deviceset="R" device="0402" value="1k"/>
+<part name="D3" library="mbed-HDK" deviceset="BAT60A" device="" value="BAT60J"/>
 </parts>
 <sheets>
 <sheet>
@@ -5425,6 +5426,7 @@ R13 denotes it is NOT USB SLIP</text>
 <attribute name="VALUE" x="178.054" y="67.818" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="GND30" gate="1" x="190.5" y="66.04" smashed="yes" rot="R90"/>
+<instance part="D3" gate="G$1" x="93.98" y="160.02"/>
 </instances>
 <busses>
 </busses>
@@ -5810,6 +5812,8 @@ R13 denotes it is NOT USB SLIP</text>
 <pinref part="SW1" gate="G$1" pin="S"/>
 <wire x1="109.22" y1="160.02" x2="109.22" y2="152.4" width="0.1524" layer="91"/>
 <junction x="109.22" y="160.02"/>
+<pinref part="D3" gate="G$1" pin="K"/>
+<wire x1="96.52" y1="160.02" x2="109.22" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TGT_NRESET_FB" class="0">
@@ -5863,6 +5867,13 @@ R13 denotes it is NOT USB SLIP</text>
 <pinref part="IC4" gate="G$1" pin="PIO0_2/SSEL0/CT16B0_CAP0"/>
 <wire x1="48.26" y1="76.2" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
 <label x="12.7" y="76.2" size="1.778" layer="95" font="vector" ratio="12"/>
+</segment>
+</net>
+<net name="TGT_NRESET" class="0">
+<segment>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="91.44" y1="160.02" x2="86.36" y2="160.02" width="0.1524" layer="91"/>
+<label x="76.2" y="162.56" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 </nets>
