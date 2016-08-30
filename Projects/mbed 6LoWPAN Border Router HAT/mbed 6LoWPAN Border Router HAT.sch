@@ -4214,8 +4214,8 @@ USB interface from driving the
 <sheet>
 <plain>
 <text x="43.18" y="93.98" size="1.778" layer="97" font="vector" ratio="12">TGT_SWCLK is also EZP_CK</text>
-<text x="228.6" y="154.94" size="1.6764" layer="97" font="vector" ratio="12">R12 denotes it is NOT FRDM-K64F
-R13 denotes it is NOT USB SLIP</text>
+<text x="228.6" y="154.94" size="1.6764" layer="97" font="vector" ratio="12">R14 denotes it is NOT FRDM-K64F
+R15 denotes it is NOT USB SLIP</text>
 </plain>
 <instances>
 <instance part="GND16" gate="1" x="96.52" y="124.46" smashed="yes" rot="R270"/>
