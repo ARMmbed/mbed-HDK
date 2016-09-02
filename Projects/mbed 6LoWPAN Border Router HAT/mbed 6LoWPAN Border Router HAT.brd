@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2" unitdist="mil" unit="mil" style="dots" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="mil"/>
+<grid distance="2" unitdist="mil" unit="mm" style="dots" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1233,11 +1233,11 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="VALUE" x="30.099" y="-42.418" size="1.27" layer="27"/>
 </element>
 <element name="C3" library="mbed-HDK" package="0402" value="18pF" x="28.321" y="-26.035" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.242" y="-24.892" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="27.6352" y="-26.7208" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="30.226" y="-26.67" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C2" library="mbed-HDK" package="0402" value="18pF" x="30.734" y="-26.035" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.559" y="-26.797" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="31.115" y="-24.9174" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="32.639" y="-26.67" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C13" library="mbed-HDK" package="0402" value="100nF" x="30.734" y="-36.576" locked="yes" smashed="yes">
@@ -1488,7 +1488,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 </element>
 <element name="TP2" library="mbed-HDK" package="TP50-PTH" value="TEST-POINT-50R-PTH" x="50.8" y="-20.32" locked="yes" smashed="yes"/>
 <element name="R14" library="mbed-HDK" package="0402" value="10k" x="50.8" y="-41.021" locked="yes" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.181" y="-44.45" size="1.016" layer="21" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="51.1302" y="-43.9928" size="0.8128" layer="21" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="R24" library="mbed-HDK" package="0402" value="33R" x="-2.159" y="-24.638" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="1.8542" y="-24.6126" size="0.8128" layer="21" font="vector" ratio="12" rot="R90"/>
@@ -1500,9 +1500,9 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="NAME" x="-3.81" y="-21.209" size="0.8128" layer="21" font="vector" ratio="12"/>
 </element>
 <element name="R15" library="mbed-HDK" package="0402" value="10k" x="51.816" y="-41.021" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.578" y="-44.45" size="1.016" layer="21" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="52.578" y="-43.9928" size="0.8128" layer="21" font="vector" ratio="12" rot="R90"/>
 </element>
-<element name="IC2" library="mbed-HDK" package="SOT353" value="74LVC1GXX" x="36.9062" y="-45.6438" smashed="yes" rot="R90">
+<element name="IC2" library="mbed-HDK" package="SOT353" value="74LVC1G08SE-7" x="36.9062" y="-45.6438" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.9722" y="-44.6232" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="39.5062" y="-47.5938" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
@@ -2461,9 +2461,9 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="5.457" y1="-16.125" x2="5.715" y2="-16.383" width="0.254" layer="1"/>
 <wire x1="5.715" y1="-16.383" x2="6.35" y2="-16.383" width="0.254" layer="1"/>
 <wire x1="6.35" y1="-16.383" x2="6.4008" y2="-16.3322" width="0.254" layer="1"/>
-<wire x1="6.4008" y1="-16.3322" x2="7.1882" y2="-16.3322" width="0.1524" layer="1"/>
-<wire x1="7.1882" y1="-16.3322" x2="7.239" y2="-16.383" width="0.1524" layer="1"/>
-<wire x1="7.239" y1="-16.383" x2="7.239" y2="-17.6022" width="0.1524" layer="1"/>
+<wire x1="6.4008" y1="-16.3322" x2="7.1882" y2="-16.3322" width="0.254" layer="1"/>
+<wire x1="7.1882" y1="-16.3322" x2="7.239" y2="-16.383" width="0.254" layer="1"/>
+<wire x1="7.239" y1="-16.383" x2="7.239" y2="-17.6022" width="0.254" layer="1"/>
 <wire x1="7.239" y1="-17.6022" x2="7.2898" y2="-17.653" width="0.1524" layer="1"/>
 </signal>
 <signal name="DM">

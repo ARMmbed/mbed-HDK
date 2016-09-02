@@ -3867,7 +3867,7 @@ and up to 54 general purpose I/O pins.
 <part name="GND30" library="mbed-HDK" deviceset="GND" device=""/>
 <part name="R15" library="mbed-HDK" deviceset="R" device="0402" value="10k"/>
 <part name="GND21" library="mbed-HDK" deviceset="GND" device=""/>
-<part name="IC2" library="mbed-HDK" deviceset="74LVC1GXX" device=""/>
+<part name="IC2" library="mbed-HDK" deviceset="74LVC1GXX" device="" value="74LVC1G08SE-7"/>
 <part name="PWR9" library="mbed-HDK" deviceset="+3.3V" device=""/>
 <part name="GND10" library="mbed-HDK" deviceset="GND" device=""/>
 <part name="R6" library="mbed-HDK" deviceset="R" device="0402" value="10k"/>
