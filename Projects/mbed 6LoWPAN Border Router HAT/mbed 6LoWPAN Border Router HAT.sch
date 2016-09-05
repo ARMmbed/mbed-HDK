@@ -3803,7 +3803,7 @@ and up to 54 general purpose I/O pins.
 <part name="C5" library="mbed-HDK" deviceset="C" device="0402" value="100nF"/>
 <part name="PWR10" library="mbed-HDK" deviceset="+3.3V" device=""/>
 <part name="GND13" library="mbed-HDK" deviceset="GND" device=""/>
-<part name="JP1" library="mbed-HDK" deviceset="PINHD-1X3" device="" value="DEBUG"/>
+<part name="JP1" library="mbed-HDK" deviceset="PINHD-1X3" device="" value="1X03"/>
 <part name="GND18" library="mbed-HDK" deviceset="GND" device=""/>
 <part name="R20" library="mbed-HDK" deviceset="R" device="0402" value="10k"/>
 <part name="C17" library="mbed-HDK" deviceset="C" device="0402" value="100nF"/>
@@ -3874,7 +3874,7 @@ and up to 54 general purpose I/O pins.
 <part name="PWR6" library="mbed-HDK" deviceset="+3.3V" device=""/>
 <part name="R9" library="mbed-HDK" deviceset="R" device="0402" value="1k"/>
 <part name="D3" library="mbed-HDK" deviceset="BAT60A" device="" value="BAT60J"/>
-<part name="RESET-EN" library="mbed-HDK" deviceset="PINHD-1X3" device="" value="RESET"/>
+<part name="RESET-EN" library="mbed-HDK" deviceset="PINHD-1X3" device="" value="1X03"/>
 <part name="GND36" library="mbed-HDK" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -5067,13 +5067,6 @@ R15 denotes it is NOT USB SLIP</text>
 <pinref part="R9" gate="G$1" pin="P$2"/>
 <pinref part="IC2" gate="G$1" pin="Y"/>
 <wire x1="66.04" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="NC" class="0">
-<segment>
-<pinref part="RESET-EN" gate="A" pin="3"/>
-<wire x1="142.24" y1="12.7" x2="154.94" y2="12.7" width="0.1524" layer="91"/>
-<label x="154.94" y="12.7" size="1.778" layer="95" font="vector" ratio="12"/>
 </segment>
 </net>
 </nets>

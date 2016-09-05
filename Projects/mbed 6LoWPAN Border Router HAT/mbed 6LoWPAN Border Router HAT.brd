@@ -1369,7 +1369,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="NAME" x="29.083" y="-45.085" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="30.607" y="-46.736" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="JP1" library="mbed-HDK" package="1X03" value="DEBUG" x="50.5968" y="-18.5928" locked="yes" smashed="yes" rot="R90">
+<element name="JP1" library="mbed-HDK" package="1X03" value="1X03" x="50.5968" y="-18.5928" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.768" y="-19.5072" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="53.7718" y="-22.4028" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -1525,7 +1525,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="NAME" x="-3.0988" y="-27.2542" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="-1.016" y="-26.289" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
-<element name="RESET-EN" library="mbed-HDK" package="1X03" value="RESET" x="50.5968" y="-10.2108" locked="yes" smashed="yes" rot="R270">
+<element name="RESET-EN" library="mbed-HDK" package="1X03" value="1X03" x="50.5968" y="-10.2108" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.768" y="-13.1064" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="46.7868" y="-6.4008" size="1.016" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
@@ -2901,9 +2901,6 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="36.0172" y1="-45.5168" x2="36.068" y2="-45.466" width="0.1524" layer="1"/>
 <wire x1="36.068" y1="-45.466" x2="36.068" y2="-45.032" width="0.1524" layer="1"/>
 <wire x1="36.068" y1="-45.032" x2="36.1062" y2="-44.9938" width="0.1524" layer="1"/>
-</signal>
-<signal name="NC">
-<contactref element="RESET-EN" pad="3"/>
 </signal>
 </signals>
 <errors>
