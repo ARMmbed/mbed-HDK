@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="6" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -160,15 +160,15 @@
 </layers>
 <board>
 <plain>
-<text x="52.197" y="-23.368" size="0.8128" layer="25" font="vector" ratio="12">+3v3</text>
-<text x="52.832" y="-13.208" size="0.8128" layer="25" font="vector" ratio="12">GND</text>
-<text x="52.832" y="-10.668" size="0.8128" layer="25" font="vector" ratio="12">RX</text>
-<text x="52.832" y="-15.748" size="0.8128" layer="25" font="vector" ratio="12">TX</text>
+<text x="52.5018" y="-26.5684" size="0.8128" layer="25" font="vector" ratio="12">+3v3</text>
+<text x="53.2892" y="-19.1516" size="0.8128" layer="25" font="vector" ratio="12">GND</text>
+<text x="53.2892" y="-16.6116" size="0.8128" layer="25" font="vector" ratio="12">RX</text>
+<text x="53.2892" y="-21.6916" size="0.8128" layer="25" font="vector" ratio="12">TX</text>
 <text x="-1.524" y="-50.8" size="1.4224" layer="25" font="vector" ratio="15">mbed 6LoWPAN Border Router HAT</text>
 <text x="37.084" y="-2.794" size="1.27" layer="1" font="vector" ratio="18" rot="R180">cjs</text>
 <text x="36.83" y="-50.8" size="0.8128" layer="25" font="vector" ratio="12">v1.1</text>
-<text x="52.959" y="-5.588" size="0.8128" layer="25" font="vector" ratio="12">!WP</text>
-<text x="52.197" y="-20.828" size="0.8128" layer="25" font="vector" ratio="12">GND</text>
+<text x="53.2638" y="-4.826" size="0.8128" layer="25" font="vector" ratio="12">!WP</text>
+<text x="53.2638" y="-24.3332" size="0.8128" layer="25" font="vector" ratio="12">GND</text>
 <text x="-7.874" y="-18.288" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">PWR</text>
 <text x="-7.874" y="-12.7" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">DAP</text>
 <text x="-7.874" y="-15.494" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">COM</text>
@@ -176,6 +176,15 @@
 <text x="56.134" y="-30.48" size="0.8128" layer="21" font="vector" ratio="12" rot="SR90">RED</text>
 <text x="56.134" y="-34.036" size="0.8128" layer="21" font="vector" ratio="12" rot="SR90">GRN</text>
 <text x="56.134" y="-37.719" size="0.8128" layer="21" font="vector" ratio="12" rot="SR90">BLUE</text>
+<text x="52.578" y="-10.7188" size="0.8128" layer="25" font="vector" ratio="12"></text>
+<text x="53.34" y="-7.9756" size="0.8128" layer="25" font="vector" ratio="12">Off</text>
+<text x="53.34" y="-13.2588" size="0.8128" layer="25" font="vector" ratio="12">On</text>
+<wire x1="52.1208" y1="-10.7696" x2="52.7812" y2="-10.7696" width="0.1524" layer="25"/>
+<wire x1="52.7812" y1="-10.7696" x2="52.7812" y2="-13.4112" width="0.1524" layer="25"/>
+<wire x1="52.7812" y1="-13.4112" x2="52.1208" y2="-13.4112" width="0.1524" layer="25"/>
+<wire x1="52.1208" y1="-9.5504" x2="52.7812" y2="-9.5504" width="0.1524" layer="25"/>
+<wire x1="52.7812" y1="-9.5504" x2="52.7812" y2="-7.0104" width="0.1524" layer="25"/>
+<wire x1="52.7812" y1="-7.0104" x2="52.1208" y2="-7.0104" width="0.1524" layer="25"/>
 </plain>
 <libraries>
 <library name="mbed-HDK">
@@ -1217,7 +1226,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="VALUE" x="40.894" y="-23.622" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C9" library="mbed-HDK" package="0402" value="100nF" x="50.8" y="-34.544" locked="yes" smashed="yes">
-<attribute name="NAME" x="51.308" y="-38.1" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="52.4764" y="-35.2044" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="50.165" y="-36.449" size="1.27" layer="27"/>
 </element>
 <element name="C10" library="mbed-HDK" package="0402" value="100nF" x="45.847" y="-44.45" locked="yes" smashed="yes">
@@ -1233,11 +1242,11 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="VALUE" x="30.099" y="-42.418" size="1.27" layer="27"/>
 </element>
 <element name="C3" library="mbed-HDK" package="0402" value="18pF" x="28.321" y="-26.035" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.242" y="-24.892" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="27.6352" y="-26.7208" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="30.226" y="-26.67" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C2" library="mbed-HDK" package="0402" value="18pF" x="30.734" y="-26.035" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.559" y="-26.797" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="31.115" y="-24.9174" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="32.639" y="-26.67" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C13" library="mbed-HDK" package="0402" value="100nF" x="30.734" y="-36.576" locked="yes" smashed="yes">
@@ -1325,36 +1334,34 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="NAME" x="40.513" y="-25.019" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="43.18" y="-24.892" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="TP1" library="mbed-HDK" package="TP50-PTH" value="TEST-POINT-50R-PTH" x="50.8" y="-22.86" locked="yes" smashed="yes">
-<attribute name="VALUE" x="50.8" y="-22.86" size="0.0254" layer="27"/>
+<element name="TP1" library="mbed-HDK" package="TP50-PTH" value="TEST-POINT-50R-PTH" x="50.6476" y="-26.2128" locked="yes" smashed="yes">
+<attribute name="VALUE" x="50.6476" y="-26.2128" size="0.0254" layer="27"/>
 </element>
 <element name="T1" library="mbed-HDK" package="SOT23" value="BC850" x="44.704" y="-48.387" locked="yes" smashed="yes">
 <attribute name="NAME" x="44.323" y="-46.355" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="42.799" y="-51.562" size="1.27" layer="27"/>
 </element>
 <element name="R5" library="mbed-HDK" package="0402" value="220R" x="40.386" y="-49.022" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.116" y="-47.879" size="0.8128" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="39.624" y="-47.8282" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="42.291" y="-49.657" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R7" library="mbed-HDK" package="0402" value="10k" x="41.783" y="-49.022" locked="yes" smashed="yes" rot="R270">
-<attribute name="NAME" x="41.021" y="-47.879" size="0.8128" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="41.4782" y="-47.8282" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="39.878" y="-48.387" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="OSC1" library="mbed-HDK" package="3.2X.2.5" value="50MHz" x="31.877" y="-45.72" locked="yes" smashed="yes">
 <attribute name="NAME" x="29.972" y="-44.069" size="0.8128" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="TP16" library="mbed-HDK" package="TP50-PTH" value="TEST-POINT-50R-PTH" x="50.8" y="-5.08" locked="yes" smashed="yes">
-<attribute name="NAME" x="46.736" y="-5.461" size="0.8128" layer="25" font="vector" ratio="12"/>
-</element>
+<element name="TP16" library="mbed-HDK" package="TP50-PTH" value="TEST-POINT-50R-PTH" x="50.5968" y="-4.7244" locked="yes" smashed="yes"/>
 <element name="IC3" library="mbed-HDK" package="LQFP100" value="MK64FN1M0VLL12" x="40.767" y="-35.052" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.677" y="-27.845" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="38.517" y="-31.802" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R8" library="mbed-HDK" package="0402" value="10k" x="48.5394" y="-47.1932" smashed="yes" rot="R270">
+<element name="R8" library="mbed-HDK" package="0402" value="10k" x="48.5394" y="-47.1932" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.5554" y="-49.4792" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="46.6344" y="-46.5582" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C4" library="mbed-HDK" package="0402" value="100nF" x="47.1424" y="-47.1678" smashed="yes" rot="R270">
+<element name="C4" library="mbed-HDK" package="0402" value="100nF" x="47.1424" y="-47.1678" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.4124" y="-49.4538" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="45.2374" y="-46.5328" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -1362,9 +1369,9 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="NAME" x="29.083" y="-45.085" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="30.607" y="-46.736" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="JP1" library="mbed-HDK" package="1X03" value="DEBUG" x="50.8" y="-12.7" locked="yes" smashed="yes" rot="R90">
-<attribute name="NAME" x="52.4002" y="-16.9418" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="53.975" y="-16.51" size="1.27" layer="27" rot="R90"/>
+<element name="JP1" library="mbed-HDK" package="1X03" value="1X03" x="50.5968" y="-18.5928" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.768" y="-19.5072" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="53.7718" y="-22.4028" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R20" library="mbed-HDK" package="0402" value="10k" x="6.223" y="-19.304" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.461" y="-19.939" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
@@ -1463,7 +1470,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="NAME" x="-27.559" y="-22.606" size="0.8128" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="-8.382" y="-18.542" size="1.016" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
-<element name="R21" library="mbed-HDK" package="0402" value="470R" x="-6.477" y="-13.589" locked="yes" smashed="yes" rot="R270">
+<element name="R21" library="mbed-HDK" package="0402" value="220R" x="-6.477" y="-13.589" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="-27.432" y="-14.097" size="0.8128" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="-8.382" y="-12.954" size="1.016" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
@@ -1486,12 +1493,12 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="NAME" x="19.812" y="-3.429" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="23.975" y="-2.064" size="1.016" layer="27" rot="R180"/>
 </element>
-<element name="TP2" library="mbed-HDK" package="TP50-PTH" value="TEST-POINT-50R-PTH" x="50.8" y="-20.32" locked="yes" smashed="yes"/>
+<element name="TP2" library="mbed-HDK" package="TP50-PTH" value="TEST-POINT-50R-PTH" x="50.6476" y="-23.9776" locked="yes" smashed="yes"/>
 <element name="R14" library="mbed-HDK" package="0402" value="10k" x="50.8" y="-41.021" locked="yes" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.181" y="-44.45" size="1.016" layer="21" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="51.1302" y="-43.9928" size="0.8128" layer="21" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="R24" library="mbed-HDK" package="0402" value="33R" x="-2.159" y="-24.638" locked="yes" smashed="yes" rot="R270">
-<attribute name="NAME" x="2.159" y="-24.511" size="0.8128" layer="21" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="1.8542" y="-24.6126" size="0.8128" layer="21" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="R25" library="mbed-HDK" package="0402" value="33R" x="-2.159" y="-26.67" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="-1.397" y="-29.718" size="0.8128" layer="21" font="vector" ratio="12" rot="R90"/>
@@ -1499,20 +1506,28 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <element name="R26" library="mbed-HDK" package="0402" value="10k" x="-3.175" y="-19.812" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="-3.81" y="-21.209" size="0.8128" layer="21" font="vector" ratio="12"/>
 </element>
-<element name="R15" library="mbed-HDK" package="0402" value="10k" x="51.816" y="-41.021" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.578" y="-44.45" size="1.016" layer="21" font="vector" ratio="12" rot="R90"/>
+<element name="R15" library="mbed-HDK" package="0402" value="10k" x="51.816" y="-41.021" locked="yes" smashed="yes" rot="R270">
+<attribute name="NAME" x="52.578" y="-43.9928" size="0.8128" layer="21" font="vector" ratio="12" rot="R90"/>
 </element>
-<element name="IC2" library="mbed-HDK" package="SOT353" value="74LVC1GXX" x="36.9062" y="-45.6438" smashed="yes" rot="R90">
+<element name="IC2" library="mbed-HDK" package="SOT353" value="74LVC1G08SE-7" x="36.9062" y="-45.6438" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.9722" y="-44.6232" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="39.5062" y="-47.5938" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
-<element name="R6" library="mbed-HDK" package="0402" value="10k" x="36.449" y="-47.752" smashed="yes">
+<element name="R6" library="mbed-HDK" package="0402" value="10k" x="36.449" y="-47.752" locked="yes" smashed="yes">
 <attribute name="NAME" x="35.814" y="-49.149" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="35.179" y="-51.562" size="1.016" layer="27" font="vector" ratio="12"/>
 </element>
-<element name="R9" library="mbed-HDK" package="0402" value="10k" x="34.671" y="-45.974" smashed="yes" rot="R90">
+<element name="R9" library="mbed-HDK" package="0402" value="1k" x="34.671" y="-45.974" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.766" y="-48.26" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="38.481" y="-47.244" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
+</element>
+<element name="D3" library="mbed-HDK" package="BAT60A" value="BAT60J" x="-3.556" y="-23.749" smashed="yes" rot="R90">
+<attribute name="NAME" x="-3.0988" y="-27.2542" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="-1.016" y="-26.289" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
+</element>
+<element name="RESET-EN" library="mbed-HDK" package="1X03" value="1X03" x="50.5968" y="-10.2108" locked="yes" smashed="yes" rot="R270">
+<attribute name="NAME" x="48.768" y="-13.1064" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="46.7868" y="-6.4008" size="1.016" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -1579,7 +1594,6 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <contactref element="IC5" pad="2"/>
 <contactref element="CON2" pad="GND"/>
 <contactref element="CON1" pad="5"/>
-<contactref element="TP2" pad="TP"/>
 <polygon width="0.254" layer="16">
 <vertex x="25.4" y="-38.608"/>
 <vertex x="-8.382" y="-38.608"/>
@@ -1619,7 +1633,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <via x="27.559" y="-45.974" extent="1-16" drill="0.254"/>
 <wire x1="33.017" y1="-40.552" x2="31.2302" y2="-40.552" width="0.1524" layer="1"/>
 <wire x1="31.2302" y1="-40.552" x2="31.1912" y2="-40.513" width="0.1524" layer="1"/>
-<wire x1="31.2942" y1="-36.552" x2="33.017" y2="-36.552" width="0.1524" layer="1"/>
+<wire x1="31.2152" y1="-36.552" x2="33.017" y2="-36.552" width="0.1524" layer="1"/>
 <via x="28.321" y="-24.511" extent="1-16" drill="0.254"/>
 <wire x1="35.267" y1="-27.302" x2="34.767" y2="-27.302" width="0.1524" layer="1"/>
 <wire x1="19.746" y1="-37.416" x2="19.746" y2="-38.416" width="0.4064" layer="1"/>
@@ -1718,8 +1732,17 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="30.861" y1="-47.879" x2="32.385" y2="-47.879" width="0.1524" layer="1"/>
 <wire x1="32.385" y1="-47.879" x2="32.9692" y2="-47.2948" width="0.1524" layer="1"/>
 <wire x1="32.9692" y1="-47.2948" x2="32.9692" y2="-46.5582" width="0.1524" layer="1"/>
-<wire x1="15.875" y1="-10.671" x2="15.875" y2="-10.644" width="0" layer="19" extent="1-1"/>
-<wire x1="31.2942" y1="-36.552" x2="31.242" y2="-36.5252" width="0" layer="19" extent="1-1"/>
+<wire x1="0.381" y1="-15.875" x2="0.3556" y2="-15.9004" width="0.1524" layer="16"/>
+<wire x1="0.3556" y1="-15.9004" x2="-0.8636" y2="-15.9004" width="0.1524" layer="16"/>
+<wire x1="-0.8636" y1="-15.9004" x2="-3.048" y2="-18.0848" width="0.1524" layer="16"/>
+<wire x1="-3.048" y1="-18.0848" x2="-3.2512" y2="-18.0848" width="0.1524" layer="16"/>
+<via x="-3.2512" y="-18.0848" extent="1-16" drill="0.254"/>
+<wire x1="-2.7178" y1="-19.812" x2="-2.7178" y2="-18.6182" width="0.1524" layer="1"/>
+<wire x1="-2.7178" y1="-18.6182" x2="-3.2512" y2="-18.0848" width="0.1524" layer="1"/>
+<wire x1="15.875" y1="-10.671" x2="15.875" y2="-10.644" width="0.1524" layer="1"/>
+<wire x1="31.2152" y1="-36.552" x2="31.1912" y2="-36.576" width="0.1524" layer="1"/>
+<contactref element="RESET-EN" pad="2"/>
+<contactref element="TP2" pad="TP"/>
 </signal>
 <signal name="+3.3V">
 <contactref element="C6" pad="1"/>
@@ -1740,7 +1763,6 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="2"/>
 <contactref element="C1" pad="1"/>
-<contactref element="TP1" pad="TP"/>
 <contactref element="OSC1" pad="P$1"/>
 <contactref element="OSC1" pad="P$4"/>
 <contactref element="IC3" pad="8"/>
@@ -1770,14 +1792,9 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 </polygon>
 <wire x1="35.767" y1="-27.302" x2="35.7632" y2="-27.2982" width="0.1524" layer="1"/>
 <wire x1="35.7632" y1="-27.2982" x2="35.7632" y2="-25.273" width="0.1524" layer="1"/>
-<via x="23.368" y="-7.62" extent="1-16" drill="0.254"/>
-<via x="35.941" y="-8.509" extent="1-16" drill="0.254"/>
-<via x="40.894" y="-8.509" extent="1-16" drill="0.254"/>
-<wire x1="35.941" y1="-8.509" x2="40.767" y2="-8.509" width="0.6096" layer="16"/>
-<wire x1="23.368" y1="-7.62" x2="24.257" y2="-8.509" width="0.6096" layer="16"/>
-<wire x1="24.257" y1="-8.509" x2="35.941" y2="-8.509" width="0.6096" layer="16"/>
 <contactref element="IC2" pad="5"/>
 <contactref element="R6" pad="1"/>
+<contactref element="TP1" pad="TP"/>
 </signal>
 <signal name="N$2">
 <contactref element="C2" pad="1"/>
@@ -2088,12 +2105,12 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <via x="45.847" y="-10.795" extent="1-16" drill="0.254"/>
 <wire x1="45.847" y1="-10.795" x2="44.45" y2="-9.398" width="0.1524" layer="16"/>
 <wire x1="44.45" y1="-9.398" x2="21.844" y2="-9.398" width="0.1524" layer="16"/>
-<wire x1="21.844" y1="-9.398" x2="14.097" y2="-1.651" width="0.1524" layer="16"/>
 <via x="14.097" y="-1.651" extent="1-16" drill="0.254"/>
 <wire x1="14.097" y1="-1.651" x2="9.144" y2="-1.651" width="0.1524" layer="1"/>
 <wire x1="9.144" y1="-1.651" x2="8.89" y2="-1.397" width="0.1524" layer="1"/>
 <wire x1="8.89" y1="-1.397" x2="8.89" y2="1.27" width="0.1524" layer="1"/>
 <wire x1="8.89" y1="1.27" x2="7.62" y2="2.54" width="0.1524" layer="1"/>
+<wire x1="21.844" y1="-9.398" x2="14.097" y2="-1.651" width="0.1524" layer="16"/>
 </signal>
 <signal name="K64F_RPI_CTS">
 <contactref element="BRD1" pad="11"/>
@@ -2134,12 +2151,10 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="40.132" y1="-28.956" x2="39.37" y2="-29.718" width="0.1524" layer="1"/>
 <wire x1="39.37" y1="-29.718" x2="39.37" y2="-34.544" width="0.1524" layer="1"/>
 <wire x1="39.37" y1="-34.544" x2="40.267" y2="-35.441" width="0.1524" layer="1"/>
-<wire x1="50.8" y1="-10.16" x2="48.26" y2="-10.16" width="0.1524" layer="16"/>
-<wire x1="48.26" y1="-10.16" x2="44.196" y2="-14.224" width="0.1524" layer="16"/>
-<wire x1="44.196" y1="-14.224" x2="44.196" y2="-17.653" width="0.1524" layer="16"/>
-<wire x1="44.196" y1="-17.653" x2="40.64" y2="-21.209" width="0.1524" layer="16"/>
+<wire x1="45.7962" y1="-16.0528" x2="40.64" y2="-21.209" width="0.1524" layer="16"/>
 <wire x1="40.64" y1="-21.209" x2="34.5485875" y2="-21.209" width="0.1524" layer="16"/>
 <wire x1="34.5485875" y1="-21.209" x2="33.424340625" y2="-22.333246875" width="0.1524" layer="16"/>
+<wire x1="45.7962" y1="-16.0528" x2="50.5968" y2="-16.0528" width="0.1524" layer="16"/>
 </signal>
 <signal name="K64F_DAPLINK_TX">
 <contactref element="IC3" pad="63"/>
@@ -2158,11 +2173,12 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <via x="42.164" y="-28.956" extent="1-16" drill="0.254"/>
 <wire x1="42.164" y1="-28.956" x2="41.529" y2="-29.591" width="0.1524" layer="16"/>
 <wire x1="41.529" y1="-29.591" x2="39.751" y2="-29.591" width="0.1524" layer="16"/>
-<wire x1="50.8" y1="-15.24" x2="50.8" y2="-17.399" width="0.1524" layer="16"/>
-<wire x1="50.8" y1="-17.399" x2="48.514" y2="-19.685" width="0.1524" layer="16"/>
-<wire x1="48.514" y1="-19.685" x2="48.514" y2="-27.178" width="0.1524" layer="16"/>
 <wire x1="48.514" y1="-27.178" x2="46.736" y2="-28.956" width="0.1524" layer="16"/>
 <wire x1="46.736" y1="-28.956" x2="42.164" y2="-28.956" width="0.1524" layer="16"/>
+<wire x1="48.514" y1="-27.178" x2="48.4632" y2="-27.1272" width="0.1524" layer="16"/>
+<wire x1="48.4632" y1="-27.1272" x2="48.4632" y2="-22.5552" width="0.1524" layer="16"/>
+<wire x1="48.4632" y1="-22.5552" x2="49.8856" y2="-21.1328" width="0.1524" layer="16"/>
+<wire x1="49.8856" y1="-21.1328" x2="50.5968" y2="-21.1328" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$17">
 <contactref element="R4" pad="1"/>
@@ -2213,7 +2229,6 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <contactref element="R3" pad="1"/>
 <contactref element="TP16" pad="TP"/>
 <wire x1="30.099" y1="-5.1308" x2="30.0482" y2="-5.08" width="0.1524" layer="1"/>
-<wire x1="50.8" y1="-5.08" x2="48.26" y2="-7.62" width="0.1524" layer="16"/>
 <wire x1="48.26" y1="-7.62" x2="33.528" y2="-7.62" width="0.1524" layer="16"/>
 <wire x1="33.528" y1="-7.62" x2="30.988" y2="-5.08" width="0.1524" layer="16"/>
 <via x="30.988" y="-5.08" extent="1-16" drill="0.254"/>
@@ -2221,6 +2236,8 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="30.988" y1="-5.08" x2="30.988" y2="-5.842" width="0.1524" layer="1"/>
 <wire x1="30.988" y1="-5.842" x2="30.48" y2="-6.35" width="0.1524" layer="1"/>
 <wire x1="30.48" y1="-6.35" x2="30.48" y2="-7.6962" width="0.1524" layer="1"/>
+<wire x1="48.26" y1="-7.62" x2="50.5968" y2="-5.2832" width="0.1524" layer="16"/>
+<wire x1="50.5968" y1="-5.2832" x2="50.5968" y2="-4.7244" width="0.1524" layer="16"/>
 </signal>
 <signal name="RPI_ID_SDA">
 <contactref element="BRD1" pad="27"/>
@@ -2280,7 +2297,8 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="46.99" y1="-1.524" x2="48.895" y2="-3.429" width="0.1524" layer="1"/>
 <wire x1="48.895" y1="-3.429" x2="54.229" y2="-3.429" width="0.1524" layer="1"/>
 <wire x1="54.229" y1="-3.429" x2="55.88" y2="-5.08" width="0.1524" layer="1"/>
-<wire x1="55.88" y1="-5.08" x2="55.88" y2="-43.307" width="0.1524" layer="1"/>
+<wire x1="55.88" y1="-5.08" x2="55.88" y2="-7.62" width="0.1524" layer="1"/>
+<wire x1="55.88" y1="-7.62" x2="55.88" y2="-43.307" width="0.1524" layer="1"/>
 <wire x1="55.88" y1="-43.307" x2="55.118" y2="-44.069" width="0.1524" layer="1"/>
 <wire x1="55.118" y1="-44.069" x2="51.816" y2="-44.069" width="0.1524" layer="1"/>
 <wire x1="51.816" y1="-44.069" x2="49.657" y2="-46.228" width="0.1524" layer="1"/>
@@ -2292,6 +2310,9 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="39.751" y1="-48.514" x2="40.3352" y2="-48.514" width="0.1524" layer="1"/>
 <wire x1="40.3352" y1="-48.514" x2="40.386" y2="-48.5648" width="0.1524" layer="1"/>
 <wire x1="49.149" y1="-50.546" x2="49.657" y2="-50.038" width="0.1524" layer="1"/>
+<contactref element="RESET-EN" pad="1"/>
+<wire x1="50.5968" y1="-7.6708" x2="50.6476" y2="-7.62" width="0.1524" layer="1"/>
+<wire x1="50.6476" y1="-7.62" x2="55.88" y2="-7.62" width="0.1524" layer="1"/>
 </signal>
 <signal name="50MHZ">
 <contactref element="OSC1" pad="P$3"/>
@@ -2402,7 +2423,14 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="0.508" y1="-19.685" x2="0.635" y2="-19.558" width="0.1524" layer="1"/>
 <wire x1="0.635" y1="-19.558" x2="0.635" y2="-18.429" width="0.1524" layer="1"/>
 <wire x1="0.635" y1="-18.429" x2="0.631" y2="-18.425" width="0.1524" layer="1"/>
-<wire x1="6.223" y1="-13.2842" x2="3.937" y2="-10.4648" width="0" layer="19" extent="1-1"/>
+<wire x1="6.223" y1="-13.2842" x2="7.3406" y2="-13.2842" width="0.1524" layer="1"/>
+<wire x1="7.3406" y1="-13.2842" x2="7.5692" y2="-13.5128" width="0.1524" layer="1"/>
+<via x="7.5692" y="-13.5128" extent="1-16" drill="0.254"/>
+<wire x1="7.5692" y1="-13.5128" x2="8.9916" y2="-13.5128" width="0.1524" layer="16"/>
+<wire x1="8.9916" y1="-13.5128" x2="10.2616" y2="-14.7828" width="0.1524" layer="16"/>
+<via x="10.2616" y="-14.7828" extent="1-16" drill="0.254"/>
+<wire x1="10.2616" y1="-14.7828" x2="10.3124" y2="-14.7828" width="0.1524" layer="1"/>
+<wire x1="10.3124" y1="-14.7828" x2="10.414" y2="-14.8844" width="0.1524" layer="1"/>
 </signal>
 <signal name="USB-DP">
 <contactref element="R29" pad="1"/>
@@ -2443,9 +2471,9 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="5.457" y1="-16.125" x2="5.715" y2="-16.383" width="0.254" layer="1"/>
 <wire x1="5.715" y1="-16.383" x2="6.35" y2="-16.383" width="0.254" layer="1"/>
 <wire x1="6.35" y1="-16.383" x2="6.4008" y2="-16.3322" width="0.254" layer="1"/>
-<wire x1="6.4008" y1="-16.3322" x2="7.1882" y2="-16.3322" width="0.1524" layer="1"/>
-<wire x1="7.1882" y1="-16.3322" x2="7.239" y2="-16.383" width="0.1524" layer="1"/>
-<wire x1="7.239" y1="-16.383" x2="7.239" y2="-17.6022" width="0.1524" layer="1"/>
+<wire x1="6.4008" y1="-16.3322" x2="7.1882" y2="-16.3322" width="0.254" layer="1"/>
+<wire x1="7.1882" y1="-16.3322" x2="7.239" y2="-16.383" width="0.254" layer="1"/>
+<wire x1="7.239" y1="-16.383" x2="7.239" y2="-17.6022" width="0.254" layer="1"/>
 <wire x1="7.239" y1="-17.6022" x2="7.2898" y2="-17.653" width="0.1524" layer="1"/>
 </signal>
 <signal name="DM">
@@ -2615,6 +2643,22 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="34.671" y1="-47.498" x2="34.671" y2="-45.085" width="0.1524" layer="16"/>
 <wire x1="34.671" y1="-45.085" x2="34.417" y2="-44.831" width="0.1524" layer="16"/>
 <wire x1="34.417" y1="-44.831" x2="34.417" y2="-44.196" width="0.1524" layer="16"/>
+<contactref element="D3" pad="A"/>
+<wire x1="-3.556" y1="-22.449" x2="-2.891" y2="-22.449" width="0.1524" layer="1"/>
+<wire x1="-2.891" y1="-22.449" x2="-2.0828" y2="-21.6408" width="0.1524" layer="1"/>
+<wire x1="-2.0828" y1="-21.6408" x2="-1.778" y2="-21.6408" width="0.1524" layer="1"/>
+<wire x1="-1.778" y1="-21.6408" x2="-1.7272" y2="-21.59" width="0.1524" layer="1"/>
+<via x="-1.7272" y="-21.59" extent="1-16" drill="0.254"/>
+<wire x1="-1.7272" y1="-21.59" x2="-1.6764" y2="-21.59" width="0.1524" layer="16"/>
+<wire x1="-1.6764" y1="-21.59" x2="1.1176" y2="-18.796" width="0.1524" layer="16"/>
+<wire x1="1.1176" y1="-18.796" x2="2.0828" y2="-18.796" width="0.1524" layer="16"/>
+<wire x1="2.0828" y1="-18.796" x2="3.2004" y2="-19.9136" width="0.1524" layer="16"/>
+<wire x1="3.2004" y1="-19.9136" x2="15.494" y2="-19.9136" width="0.1524" layer="16"/>
+<wire x1="15.494" y1="-19.9136" x2="15.9004" y2="-19.5072" width="0.1524" layer="16"/>
+<via x="15.9004" y="-19.5072" extent="1-16" drill="0.254"/>
+<wire x1="15.9004" y1="-19.5072" x2="18.034" y2="-17.3736" width="0.1524" layer="1"/>
+<wire x1="18.034" y1="-17.3736" x2="21.8186" y2="-17.3736" width="0.1524" layer="1"/>
+<wire x1="21.8186" y1="-17.3736" x2="22.479" y2="-18.034" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="BRD1" pad="1"/>
@@ -2683,9 +2727,13 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <contactref element="R25" pad="2"/>
 <contactref element="SW1" pad="P$2"/>
 <wire x1="-2.159" y1="-26.2128" x2="-2.159" y2="-25.0952" width="0.1524" layer="1"/>
-<wire x1="-2.159" y1="-25.0952" x2="-5.4356" y2="-25.0952" width="0.1524" layer="1"/>
-<wire x1="-5.4356" y1="-25.0952" x2="-6.096" y2="-24.4348" width="0.1524" layer="1"/>
-<wire x1="-6.096" y1="-24.4348" x2="-6.096" y2="-22.827" width="0.1524" layer="1"/>
+<contactref element="D3" pad="K"/>
+<wire x1="-6.096" y1="-22.827" x2="-6.096" y2="-24.4348" width="0.1524" layer="1"/>
+<wire x1="-6.096" y1="-24.4348" x2="-5.3848" y2="-25.146" width="0.1524" layer="1"/>
+<wire x1="-5.3848" y1="-25.146" x2="-3.653" y2="-25.146" width="0.1524" layer="1"/>
+<wire x1="-3.653" y1="-25.146" x2="-3.556" y2="-25.049" width="0.254" layer="1"/>
+<wire x1="-3.556" y1="-25.049" x2="-2.2052" y2="-25.049" width="0.1524" layer="1"/>
+<wire x1="-2.2052" y1="-25.049" x2="-2.159" y2="-25.0952" width="0.254" layer="1"/>
 </signal>
 <signal name="TGT_NRESET_FB">
 <contactref element="R24" pad="1"/>
@@ -2895,6 +2943,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <approved hash="1,20,9f6b111511219f5f"/>
 <approved hash="1,20,1467161915761708"/>
 <approved hash="1,20,5c7f020102215c5f"/>
+<approved hash="1,20,7ccc02b20d7d7303"/>
 <approved hash="1,20,5d48133613795d07"/>
 <approved hash="1,20,dcbd134312fddd03"/>
 <approved hash="1,20,de3d744375ecdf92"/>
@@ -2949,6 +2998,8 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <approved hash="1,20,9ce03d1e3deb9c15"/>
 <approved hash="1,20,11fd1383137f1101"/>
 <approved hash="1,20,947e1a801a7c9482"/>
+<approved hash="1,20,9e68341634da9ea4"/>
+<approved hash="1,20,abf2198c1923ab5d"/>
 <approved hash="1,20,9c9c356232219bdf"/>
 <approved hash="1,20,64be0940083a65c4"/>
 <approved hash="1,20,567df883f83f56c1"/>
@@ -2962,6 +3013,8 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <approved hash="1,20,5b71158f15e35b1d"/>
 <approved hash="1,20,1347113911761308"/>
 <approved hash="1,20,1b3f35c13a2514db"/>
+<approved hash="1,20,47bf8dc18d25475b"/>
+<approved hash="1,20,1b7c010201011b7f"/>
 <approved hash="1,20,dbfd15031523dbdd"/>
 <approved hash="1,20,decb74b57566df18"/>
 <approved hash="1,20,5960f31ef36b5915"/>
