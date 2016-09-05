@@ -1357,11 +1357,11 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="NAME" x="47.677" y="-27.845" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="38.517" y="-31.802" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R8" library="mbed-HDK" package="0402" value="10k" x="48.5394" y="-47.1932" smashed="yes" rot="R270">
+<element name="R8" library="mbed-HDK" package="0402" value="10k" x="48.5394" y="-47.1932" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.5554" y="-49.4792" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="46.6344" y="-46.5582" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C4" library="mbed-HDK" package="0402" value="100nF" x="47.1424" y="-47.1678" smashed="yes" rot="R270">
+<element name="C4" library="mbed-HDK" package="0402" value="100nF" x="47.1424" y="-47.1678" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.4124" y="-49.4538" size="0.8128" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="45.2374" y="-46.5328" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -1506,18 +1506,18 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <element name="R26" library="mbed-HDK" package="0402" value="10k" x="-3.175" y="-19.812" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="-3.81" y="-21.209" size="0.8128" layer="21" font="vector" ratio="12"/>
 </element>
-<element name="R15" library="mbed-HDK" package="0402" value="10k" x="51.816" y="-41.021" smashed="yes" rot="R270">
+<element name="R15" library="mbed-HDK" package="0402" value="10k" x="51.816" y="-41.021" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="52.578" y="-43.9928" size="0.8128" layer="21" font="vector" ratio="12" rot="R90"/>
 </element>
-<element name="IC2" library="mbed-HDK" package="SOT353" value="74LVC1G08SE-7" x="36.9062" y="-45.6438" smashed="yes" rot="R90">
+<element name="IC2" library="mbed-HDK" package="SOT353" value="74LVC1G08SE-7" x="36.9062" y="-45.6438" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.9722" y="-44.6232" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="39.5062" y="-47.5938" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
-<element name="R6" library="mbed-HDK" package="0402" value="10k" x="36.449" y="-47.752" smashed="yes">
+<element name="R6" library="mbed-HDK" package="0402" value="10k" x="36.449" y="-47.752" locked="yes" smashed="yes">
 <attribute name="NAME" x="35.814" y="-49.149" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="35.179" y="-51.562" size="1.016" layer="27" font="vector" ratio="12"/>
 </element>
-<element name="R9" library="mbed-HDK" package="0402" value="1k" x="34.671" y="-45.974" smashed="yes" rot="R90">
+<element name="R9" library="mbed-HDK" package="0402" value="1k" x="34.671" y="-45.974" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.766" y="-48.26" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="38.481" y="-47.244" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
@@ -1792,12 +1792,6 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 </polygon>
 <wire x1="35.767" y1="-27.302" x2="35.7632" y2="-27.2982" width="0.1524" layer="1"/>
 <wire x1="35.7632" y1="-27.2982" x2="35.7632" y2="-25.273" width="0.1524" layer="1"/>
-<via x="23.368" y="-7.62" extent="1-16" drill="0.254"/>
-<via x="35.941" y="-8.509" extent="1-16" drill="0.254"/>
-<via x="40.894" y="-8.509" extent="1-16" drill="0.254"/>
-<wire x1="35.941" y1="-8.509" x2="40.767" y2="-8.509" width="0.6096" layer="16"/>
-<wire x1="23.368" y1="-7.62" x2="24.257" y2="-8.509" width="0.6096" layer="16"/>
-<wire x1="24.257" y1="-8.509" x2="35.941" y2="-8.509" width="0.6096" layer="16"/>
 <contactref element="IC2" pad="5"/>
 <contactref element="R6" pad="1"/>
 <contactref element="TP1" pad="TP"/>
@@ -2111,12 +2105,12 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <via x="45.847" y="-10.795" extent="1-16" drill="0.254"/>
 <wire x1="45.847" y1="-10.795" x2="44.45" y2="-9.398" width="0.1524" layer="16"/>
 <wire x1="44.45" y1="-9.398" x2="21.844" y2="-9.398" width="0.1524" layer="16"/>
-<wire x1="21.844" y1="-9.398" x2="14.097" y2="-1.651" width="0.1524" layer="16"/>
 <via x="14.097" y="-1.651" extent="1-16" drill="0.254"/>
 <wire x1="14.097" y1="-1.651" x2="9.144" y2="-1.651" width="0.1524" layer="1"/>
 <wire x1="9.144" y1="-1.651" x2="8.89" y2="-1.397" width="0.1524" layer="1"/>
 <wire x1="8.89" y1="-1.397" x2="8.89" y2="1.27" width="0.1524" layer="1"/>
 <wire x1="8.89" y1="1.27" x2="7.62" y2="2.54" width="0.1524" layer="1"/>
+<wire x1="21.844" y1="-9.398" x2="14.097" y2="-1.651" width="0.1524" layer="16"/>
 </signal>
 <signal name="K64F_RPI_CTS">
 <contactref element="BRD1" pad="11"/>
