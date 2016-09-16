@@ -25,4 +25,4 @@ Production Design Projects include projects of the mbed-HDK which have been manu
 
 Bare Design Projects include a starting point of simple schematic & board resources to develop using the mbed-HDK from the ground up. 
 
-Please keep in mind that the resources are provided "as is”. Though best efforts have been made to ensure the highest possible quality, no support or guarantees can be offered. The latest versions of Production Designs contained in the mbed-HDK have been successfully manufactured by a third-party manufacturer and proven to work.
+Please keep in mind that the resources are provided "as is". Though best efforts have been made to ensure the highest possible quality, no support or guarantees can be offered. The latest versions of Production Designs contained in the mbed-HDK have been successfully manufactured by a third-party manufacturer and proven to work.
