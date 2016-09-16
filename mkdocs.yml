@@ -1,0 +1,8 @@
+site_name: mbed Hardware Development Kit
+
+docs_dir: Docs
+
+pages:
+- ['index.md','mbed Hardware Development Kit']
+
+copyright: © ARM Ltd. Copyright 2016 – ARM mbed IoT Device Platform
