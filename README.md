@@ -7,7 +7,7 @@ The mbed HDK provides:
 * Eagle Schematic and Board files
 * PDF Schematic and Board copies
 * CAM Job GERBERS for manufacture (including pick/place and drill)
-* BOM (Bill of Materials) In .csv or eBOM
+* BOM (Bill of Materials) In .csv or (eBOM)[https://blog.octopart.com/archives/2014/06/bom-tool-update]
 
 # Whats included here?
 
