@@ -1,6 +1,8 @@
 ## DIPDAP
 
-The DIPDAP is a debug probe based on the NXP LPC11U35, supported by the DAPLink project. It provides drag and drop programming to a various target MCUs, CMSIS-DAP interface for debugging and UART. All broken out to 2.54mm headers.
+The DIPDAP is a debug probe based on the NXP LPC11U35, supported by the DAPLink project. It provides drag and drop programming to various target MCUs and provides a CMSIS-DAP interface.
+
+* Most Importantly the **DIPDAP** allows debugging and testing through UART via the 2.54mm headers.
 
 ![here](http://uk.rs-online.com/largeimages/R9054100-01.jpg "DIPDAP-mbed")
 

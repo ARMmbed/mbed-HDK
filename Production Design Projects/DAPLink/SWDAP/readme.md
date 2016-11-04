@@ -1,7 +1,8 @@
 ## SWDAP
 
-The SWDAP is a debug probe based on the NXP LPC11U35, supported by the DAPLink project. It provides drag and drop programming to a various target MCUs, and a CMSIS-DAP interface for debugging.
+The SWDAP is a debug probe based on the NXP LPC11U35, supported by the DAPLink project. It provides drag and drop programming to various target MCUs, and a CMSIS-DAP interface.
 
+* The **SWDAP** does not allow debugging and testing through UART. However, our identical [DIDAP](https://github.com/ARMmbed/mbed-HDK/tree/master/Production%20Design%20Projects/DAPLink/DIPDAP) does.
 ![here](http://uk.rs-online.com/largeimages/R9054104-01.jpg "SWDAP-mbed")
 
 ## Whats included here?
