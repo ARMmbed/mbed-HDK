@@ -2,7 +2,7 @@
 
 The CI Test shield is used to verify the the peripherals in a software port of mbed-os for a new board. External peripherals like PWM, Digital IO, I2C, SPI ... are all tested with the CI Test shield.
 
-![here](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/3a5f3d692dde6287381cad1398b510f4.png "CITestShield-mbed")
+![here](https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/c332b31cdc7a61761093714af6897431.png "CITestShield-mbed")
 
 ## Whats included here?
 
