@@ -2,7 +2,7 @@
 
 The CI Test shield is used to verify the the peripherals in a software port of mbed-os for a new board. External peripherals like PWM, Digital IO, I2C, SPI ... are all tested with the CI Test shield.
 
-<img src="https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/c332b31cdc7a61761093714af6897431.png" width="300" height="300" />
+<img src="https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/40294a86984495bf74b0f82463c8bc35.png" width="300" height="300" />
 
 ## Whats included here?
 
@@ -29,7 +29,17 @@ The software for tests and more info can be found in the [CI Test Shield github 
 ## How to get hardware
 
 1. Buy pre-assembled board from vendor (todo)
-2. Do it yourself, order [PCB from OSHPark](https://oshpark.com/shared_projects/aOdUcwq7) and parts from the BOM or eBOM.
+2. Do it yourself, order [PCB from OSHPark](https://oshpark.com/shared_projects/KPFGtMVr) and parts from the BOM or eBOM.
+
+
+## Revisions
+
+- **v 2.0.0** (04/11/16)
+ - Removed R13 (Removes hardware UART tests)
+
+- **v 1.0.1** (19/09/16)
+ - Initial Commit
+
 
 
 

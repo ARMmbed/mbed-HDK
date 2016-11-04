@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1309,7 +1309,6 @@
 <part name="SW1" library="mbed-HDK" deviceset="SPST-4" device="_TP1154_J"/>
 <part name="GND10" library="mbed-HDK" deviceset="GND" device=""/>
 <part name="IC4" library="mbed-HDK" deviceset="LM75BD" device=""/>
-<part name="R13" library="mbed-HDK" deviceset="R" device="0603" value="0R"/>
 <part name="R14" library="mbed-HDK" deviceset="R" device="0603" value="0R"/>
 <part name="R15" library="mbed-HDK" deviceset="R" device="0603" value="0R"/>
 <part name="R16" library="mbed-HDK" deviceset="R" device="0603" value="0R"/>
@@ -1384,10 +1383,6 @@
 <instance part="IC4" gate="G$1" x="68.58" y="127" smashed="yes">
 <attribute name="NAME" x="62.23" y="135.255" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.69" y="119.38" size="1.778" layer="96"/>
-</instance>
-<instance part="R13" gate="G$1" x="144.78" y="22.86" smashed="yes">
-<attribute name="NAME" x="142.24" y="25.4" size="1.27" layer="95" font="vector" ratio="12"/>
-<attribute name="VALUE" x="147.32" y="25.4" size="1.27" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="R14" gate="G$1" x="144.78" y="27.94" smashed="yes">
 <attribute name="NAME" x="142.24" y="30.48" size="1.27" layer="95" font="vector" ratio="12"/>
@@ -1826,22 +1821,6 @@
 <pinref part="BRD1" gate="G$1" pin="D8"/>
 <pinref part="R17" gate="G$1" pin="P$1"/>
 <wire x1="121.92" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="BRD1" gate="G$1" pin="D1/TX"/>
-<wire x1="121.92" y1="25.4" x2="154.94" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="25.4" x2="154.94" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="P$2"/>
-<wire x1="154.94" y1="22.86" x2="149.86" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="BRD1" gate="G$1" pin="D0/RX"/>
-<pinref part="R13" gate="G$1" pin="P$1"/>
-<wire x1="121.92" y1="22.86" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
