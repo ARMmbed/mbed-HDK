@@ -1315,7 +1315,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
-<package name="BAT60A">
+<package name="SOD323">
 <wire x1="0.8008" y1="0.5874" x2="-0.8208" y2="0.5874" width="0.1524" layer="51"/>
 <wire x1="0.8008" y1="-0.5874" x2="-0.8208" y2="-0.5874" width="0.1524" layer="51"/>
 <wire x1="0.507" y1="0.4" x2="-0.173" y2="0" width="0.2032" layer="21"/>
@@ -2481,7 +2481,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <text x="0" y="-5.08" size="1.778" layer="95" font="vector" ratio="12">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.778" layer="95" ratio="12">USBLC6-2</text>
 </symbol>
-<symbol name="BAT60A">
+<symbol name="SCHOTTKY-DIODE">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -3005,6 +3005,15 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="ATZB-RF-233-1-C" prefix="MOD">
+<description>&lt;b&gt;ATMEL ZigBit Amp RF233&lt;/b&gt;&lt;p&gt;
+
+RF TXRX MODULE 802.15.4 CHIP ANT&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rf Family: 802.15.4&lt;/li&gt;
+&lt;li&gt;Frequency: 2.4GHz&lt;/li&gt;
+&lt;li&gt;Vsupply: 2-3.6V&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="ATZB-RF-233-1-C" x="0" y="0"/>
 </gates>
@@ -3034,7 +3043,12 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <connect gate="G$1" pin="VDD@4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Atmel"/>
+<attribute name="MFN" value="ATZB-RF-233-1-CR"/>
+<attribute name="OC-DIGIKEY" value="ATZB-RF-233-1-CRCT-ND"/>
+<attribute name="OC-NEWARK" value="27X8560"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3434,6 +3448,11 @@ and up to 54 general purpose I/O pins.
 <technology name="/501">
 <attribute name="FLASH" value="64kB"/>
 <attribute name="GPIO" value="26"/>
+<attribute name="MF" value="NXP Semiconductors" constant="no"/>
+<attribute name="MFN" value="LPC11U35FHI33/501," constant="no"/>
+<attribute name="NEWARK-OC" value=" 24W5342" constant="no"/>
+<attribute name="OC-DIGIKEY" value="568-9586-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="771-LPC11U35FHI33501" constant="no"/>
 <attribute name="SRAM" value="12kB"/>
 </technology>
 </technologies>
@@ -3471,7 +3490,13 @@ and up to 54 general purpose I/O pins.
 <connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Kemet" constant="no"/>
+<attribute name="MFN" value="T491B106K020AT" constant="no"/>
+<attribute name="OC-DIGIKEY" value="399-8298-1-ND"/>
+<attribute name="OC-MOUSER" value="80-T491B106K020" constant="no"/>
+<attribute name="OC-NEWARK" value=" 57K1740" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="A" package="SMC_A">
@@ -3642,7 +3667,12 @@ and up to 54 general purpose I/O pins.
 <connect gate="A" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MFN" value="47346-0001" constant="no"/>
+<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
+<attribute name="OC-NEWARK" value="1568026" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="" package="MOLEX-48037-2200">
@@ -3678,24 +3708,43 @@ and up to 54 general purpose I/O pins.
 </device>
 </devices>
 </deviceset>
-<deviceset name="BAT60A" prefix="D">
-<description>&lt;b&gt;Schottky Diode&lt;/b&gt;&lt;p&gt;</description>
+<deviceset name="BAT60A" prefix="D" uservalue="yes">
+<description>&lt;b&gt;Schottky Diode BAT60A&lt;/b&gt;&lt;p&gt;
+
+INFINEON  BAT60A E6327  Small Signal Schottky Diode&lt;/p&gt;
+
+Lower Vfm than BAT60A
+
+&lt;ul&gt;
+&lt;li&gt;Vrrm: 10 V&lt;/li&gt;
+&lt;li&gt;If: 3A&lt;/li&gt;
+&lt;li&gt;Vfm: 370mV&lt;/li&gt;
+&lt;li&gt;Ifsm: 5A&lt;/li&gt;
+&lt;li&gt;Max Temp: 85 °C&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="BAT60A" x="0" y="0"/>
+<gate name="G$1" symbol="SCHOTTKY-DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="BAT60A">
+<device name="" package="SOD323">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Infineon"/>
+<attribute name="MFN" value="BAT60AE6327HTSA1"/>
+<attribute name="OC-DIGIKEY" value="BAT60AE6327HTSA1CT-ND"/>
+<attribute name="OC-MOUSER" value="726-BAT60AE6327"/>
+<attribute name="OC-NEWARK" value="85X4127"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="74LVC1GXX" prefix="IC">
+<description>74LVC1G08SE-7   LOGIC, 2 POS AND GATE, SINGLE, 2 IP, SOT353</description>
 <gates>
 <gate name="G$1" symbol="74LVC1GXX" x="2.54" y="10.16"/>
 </gates>
@@ -3709,7 +3758,48 @@ and up to 54 general purpose I/O pins.
 <connect gate="G$1" pin="Y" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Diodes Inc." constant="no"/>
+<attribute name="MFN" value="74LVC1G08SE-7"/>
+<attribute name="OC-DIGIKEY" value="74LVC1G08SE-7DICT-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="621-74LVC1G08SE-7" constant="no"/>
+<attribute name="OC-NEWARK" value="12T8904" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAT60J" prefix="D">
+<description>&lt;b&gt;Schottky Diode BAT60J&lt;/b&gt;&lt;p&gt;
+
+BAT60JFILM  Small Signal Schottky Diode&lt;/p&gt;
+
+Higher Vfm than BAT60A
+
+&lt;ul&gt;
+&lt;li&gt;Vrrm: 10 V&lt;/li&gt;
+&lt;li&gt;If: 3A&lt;/li&gt;
+&lt;li&gt;Vfm: 580mV&lt;/li&gt;
+&lt;li&gt;Ifsm: 5A&lt;/li&gt;
+&lt;li&gt;Max Temp: 150 °C&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY-DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="STMicroelectronics"/>
+<attribute name="MFN" value="BAT60JFILM"/>
+<attribute name="OC-DIGIKEY" value="497-3707-6-ND"/>
+<attribute name="OC-MOUSER" value="511-BAT60JFILM" constant="no"/>
+<attribute name="OC-NEWARK" value="89K1218"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -3854,9 +3944,9 @@ and up to 54 general purpose I/O pins.
 <part name="IC5" library="mbed-HDK" deviceset="USBLC6-2" device="SC6"/>
 <part name="CON1" library="mbed-HDK" deviceset="TC2030-CTX" device="-NL"/>
 <part name="PWR24" library="mbed-HDK" deviceset="+3.3V" device=""/>
-<part name="D2" library="mbed-HDK" deviceset="BAT60A" device=""/>
+<part name="D2" library="mbed-HDK" deviceset="BAT60A" device="" value="BAT60A"/>
 <part name="PWR5" library="mbed-HDK" deviceset="+3.3V" device=""/>
-<part name="D1" library="mbed-HDK" deviceset="BAT60A" device=""/>
+<part name="D1" library="mbed-HDK" deviceset="BAT60A" device="" value="BAT60A"/>
 <part name="TP2" library="mbed-HDK" deviceset="TEST-POINT" device="-50R-PTH" value="TEST-POINT-50R-PTH"/>
 <part name="GND1" library="mbed-HDK" deviceset="GND" device=""/>
 <part name="R14" library="mbed-HDK" deviceset="R" device="0402" value="10k"/>
@@ -3873,9 +3963,9 @@ and up to 54 general purpose I/O pins.
 <part name="R6" library="mbed-HDK" deviceset="R" device="0402" value="10k"/>
 <part name="PWR6" library="mbed-HDK" deviceset="+3.3V" device=""/>
 <part name="R9" library="mbed-HDK" deviceset="R" device="0402" value="1k"/>
-<part name="D3" library="mbed-HDK" deviceset="BAT60A" device="" value="BAT60J"/>
 <part name="RESET-EN" library="mbed-HDK" deviceset="PINHD-1X3" device="" value="1X03"/>
 <part name="GND36" library="mbed-HDK" deviceset="GND" device=""/>
+<part name="D4" library="mbed-HDK" deviceset="BAT60J" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5440,7 +5530,7 @@ R15 denotes it is NOT USB SLIP</text>
 <attribute name="VALUE" x="178.054" y="67.818" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="GND30" gate="1" x="190.5" y="66.04" smashed="yes" rot="R90"/>
-<instance part="D3" gate="G$1" x="93.98" y="160.02"/>
+<instance part="D4" gate="G$1" x="93.98" y="160.02"/>
 </instances>
 <busses>
 </busses>
@@ -5826,8 +5916,8 @@ R15 denotes it is NOT USB SLIP</text>
 <pinref part="SW1" gate="G$1" pin="S"/>
 <wire x1="109.22" y1="160.02" x2="109.22" y2="152.4" width="0.1524" layer="91"/>
 <junction x="109.22" y="160.02"/>
-<pinref part="D3" gate="G$1" pin="K"/>
 <wire x1="96.52" y1="160.02" x2="109.22" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="K"/>
 </segment>
 </net>
 <net name="TGT_NRESET_FB" class="0">
@@ -5885,9 +5975,9 @@ R15 denotes it is NOT USB SLIP</text>
 </net>
 <net name="TGT_NRESET" class="0">
 <segment>
-<pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="91.44" y1="160.02" x2="86.36" y2="160.02" width="0.1524" layer="91"/>
 <label x="76.2" y="162.56" size="1.778" layer="95" font="vector" ratio="12"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
