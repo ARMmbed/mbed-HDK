@@ -32,6 +32,16 @@ The software for tests and more info can be found in the [CI Test Shield github 
 2. Do it yourself, order [PCB from OSHPark](https://oshpark.com/shared_projects/aOdUcwq7) and parts from the BOM or eBOM.
 
 
+## Revisions
+
+- **v 2.0.0** (04/11/16)
+ - Removed R13 (Removes hardware UART tests)
+
+- **v 1.0.1** (19/09/16)
+ - Initial Commit
+
+
+
 
 
 

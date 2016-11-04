@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -254,13 +254,13 @@ Interrupt In - Loopback</text>
 <text x="33.528" y="4.826" size="1.016" layer="21" font="vector" ratio="12" rot="R90">Nrst</text>
 <text x="30.988" y="4.826" size="1.016" layer="21" font="vector" ratio="12" rot="R90">IOr</text>
 <wire x1="37.592" y1="43.18" x2="38.862" y2="41.91" width="0.254" layer="21"/>
-<wire x1="38.862" y1="41.91" x2="63.5" y2="41.91" width="0.254" layer="21"/>
-<wire x1="63.5" y1="41.91" x2="64.77" y2="43.18" width="0.254" layer="21"/>
+<wire x1="38.862" y1="41.91" x2="58.674" y2="41.91" width="0.254" layer="21"/>
+<wire x1="58.674" y1="41.91" x2="59.944" y2="43.18" width="0.254" layer="21"/>
 <wire x1="48.26" y1="10.16" x2="49.53" y2="11.43" width="0.254" layer="21"/>
 <wire x1="49.53" y1="11.43" x2="64.77" y2="11.43" width="0.254" layer="21"/>
 <wire x1="64.77" y1="11.43" x2="66.04" y2="10.16" width="0.254" layer="21"/>
 <text x="50.038" y="12.192" size="1.6764" layer="21" font="vector" ratio="12">Analog I/O</text>
-<text x="58.928" y="41.148" size="1.6764" layer="21" font="vector" ratio="12" rot="R180">Digital I/O</text>
+<text x="55.626" y="41.148" size="1.6764" layer="21" font="vector" ratio="12" rot="R180">Digital I/O</text>
 <text x="45.974" y="27.686" size="1.6764" layer="21" font="vector" ratio="12">SPI</text>
 <text x="46.736" y="26.162" size="1.016" layer="21" font="vector" ratio="12">nCS</text>
 <text x="46.736" y="24.892" size="1.016" layer="21" font="vector" ratio="12">MOSI</text>
@@ -270,7 +270,7 @@ Interrupt In - Loopback</text>
 <text x="21.844" y="17.272" size="1.016" layer="21" font="vector" ratio="12">Temperature</text>
 <text x="22.352" y="38.354" size="1.016" layer="21" font="vector" ratio="12">Addr=0xA0</text>
 <text x="21.844" y="15.748" size="1.016" layer="21" font="vector" ratio="12">Addr=0x90</text>
-<text x="18.542" y="7.112" size="1.016" layer="21" ratio="12" rot="R90">CI Sheild v1.0.1</text>
+<text x="18.542" y="7.112" size="1.016" layer="21" ratio="12" rot="R90">CI Sheild v2.0.0</text>
 <text x="60.96" y="43.18" size="1.6764" layer="22" ratio="12" rot="MR0">Tests :</text>
 <text x="58.42" y="40.64" size="1.016" layer="22" ratio="12" rot="MR0">Analog I/O - A0-5 mesh</text>
 <text x="58.42" y="38.1" size="1.016" layer="22" ratio="12" rot="MR0">Digital I/O - D0-9 loopback</text>
@@ -686,10 +686,6 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="NAME" x="24.13" y="25.654" size="1.016" layer="21" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="33.782" y="18.542" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
-<element name="R13" library="mbed-HDK" package="0603" value="0R" x="62.23" y="44.45" locked="yes" smashed="yes" rot="R180">
-<attribute name="NAME" x="60.96" y="42.672" size="1.016" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="63.246" y="40.386" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
-</element>
 <element name="R14" library="mbed-HDK" package="0603" value="0R" x="57.15" y="44.45" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="55.88" y="42.672" size="1.016" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="58.166" y="40.386" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
@@ -1028,20 +1024,6 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="41.236" y1="44.45" x2="41.236" y2="47.713" width="0.254" layer="1"/>
 <wire x1="41.236" y1="47.713" x2="41.656" y2="48.133" width="0.254" layer="1"/>
 <wire x1="41.656" y1="48.133" x2="41.656" y2="50.8" width="0.254" layer="1"/>
-</signal>
-<signal name="N$12">
-<contactref element="BRD1" pad="16"/>
-<contactref element="R13" pad="2"/>
-<wire x1="61.38" y1="44.45" x2="61.38" y2="47.713" width="0.254" layer="1"/>
-<wire x1="61.38" y1="47.713" x2="60.96" y2="48.133" width="0.254" layer="1"/>
-<wire x1="60.96" y1="48.133" x2="60.96" y2="50.8" width="0.254" layer="1"/>
-</signal>
-<signal name="N$13">
-<contactref element="BRD1" pad="15"/>
-<contactref element="R13" pad="1"/>
-<wire x1="63.08" y1="44.45" x2="63.08" y2="47.713" width="0.254" layer="1"/>
-<wire x1="63.08" y1="47.713" x2="63.5" y2="48.133" width="0.254" layer="1"/>
-<wire x1="63.5" y1="48.133" x2="63.5" y2="50.8" width="0.254" layer="1"/>
 </signal>
 <signal name="N$14">
 <contactref element="BRD1" pad="17"/>
