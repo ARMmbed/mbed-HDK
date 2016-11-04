@@ -1,4 +1,4 @@
-<img src="https://www.mbed.com/static/img/ARMmbedLogo.svg " width="300" height="" />
+<img src="https://www.mbed.com/static/img/ARMmbedLogo.svg" width="300" height="" />
 -
 # mbed HDK
 
