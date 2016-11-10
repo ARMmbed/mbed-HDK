@@ -29,7 +29,7 @@ The software for tests and more info can be found in the [CI Test Shield github 
 ## How to get hardware
 
 1. Buy pre-assembled board from vendor (todo)
-2. Do it yourself, order [PCB from OSHPark](https://oshpark.com/shared_projects/aOdUcwq7) and parts from the BOM or eBOM.
+2. Do it yourself, order [PCB from OSHPark](https://oshpark.com/shared_projects/jbn5mqdt) and parts from the BOM or eBOM.
 
 
 ## Revisions
