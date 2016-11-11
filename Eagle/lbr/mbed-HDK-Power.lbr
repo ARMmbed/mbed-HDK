@@ -1023,352 +1023,40 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MMA8653FC" prefix="IC" uservalue="yes">
-<description>Accelerometer</description>
+<deviceset name="USBLC6-2" prefix="IC">
+<description>&lt;b&gt;ESD USB Protection&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="MMA8653FC" x="2.54" y="-7.62"/>
+<gate name="G$1" symbol="USBLC6-2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DFN10_2X2">
+<device name="SC6" package="SOT23-6L">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IO1@1" pad="1"/>
+<connect gate="G$1" pin="IO1@6" pad="6"/>
+<connect gate="G$1" pin="IO2@3" pad="3"/>
+<connect gate="G$1" pin="IO2@4" pad="4"/>
+<connect gate="G$1" pin="VBUS" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TC1014" prefix="IC" uservalue="yes">
+<description>&lt;b&gt;LDO Regulator 3.3v&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TC101X" x="-5.08" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="BYP" pad="4"/>
-<connect gate="G$1" pin="GND1" pad="6"/>
-<connect gate="G$1" pin="GND2" pad="7"/>
-<connect gate="G$1" pin="GND3" pad="9"/>
-<connect gate="G$1" pin="INT1" pad="3"/>
-<connect gate="G$1" pin="INT2" pad="5"/>
-<connect gate="G$1" pin="SCL" pad="2"/>
-<connect gate="G$1" pin="SDA" pad="10"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
-<connect gate="G$1" pin="VDDIO" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MAG3110" prefix="IC">
-<description>Magnetometer</description>
-<gates>
-<gate name="G$1" symbol="MAG3110" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DFN10_2X2">
-<connects>
-<connect gate="G$1" pin="CAP-A" pad="1"/>
-<connect gate="G$1" pin="CAP-R" pad="4"/>
-<connect gate="G$1" pin="GND1" pad="5"/>
-<connect gate="G$1" pin="GND2" pad="10"/>
-<connect gate="G$1" pin="INT1" pad="9"/>
-<connect gate="G$1" pin="NC" pad="3"/>
-<connect gate="G$1" pin="SCL" pad="7"/>
-<connect gate="G$1" pin="SDA" pad="6"/>
-<connect gate="G$1" pin="VDD" pad="2"/>
-<connect gate="G$1" pin="VDDIO" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LM75BD" prefix="IC">
-<description>temperature</description>
-<gates>
-<gate name="G$1" symbol="LM75A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SO8">
-<connects>
-<connect gate="G$1" pin="A0" pad="7"/>
-<connect gate="G$1" pin="A1" pad="6"/>
-<connect gate="G$1" pin="A2" pad="5"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="OS" pad="3"/>
-<connect gate="G$1" pin="SCL" pad="2"/>
-<connect gate="G$1" pin="SDA" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_TSSOP8" package="TSSOP8">
-<connects>
-<connect gate="G$1" pin="A0" pad="7"/>
-<connect gate="G$1" pin="A1" pad="6"/>
-<connect gate="G$1" pin="A2" pad="5"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="OS" pad="3"/>
-<connect gate="G$1" pin="SCL" pad="2"/>
-<connect gate="G$1" pin="SDA" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="KSZ8081" prefix="IC">
-<description>phy</description>
-<gates>
-<gate name="G$1" symbol="KSZ8081" x="0" y="0"/>
-</gates>
-<devices>
-<device name="RNACA" package="QFN-24">
-<connects>
-<connect gate="G$1" pin="CRS_DV" pad="15"/>
-<connect gate="G$1" pin="GND" pad="22"/>
-<connect gate="G$1" pin="INTRP" pad="18"/>
-<connect gate="G$1" pin="LED0" pad="23"/>
-<connect gate="G$1" pin="MDC" pad="11"/>
-<connect gate="G$1" pin="MDIO" pad="10"/>
-<connect gate="G$1" pin="NRST" pad="24"/>
-<connect gate="G$1" pin="REF_CLK" pad="16"/>
-<connect gate="G$1" pin="REXT" pad="9"/>
-<connect gate="G$1" pin="RXD0" pad="13"/>
-<connect gate="G$1" pin="RXD1" pad="12"/>
-<connect gate="G$1" pin="RXER" pad="17"/>
-<connect gate="G$1" pin="RXM" pad="3"/>
-<connect gate="G$1" pin="RXP" pad="4"/>
-<connect gate="G$1" pin="TXD0" pad="20"/>
-<connect gate="G$1" pin="TXD1" pad="21"/>
-<connect gate="G$1" pin="TXEN" pad="19"/>
-<connect gate="G$1" pin="TXM" pad="5"/>
-<connect gate="G$1" pin="TXP" pad="6"/>
-<connect gate="G$1" pin="VDDA_3.3" pad="2"/>
-<connect gate="G$1" pin="VDDIO" pad="14"/>
-<connect gate="G$1" pin="VDD_1.2" pad="1"/>
-<connect gate="G$1" pin="XI" pad="8"/>
-<connect gate="G$1" pin="XO" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DP83848J" prefix="IC">
-<description>&lt;B&gt;National Semiconductor DP83848J PHYTER Mini LS Single Port 10/100 Ethernet Transceiver&lt;/B&gt;</description>
-<gates>
-<gate name="A" symbol="DP83848J" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LLP-40">
-<connects>
-<connect gate="A" pin="AGND@1" pad="13"/>
-<connect gate="A" pin="AGND@2" pad="17"/>
-<connect gate="A" pin="AVDD33" pad="18"/>
-<connect gate="A" pin="COL/PHYAD0" pad="35"/>
-<connect gate="A" pin="CRS/CRS_DV/LED_CFG" pad="33"/>
-<connect gate="A" pin="DGND" pad="29"/>
-<connect gate="A" pin="GNDPAD" pad="DAP"/>
-<connect gate="A" pin="IOGND@2" pad="40"/>
-<connect gate="A" pin="IOVDD33@1" pad="1"/>
-<connect gate="A" pin="IOVDD33@2" pad="26"/>
-<connect gate="A" pin="LED_LINK/AN0" pad="22"/>
-<connect gate="A" pin="LED_SPEED/AN1" pad="21"/>
-<connect gate="A" pin="MDC" pad="25"/>
-<connect gate="A" pin="MDIO" pad="24"/>
-<connect gate="A" pin="PFBIN1" pad="16"/>
-<connect gate="A" pin="PFBIN2" pad="30"/>
-<connect gate="A" pin="PFBOUT" pad="19"/>
-<connect gate="A" pin="RBIAS" pad="20"/>
-<connect gate="A" pin="RD+" pad="12"/>
-<connect gate="A" pin="RD-" pad="11"/>
-<connect gate="A" pin="RESERVED@1" pad="8"/>
-<connect gate="A" pin="RESERVED@2" pad="9"/>
-<connect gate="A" pin="RESERVED@3" pad="10"/>
-<connect gate="A" pin="RESET_N" pad="23"/>
-<connect gate="A" pin="RXD_0/PHYAD1" pad="36"/>
-<connect gate="A" pin="RXD_1/PHYAD2" pad="37"/>
-<connect gate="A" pin="RXD_2/PHYAD3" pad="38"/>
-<connect gate="A" pin="RXD_3/PHYAD4" pad="39"/>
-<connect gate="A" pin="RX_CLK" pad="31"/>
-<connect gate="A" pin="RX_DV/MII_MODE" pad="32"/>
-<connect gate="A" pin="RX_ER/MDIX_EN" pad="34"/>
-<connect gate="A" pin="TD+" pad="15"/>
-<connect gate="A" pin="TD-" pad="14"/>
-<connect gate="A" pin="TXD_0" pad="4"/>
-<connect gate="A" pin="TXD_1" pad="5"/>
-<connect gate="A" pin="TXD_2" pad="6"/>
-<connect gate="A" pin="TXD_3" pad="7"/>
-<connect gate="A" pin="TX_CLK" pad="2"/>
-<connect gate="A" pin="TX_EN" pad="3"/>
-<connect gate="A" pin="X1" pad="28"/>
-<connect gate="A" pin="X2" pad="27"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CAT24C32WI-GT3" prefix="IC">
-<description>32-Kb I2C CMOS Serial  EEPROM</description>
-<gates>
-<gate name="A" symbol="CAT24C32WI-GT3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOIC127P600X175-8N">
-<connects>
-<connect gate="A" pin="A0" pad="1"/>
-<connect gate="A" pin="A1" pad="2"/>
-<connect gate="A" pin="A2" pad="3"/>
-<connect gate="A" pin="SCL" pad="6"/>
-<connect gate="A" pin="SDA" pad="5"/>
-<connect gate="A" pin="VCC" pad="8"/>
-<connect gate="A" pin="VSS" pad="4"/>
-<connect gate="A" pin="WP" pad="7"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="CAT24C32WI-GT3" constant="no"/>
-<attribute name="OC_FARNELL" value="1718129" constant="no"/>
-<attribute name="OC_NEWARK" value="08R5414" constant="no"/>
-<attribute name="PACKAGE" value="SOIC-8" constant="no"/>
-<attribute name="SUPPLIER" value="CATALYST SEMICONDUCTOR" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="74LVCH1T45" prefix="IC">
-<gates>
-<gate name="G$1" symbol="74LVCH1T45" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_SOT891" package="SOT891">
-<connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="B" pad="4"/>
-<connect gate="G$1" pin="DIR" pad="5"/>
 <connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VCCA" pad="1"/>
-<connect gate="G$1" pin="VCCB" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SOT1202" package="SOT1202">
-<connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="B" pad="4"/>
-<connect gate="G$1" pin="DIR" pad="5"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VCCA" pad="1"/>
-<connect gate="G$1" pin="VCCB" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SOT886" package="SOT886">
-<connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="B" pad="4"/>
-<connect gate="G$1" pin="DIR" pad="5"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VCCA" pad="1"/>
-<connect gate="G$1" pin="VCCB" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SOT1115" package="SOT1115">
-<connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="B" pad="4"/>
-<connect gate="G$1" pin="DIR" pad="5"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VCCA" pad="1"/>
-<connect gate="G$1" pin="VCCB" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SOT363" package="SOT363">
-<connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="B" pad="4"/>
-<connect gate="G$1" pin="DIR" pad="5"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VCCA" pad="1"/>
-<connect gate="G$1" pin="VCCB" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="74LVC1GXX" prefix="IC">
-<description>74LVC1G08SE-7   LOGIC, 2 POS AND GATE, SINGLE, 2 IP, SOT353</description>
-<gates>
-<gate name="G$1" symbol="74LVC1GXX" x="2.54" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="SOT353">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="5"/>
-<connect gate="G$1" pin="Y" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="Diodes Inc." constant="no"/>
-<attribute name="MFN" value="74LVC1G08SE-7"/>
-<attribute name="OC-DIGIKEY" value="74LVC1G08SE-7DICT-ND" constant="no"/>
-<attribute name="OC-MOUSER" value="621-74LVC1G08SE-7" constant="no"/>
-<attribute name="OC-NEWARK" value="12T8904" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="AT24MAC602" prefix="IC">
-<gates>
-<gate name="G$1" symbol="AT24MAC602" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-STUM-T" package="SOT23-5">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="SCL" pad="1"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-<connect gate="G$1" pin="WP" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PEM1200" prefix="MOD" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="PEM1200" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PEM1200">
-<connects>
-<connect gate="G$1" pin="+VDC" pad="8"/>
-<connect gate="G$1" pin="-VDC" pad="7"/>
-<connect gate="G$1" pin="CP1" pad="5"/>
-<connect gate="G$1" pin="CP2" pad="6"/>
-<connect gate="G$1" pin="NC" pad="10"/>
-<connect gate="G$1" pin="OADJ" pad="9"/>
-<connect gate="G$1" pin="VIN+@1" pad="1"/>
-<connect gate="G$1" pin="VIN+@3" pad="3"/>
-<connect gate="G$1" pin="VIN-@2" pad="2"/>
-<connect gate="G$1" pin="VIN-@4" pad="4"/>
+<connect gate="G$1" pin="NSD" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
