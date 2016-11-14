@@ -367,307 +367,214 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </symbols>
 <devicesets>
 <deviceset name="BSS84" prefix="T">
-<description>&lt;b&gt;MOSFET P-CHANNEL&lt;/b&gt;
-
-
-&lt;p&gt;
-
-     &lt;table class="attributes-table-main" id="prod-att-table" border="1" cellspacing="0" cellpadding="0"&gt;
-        &lt;tr id="prod-att-title-row"&gt;
-            &lt;td class="bota-headline" id="prod-att-title"&gt;
-                Product Attributes
-            &lt;/td&gt;
-            &lt;td id="select-all"&gt;Select All&lt;/td&gt; 
-            &lt;td class="attributes-td-checkbox td-check-first"&gt;&lt;input type="checkbox" onclick="$('input:checkbox').prop('checked', $(this).prop('checked'));" value="" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-       
-       
-        
-        &lt;tr&gt;
-            &lt;th&gt;Category&lt;/th&gt;
-            &lt;td&gt;
-                &lt;h4 style="display:inline; font-weight:normal"&gt;&lt;a href="/product-search/en/discrete-semiconductor-products"&gt;Discrete Semiconductor Products&lt;/a&gt;&lt;/h4&gt;
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" checked="checked" value="21" name="c" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-
-        
-        &lt;tr&gt;
-            &lt;th&gt;Family&lt;/th&gt;
-            &lt;td&gt;
-                &lt;h3 style="display:inline; font-weight:normal"&gt;&lt;a href="/product-search/en/discrete-semiconductor-products/transistors-fets-mosfets-single/1376381"&gt;Transistors - FETs, MOSFETs - Single&lt;/a&gt;&lt;/h3&gt;
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" checked="checked" value="125" name="f" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        
-        &lt;tr&gt;
-            &lt;th&gt;Manufacturer&lt;/th&gt;
-            &lt;td&gt;
-                &lt;h3&gt;
-                    Fairchild Semiconductor
-                &lt;/h3&gt;
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" value="261" name="vendor" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        
-        &lt;tr&gt;
-            &lt;th&gt;Series&lt;/th&gt;
-            &lt;td&gt;
-
-
--
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" value="818" name="s" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-
-        
-        
-
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Packaging
-&lt;a href="javascript:dlgHelp('en','Standard%20Packaging%20Help')"&gt;                   &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-    &lt;span &gt;Cut Tape (CT)&amp;nbsp;&lt;a href="javascript:dlgHelp('en','Cut%20Tape%20Help')"&gt;
-
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv7" value="2" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Part Status
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Active
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv1989" value="0" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        FET Type
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-MOSFET P-Channel, Metal Oxide
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv606" value="20" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        FET Feature
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Standard
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv959" value="1" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Drain to Source Voltage (Vdss)
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-50V
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv607" value="27" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Current - Continuous Drain (Id) @ 25°C
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-130mA (Ta)
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv608" value="2348" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Rds On (Max) @ Id, Vgs
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-10 Ohm @ 100mA, 5V
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv612" value="934" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Vgs(th) (Max) @ Id
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-2V @ 1mA
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv1236" value="6" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Gate Charge (Qg) @ Vgs
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-1.3nC @ 5V
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv613" value="453" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Input Capacitance (Ciss) @ Vds
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-73pF @ 25V
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv611" value="1252" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Power - Max
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-360mW
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv588" value="279" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Operating Temperature
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
--55°C ~ 150°C (TJ)
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv252" value="746" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Mounting Type
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Surface Mount
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv69" value="3" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Package / Case
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-TO-236-3, SC-59, SOT-23-3
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv16" value="12624" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Supplier Device Package
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-SOT-23-3
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv1291" value="88" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-
-        
-
-        &lt;/table&gt;</description>
+<description>&lt;b&gt;MOSFET P-CHANNEL&lt;/b&gt;&lt;P&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta name=Title content=""&gt;
+&lt;meta name=Keywords content=""&gt;
+&lt;meta http-equiv=Content-Type content="text/html; charset=utf-8"&gt;
+&lt;meta name=ProgId content=Excel.Sheet&gt;
+&lt;meta name=Generator content="Microsoft Excel 14"&gt;
+&lt;link rel=File-List href="Table_files/filelist.xml"&gt;
+&lt;style&gt;
+&lt;!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+.style33
+	{background:#A5A5A5;
+	mso-pattern:black none;
+	color:white;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:2.0pt double #3F3F3F;
+	mso-style-name:"Check Cell";
+	mso-style-id:23;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.xl66
+	{mso-style-parent:style33;
+	color:white;
+	font-size:16.0pt;
+	font-weight:700;
+	border:2.0pt double #3F3F3F;
+	background:#A5A5A5;
+	mso-pattern:black none;}
+.xl67
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-weight:700;}
+--&gt;
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body link=blue vlink=purple&gt;
+
+&lt;table border=0 cellpadding=0 cellspacing=0 width=550 style='border-collapse:
+ collapse;table-layout:fixed;width:550pt'&gt;
+ &lt;col width=366 style='mso-width-source:userset;mso-width-alt:15616;width:366pt'&gt;
+ &lt;col width=184 style='mso-width-source:userset;mso-width-alt:7850;width:184pt'&gt;
+ &lt;col width=66 style='mso-width-source:userset;mso-width-alt:2816;width:66pt'&gt;
+ &lt;tr height=22 style='height:22.0pt'&gt;
+  &lt;td height=22 class=xl66 width=366 style='height:22.0pt;width:366pt;
+  font-size:16.0pt;color:white;font-weight:700;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Calibri;border:2.0pt double #3F3F3F;
+  background:#A5A5A5;mso-pattern:black none'&gt;FET&lt;/td&gt;
+  &lt;td class=xl66 width=184 style='border-left:none;width:184pt;font-size:16.0pt;
+  color:white;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border:2.0pt double #3F3F3F;
+  background:#A5A5A5;mso-pattern:black none'&gt;BSS84&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=21 style='height:21.0pt'&gt;
+  &lt;td height=21 class=xl67 style='height:21.0pt;font-size:16.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri;border:.5pt solid black;background:#D9D9D9;
+  mso-pattern:#D9D9D9 none'&gt;Manufacturer&lt;/td&gt;
+  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri;border:.5pt solid black;background:#D9D9D9;mso-pattern:
+  #D9D9D9 none'&gt;Fairchild Semiconductor&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri;border:.5pt solid black'&gt;Transistor Type&lt;/td&gt;
+  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri;border:.5pt solid black'&gt;MOSFET P-Channel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri;border:.5pt solid black;background:#D9D9D9;
+  mso-pattern:#D9D9D9 none'&gt;Drain to Source Voltage (Vdss)&amp;nbsp;&lt;/td&gt;
+  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri;border:.5pt solid black;background:#D9D9D9;mso-pattern:
+  #D9D9D9 none'&gt;50V&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri;border:.5pt solid black'&gt;Current - Continuous Drain
+  (Id)&amp;nbsp;&lt;/td&gt;
+  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri;border:.5pt solid black'&gt;130mA&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri;border:.5pt solid black;background:#D9D9D9;
+  mso-pattern:#D9D9D9 none'&gt;Rds On (Max) @ Id, Vgs&amp;nbsp;&lt;/td&gt;
+  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri;border:.5pt solid black;background:#D9D9D9;mso-pattern:
+  #D9D9D9 none'&gt;10 Ohm @ 100mA, 5V&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri;border:.5pt solid black'&gt;Vgs(th) (Max) @ Id&amp;nbsp;&lt;/td&gt;
+  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri;border:.5pt solid black'&gt;2V @ 1mA&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri;border:.5pt solid black;background:#D9D9D9;
+  mso-pattern:#D9D9D9 none'&gt;Power - Max&amp;nbsp;&lt;/td&gt;
+  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri;border:.5pt solid black;background:#D9D9D9;mso-pattern:
+  #D9D9D9 none'&gt;360mW&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri;border:.5pt solid black'&gt;Operating Temperature&amp;nbsp;&lt;/td&gt;
+  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri;border:.5pt solid black'&gt;-55°C ~ 150°C (TJ)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri;border:.5pt solid black;background:#D9D9D9;
+  mso-pattern:#D9D9D9 none'&gt;Mounting Type&lt;/td&gt;
+  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri;border:.5pt solid black;background:#D9D9D9;mso-pattern:
+  #D9D9D9 none'&gt;Surface Mount&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
+  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
+  none;font-family:Calibri;border:.5pt solid black'&gt;Package&lt;/td&gt;
+  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:Calibri;border:.5pt solid black'&gt;SOT-23&lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</description>
 <gates>
 <gate name="G$1" symbol="P-MOS" x="0" y="0"/>
 </gates>
@@ -691,288 +598,308 @@ SOT-23-3
 </devices>
 </deviceset>
 <deviceset name="BC850C,215" prefix="T">
-<description>&lt;b&gt;BJT NPN&lt;/b&gt;
-
-    &lt;table class="attributes-table-main" id="prod-att-table" border="1" cellspacing="0" cellpadding="0"&gt;
-        &lt;tr id="prod-att-title-row"&gt;
-            &lt;td class="bota-headline" id="prod-att-title"&gt;
-                Product Attributes
-            &lt;/td&gt;
-            &lt;td id="select-all"&gt;Select All&lt;/td&gt; 
-            &lt;td class="attributes-td-checkbox td-check-first"&gt;&lt;input type="checkbox" onclick="$('input:checkbox').prop('checked', $(this).prop('checked'));" value="" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-       
-       
-        
-        &lt;tr&gt;
-            &lt;th&gt;Category&lt;/th&gt;
-            &lt;td&gt;
-                &lt;h4 style="display:inline; font-weight:normal"&gt;&lt;a href="/product-search/en/discrete-semiconductor-products"&gt;Discrete Semiconductor Products&lt;/a&gt;&lt;/h4&gt;
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" checked="checked" value="21" name="c" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-
-        
-        &lt;tr&gt;
-            &lt;th&gt;Family&lt;/th&gt;
-            &lt;td&gt;
-                &lt;h3 style="display:inline; font-weight:normal"&gt;&lt;a href="/product-search/en/discrete-semiconductor-products/transistors-bipolar-bjt-single/1376376"&gt;Transistors - Bipolar (BJT) - Single&lt;/a&gt;&lt;/h3&gt;
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" checked="checked" value="120" name="f" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        
-        &lt;tr&gt;
-            &lt;th&gt;Manufacturer&lt;/th&gt;
-            &lt;td&gt;
-                &lt;h3&gt;
-                    NXP USA Inc.
-                &lt;/h3&gt;
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" value="568" name="vendor" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        
-        &lt;tr&gt;
-            &lt;th&gt;Series&lt;/th&gt;
-            &lt;td&gt;
-
-
--
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" value="818" name="s" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-
-        
-        
-
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Packaging
-&lt;a href="javascript:dlgHelp('en','Standard%20Packaging%20Help')"&gt;                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-    &lt;span &gt;Cut Tape (CT)&amp;nbsp;&lt;a href="javascript:dlgHelp('en','Cut%20Tape%20Help')"&gt;
-
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv7" value="2" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Part Status
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Active
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv1989" value="0" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Transistor Type
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-NPN
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv74" value="1" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Current - Collector (Ic) (Max)
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-100mA
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv812" value="8" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Voltage - Collector Emitter Breakdown (Max)
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-45V
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv814" value="7" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Vce Saturation (Max) @ Ib, Ic
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-600mV @ 5mA, 100mA
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv841" value="285" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Current - Collector Cutoff (Max)
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-15nA (ICBO)
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv890" value="99" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        DC Current Gain (hFE) (Min) @ Ic, Vce
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-420 @ 2mA, 5V
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv891" value="225" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Power - Max
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-250mW
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv588" value="32" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Frequency - Transition
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-100MHz
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv892" value="3" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Operating Temperature
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-150°C (TJ)
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv252" value="902" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Mounting Type
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Surface Mount
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv69" value="3" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Package / Case
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-TO-236-3, SC-59, SOT-23-3
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv16" value="12624" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Supplier Device Package
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-SOT-23 (TO-236AB)
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv1291" value="7501" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-
-        
-
-        &lt;/table&gt;</description>
+<description>&lt;b&gt;BJT NPN&lt;/b&gt;&lt;p&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta name=Title content=""&gt;
+&lt;meta name=Keywords content=""&gt;
+&lt;meta http-equiv=Content-Type content="text/html; charset=utf-8"&gt;
+&lt;meta name=ProgId content=Excel.Sheet&gt;
+&lt;meta name=Generator content="Microsoft Excel 14"&gt;
+&lt;link rel=File-List href="Table_files/filelist.xml"&gt;
+&lt;style&gt;
+&lt;!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+.style33
+	{background:#A5A5A5;
+	mso-pattern:black none;
+	color:white;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:2.0pt double #3F3F3F;
+	mso-style-name:"Check Cell";
+	mso-style-id:23;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-weight:700;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl66
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl67
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-weight:700;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;}
+.xl68
+	{mso-style-parent:style0;
+	font-size:16.0pt;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;}
+.xl69
+	{mso-style-parent:style33;
+	color:white;
+	font-size:18.0pt;
+	font-weight:700;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#A5A5A5;
+	mso-pattern:black none;}
+.xl70
+	{mso-style-parent:style33;
+	color:white;
+	font-size:18.0pt;
+	font-weight:700;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#A5A5A5;
+	mso-pattern:black none;}
+--&gt;
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body link=blue vlink=purple&gt;
+
+&lt;table border=0 cellpadding=0 cellspacing=0 width=550 style='border-collapse:
+ collapse;table-layout:fixed;width:550pt'&gt;
+ &lt;col width=366 style='mso-width-source:userset;mso-width-alt:15616;width:366pt'&gt;
+ &lt;col width=184 style='mso-width-source:userset;mso-width-alt:7850;width:184pt'&gt;
+ &lt;col width=66 style='mso-width-source:userset;mso-width-alt:2816;width:66pt'&gt;
+ &lt;tr height=23 style='height:23.0pt'&gt;
+  &lt;td height=23 class=xl69 width=366 style='height:23.0pt;width:366pt;
+  font-size:18.0pt;color:white;font-weight:700;text-decoration:none;text-underline-style:
+  none;text-line-through:none;font-family:Calibri;border-top:.5pt solid black;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:.5pt solid black;background:#A5A5A5;mso-pattern:black none'&gt;BJT&lt;/td&gt;
+  &lt;td class=xl70 width=184 style='border-left:none;width:184pt;font-size:18.0pt;
+  color:white;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid black;
+  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
+  .5pt solid windowtext;background:#A5A5A5;mso-pattern:black none'&gt;BC850C,215&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
+  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:.5pt solid black;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;Manufacturer&lt;/td&gt;
+  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
+  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
+  .5pt solid windowtext;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;NXP&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
+  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:.5pt solid black'&gt;Transistor Type&lt;/td&gt;
+  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
+  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
+  .5pt solid windowtext'&gt;NPN&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
+  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:.5pt solid black;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;Current
+  - Collector (Ic) (Max)&amp;nbsp;&lt;/td&gt;
+  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
+  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
+  .5pt solid windowtext;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;100mA&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
+  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:.5pt solid black'&gt;Voltage - Collector Emitter Breakdown (Max)&lt;/td&gt;
+  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
+  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
+  .5pt solid windowtext'&gt;45V&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
+  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:.5pt solid black;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;Vce
+  Saturation (Max) @ Ib, Ic&amp;nbsp;&lt;/td&gt;
+  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
+  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
+  .5pt solid windowtext;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;600mV @
+  5mA, 100mA&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
+  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:.5pt solid black'&gt;DC Current Gain (hFE) (Min) @ Ic, Vce&amp;nbsp;&lt;/td&gt;
+  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
+  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
+  .5pt solid windowtext'&gt;420 @ 2mA, 5V&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
+  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:.5pt solid black;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;Power
+  - Max&amp;nbsp;&lt;/td&gt;
+  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
+  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
+  .5pt solid windowtext;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;250mW&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
+  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:.5pt solid black'&gt;Frequency - Transition&amp;nbsp;&lt;/td&gt;
+  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
+  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
+  .5pt solid windowtext'&gt;100MHz&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
+  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:.5pt solid black;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;Operating
+  Temperature&amp;nbsp;&lt;/td&gt;
+  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
+  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
+  .5pt solid windowtext;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;150°C&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
+  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
+  border-left:.5pt solid black'&gt;Mounting Type&lt;/td&gt;
+  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
+  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
+  .5pt solid windowtext'&gt;Surface Mount&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr height=20 style='height:20.0pt'&gt;
+  &lt;td height=20 class=xl67 style='height:20.0pt;border-top:none;font-size:16.0pt;
+  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid windowtext;border-bottom:.5pt solid black;border-left:
+  .5pt solid black;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;Package&lt;/td&gt;
+  &lt;td class=xl68 style='border-top:none;border-left:none;font-size:16.0pt;
+  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
+  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
+  border-right:.5pt solid black;border-bottom:.5pt solid black;border-left:
+  .5pt solid windowtext;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;SOT-23&lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>

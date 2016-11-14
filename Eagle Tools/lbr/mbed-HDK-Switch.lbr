@@ -1196,12 +1196,13 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPST" prefix="SW">
+<deviceset name="SKRKAEE010" prefix="SW">
+<description>&lt;B&gt;SWITCH PUSH (SPST)&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPST" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DTSM-32S-B">
+<device name="" package="SKRKAEE010">
 <connects>
 <connect gate="G$1" pin="P" pad="P$1"/>
 <connect gate="G$1" pin="S" pad="P$2"/>
@@ -1210,7 +1211,15 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="_SKRKAWW010" package="SKRKAEE010">
+</devices>
+</deviceset>
+<deviceset name="DTSM-32S-B" prefix="SW">
+<description>&lt;B&gt;SWITCH PUSH (SPST)&lt;/B&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DTSM-32S-B">
 <connects>
 <connect gate="G$1" pin="P" pad="P$1"/>
 <connect gate="G$1" pin="S" pad="P$2"/>
