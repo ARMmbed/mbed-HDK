@@ -261,7 +261,7 @@
 <pad name="VBUS" x="2.7178" y="4.7625" drill="0.9144" rot="R270"/>
 <text x="6.985" y="-5.08" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
-<package name="MOLEX-47364-0001">
+<package name="47346-0001">
 <wire x1="-1.45" y1="-4.15" x2="-1.45" y2="4.15" width="0" layer="20"/>
 <wire x1="3.55" y1="3.8" x2="3.55" y2="-3.75" width="0.4064" layer="51"/>
 <wire x1="3.55" y1="-3.75" x2="-1.35" y2="-3.75" width="0.4064" layer="51"/>
@@ -1156,96 +1156,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB" prefix="CON">
-<description>&lt;b&gt;USB Connectors&lt;/b&gt;&lt;p&gt;</description>
-<gates>
-<gate name="A" symbol="USB" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-A-H" package="USB-A-H">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-S" package="USB-A-S">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-B-H" package="USB-B-H">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-MB-S" package="USB-MB-S">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-V" package="USB-A-V">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_MICROB" package="MOLEX-47364-0001">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MFN" value="47346-0001" constant="no"/>
-<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
-<attribute name="OC-NEWARK" value="1568026" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="" package="MOLEX-48037-2200">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TYCO-1-6605834-1" prefix="CON">
 <gates>
 <gate name="G$1" symbol="TYCO-1-6605834-1" x="0" y="0"/>
@@ -1581,6 +1491,507 @@ push-push type</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="48037-2200" prefix="CON">
+<description>&lt;b&gt;USB Plug Type A&lt;/b&gt;&lt;p&gt;
+
+&lt;img src="http://www.mouser.co.uk/images/molex/lrg/48037_bs5spwek_iso.jpg"&gt;</description>
+<gates>
+<gate name="A" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX-48037-2200">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MFN" value="48037-2200" constant="no"/>
+<attribute name="OC-DIGIKEY" value="WM3983CT-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="538-48037-2200" constant="no"/>
+<attribute name="OC-NEWARK" value="2313729" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB2" prefix="CON">
+<description>&lt;b&gt;USB Connectors&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="A" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-A-H" package="USB-A-H">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A-S" package="USB-A-S">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-B-H" package="USB-B-H">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MB-S" package="USB-MB-S">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A-V" package="USB-A-V">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_MICROB" package="47346-0001">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MFN" value="47346-0001" constant="no"/>
+<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
+<attribute name="OC-NEWARK" value="1568026" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="MOLEX-48037-2200">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB3" prefix="CON">
+<description>&lt;b&gt;USB Connectors&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="A" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-A-H" package="USB-A-H">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A-S" package="USB-A-S">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-B-H" package="USB-B-H">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MB-S" package="USB-MB-S">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A-V" package="USB-A-V">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_MICROB" package="47346-0001">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MFN" value="47346-0001" constant="no"/>
+<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
+<attribute name="OC-NEWARK" value="1568026" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="MOLEX-48037-2200">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB4" prefix="CON">
+<description>&lt;b&gt;USB Connectors&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="A" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-A-H" package="USB-A-H">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A-S" package="USB-A-S">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-B-H" package="USB-B-H">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MB-S" package="USB-MB-S">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A-V" package="USB-A-V">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_MICROB" package="47346-0001">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MFN" value="47346-0001" constant="no"/>
+<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
+<attribute name="OC-NEWARK" value="1568026" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="MOLEX-48037-2200">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB5" prefix="CON">
+<description>&lt;b&gt;USB Connectors&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="A" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-A-H" package="USB-A-H">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A-S" package="USB-A-S">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-B-H" package="USB-B-H">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MB-S" package="USB-MB-S">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A-V" package="USB-A-V">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_MICROB" package="47346-0001">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MFN" value="47346-0001" constant="no"/>
+<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
+<attribute name="OC-NEWARK" value="1568026" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="MOLEX-48037-2200">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB6" prefix="CON">
+<description>&lt;b&gt;USB Connectors&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="A" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-A-H" package="USB-A-H">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A-S" package="USB-A-S">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-B-H" package="USB-B-H">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MB-S" package="USB-MB-S">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-A-V" package="USB-A-V">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_MICROB" package="47346-0001">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MFN" value="47346-0001" constant="no"/>
+<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
+<attribute name="OC-NEWARK" value="1568026" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="MOLEX-48037-2200">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="47346-0001" prefix="CON">
+<description>&lt;b&gt;USB Receptacle MicroB &lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="A" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="." package="47346-0001">
+<connects>
+<connect gate="A" pin="D+" pad="D+"/>
+<connect gate="A" pin="D-" pad="D-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MFN" value="47346-0001" constant="no"/>
+<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
+<attribute name="OC-NEWARK" value="1568026" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

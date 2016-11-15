@@ -39,3 +39,5 @@ eagle.epf
 # file locks introduced since 7.x
 *.lck
 
+# NUMBERS sheet
+*.numbers

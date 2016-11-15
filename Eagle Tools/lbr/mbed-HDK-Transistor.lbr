@@ -369,211 +369,124 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <deviceset name="BSS84" prefix="T">
 <description>&lt;b&gt;MOSFET P-CHANNEL&lt;/b&gt;&lt;P&gt;
 
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
 &lt;html&gt;
-
 &lt;head&gt;
-&lt;meta name=Title content=""&gt;
-&lt;meta name=Keywords content=""&gt;
-&lt;meta http-equiv=Content-Type content="text/html; charset=utf-8"&gt;
-&lt;meta name=ProgId content=Excel.Sheet&gt;
-&lt;meta name=Generator content="Microsoft Excel 14"&gt;
-&lt;link rel=File-List href="Table_files/filelist.xml"&gt;
-&lt;style&gt;
-&lt;!--table
-	{mso-displayed-decimal-separator:"\.";
-	mso-displayed-thousand-separator:"\,";}
-@page
-	{margin:1.0in .75in 1.0in .75in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;}
-.style33
-	{background:#A5A5A5;
-	mso-pattern:black none;
-	color:white;
-	font-size:12.0pt;
-	font-weight:700;
-	font-style:normal;
-	text-decoration:none;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;
-	border:2.0pt double #3F3F3F;
-	mso-style-name:"Check Cell";
-	mso-style-id:23;}
-.style0
-	{mso-number-format:General;
-	text-align:general;
-	vertical-align:bottom;
-	white-space:nowrap;
-	mso-rotate:0;
-	mso-background-source:auto;
-	mso-pattern:auto;
-	color:black;
-	font-size:12.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;
-	border:none;
-	mso-protection:locked visible;
-	mso-style-name:Normal;
-	mso-style-id:0;}
-td
-	{mso-style-parent:style0;
-	padding-top:1px;
-	padding-right:1px;
-	padding-left:1px;
-	mso-ignore:padding;
-	color:black;
-	font-size:12.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;
-	mso-number-format:General;
-	text-align:general;
-	vertical-align:bottom;
-	border:none;
-	mso-background-source:auto;
-	mso-pattern:auto;
-	mso-protection:locked visible;
-	white-space:nowrap;
-	mso-rotate:0;}
-.xl65
-	{mso-style-parent:style0;
-	font-size:16.0pt;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:0;}
-.xl66
-	{mso-style-parent:style33;
-	color:white;
-	font-size:16.0pt;
-	font-weight:700;
-	border:2.0pt double #3F3F3F;
-	background:#A5A5A5;
-	mso-pattern:black none;}
-.xl67
-	{mso-style-parent:style0;
-	font-size:16.0pt;
-	font-weight:700;}
---&gt;
-&lt;/style&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="Content-Style-Type" content="text/css"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;meta name="Generator" content="Cocoa HTML Writer"&gt;
+  &lt;meta name="CocoaVersion" content="1404.47"&gt;
+  &lt;style type="text/css"&gt;
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 361.0px; height: 19.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 217.0px; height: 19.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 361.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 217.0px; height: 23.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td5 {width: 361.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+  &lt;/style&gt;
 &lt;/head&gt;
-
-&lt;body link=blue vlink=purple&gt;
-
-&lt;table border=0 cellpadding=0 cellspacing=0 width=550 style='border-collapse:
- collapse;table-layout:fixed;width:550pt'&gt;
- &lt;col width=366 style='mso-width-source:userset;mso-width-alt:15616;width:366pt'&gt;
- &lt;col width=184 style='mso-width-source:userset;mso-width-alt:7850;width:184pt'&gt;
- &lt;col width=66 style='mso-width-source:userset;mso-width-alt:2816;width:66pt'&gt;
- &lt;tr height=22 style='height:22.0pt'&gt;
-  &lt;td height=22 class=xl66 width=366 style='height:22.0pt;width:366pt;
-  font-size:16.0pt;color:white;font-weight:700;text-decoration:none;text-underline-style:
-  none;text-line-through:none;font-family:Calibri;border:2.0pt double #3F3F3F;
-  background:#A5A5A5;mso-pattern:black none'&gt;FET&lt;/td&gt;
-  &lt;td class=xl66 width=184 style='border-left:none;width:184pt;font-size:16.0pt;
-  color:white;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border:2.0pt double #3F3F3F;
-  background:#A5A5A5;mso-pattern:black none'&gt;BSS84&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=21 style='height:21.0pt'&gt;
-  &lt;td height=21 class=xl67 style='height:21.0pt;font-size:16.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Calibri;border:.5pt solid black;background:#D9D9D9;
-  mso-pattern:#D9D9D9 none'&gt;Manufacturer&lt;/td&gt;
-  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Calibri;border:.5pt solid black;background:#D9D9D9;mso-pattern:
-  #D9D9D9 none'&gt;Fairchild Semiconductor&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Calibri;border:.5pt solid black'&gt;Transistor Type&lt;/td&gt;
-  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Calibri;border:.5pt solid black'&gt;MOSFET P-Channel&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Calibri;border:.5pt solid black;background:#D9D9D9;
-  mso-pattern:#D9D9D9 none'&gt;Drain to Source Voltage (Vdss)&amp;nbsp;&lt;/td&gt;
-  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Calibri;border:.5pt solid black;background:#D9D9D9;mso-pattern:
-  #D9D9D9 none'&gt;50V&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Calibri;border:.5pt solid black'&gt;Current - Continuous Drain
-  (Id)&amp;nbsp;&lt;/td&gt;
-  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Calibri;border:.5pt solid black'&gt;130mA&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Calibri;border:.5pt solid black;background:#D9D9D9;
-  mso-pattern:#D9D9D9 none'&gt;Rds On (Max) @ Id, Vgs&amp;nbsp;&lt;/td&gt;
-  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Calibri;border:.5pt solid black;background:#D9D9D9;mso-pattern:
-  #D9D9D9 none'&gt;10 Ohm @ 100mA, 5V&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Calibri;border:.5pt solid black'&gt;Vgs(th) (Max) @ Id&amp;nbsp;&lt;/td&gt;
-  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Calibri;border:.5pt solid black'&gt;2V @ 1mA&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Calibri;border:.5pt solid black;background:#D9D9D9;
-  mso-pattern:#D9D9D9 none'&gt;Power - Max&amp;nbsp;&lt;/td&gt;
-  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Calibri;border:.5pt solid black;background:#D9D9D9;mso-pattern:
-  #D9D9D9 none'&gt;360mW&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Calibri;border:.5pt solid black'&gt;Operating Temperature&amp;nbsp;&lt;/td&gt;
-  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Calibri;border:.5pt solid black'&gt;-55°C ~ 150°C (TJ)&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Calibri;border:.5pt solid black;background:#D9D9D9;
-  mso-pattern:#D9D9D9 none'&gt;Mounting Type&lt;/td&gt;
-  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Calibri;border:.5pt solid black;background:#D9D9D9;mso-pattern:
-  #D9D9D9 none'&gt;Surface Mount&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl67 style='height:20.0pt;font-size:16.0pt;color:black;
-  font-weight:700;text-decoration:none;text-underline-style:none;text-line-through:
-  none;font-family:Calibri;border:.5pt solid black'&gt;Package&lt;/td&gt;
-  &lt;td class=xl65 style='font-size:16.0pt;color:black;font-weight:400;
-  text-decoration:none;text-underline-style:none;text-line-through:none;
-  font-family:Calibri;border:.5pt solid black'&gt;SOT-23&lt;/td&gt;
- &lt;/tr&gt;
+&lt;body&gt;
+&lt;p class="p1"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table cellspacing="0" cellpadding="0" class="t1"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td1"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;FET&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;BSS84&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Fairchild Semiconductor&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Transistor Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOSFET P-Channel&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Drain to Source Voltage (Vdss) &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;50V&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current - Continuous Drain (Id) &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;130mA&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Rds On (Max) @ Id, Vgs &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;10 Ohm @ 100mA, 5V&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Vgs(th) (Max) @ Id &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;2V @ 1mA&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Power - Max &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;360mW&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Operating Temperature &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-55°C ~ 150°C (TJ)&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Package&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;SOT-23&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-
+&lt;p class="p4"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/body&gt;
-
 &lt;/html&gt;</description>
 <gates>
 <gate name="G$1" symbol="P-MOS" x="0" y="0"/>
@@ -600,305 +513,132 @@ td
 <deviceset name="BC850C,215" prefix="T">
 <description>&lt;b&gt;BJT NPN&lt;/b&gt;&lt;p&gt;
 
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
 &lt;html&gt;
-
 &lt;head&gt;
-&lt;meta name=Title content=""&gt;
-&lt;meta name=Keywords content=""&gt;
-&lt;meta http-equiv=Content-Type content="text/html; charset=utf-8"&gt;
-&lt;meta name=ProgId content=Excel.Sheet&gt;
-&lt;meta name=Generator content="Microsoft Excel 14"&gt;
-&lt;link rel=File-List href="Table_files/filelist.xml"&gt;
-&lt;style&gt;
-&lt;!--table
-	{mso-displayed-decimal-separator:"\.";
-	mso-displayed-thousand-separator:"\,";}
-@page
-	{margin:1.0in .75in 1.0in .75in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;}
-.style33
-	{background:#A5A5A5;
-	mso-pattern:black none;
-	color:white;
-	font-size:12.0pt;
-	font-weight:700;
-	font-style:normal;
-	text-decoration:none;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;
-	border:2.0pt double #3F3F3F;
-	mso-style-name:"Check Cell";
-	mso-style-id:23;}
-.style0
-	{mso-number-format:General;
-	text-align:general;
-	vertical-align:bottom;
-	white-space:nowrap;
-	mso-rotate:0;
-	mso-background-source:auto;
-	mso-pattern:auto;
-	color:black;
-	font-size:12.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;
-	border:none;
-	mso-protection:locked visible;
-	mso-style-name:Normal;
-	mso-style-id:0;}
-td
-	{mso-style-parent:style0;
-	padding-top:1px;
-	padding-right:1px;
-	padding-left:1px;
-	mso-ignore:padding;
-	color:black;
-	font-size:12.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:Calibri, sans-serif;
-	mso-font-charset:0;
-	mso-number-format:General;
-	text-align:general;
-	vertical-align:bottom;
-	border:none;
-	mso-background-source:auto;
-	mso-pattern:auto;
-	mso-protection:locked visible;
-	white-space:nowrap;
-	mso-rotate:0;}
-.xl65
-	{mso-style-parent:style0;
-	font-size:16.0pt;
-	font-weight:700;
-	border-top:.5pt solid windowtext;
-	border-right:.5pt solid windowtext;
-	border-bottom:.5pt solid windowtext;
-	border-left:none;}
-.xl66
-	{mso-style-parent:style0;
-	font-size:16.0pt;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:0;
-	border-top:.5pt solid windowtext;
-	border-right:none;
-	border-bottom:.5pt solid windowtext;
-	border-left:.5pt solid windowtext;}
-.xl67
-	{mso-style-parent:style0;
-	font-size:16.0pt;
-	font-weight:700;
-	border-top:.5pt solid windowtext;
-	border-right:.5pt solid windowtext;
-	border-bottom:none;
-	border-left:none;}
-.xl68
-	{mso-style-parent:style0;
-	font-size:16.0pt;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:0;
-	border-top:.5pt solid windowtext;
-	border-right:none;
-	border-bottom:none;
-	border-left:.5pt solid windowtext;}
-.xl69
-	{mso-style-parent:style33;
-	color:white;
-	font-size:18.0pt;
-	font-weight:700;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:0;
-	border-top:none;
-	border-right:.5pt solid windowtext;
-	border-bottom:.5pt solid windowtext;
-	border-left:none;
-	background:#A5A5A5;
-	mso-pattern:black none;}
-.xl70
-	{mso-style-parent:style33;
-	color:white;
-	font-size:18.0pt;
-	font-weight:700;
-	font-family:Calibri;
-	mso-generic-font-family:auto;
-	mso-font-charset:0;
-	border-top:none;
-	border-right:none;
-	border-bottom:.5pt solid windowtext;
-	border-left:.5pt solid windowtext;
-	background:#A5A5A5;
-	mso-pattern:black none;}
---&gt;
-&lt;/style&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="Content-Style-Type" content="text/css"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;meta name="Generator" content="Cocoa HTML Writer"&gt;
+  &lt;meta name="CocoaVersion" content="1404.47"&gt;
+  &lt;style type="text/css"&gt;
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 361.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 217.0px; height: 20.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 361.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 217.0px; height: 23.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td5 {width: 361.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+  &lt;/style&gt;
 &lt;/head&gt;
-
-&lt;body link=blue vlink=purple&gt;
-
-&lt;table border=0 cellpadding=0 cellspacing=0 width=550 style='border-collapse:
- collapse;table-layout:fixed;width:550pt'&gt;
- &lt;col width=366 style='mso-width-source:userset;mso-width-alt:15616;width:366pt'&gt;
- &lt;col width=184 style='mso-width-source:userset;mso-width-alt:7850;width:184pt'&gt;
- &lt;col width=66 style='mso-width-source:userset;mso-width-alt:2816;width:66pt'&gt;
- &lt;tr height=23 style='height:23.0pt'&gt;
-  &lt;td height=23 class=xl69 width=366 style='height:23.0pt;width:366pt;
-  font-size:18.0pt;color:white;font-weight:700;text-decoration:none;text-underline-style:
-  none;text-line-through:none;font-family:Calibri;border-top:.5pt solid black;
-  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
-  border-left:.5pt solid black;background:#A5A5A5;mso-pattern:black none'&gt;BJT&lt;/td&gt;
-  &lt;td class=xl70 width=184 style='border-left:none;width:184pt;font-size:18.0pt;
-  color:white;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid black;
-  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
-  .5pt solid windowtext;background:#A5A5A5;mso-pattern:black none'&gt;BC850C,215&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
-  border-left:.5pt solid black;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;Manufacturer&lt;/td&gt;
-  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
-  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
-  .5pt solid windowtext;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;NXP&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
-  border-left:.5pt solid black'&gt;Transistor Type&lt;/td&gt;
-  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
-  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
-  .5pt solid windowtext'&gt;NPN&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
-  border-left:.5pt solid black;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;Current
-  - Collector (Ic) (Max)&amp;nbsp;&lt;/td&gt;
-  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
-  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
-  .5pt solid windowtext;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;100mA&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
-  border-left:.5pt solid black'&gt;Voltage - Collector Emitter Breakdown (Max)&lt;/td&gt;
-  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
-  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
-  .5pt solid windowtext'&gt;45V&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
-  border-left:.5pt solid black;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;Vce
-  Saturation (Max) @ Ib, Ic&amp;nbsp;&lt;/td&gt;
-  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
-  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
-  .5pt solid windowtext;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;600mV @
-  5mA, 100mA&amp;nbsp;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
-  border-left:.5pt solid black'&gt;DC Current Gain (hFE) (Min) @ Ic, Vce&amp;nbsp;&lt;/td&gt;
-  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
-  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
-  .5pt solid windowtext'&gt;420 @ 2mA, 5V&amp;nbsp;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
-  border-left:.5pt solid black;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;Power
-  - Max&amp;nbsp;&lt;/td&gt;
-  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
-  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
-  .5pt solid windowtext;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;250mW&amp;nbsp;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
-  border-left:.5pt solid black'&gt;Frequency - Transition&amp;nbsp;&lt;/td&gt;
-  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
-  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
-  .5pt solid windowtext'&gt;100MHz&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
-  border-left:.5pt solid black;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;Operating
-  Temperature&amp;nbsp;&lt;/td&gt;
-  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
-  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
-  .5pt solid windowtext;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;150°C&amp;nbsp;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl65 style='height:20.0pt;border-top:none;font-size:16.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;
-  border-left:.5pt solid black'&gt;Mounting Type&lt;/td&gt;
-  &lt;td class=xl66 style='border-top:none;border-left:none;font-size:16.0pt;
-  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid black;border-bottom:.5pt solid windowtext;border-left:
-  .5pt solid windowtext'&gt;Surface Mount&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr height=20 style='height:20.0pt'&gt;
-  &lt;td height=20 class=xl67 style='height:20.0pt;border-top:none;font-size:16.0pt;
-  color:black;font-weight:700;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid windowtext;border-bottom:.5pt solid black;border-left:
-  .5pt solid black;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;Package&lt;/td&gt;
-  &lt;td class=xl68 style='border-top:none;border-left:none;font-size:16.0pt;
-  color:black;font-weight:400;text-decoration:none;text-underline-style:none;
-  text-line-through:none;font-family:Calibri;border-top:.5pt solid windowtext;
-  border-right:.5pt solid black;border-bottom:.5pt solid black;border-left:
-  .5pt solid windowtext;background:#D9D9D9;mso-pattern:#D9D9D9 none'&gt;SOT-23&lt;/td&gt;
- &lt;/tr&gt;
+&lt;body&gt;
+&lt;p class="p1"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table cellspacing="0" cellpadding="0" class="t1"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td1"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;BJT&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;BC850C,215&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;NXP&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Transistor Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;NPN&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current - Collector (Ic) (Max) &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;100mA&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Voltage - Collector Emitter Breakdown (Max)&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;45V&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Vce Saturation (Max) @ Ib, Ic &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;600mV @ 5mA, 100mA &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;DC Current Gain (hFE) (Min) @ Ic, Vce &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;420 @ 2mA, 5V &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Power - Max &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;250mW &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Frequency - Transition &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;100MHz&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Operating Temperature &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;150°C &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Package&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;SOT-23&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-
+&lt;p class="p4"&gt;&lt;br&gt;&lt;/p&gt;
 &lt;/body&gt;
-
 &lt;/html&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -923,288 +663,173 @@ td
 </devices>
 </deviceset>
 <deviceset name="BAT60J" prefix="D">
-<description>&lt;b&gt;Schottky Diode BAT60J&lt;/b&gt;&lt;p&gt;
-
-    &lt;table class="attributes-table-main" id="prod-att-table" border="1" cellspacing="0" cellpadding="0"&gt;
-        &lt;tr id="prod-att-title-row"&gt;
-            &lt;td class="bota-headline" id="prod-att-title"&gt;
-                Product Attributes
-            &lt;/td&gt;
-            &lt;td id="select-all"&gt;Select All&lt;/td&gt; 
-            &lt;td class="attributes-td-checkbox td-check-first"&gt;&lt;input type="checkbox" onclick="$('input:checkbox').prop('checked', $(this).prop('checked'));" value="" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-       
-       
-        
-        &lt;tr&gt;
-            &lt;th&gt;Category&lt;/th&gt;
-            &lt;td&gt;
-                &lt;h4 style="display:inline; font-weight:normal"&gt;&lt;a href="/product-search/en/discrete-semiconductor-products"&gt;Discrete Semiconductor Products&lt;/a&gt;&lt;/h4&gt;
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" checked="checked" value="21" name="c" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-
-        
-        &lt;tr&gt;
-            &lt;th&gt;Family&lt;/th&gt;
-            &lt;td&gt;
-                &lt;h3 style="display:inline; font-weight:normal"&gt;&lt;a href="/product-search/en/discrete-semiconductor-products/diodes-rectifiers-single/1376383"&gt;Diodes - Rectifiers - Single&lt;/a&gt;&lt;/h3&gt;
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" checked="checked" value="127" name="f" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        
-        &lt;tr&gt;
-            &lt;th&gt;Manufacturer&lt;/th&gt;
-            &lt;td&gt;
-                &lt;h3&gt;
-                    STMicroelectronics
-                &lt;/h3&gt;
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" value="497" name="vendor" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        
-        &lt;tr&gt;
-            &lt;th&gt;Series&lt;/th&gt;
-            &lt;td&gt;
-
-
--
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" value="818" name="s" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-
-        
-        
-
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Packaging
-&lt;a href="javascript:dlgHelp('en','Standard%20Packaging%20Help')"&gt;
-
-
-                        &lt;td&gt;
-
-
-    &lt;span &gt;Digi-Reel®&amp;nbsp;&lt;a href="javascript:dlgHelp('en','Digi-Reel%20Help')"&gt;
-
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv7" value="243" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Part Status
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Active
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv1989" value="0" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Diode Type
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Schottky
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv96" value="24" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Voltage - DC Reverse (Vr) (Max)
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-10V
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv916" value="38" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Current - Average Rectified (Io)
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-3A (DC)
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv914" value="193" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Voltage - Forward (Vf) (Max) @ If
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-580mV @ 1A
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv915" value="549" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Speed
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Fast Recovery =&lt; 500ns, &gt; 200mA (Io)
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv143" value="235" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Reverse Recovery Time (trr)
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
--
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv552" value="104" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Current - Reverse Leakage @ Vr
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-6µA @ 10V
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv913" value="416" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Capacitance @ Vr, F
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
--
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv718" value="18" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Mounting Type
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Surface Mount
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv69" value="3" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Package / Case
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-SC-76, SOD-323
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv16" value="10180" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Supplier Device Package
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-SOD-323
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv1291" value="808" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Operating Temperature - Junction
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-150°C (Max)
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv1686" value="42" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-
-        
-
-        &lt;/table&gt;</description>
+<description>&lt;b&gt;SCHOTTKY DIODE&lt;/b&gt;&lt;p&gt;
+
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="Content-Style-Type" content="text/css"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;meta name="Generator" content="Cocoa HTML Writer"&gt;
+  &lt;meta name="CocoaVersion" content="1404.47"&gt;
+  &lt;style type="text/css"&gt;
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 361.0px; height: 23.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 217.0px; height: 23.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 217.0px; height: 23.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 361.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td5 {width: 217.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td6 {width: 361.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td7 {width: 217.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p class="p1"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table cellspacing="0" cellpadding="0" class="t1"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td1"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;Diode&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;BAT60A&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;BAT60J&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Infineon Technologies&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;STMicroelectronics&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Diode Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Schottky&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Schottky&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Voltage - DC Reverse (Vr) (Max)&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;10V&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;10V&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current - Average Rectified (Io)&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;3A (DC)&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;3A (DC)&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Voltage - Forward (Vf) (Max) @ If&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;370mV @ 1A&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;580mV @ 1A&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Speed&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Fast Recovery = 200mA (Io)&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Fast Recovery = 200mA (Io)&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current - Reverse Leakage @ Vr&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;2.6mA @ 8V&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;6µA @ 10V&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Operating Temperature &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;150°C (Max)&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;150°C (Max)&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Capacitance @ Vr, F&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;35pF @ 5V, 1MHz&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Package&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;SOD-323&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;SOD-323&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="p4"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
 <gates>
 <gate name="G$1" symbol="SCHOTTKY-DIODE" x="0" y="0"/>
 </gates>
@@ -1227,288 +852,173 @@ SOD-323
 </devices>
 </deviceset>
 <deviceset name="BAT60A" prefix="D" uservalue="yes">
-<description>&lt;b&gt;Schottky Diode BAT60A&lt;/b&gt;&lt;p&gt;
-
-    &lt;table class="attributes-table-main" id="prod-att-table" border="1" cellspacing="0" cellpadding="0"&gt;
-        &lt;tr id="prod-att-title-row"&gt;
-            &lt;td class="bota-headline" id="prod-att-title"&gt;
-                Product Attributes
-            &lt;/td&gt;
-            &lt;td id="select-all"&gt;Select All&lt;/td&gt; 
-            &lt;td class="attributes-td-checkbox td-check-first"&gt;&lt;input type="checkbox" onclick="$('input:checkbox').prop('checked', $(this).prop('checked'));" value="" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-       
-       
-        
-        &lt;tr&gt;
-            &lt;th&gt;Category&lt;/th&gt;
-            &lt;td&gt;
-                &lt;h4 style="display:inline; font-weight:normal"&gt;&lt;a href="/product-search/en/discrete-semiconductor-products"&gt;Discrete Semiconductor Products&lt;/a&gt;&lt;/h4&gt;
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" checked="checked" value="21" name="c" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-
-        
-        &lt;tr&gt;
-            &lt;th&gt;Family&lt;/th&gt;
-            &lt;td&gt;
-                &lt;h3 style="display:inline; font-weight:normal"&gt;&lt;a href="/product-search/en/discrete-semiconductor-products/diodes-rectifiers-single/1376383"&gt;Diodes - Rectifiers - Single&lt;/a&gt;&lt;/h3&gt;
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" checked="checked" value="127" name="f" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        
-        &lt;tr&gt;
-            &lt;th&gt;Manufacturer&lt;/th&gt;
-            &lt;td&gt;
-                &lt;h3&gt;
-                    Infineon Technologies
-                &lt;/h3&gt;
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" value="448" name="vendor" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        
-        &lt;tr&gt;
-            &lt;th&gt;Series&lt;/th&gt;
-            &lt;td&gt;
-
-
--
-            &lt;/td&gt;
-            &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" value="818" name="s" /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-
-        
-        
-
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Packaging
-&lt;a href="javascript:dlgHelp('en','Standard%20Packaging%20Help')"&gt;
-
-
-                        &lt;td&gt;
-
-
-    &lt;span &gt;Cut Tape (CT)&amp;nbsp;&lt;a href="javascript:dlgHelp('en','Cut%20Tape%20Help')"&gt;
-
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv7" value="2" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Part Status
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Active
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv1989" value="0" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Diode Type
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Schottky
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv96" value="24" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Voltage - DC Reverse (Vr) (Max)
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-10V
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv916" value="38" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Current - Average Rectified (Io)
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-3A (DC)
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv914" value="193" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Voltage - Forward (Vf) (Max) @ If
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-370mV @ 1A
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv915" value="237" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Speed
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Fast Recovery =&lt; 500ns, &gt; 200mA (Io)
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv143" value="235" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Reverse Recovery Time (trr)
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
--
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv552" value="104" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Current - Reverse Leakage @ Vr
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-2.6mA @ 8V
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv913" value="192" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Capacitance @ Vr, F
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-35pF @ 5V, 1MHz
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv718" value="288" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Mounting Type
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-Surface Mount
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv69" value="3" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Package / Case
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-SC-76, SOD-323
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv16" value="10180" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Supplier Device Package
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-PG-SOD323-2
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv1291" value="2756" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;
-                        Operating Temperature - Junction
-                    &lt;/th&gt;
-
-
-                        &lt;td&gt;
-
-
-150°C (Max)
-                           
-                        &lt;/td&gt;
-                        &lt;td class="attributes-td-checkbox"&gt;&lt;input type="checkbox" name="pv1686" value="42" /&gt;&lt;/td&gt;
-
-
-                &lt;/tr&gt;
-
-        
-
-        &lt;/table&gt;</description>
+<description>&lt;b&gt;SCHOTTKY DIODE&lt;/b&gt;&lt;p&gt;
+
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="Content-Style-Type" content="text/css"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;meta name="Generator" content="Cocoa HTML Writer"&gt;
+  &lt;meta name="CocoaVersion" content="1404.47"&gt;
+  &lt;style type="text/css"&gt;
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 361.0px; height: 23.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 217.0px; height: 23.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 217.0px; height: 23.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 361.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td5 {width: 217.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td6 {width: 361.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td7 {width: 217.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p class="p1"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table cellspacing="0" cellpadding="0" class="t1"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td1"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;Diode&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;BAT60A&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;BAT60J&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Infineon Technologies&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;STMicroelectronics&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Diode Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Schottky&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Schottky&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Voltage - DC Reverse (Vr) (Max)&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;10V&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;10V&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current - Average Rectified (Io)&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;3A (DC)&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;3A (DC)&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Voltage - Forward (Vf) (Max) @ If&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;370mV @ 1A&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;580mV @ 1A&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Speed&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Fast Recovery = 200mA (Io)&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Fast Recovery = 200mA (Io)&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current - Reverse Leakage @ Vr&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;2.6mA @ 8V&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;6µA @ 10V&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Operating Temperature &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;150°C (Max)&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;150°C (Max)&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Capacitance @ Vr, F&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;35pF @ 5V, 1MHz&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Package&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;SOD-323&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;SOD-323&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="p4"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
 <gates>
 <gate name="G$1" symbol="SCHOTTKY-DIODE" x="0" y="0"/>
 </gates>
