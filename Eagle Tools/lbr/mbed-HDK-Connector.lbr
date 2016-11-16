@@ -160,7 +160,7 @@
 </layers>
 <library>
 <packages>
-<package name="USB-A-H">
+<package name="UE27AC54100">
 <description>&lt;b&gt;USB Series A Hole Mounted&lt;/b&gt;</description>
 <wire x1="3.6957" y1="6.5659" x2="-10.287" y2="6.5659" width="0.127" layer="21"/>
 <wire x1="3.6957" y1="-6.5659" x2="-10.287" y2="-6.5659" width="0.127" layer="21"/>
@@ -180,7 +180,7 @@
 <pad name="VBUS" x="2.7178" y="3.4925" drill="0.9144" rot="R270"/>
 <text x="5.715" y="3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
-<package name="USB-A-S">
+<package name="87583-2010BLF">
 <description>&lt;b&gt;USB Series A Surface Mounted&lt;/b&gt;</description>
 <wire x1="3.6957" y1="6.5659" x2="-10.287" y2="6.5659" width="0.127" layer="21"/>
 <wire x1="3.6957" y1="-6.5659" x2="-10.287" y2="-6.5659" width="0.127" layer="21"/>
@@ -196,11 +196,11 @@
 <pad name="P$6" x="0" y="6.5659" drill="2.3114" rot="R270"/>
 <smd name="D+" x="3.45" y="-1" dx="3" dy="0.9" layer="1"/>
 <smd name="D-" x="3.45" y="1" dx="3" dy="0.9" layer="1"/>
-<smd name="GND" x="3.45" y="-3" dx="3" dy="0.9" layer="1"/>
-<smd name="VBUS" x="3.45" y="3" dx="3" dy="0.9" layer="1"/>
+<smd name="GND" x="3.45" y="-3.5" dx="3" dy="0.9" layer="1"/>
+<smd name="VBUS" x="3.45" y="3.5" dx="3" dy="0.9" layer="1"/>
 <text x="5.715" y="3.81" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
-<package name="USB-B-H">
+<package name="61729-0010BLF">
 <description>&lt;b&gt;USB Series B Hole Mounted&lt;/b&gt;</description>
 <wire x1="-12.486" y1="6.0144" x2="-12.486" y2="-5.9998" width="0.127" layer="21"/>
 <wire x1="3.2366" y1="6.0144" x2="3.2366" y2="-5.9998" width="0.127" layer="21"/>
@@ -220,7 +220,7 @@
 <pad name="VBUS" x="1.9812" y="-1.25" drill="0.9144" rot="R90"/>
 <text x="5.06" y="3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
-<package name="USB-MB-S">
+<package name="10033526-N3212MLF">
 <description>&lt;b&gt;USB Series Mini-B Surface Mounted&lt;/b&gt;</description>
 <wire x1="-5.95" y1="3.85" x2="-5.95" y2="-3.85" width="0.127" layer="51"/>
 <wire x1="-5.95" y1="3.85" x2="3.3" y2="3.85" width="0.127" layer="51"/>
@@ -248,7 +248,7 @@
 <smd name="VBUS" x="2.5" y="1.6" dx="2.5" dy="0.5" layer="1"/>
 <text x="5.2275" y="1.5875" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
-<package name="USB-A-V">
+<package name="UE27-AE54-100">
 <wire x1="3.6957" y1="7.8359" x2="-2.667" y2="7.8359" width="0.127" layer="21"/>
 <wire x1="3.6957" y1="-5.2959" x2="-2.667" y2="-5.2959" width="0.127" layer="21"/>
 <wire x1="-2.667" y1="7.747" x2="-2.667" y2="-5.207" width="0.127" layer="21"/>
@@ -1496,9 +1496,305 @@ push-push type</description>
 </devices>
 </deviceset>
 <deviceset name="48037-2200" prefix="CON">
-<description>&lt;b&gt;USB Plug Type A&lt;/b&gt;&lt;p&gt;
+<description>&lt;b&gt;USB Plug Horizontal Type A&lt;/b&gt;&lt;p&gt;
 
-&lt;img src="http://www.mouser.co.uk/images/molex/lrg/48037_bs5spwek_iso.jpg"&gt;</description>
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="Content-Style-Type" content="text/css"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;meta name="Generator" content="Cocoa HTML Writer"&gt;
+  &lt;meta name="CocoaVersion" content="1404.47"&gt;
+  &lt;style type="text/css"&gt;
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 361.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 228.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 229.0px; height: 20.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 229.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td5 {width: 361.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td6 {width: 228.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td7 {width: 229.0px; height: 23.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td8 {width: 229.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td9 {width: 361.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td10 {width: 228.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td11 {width: 229.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p class="p1"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table cellspacing="0" cellpadding="0" class="t1"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td1"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;47346-0001&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;10033526-N3212MLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;48037-2200&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AC54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AE54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;87583-2010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;61729-0010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Micro USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Mini USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Plug&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Gender&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Male&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Standard&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.8 A &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.5A&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Voltage Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;30 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;150 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Operating Temperature &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Angle&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Vertical&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="p4"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
 <gates>
 <gate name="A" symbol="USB" x="0" y="0"/>
 </gates>
@@ -1522,68 +1818,311 @@ push-push type</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB2" prefix="CON">
-<description>&lt;b&gt;USB Connectors&lt;/b&gt;&lt;p&gt;</description>
+<deviceset name="UE27-AC54-100" prefix="CON">
+<description>&lt;b&gt;USB Receptacle Horizontal Type A&lt;/b&gt;&lt;p&gt;
+
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="Content-Style-Type" content="text/css"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;meta name="Generator" content="Cocoa HTML Writer"&gt;
+  &lt;meta name="CocoaVersion" content="1404.47"&gt;
+  &lt;style type="text/css"&gt;
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 361.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 228.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 229.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 228.0px; height: 20.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td5 {width: 361.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td6 {width: 228.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td7 {width: 229.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td8 {width: 228.0px; height: 23.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td9 {width: 361.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td10 {width: 228.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td11 {width: 229.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p class="p1"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table cellspacing="0" cellpadding="0" class="t1"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td1"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;47346-0001&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;10033526-N3212MLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;48037-2200&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AC54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AE54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;87583-2010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;61729-0010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Micro USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Mini USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Plug&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Gender&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Male&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Standard&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.8 A &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.5A&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Voltage Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;30 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;150 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Operating Temperature &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Angle&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Vertical&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="p4"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
 <gates>
 <gate name="A" symbol="USB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-A-H" package="USB-A-H">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-S" package="USB-A-S">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-B-H" package="USB-B-H">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-MB-S" package="USB-MB-S">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-V" package="USB-A-V">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_MICROB" package="47346-0001">
+<device name="" package="UE27AC54100">
 <connects>
 <connect gate="A" pin="D+" pad="D+"/>
 <connect gate="A" pin="D-" pad="D-"/>
@@ -1592,88 +2131,321 @@ push-push type</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MFN" value="47346-0001" constant="no"/>
-<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
-<attribute name="OC-NEWARK" value="1568026" constant="no"/>
+<attribute name="MF" value="Amphenol" constant="no"/>
+<attribute name="MFN" value="UE27AC54100" constant="no"/>
+<attribute name="OC-DIGIKEY" value="UE27AC54100-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="523-UE27-AC54-100" constant="no"/>
+<attribute name="OC-NEWARK" value="86K9575" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="" package="MOLEX-48037-2200">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB3" prefix="CON">
-<description>&lt;b&gt;USB Connectors&lt;/b&gt;&lt;p&gt;</description>
+<deviceset name="87583-2010BLF" prefix="CON">
+<description>&lt;b&gt;USB Receptacle Horizontal Type A&lt;/b&gt;&lt;p&gt;
+
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="Content-Style-Type" content="text/css"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;meta name="Generator" content="Cocoa HTML Writer"&gt;
+  &lt;meta name="CocoaVersion" content="1404.47"&gt;
+  &lt;style type="text/css"&gt;
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 361.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 228.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 229.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 228.0px; height: 20.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td5 {width: 361.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td6 {width: 228.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td7 {width: 229.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td8 {width: 228.0px; height: 23.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td9 {width: 361.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td10 {width: 228.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td11 {width: 229.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p class="p1"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table cellspacing="0" cellpadding="0" class="t1"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td1"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;47346-0001&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;10033526-N3212MLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;48037-2200&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AC54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AE54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;87583-2010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;61729-0010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Micro USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Mini USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Plug&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Gender&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Male&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Standard&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.8 A &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.5A&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Voltage Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;30 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;150 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Operating Temperature &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Angle&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Vertical&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="p4"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
 <gates>
 <gate name="A" symbol="USB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-A-H" package="USB-A-H">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-S" package="USB-A-S">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-B-H" package="USB-B-H">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-MB-S" package="USB-MB-S">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-V" package="USB-A-V">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_MICROB" package="47346-0001">
+<device name="" package="87583-2010BLF">
 <connects>
 <connect gate="A" pin="D+" pad="D+"/>
 <connect gate="A" pin="D-" pad="D-"/>
@@ -1682,88 +2454,321 @@ push-push type</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MFN" value="47346-0001" constant="no"/>
-<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
-<attribute name="OC-NEWARK" value="1568026" constant="no"/>
+<attribute name="MF" value="Amphenol FCI" constant="no"/>
+<attribute name="MFN" value="87583-2010BLF" constant="no"/>
+<attribute name="OC-DIGIKEY" value="609-4413-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="649-87583-2010BLF" constant="no"/>
+<attribute name="OC-NEWARK" value="31M6798" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="" package="MOLEX-48037-2200">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB4" prefix="CON">
-<description>&lt;b&gt;USB Connectors&lt;/b&gt;&lt;p&gt;</description>
+<deviceset name="UE27-AE54-100" prefix="CON">
+<description>&lt;b&gt;USB Receptacle Vertical Type A&lt;/b&gt;&lt;p&gt;
+
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="Content-Style-Type" content="text/css"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;meta name="Generator" content="Cocoa HTML Writer"&gt;
+  &lt;meta name="CocoaVersion" content="1404.47"&gt;
+  &lt;style type="text/css"&gt;
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 361.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 228.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 229.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 228.0px; height: 20.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td5 {width: 361.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td6 {width: 228.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td7 {width: 229.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td8 {width: 228.0px; height: 23.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td9 {width: 361.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td10 {width: 228.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td11 {width: 229.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p class="p1"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table cellspacing="0" cellpadding="0" class="t1"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td1"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;47346-0001&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;10033526-N3212MLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;48037-2200&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AC54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AE54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;87583-2010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;61729-0010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Micro USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Mini USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Plug&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Gender&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Male&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Standard&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.8 A &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.5A&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Voltage Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;30 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;150 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Operating Temperature &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Angle&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Vertical&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="p4"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
 <gates>
 <gate name="A" symbol="USB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-A-H" package="USB-A-H">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-S" package="USB-A-S">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-B-H" package="USB-B-H">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-MB-S" package="USB-MB-S">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-V" package="USB-A-V">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_MICROB" package="47346-0001">
+<device name="" package="UE27-AE54-100">
 <connects>
 <connect gate="A" pin="D+" pad="D+"/>
 <connect gate="A" pin="D-" pad="D-"/>
@@ -1772,88 +2777,321 @@ push-push type</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MFN" value="47346-0001" constant="no"/>
-<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
-<attribute name="OC-NEWARK" value="1568026" constant="no"/>
+<attribute name="MF" value="Amphenol" constant="no"/>
+<attribute name="MFN" value="UE27AE54100" constant="no"/>
+<attribute name="OC-DIGIKEY" value="UE27AE54100-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="523-UE27-AE54-100" constant="no"/>
+<attribute name="OC-NEWARK" value="01M3188" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="" package="MOLEX-48037-2200">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB5" prefix="CON">
-<description>&lt;b&gt;USB Connectors&lt;/b&gt;&lt;p&gt;</description>
+<deviceset name="61729-0010BLF" prefix="CON">
+<description>&lt;b&gt;USB Receptacle Horizontal Type B&lt;/b&gt;&lt;p&gt;
+
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="Content-Style-Type" content="text/css"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;meta name="Generator" content="Cocoa HTML Writer"&gt;
+  &lt;meta name="CocoaVersion" content="1404.47"&gt;
+  &lt;style type="text/css"&gt;
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 361.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 228.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 229.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 229.0px; height: 20.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td5 {width: 361.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td6 {width: 228.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td7 {width: 229.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td8 {width: 229.0px; height: 23.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td9 {width: 361.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td10 {width: 228.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td11 {width: 229.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p class="p1"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table cellspacing="0" cellpadding="0" class="t1"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td1"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;47346-0001&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;10033526-N3212MLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;48037-2200&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AC54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AE54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;87583-2010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;61729-0010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Micro USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Mini USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Plug&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Gender&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Male&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Standard&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.8 A &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.5A&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Voltage Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;30 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;150 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Operating Temperature &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Angle&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Vertical&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="p4"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
 <gates>
 <gate name="A" symbol="USB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-A-H" package="USB-A-H">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-S" package="USB-A-S">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-B-H" package="USB-B-H">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-MB-S" package="USB-MB-S">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-V" package="USB-A-V">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_MICROB" package="47346-0001">
+<device name="" package="61729-0010BLF">
 <connects>
 <connect gate="A" pin="D+" pad="D+"/>
 <connect gate="A" pin="D-" pad="D-"/>
@@ -1862,88 +3100,321 @@ push-push type</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MFN" value="47346-0001" constant="no"/>
-<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
-<attribute name="OC-NEWARK" value="1568026" constant="no"/>
+<attribute name="MF" value="Amphenol FCI" constant="no"/>
+<attribute name="MFN" value="61729-0010BLF" constant="no"/>
+<attribute name="OC-DIGIKEY" value="609-1039-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="649-61729-0010BLF" constant="no"/>
+<attribute name="OC-NEWARK" value="62K6482"/>
 </technology>
-</technologies>
-</device>
-<device name="" package="MOLEX-48037-2200">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB6" prefix="CON">
-<description>&lt;b&gt;USB Connectors&lt;/b&gt;&lt;p&gt;</description>
+<deviceset name="10033526-N3212MLF" prefix="CON">
+<description>&lt;b&gt;USB Receptacle Horizontal Mini Type B&lt;/b&gt;&lt;p&gt;
+
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="Content-Style-Type" content="text/css"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;meta name="Generator" content="Cocoa HTML Writer"&gt;
+  &lt;meta name="CocoaVersion" content="1404.47"&gt;
+  &lt;style type="text/css"&gt;
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 361.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 228.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 228.0px; height: 20.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 229.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td5 {width: 361.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td6 {width: 228.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td7 {width: 228.0px; height: 23.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td8 {width: 229.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td9 {width: 361.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td10 {width: 228.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td11 {width: 229.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p class="p1"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table cellspacing="0" cellpadding="0" class="t1"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td1"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;47346-0001&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;10033526-N3212MLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;48037-2200&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AC54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AE54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;87583-2010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;61729-0010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Micro USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Mini USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Plug&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Gender&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Male&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Standard&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.8 A &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.5A&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Voltage Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;30 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;150 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Operating Temperature &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Angle&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Vertical&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="p4"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
 <gates>
 <gate name="A" symbol="USB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-A-H" package="USB-A-H">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-S" package="USB-A-S">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-B-H" package="USB-B-H">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-MB-S" package="USB-MB-S">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-A-V" package="USB-A-V">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_MICROB" package="47346-0001">
+<device name="" package="10033526-N3212MLF">
 <connects>
 <connect gate="A" pin="D+" pad="D+"/>
 <connect gate="A" pin="D-" pad="D-"/>
@@ -1952,28 +3423,316 @@ push-push type</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
-<attribute name="MFN" value="47346-0001" constant="no"/>
-<attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
-<attribute name="OC-NEWARK" value="1568026" constant="no"/>
+<attribute name="MF" value="Amphenol FCI" constant="no"/>
+<attribute name="MFN" value="10033526-N3212MLF" constant="no"/>
+<attribute name="OC-DIGIKEY" value="609-4701-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="649-10033526N3212MLF" constant="no"/>
+<attribute name="OC-NEWARK" value="14N2224" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="" package="MOLEX-48037-2200">
-<connects>
-<connect gate="A" pin="D+" pad="D+"/>
-<connect gate="A" pin="D-" pad="D-"/>
-<connect gate="A" pin="GND" pad="GND"/>
-<connect gate="A" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="47346-0001" prefix="CON">
-<description>&lt;b&gt;USB Receptacle MicroB &lt;/b&gt;&lt;p&gt;</description>
+<description>&lt;b&gt;USB Receptacle Horizontal Micro Type B&lt;/b&gt;&lt;p&gt;
+
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+  &lt;meta http-equiv="Content-Style-Type" content="text/css"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;meta name="Generator" content="Cocoa HTML Writer"&gt;
+  &lt;meta name="CocoaVersion" content="1404.47"&gt;
+  &lt;style type="text/css"&gt;
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 19.2px Calibri; -webkit-text-stroke: #000000}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 361.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td2 {width: 228.0px; height: 20.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td3 {width: 228.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td4 {width: 229.0px; height: 20.0px; background-color: #a7a7a7; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td5 {width: 361.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td6 {width: 228.0px; height: 23.0px; background-color: #e0a7a6; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td7 {width: 228.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td8 {width: 229.0px; height: 23.0px; background-color: #f5f5f5; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td9 {width: 361.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td10 {width: 228.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+    td.td11 {width: 229.0px; height: 23.0px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #000000 #000000 #000000 #000000; padding: 0.0px 2.0px 2.0px 2.0px}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p class="p1"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table cellspacing="0" cellpadding="0" class="t1"&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td1"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td2"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;47346-0001&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;10033526-N3212MLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;48037-2200&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AC54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;UE27-AE54-100&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td3"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;87583-2010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td4"&gt;
+        &lt;p class="p2"&gt;&lt;span class="s1"&gt;&lt;b&gt;61729-0010BLF&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;MOLEX&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Amphenol FCI&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;USB Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Micro USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Mini USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Plug&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type A Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB Type B Receptacle&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Gender&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Male&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Female&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Standard&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;USB 2.0&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Current Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.8 A &lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;1.5A&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Voltage Rating&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;30 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;150 VAC&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Operating Temperature &lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;- 20 C to + 85 C&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;-&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td9"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Type&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td10"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Surface Mount&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td11"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Through Hole&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign="bottom" class="td5"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;&lt;b&gt;Mounting Angle&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td6"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Vertical&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td7"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td valign="bottom" class="td8"&gt;
+        &lt;p class="p3"&gt;&lt;span class="s1"&gt;Right&lt;/span&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p class="p4"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</description>
 <gates>
 <gate name="A" symbol="USB" x="0" y="0"/>
 </gates>
