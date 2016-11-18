@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -266,6 +266,20 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <rectangle x1="0.525" y1="0.35" x2="0.85" y2="0.775" layer="21"/>
 <rectangle x1="-0.175" y1="0" x2="0.175" y2="0.35" layer="21"/>
 </package>
+<package name="551-0207F">
+<pad name="ANODE" x="0" y="0" drill="1" shape="square"/>
+<pad name="CATHODE" x="2.54" y="0" drill="1"/>
+<wire x1="-1.29" y1="-4.4" x2="-1.29" y2="1.95" width="0.127" layer="21"/>
+<wire x1="-1.29" y1="1.95" x2="3.83" y2="1.95" width="0.127" layer="21"/>
+<wire x1="3.83" y1="1.95" x2="3.83" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="3.83" y1="-4.4" x2="2.54" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-4.4" x2="0" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="0" y1="-4.4" x2="-1.29" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="0" y1="-4.4" x2="0" y2="-6.94" width="0.127" layer="21"/>
+<wire x1="0" y1="-6.94" x2="2.54" y2="-6.94" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-6.94" x2="2.54" y2="-4.4" width="0.127" layer="21"/>
+<text x="-1.27" y="2.54" size="1.016" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="P-MOS">
@@ -397,6 +411,29 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="551-0207F">
+<description>&lt;b&gt;LED Shrouded Horizontal Indicator 3mm&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="551-0207F">
+<connects>
+<connect gate="G$1" pin="A" pad="ANODE"/>
+<connect gate="G$1" pin="C" pad="CATHODE"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Dialight" constant="no"/>
+<attribute name="MFN" value="551-0207F" constant="no"/>
+<attribute name="OC-DIGIKEY" value="350-1810-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="Mouser" constant="no"/>
+<attribute name="OC-NEWARK" value="30K1434" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

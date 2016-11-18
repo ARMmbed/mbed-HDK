@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -69,7 +69,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -6371,6 +6371,57 @@
 <hole x="15.24" y="50.8" drill="3.2"/>
 <hole x="13.97" y="2.54" drill="3.2"/>
 </package>
+<package name="REALTEK-AMEBA-DEV01-SHIELD">
+<wire x1="57.63" y1="-54.49" x2="46.2" y2="-54.49" width="0.254" layer="20"/>
+<pad name="NC(3)" x="19.53" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="VD33(2)" x="22.07" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="NC(2)" x="24.61" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="VD33(1)" x="27.15" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="5VDD" x="29.69" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="GND(3)" x="32.23" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="GND(2)" x="34.77" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="NC(1)" x="37.31" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="ADC_CH1(2)" x="42.39" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="ADC_CH1(1)" x="44.93" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="ADC_CH2" x="47.47" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="DAC0" x="50.01" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOD_7/INT/PWM3/UART2_TX(B)/I2C1_SDA(B)/SPI1_MISO" x="52.55" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOD_6/INT/PWM2/UART2_RTS(B)/I2C1_SCL(B)/SPI1_MOSI/I2S0_SDRX" x="55.09" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOA_6/UART0_RX(B)/SD_CD/MII_RXERR" x="55.09" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOA_7/UART0_TX(B)/SD_WP/MII_COL" x="52.55" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOA_5/UART0_CTS(B)/SD_D1/MII_RXDV" x="50.01" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOD_4/INT/PWM0/UART2_RX(B)/I2C0_SDA/SPI1_CS/MII_MDC" x="47.47" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOD_5/INT/PWM1/UART2_CTS(B)/I2C0_SCL/SPI1_CLK/MII_MDIO" x="44.93" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOA_4/UART2_TX(A)/SPI1_CS/SD_D0/MII_RXD3" x="42.39" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOA_3/UART0_RTS(B)/SD_CLK/MII_RXD2" x="39.85" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOA_2/UART2_RTS(A)/SPI1_CLK/SD_CMD_MII_RXD1" x="37.31" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="NC(_3)" x="19.53" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOA_1/INT/UART2_CTS(A)/SPI1_MOSI/SD_D3/MII_RXD0" x="16.99" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOA_1/INT/UART2_CTS(A)/SPI_MOSI/SD_D3/MII_RXD0" x="16.99" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOA_0/INT/UART2_RX(A)/SPI1_MISO/SD_D2/MII_RX_CK" x="14.45" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOE_5/INT/I2C3_SDA/SPIO_CS2" x="11.91" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="NC(4)" x="9.37" y="-51.01" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOB_4/INT/PWM0" x="33.31" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOB_5/PWM1" x="30.77" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOC_0/PWM0/UART0_RX(A)/SPI0_CS0/I2S1_WS/MII_TXD2" x="28.23" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOC_2/PWM2/UART0_RTS(A)/SPI0_MOSI/I2S1_SDTX/MII_TXD0" x="25.69" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOC_3/INT/PWM3/UART0_TX(A)/SPI0_MISO/I2S1_MCK/MII_TX_CK" x="23.15" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOC_1/INT/PWM1/UART0_CTS(A)/SPI0_CLK/I2S1_CLK/MII_TXD1" x="20.61" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GND(1)" x="18.07" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="AREF" x="15.53" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOC_4/INT/I2C1_SDA(A)/SPI0_CS1/I2S1_SDRX/MII_TXD3" x="12.99" y="-2.75" drill="1" shape="long" rot="R90"/>
+<wire x1="46.2" y1="-54.49" x2="46.2" y2="-69.55" width="0.254" layer="20"/>
+<wire x1="46.19" y1="-69.55" x2="3.17" y2="-69.55" width="0.254" layer="20"/>
+<wire x1="57.59" y1="-0.05" x2="0.19" y2="-0.05" width="0.254" layer="20"/>
+<wire x1="0.09" y1="-0.05" x2="0.09" y2="-66.55" width="0.254" layer="20"/>
+<pad name="GPIOC_5/INT/I2C1_SCL(A)/SPI0_CS2/MII_TXEN" x="10.45" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOB_3/INT/I2C3_SDA" x="7.91" y="-2.75" drill="1" shape="long" rot="R90"/>
+<pad name="GPIOB_2/I2C3_SCL" x="5.37" y="-2.75" drill="1" shape="long" rot="R90"/>
+<wire x1="57.64" y1="-0.06" x2="57.65" y2="-54.49" width="0.254" layer="20"/>
+<pad name="P$1" x="22.8" y="-57.75" drill="3" diameter="5"/>
+<wire x1="0.11" y1="-66.43" x2="0.11" y2="-66.46" width="0.254" layer="20"/>
+<wire x1="0.11" y1="-66.46" x2="3.21" y2="-69.56" width="0.254" layer="20" curve="90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="WEE-MARK">
@@ -9250,6 +9301,50 @@ P260906</text>
 <pin name="SDA" x="48.26" y="-10.16" length="middle" rot="R180"/>
 <pin name="SCL" x="48.26" y="-7.62" length="middle" rot="R180"/>
 </symbol>
+<symbol name="REALTEK-AMEBA-DEV01-SHIELD">
+<pin name="GPIOA_6/UART0_RX(B)/SD_CD/MII_RXERR" x="-7.62" y="53.34" length="middle"/>
+<pin name="GPIOA_7/UART0_TX(B)/SD_WP/MII_COL" x="-7.62" y="50.8" length="middle"/>
+<pin name="GPIOA_5/UART0_CTS(B)/SD_D1/MII_RXDV" x="-7.62" y="48.26" length="middle"/>
+<pin name="GPIOD_4/INT/PWM0/UART2_RX(B)/I2C0_SDA/SPI1_CS/MII_MDC" x="-7.62" y="45.72" length="middle"/>
+<pin name="GPIOD_5/INT/PWM1/UART2_CTS(B)/I2C0_SCL/SPI1_CLK/MII_MDIO" x="-7.62" y="43.18" length="middle"/>
+<pin name="GPIOA_4/UART2_TX(A)/SPI1_CS/SD_D0/MII_RXD3" x="-7.62" y="40.64" length="middle"/>
+<pin name="GPIOA_3/UART0_RTS(B)/SD_CLK/MII_RXD2" x="-7.62" y="38.1" length="middle"/>
+<pin name="GPIOA_2/UART2_RTS(A)/SPI1_CLK/SD_CMD_MII_RXD1" x="-7.62" y="35.56" length="middle"/>
+<pin name="GPIOB_4/INT/PWM0" x="-7.62" y="30.48" length="middle"/>
+<pin name="GPIOB_5/PWM1" x="-7.62" y="27.94" length="middle"/>
+<pin name="GPIOC_0/PWM0/UART0_RX(A)/SPI0_CS0/I2S1_WS/MII_TXD2" x="-7.62" y="25.4" length="middle"/>
+<pin name="GPIOC_2/PWM2/UART0_RTS(A)/SPI0_MOSI/I2S1_SDTX/MII_TXD0" x="-7.62" y="22.86" length="middle"/>
+<pin name="GPIOC_3/INT/PWM3/UART0_TX(A)/SPI0_MISO/I2S1_MCK/MII_TX_CK" x="-7.62" y="20.32" length="middle"/>
+<pin name="GPIOC_1/INT/PWM1/UART0_CTS(A)/SPI0_CLK/I2S1_CLK/MII_TXD1" x="-7.62" y="17.78" length="middle"/>
+<pin name="GND(1)" x="-7.62" y="15.24" length="middle"/>
+<pin name="AREF" x="-7.62" y="12.7" length="middle"/>
+<pin name="GPIOD_6/INT/PWM2/UART2_RTS(B)/I2C1_SCL(B)/SPI1_MOSI/I2S0_SDRX" x="152.4" y="53.34" length="middle" rot="R180"/>
+<pin name="GPIOD_7/INT/PWM3/UART2_TX(B)/I2C1_SDA(B)/SPI1_MISO" x="152.4" y="50.8" length="middle" rot="R180"/>
+<pin name="DAC0" x="152.4" y="48.26" length="middle" rot="R180"/>
+<pin name="ADC_CH2" x="152.4" y="45.72" length="middle" rot="R180"/>
+<pin name="ADC_CH1(1)" x="152.4" y="43.18" length="middle" rot="R180"/>
+<pin name="ADC_CH1(2)" x="152.4" y="40.64" length="middle" rot="R180"/>
+<pin name="NC(1)" x="152.4" y="35.56" length="middle" rot="R180"/>
+<pin name="GND(2)" x="152.4" y="33.02" length="middle" rot="R180"/>
+<pin name="GND(3)" x="152.4" y="30.48" length="middle" rot="R180"/>
+<pin name="5VDD" x="152.4" y="27.94" length="middle" rot="R180"/>
+<pin name="VD33(1)" x="152.4" y="25.4" length="middle" rot="R180"/>
+<pin name="NC(2)" x="152.4" y="22.86" length="middle" rot="R180"/>
+<pin name="VD33(2)" x="152.4" y="20.32" length="middle" rot="R180"/>
+<pin name="NC(3)" x="152.4" y="17.78" length="middle" rot="R180"/>
+<pin name="GPIOA_1/INT/UART2_CTS(A)/SPI_MOSI/SD_D3/MII_RXD0" x="152.4" y="15.24" length="middle" rot="R180"/>
+<pin name="GPIOA_0/INT/UART2_RX(A)/SPI1_MISO/SD_D2/MII_RX_CK" x="152.4" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIOE_5/INT/I2C3_SDA/SPIO_CS2" x="152.4" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="NC(4)" x="152.4" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIOC_4/INT/I2C1_SDA(A)/SPI0_CS1/I2S1_SDRX/MII_TXD3" x="-7.62" y="10.16" length="middle"/>
+<pin name="GPIOC_5/INT/I2C1_SCL(A)/SPI0_CS2/MII_TXEN" x="-7.62" y="7.62" length="middle"/>
+<pin name="GPIOB_3/INT/I2C3_SDA" x="-7.62" y="5.08" length="middle"/>
+<pin name="GPIOB_2/I2C3_SCL" x="-7.62" y="2.54" length="middle"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="55.88" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="55.88" x2="147.32" y2="55.88" width="0.254" layer="94"/>
+<wire x1="147.32" y1="55.88" x2="147.32" y2="0" width="0.254" layer="94"/>
+<wire x1="147.32" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RPI-HAT" prefix="BRD">
@@ -9560,123 +9655,52 @@ P260906</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARDUINO-R3" prefix="BRD">
+<deviceset name="REALTEX_AMEBA-DEV01-SHIELD">
+<description>&lt;b&gt;REALTEX_AMEBA-DEV01-SHIELD&lt;/b&gt;&lt;p&gt;</description>
 <gates>
-<gate name="G$1" symbol="ARDUINO-R3" x="0" y="60.96"/>
+<gate name="G$1" symbol="REALTEK-AMEBA-DEV01-SHIELD" x="-68.58" y="-27.94"/>
 </gates>
 <devices>
-<device name="" package="ARDUINO-R3">
+<device name="" package="REALTEK-AMEBA-DEV01-SHIELD">
 <connects>
-<connect gate="G$1" pin="3V3" pad="4"/>
-<connect gate="G$1" pin="5V" pad="5"/>
-<connect gate="G$1" pin="A0" pad="9"/>
-<connect gate="G$1" pin="A1" pad="10"/>
-<connect gate="G$1" pin="A2" pad="11"/>
-<connect gate="G$1" pin="A3" pad="12"/>
-<connect gate="G$1" pin="A4" pad="13"/>
-<connect gate="G$1" pin="A5" pad="14"/>
-<connect gate="G$1" pin="AREF" pad="30"/>
-<connect gate="G$1" pin="D0/RX" pad="15"/>
-<connect gate="G$1" pin="D1/TX" pad="16"/>
-<connect gate="G$1" pin="D10/SS" pad="25"/>
-<connect gate="G$1" pin="D11/MOSI" pad="26"/>
-<connect gate="G$1" pin="D12/MISO" pad="27"/>
-<connect gate="G$1" pin="D13/SCK" pad="28"/>
-<connect gate="G$1" pin="D2" pad="17"/>
-<connect gate="G$1" pin="D3" pad="18"/>
-<connect gate="G$1" pin="D4" pad="19"/>
-<connect gate="G$1" pin="D5" pad="20"/>
-<connect gate="G$1" pin="D6" pad="21"/>
-<connect gate="G$1" pin="D7" pad="22"/>
-<connect gate="G$1" pin="D8" pad="23"/>
-<connect gate="G$1" pin="D9" pad="24"/>
-<connect gate="G$1" pin="GND@29" pad="29"/>
-<connect gate="G$1" pin="GND@6" pad="6"/>
-<connect gate="G$1" pin="GND@7" pad="7"/>
-<connect gate="G$1" pin="IOREF" pad="2"/>
-<connect gate="G$1" pin="NC" pad="1"/>
-<connect gate="G$1" pin="NRESET" pad="3"/>
-<connect gate="G$1" pin="SCL" pad="32"/>
-<connect gate="G$1" pin="SDA" pad="31"/>
-<connect gate="G$1" pin="VIN" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SILK" package="ARDUINO-R3-SILK">
-<connects>
-<connect gate="G$1" pin="3V3" pad="4"/>
-<connect gate="G$1" pin="5V" pad="5"/>
-<connect gate="G$1" pin="A0" pad="9"/>
-<connect gate="G$1" pin="A1" pad="10"/>
-<connect gate="G$1" pin="A2" pad="11"/>
-<connect gate="G$1" pin="A3" pad="12"/>
-<connect gate="G$1" pin="A4" pad="13"/>
-<connect gate="G$1" pin="A5" pad="14"/>
-<connect gate="G$1" pin="AREF" pad="30"/>
-<connect gate="G$1" pin="D0/RX" pad="15"/>
-<connect gate="G$1" pin="D1/TX" pad="16"/>
-<connect gate="G$1" pin="D10/SS" pad="25"/>
-<connect gate="G$1" pin="D11/MOSI" pad="26"/>
-<connect gate="G$1" pin="D12/MISO" pad="27"/>
-<connect gate="G$1" pin="D13/SCK" pad="28"/>
-<connect gate="G$1" pin="D2" pad="17"/>
-<connect gate="G$1" pin="D3" pad="18"/>
-<connect gate="G$1" pin="D4" pad="19"/>
-<connect gate="G$1" pin="D5" pad="20"/>
-<connect gate="G$1" pin="D6" pad="21"/>
-<connect gate="G$1" pin="D7" pad="22"/>
-<connect gate="G$1" pin="D8" pad="23"/>
-<connect gate="G$1" pin="D9" pad="24"/>
-<connect gate="G$1" pin="GND@29" pad="29"/>
-<connect gate="G$1" pin="GND@6" pad="6"/>
-<connect gate="G$1" pin="GND@7" pad="7"/>
-<connect gate="G$1" pin="IOREF" pad="2"/>
-<connect gate="G$1" pin="NC" pad="1"/>
-<connect gate="G$1" pin="NRESET" pad="3"/>
-<connect gate="G$1" pin="SCL" pad="32"/>
-<connect gate="G$1" pin="SDA" pad="31"/>
-<connect gate="G$1" pin="VIN" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_APPS" package="ARDUINO-R3-APPS-SHEILD">
-<connects>
-<connect gate="G$1" pin="3V3" pad="4"/>
-<connect gate="G$1" pin="5V" pad="5"/>
-<connect gate="G$1" pin="A0" pad="9"/>
-<connect gate="G$1" pin="A1" pad="10"/>
-<connect gate="G$1" pin="A2" pad="11"/>
-<connect gate="G$1" pin="A3" pad="12"/>
-<connect gate="G$1" pin="A4" pad="13"/>
-<connect gate="G$1" pin="A5" pad="14"/>
-<connect gate="G$1" pin="AREF" pad="30"/>
-<connect gate="G$1" pin="D0/RX" pad="15"/>
-<connect gate="G$1" pin="D1/TX" pad="16"/>
-<connect gate="G$1" pin="D10/SS" pad="25"/>
-<connect gate="G$1" pin="D11/MOSI" pad="26"/>
-<connect gate="G$1" pin="D12/MISO" pad="27"/>
-<connect gate="G$1" pin="D13/SCK" pad="28"/>
-<connect gate="G$1" pin="D2" pad="17"/>
-<connect gate="G$1" pin="D3" pad="18"/>
-<connect gate="G$1" pin="D4" pad="19"/>
-<connect gate="G$1" pin="D5" pad="20"/>
-<connect gate="G$1" pin="D6" pad="21"/>
-<connect gate="G$1" pin="D7" pad="22"/>
-<connect gate="G$1" pin="D8" pad="23"/>
-<connect gate="G$1" pin="D9" pad="24"/>
-<connect gate="G$1" pin="GND@29" pad="29"/>
-<connect gate="G$1" pin="GND@6" pad="6"/>
-<connect gate="G$1" pin="GND@7" pad="7"/>
-<connect gate="G$1" pin="IOREF" pad="2"/>
-<connect gate="G$1" pin="NC" pad="1"/>
-<connect gate="G$1" pin="NRESET" pad="3"/>
-<connect gate="G$1" pin="SCL" pad="32"/>
-<connect gate="G$1" pin="SDA" pad="31"/>
-<connect gate="G$1" pin="VIN" pad="8"/>
+<connect gate="G$1" pin="5VDD" pad="5VDD"/>
+<connect gate="G$1" pin="ADC_CH1(1)" pad="ADC_CH1(1)"/>
+<connect gate="G$1" pin="ADC_CH1(2)" pad="ADC_CH1(2)"/>
+<connect gate="G$1" pin="ADC_CH2" pad="ADC_CH2"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="DAC0" pad="DAC0"/>
+<connect gate="G$1" pin="GND(1)" pad="GND(1)"/>
+<connect gate="G$1" pin="GND(2)" pad="GND(2)"/>
+<connect gate="G$1" pin="GND(3)" pad="GND(3)"/>
+<connect gate="G$1" pin="GPIOA_0/INT/UART2_RX(A)/SPI1_MISO/SD_D2/MII_RX_CK" pad="GPIOA_0/INT/UART2_RX(A)/SPI1_MISO/SD_D2/MII_RX_CK"/>
+<connect gate="G$1" pin="GPIOA_1/INT/UART2_CTS(A)/SPI_MOSI/SD_D3/MII_RXD0" pad="GPIOA_1/INT/UART2_CTS(A)/SPI_MOSI/SD_D3/MII_RXD0"/>
+<connect gate="G$1" pin="GPIOA_2/UART2_RTS(A)/SPI1_CLK/SD_CMD_MII_RXD1" pad="GPIOA_2/UART2_RTS(A)/SPI1_CLK/SD_CMD_MII_RXD1"/>
+<connect gate="G$1" pin="GPIOA_3/UART0_RTS(B)/SD_CLK/MII_RXD2" pad="GPIOA_3/UART0_RTS(B)/SD_CLK/MII_RXD2"/>
+<connect gate="G$1" pin="GPIOA_4/UART2_TX(A)/SPI1_CS/SD_D0/MII_RXD3" pad="GPIOA_4/UART2_TX(A)/SPI1_CS/SD_D0/MII_RXD3"/>
+<connect gate="G$1" pin="GPIOA_5/UART0_CTS(B)/SD_D1/MII_RXDV" pad="GPIOA_5/UART0_CTS(B)/SD_D1/MII_RXDV"/>
+<connect gate="G$1" pin="GPIOA_6/UART0_RX(B)/SD_CD/MII_RXERR" pad="GPIOA_6/UART0_RX(B)/SD_CD/MII_RXERR"/>
+<connect gate="G$1" pin="GPIOA_7/UART0_TX(B)/SD_WP/MII_COL" pad="GPIOA_7/UART0_TX(B)/SD_WP/MII_COL"/>
+<connect gate="G$1" pin="GPIOB_2/I2C3_SCL" pad="GPIOB_2/I2C3_SCL"/>
+<connect gate="G$1" pin="GPIOB_3/INT/I2C3_SDA" pad="GPIOB_3/INT/I2C3_SDA"/>
+<connect gate="G$1" pin="GPIOB_4/INT/PWM0" pad="GPIOB_4/INT/PWM0"/>
+<connect gate="G$1" pin="GPIOB_5/PWM1" pad="GPIOB_5/PWM1"/>
+<connect gate="G$1" pin="GPIOC_0/PWM0/UART0_RX(A)/SPI0_CS0/I2S1_WS/MII_TXD2" pad="GPIOC_0/PWM0/UART0_RX(A)/SPI0_CS0/I2S1_WS/MII_TXD2"/>
+<connect gate="G$1" pin="GPIOC_1/INT/PWM1/UART0_CTS(A)/SPI0_CLK/I2S1_CLK/MII_TXD1" pad="GPIOC_1/INT/PWM1/UART0_CTS(A)/SPI0_CLK/I2S1_CLK/MII_TXD1"/>
+<connect gate="G$1" pin="GPIOC_2/PWM2/UART0_RTS(A)/SPI0_MOSI/I2S1_SDTX/MII_TXD0" pad="GPIOC_2/PWM2/UART0_RTS(A)/SPI0_MOSI/I2S1_SDTX/MII_TXD0"/>
+<connect gate="G$1" pin="GPIOC_3/INT/PWM3/UART0_TX(A)/SPI0_MISO/I2S1_MCK/MII_TX_CK" pad="GPIOC_3/INT/PWM3/UART0_TX(A)/SPI0_MISO/I2S1_MCK/MII_TX_CK"/>
+<connect gate="G$1" pin="GPIOC_4/INT/I2C1_SDA(A)/SPI0_CS1/I2S1_SDRX/MII_TXD3" pad="GPIOC_4/INT/I2C1_SDA(A)/SPI0_CS1/I2S1_SDRX/MII_TXD3"/>
+<connect gate="G$1" pin="GPIOC_5/INT/I2C1_SCL(A)/SPI0_CS2/MII_TXEN" pad="GPIOC_5/INT/I2C1_SCL(A)/SPI0_CS2/MII_TXEN"/>
+<connect gate="G$1" pin="GPIOD_4/INT/PWM0/UART2_RX(B)/I2C0_SDA/SPI1_CS/MII_MDC" pad="GPIOD_4/INT/PWM0/UART2_RX(B)/I2C0_SDA/SPI1_CS/MII_MDC"/>
+<connect gate="G$1" pin="GPIOD_5/INT/PWM1/UART2_CTS(B)/I2C0_SCL/SPI1_CLK/MII_MDIO" pad="GPIOD_5/INT/PWM1/UART2_CTS(B)/I2C0_SCL/SPI1_CLK/MII_MDIO"/>
+<connect gate="G$1" pin="GPIOD_6/INT/PWM2/UART2_RTS(B)/I2C1_SCL(B)/SPI1_MOSI/I2S0_SDRX" pad="GPIOD_6/INT/PWM2/UART2_RTS(B)/I2C1_SCL(B)/SPI1_MOSI/I2S0_SDRX"/>
+<connect gate="G$1" pin="GPIOD_7/INT/PWM3/UART2_TX(B)/I2C1_SDA(B)/SPI1_MISO" pad="GPIOD_7/INT/PWM3/UART2_TX(B)/I2C1_SDA(B)/SPI1_MISO"/>
+<connect gate="G$1" pin="GPIOE_5/INT/I2C3_SDA/SPIO_CS2" pad="GPIOE_5/INT/I2C3_SDA/SPIO_CS2"/>
+<connect gate="G$1" pin="NC(1)" pad="NC(1)"/>
+<connect gate="G$1" pin="NC(2)" pad="NC(2)"/>
+<connect gate="G$1" pin="NC(3)" pad="NC(_3)"/>
+<connect gate="G$1" pin="NC(4)" pad="NC(4)"/>
+<connect gate="G$1" pin="VD33(1)" pad="VD33(1)"/>
+<connect gate="G$1" pin="VD33(2)" pad="VD33(2)"/>
 </connects>
 <technologies>
 <technology name=""/>
