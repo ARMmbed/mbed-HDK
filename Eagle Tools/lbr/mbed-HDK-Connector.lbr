@@ -794,6 +794,58 @@
 <wire x1="7.8" y1="2" x2="9.9" y2="2" width="0.127" layer="21"/>
 <circle x="2.54" y="5.08" radius="0.005" width="1" layer="21"/>
 </package>
+<package name="DF17(2.0)-40DP-0.5V(57)">
+<smd name="1" x="2.02" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="2" x="2.52" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="3" x="3.02" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="4" x="3.52" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="5" x="4.02" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="6" x="4.52" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="7" x="5.02" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="8" x="5.52" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="9" x="6.02" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="10" x="6.52" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="11" x="7.02" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="12" x="7.52" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="13" x="8.02" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="14" x="8.52" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="15" x="9.02" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="16" x="9.52" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="17" x="10.02" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="18" x="10.52" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="19" x="11.02" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="20" x="11.52" y="-0.54" dx="0.25" dy="1.15" layer="1"/>
+<smd name="40" x="2.02" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="39" x="2.52" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="38" x="3.02" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="37" x="3.52" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="36" x="4.02" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="35" x="4.52" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="33" x="5.52" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="32" x="6.02" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="31" x="6.52" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="30" x="7.02" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="29" x="7.52" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="28" x="8.02" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="27" x="8.52" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="26" x="9.02" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="25" x="9.52" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="24" x="10.02" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="23" x="10.52" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="22" x="11.02" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="21" x="11.52" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="34" x="5.02" y="4.61" dx="0.25" dy="1.15" layer="1"/>
+<smd name="P$43" x="-0.23" y="2.035" dx="1.4" dy="2.1" layer="1"/>
+<smd name="P$44" x="13.77" y="2.035" dx="1.4" dy="2.1" layer="1"/>
+<wire x1="0.47" y1="4.035" x2="0.47" y2="0.035" width="0.127" layer="21"/>
+<wire x1="0.47" y1="0.035" x2="13.07" y2="0.035" width="0.127" layer="21"/>
+<wire x1="13.07" y1="0.035" x2="13.07" y2="3.99" width="0.127" layer="21"/>
+<wire x1="0.47" y1="4.045" x2="13.07" y2="4.045" width="0.127" layer="21"/>
+<hole x="12.77" y="0.135" drill="0.6"/>
+<hole x="0.77" y="0.135" drill="0.6"/>
+<text x="0.508" y="5.715" size="1.27" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="0.508" y="-2.921" size="1.27" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USB">
@@ -1216,6 +1268,54 @@
 <wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
 <text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="DF17(2.0)-40DP-0.5V(57)">
+<pin name="MBED_TX" x="-5.08" y="50.8" visible="pin" length="middle"/>
+<pin name="JTAG_TCK" x="-5.08" y="48.26" visible="pin" length="middle"/>
+<pin name="NC(1)" x="-5.08" y="45.72" visible="pin" length="middle"/>
+<pin name="JTAG_RST" x="-5.08" y="43.18" visible="pin" length="middle"/>
+<pin name="GND(1)" x="-5.08" y="40.64" visible="pin" length="middle"/>
+<pin name="NC(2)" x="-5.08" y="38.1" visible="pin" length="middle"/>
+<pin name="NC(3)" x="-5.08" y="35.56" visible="pin" length="middle"/>
+<pin name="VCC_MTQ(1)" x="-5.08" y="33.02" visible="pin" length="middle"/>
+<pin name="D1" x="-5.08" y="30.48" visible="pin" length="middle"/>
+<pin name="D4" x="-5.08" y="27.94" visible="pin" length="middle"/>
+<pin name="D8" x="-5.08" y="25.4" visible="pin" length="middle"/>
+<pin name="D6" x="-5.08" y="22.86" visible="pin" length="middle"/>
+<pin name="GND(2)" x="-5.08" y="20.32" visible="pin" length="middle"/>
+<pin name="D11" x="-5.08" y="17.78" visible="pin" length="middle"/>
+<pin name="D13" x="-5.08" y="15.24" visible="pin" length="middle"/>
+<pin name="D15" x="-5.08" y="12.7" visible="pin" length="middle"/>
+<pin name="D2" x="-5.08" y="10.16" visible="pin" length="middle"/>
+<pin name="A0" x="-5.08" y="7.62" visible="pin" length="middle"/>
+<pin name="A3" x="-5.08" y="5.08" visible="pin" length="middle"/>
+<pin name="A1" x="-5.08" y="2.54" visible="pin" length="middle"/>
+<pin name="A4" x="40.64" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="A2" x="40.64" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="D9" x="40.64" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="A5" x="40.64" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="D14" x="40.64" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D12" x="40.64" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="D10" x="40.64" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="GND(3)" x="40.64" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="D3" x="40.64" y="22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="D5" x="40.64" y="25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="D7" x="40.64" y="27.94" visible="pin" length="middle" rot="R180"/>
+<pin name="D0" x="40.64" y="30.48" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC_MTQ(2)" x="40.64" y="33.02" visible="pin" length="middle" rot="R180"/>
+<pin name="LS" x="40.64" y="35.56" visible="pin" length="middle" rot="R180"/>
+<pin name="NRST" x="40.64" y="38.1" visible="pin" length="middle" rot="R180"/>
+<pin name="GND(4)" x="40.64" y="40.64" visible="pin" length="middle" rot="R180"/>
+<pin name="GND(5)" x="40.64" y="43.18" visible="pin" length="middle" rot="R180"/>
+<pin name="JTAG_TDO" x="40.64" y="45.72" visible="pin" length="middle" rot="R180"/>
+<pin name="JTAG_TMS" x="40.64" y="48.26" visible="pin" length="middle" rot="R180"/>
+<pin name="MBED_RX" x="40.64" y="50.8" visible="pin" length="middle" rot="R180"/>
+<wire x1="0" y1="0" x2="35.56" y2="0" width="0.254" layer="94"/>
+<wire x1="35.56" y1="0" x2="35.56" y2="53.34" width="0.254" layer="94"/>
+<wire x1="35.56" y1="53.34" x2="0" y2="53.34" width="0.254" layer="94"/>
+<wire x1="0" y1="53.34" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="1.27" layer="94" ratio="12">DF17(2.0)-40DP-0.5V(57)</text>
+<text x="0" y="-5.08" size="1.27" layer="95" ratio="12">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3867,6 +3967,67 @@ push-push type</description>
 <attribute name="OC-DIGIKEY" value="WM7622DKR-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="538-53261-0471" constant="no"/>
 <attribute name="OC-NEWARK" value="05N1159" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DF17(2.0)-40DP-0.5V(57)" prefix="CON">
+<description>&lt;b&gt;Header 40 Position Connector&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="DF17(2.0)-40DP-0.5V(57)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DF17(2.0)-40DP-0.5V(57)">
+<connects>
+<connect gate="G$1" pin="A0" pad="18"/>
+<connect gate="G$1" pin="A1" pad="20"/>
+<connect gate="G$1" pin="A2" pad="22"/>
+<connect gate="G$1" pin="A3" pad="19"/>
+<connect gate="G$1" pin="A4" pad="21"/>
+<connect gate="G$1" pin="A5" pad="24"/>
+<connect gate="G$1" pin="D0" pad="32"/>
+<connect gate="G$1" pin="D1" pad="9"/>
+<connect gate="G$1" pin="D10" pad="27"/>
+<connect gate="G$1" pin="D11" pad="14"/>
+<connect gate="G$1" pin="D12" pad="26"/>
+<connect gate="G$1" pin="D13" pad="15"/>
+<connect gate="G$1" pin="D14" pad="25"/>
+<connect gate="G$1" pin="D15" pad="16"/>
+<connect gate="G$1" pin="D2" pad="17"/>
+<connect gate="G$1" pin="D3" pad="29"/>
+<connect gate="G$1" pin="D4" pad="10"/>
+<connect gate="G$1" pin="D5" pad="30"/>
+<connect gate="G$1" pin="D6" pad="12"/>
+<connect gate="G$1" pin="D7" pad="31"/>
+<connect gate="G$1" pin="D8" pad="11"/>
+<connect gate="G$1" pin="D9" pad="23"/>
+<connect gate="G$1" pin="GND(1)" pad="5"/>
+<connect gate="G$1" pin="GND(2)" pad="13"/>
+<connect gate="G$1" pin="GND(3)" pad="28"/>
+<connect gate="G$1" pin="GND(4)" pad="36"/>
+<connect gate="G$1" pin="GND(5)" pad="37"/>
+<connect gate="G$1" pin="JTAG_RST" pad="4"/>
+<connect gate="G$1" pin="JTAG_TCK" pad="2"/>
+<connect gate="G$1" pin="JTAG_TDO" pad="38"/>
+<connect gate="G$1" pin="JTAG_TMS" pad="39"/>
+<connect gate="G$1" pin="LS" pad="34"/>
+<connect gate="G$1" pin="MBED_RX" pad="40"/>
+<connect gate="G$1" pin="MBED_TX" pad="1"/>
+<connect gate="G$1" pin="NC(1)" pad="3"/>
+<connect gate="G$1" pin="NC(2)" pad="6"/>
+<connect gate="G$1" pin="NC(3)" pad="7"/>
+<connect gate="G$1" pin="NRST" pad="35"/>
+<connect gate="G$1" pin="VCC_MTQ(1)" pad="8"/>
+<connect gate="G$1" pin="VCC_MTQ(2)" pad="33"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Hirose Electric Co Ltd" constant="no"/>
+<attribute name="MFN" value="DF17(2.0)-40DP-0.5V(57)" constant="no"/>
+<attribute name="OC-DIGIKEY" value="H11130CT-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="798-DF172040DP05V57" constant="no"/>
+<attribute name="OC-NEWARK" value="69W0563" constant="no"/>
 </technology>
 </technologies>
 </device>
