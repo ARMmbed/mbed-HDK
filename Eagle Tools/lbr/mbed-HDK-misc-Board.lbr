@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -9413,49 +9413,49 @@ P260906</text>
 <text x="-2.54" y="-5.08" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="MULITECH-DRAGONFLY-BREAKOUT">
-<pin name="MBED_TX" x="-5.08" y="48.26" visible="pin" length="middle"/>
-<pin name="JTAG_TCK" x="-5.08" y="45.72" visible="pin" length="middle"/>
-<pin name="NC(1)" x="-5.08" y="43.18" visible="pin" length="middle"/>
-<pin name="JTAG_RST" x="-5.08" y="40.64" visible="pin" length="middle"/>
+<pin name="PB_6/USBTX" x="-5.08" y="48.26" visible="pin" length="middle"/>
+<pin name="PA_14" x="-5.08" y="45.72" visible="pin" length="middle"/>
+<pin name="PA_15" x="-5.08" y="43.18" visible="pin" length="middle"/>
+<pin name="PB_4" x="-5.08" y="40.64" visible="pin" length="middle"/>
 <pin name="GND(1)" x="-5.08" y="38.1" visible="pin" length="middle"/>
-<pin name="NC(2)" x="-5.08" y="35.56" visible="pin" length="middle"/>
-<pin name="NC(3)" x="-5.08" y="33.02" visible="pin" length="middle"/>
-<pin name="VCC_MTQ(1)" x="-5.08" y="30.48" visible="pin" length="middle"/>
-<pin name="D1" x="-5.08" y="27.94" visible="pin" length="middle"/>
-<pin name="D4" x="-5.08" y="25.4" visible="pin" length="middle"/>
-<pin name="D8" x="-5.08" y="22.86" visible="pin" length="middle"/>
-<pin name="D6" x="-5.08" y="20.32" visible="pin" length="middle"/>
+<pin name="USB_D+" x="-5.08" y="35.56" visible="pin" length="middle"/>
+<pin name="USB_D-" x="-5.08" y="33.02" visible="pin" length="middle"/>
+<pin name="VDD" x="-5.08" y="30.48" visible="pin" length="middle"/>
+<pin name="PA_2/D1/SERIAL_TX" x="-5.08" y="27.94" visible="pin" length="middle"/>
+<pin name="PA_7/D4/SERIAL_DCD" x="-5.08" y="25.4" visible="pin" length="middle"/>
+<pin name="PB_1/D8/SERIAL_RI" x="-5.08" y="22.86" visible="pin" length="middle"/>
+<pin name="PA_1/D6/SERIAL_CTS" x="-5.08" y="20.32" visible="pin" length="middle"/>
 <pin name="GND(2)" x="-5.08" y="17.78" visible="pin" length="middle"/>
-<pin name="D11" x="-5.08" y="15.24" visible="pin" length="middle"/>
-<pin name="D13" x="-5.08" y="12.7" visible="pin" length="middle"/>
-<pin name="D15" x="-5.08" y="10.16" visible="pin" length="middle"/>
-<pin name="D2" x="-5.08" y="7.62" visible="pin" length="middle"/>
-<pin name="A0" x="-5.08" y="5.08" visible="pin" length="middle"/>
-<pin name="A3" x="-5.08" y="2.54" visible="pin" length="middle"/>
-<pin name="A1" x="-5.08" y="0" visible="pin" length="middle"/>
-<pin name="A4" x="40.64" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="A2" x="40.64" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="D9" x="40.64" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="A5" x="40.64" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="D14" x="40.64" y="10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="D12" x="40.64" y="12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="D10" x="40.64" y="15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="GND(3)" x="40.64" y="17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="D3" x="40.64" y="20.32" visible="pin" length="middle" rot="R180"/>
-<pin name="D5" x="40.64" y="22.86" visible="pin" length="middle" rot="R180"/>
-<pin name="D7" x="40.64" y="25.4" visible="pin" length="middle" rot="R180"/>
-<pin name="D0" x="40.64" y="27.94" visible="pin" length="middle" rot="R180"/>
-<pin name="VCC_MTQ(2)" x="40.64" y="30.48" visible="pin" length="middle" rot="R180"/>
-<pin name="LS" x="40.64" y="33.02" visible="pin" length="middle" rot="R180"/>
-<pin name="NRST" x="40.64" y="35.56" visible="pin" length="middle" rot="R180"/>
-<pin name="GND(4)" x="40.64" y="38.1" visible="pin" length="middle" rot="R180"/>
-<pin name="GND(5)" x="40.64" y="40.64" visible="pin" length="middle" rot="R180"/>
-<pin name="JTAG_TDO" x="40.64" y="43.18" visible="pin" length="middle" rot="R180"/>
-<pin name="JTAG_TMS" x="40.64" y="45.72" visible="pin" length="middle" rot="R180"/>
-<pin name="MBED_RX" x="40.64" y="48.26" visible="pin" length="middle" rot="R180"/>
-<wire x1="0" y1="-2.54" x2="35.56" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="35.56" y1="-2.54" x2="35.56" y2="50.8" width="0.254" layer="94"/>
-<wire x1="35.56" y1="50.8" x2="0" y2="50.8" width="0.254" layer="94"/>
+<pin name="PB_5/D11/SPI1_MOSI" x="-5.08" y="15.24" visible="pin" length="middle"/>
+<pin name="PA_5/D13/SPI1_SCK" x="-5.08" y="12.7" visible="pin" length="middle"/>
+<pin name="PB_8/D15/I2C1_SCL" x="-5.08" y="10.16" visible="pin" length="middle"/>
+<pin name="PB_15/D2/SPI2_MOSI" x="-5.08" y="7.62" visible="pin" length="middle"/>
+<pin name="PC_2/A0/SPI2_MISO" x="-5.08" y="5.08" visible="pin" length="middle"/>
+<pin name="PB_0/A3" x="-5.08" y="2.54" visible="pin" length="middle"/>
+<pin name="PC_0/A1" x="-5.08" y="0" visible="pin" length="middle"/>
+<pin name="PC_1/A4" x="73.66" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="PC_4/A2" x="73.66" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PB_13/D9/SPI2_SCK" x="73.66" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PC_9/A5/I2C3_SDA" x="73.66" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PB_9/D14/I2C1_SDA" x="73.66" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="PA_6/D12/SPI1_MISO" x="73.66" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="PC_8/D10" x="73.66" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="GND(3)" x="73.66" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="PA_0/D3/LED1/SERIAL_RTS/WAKEUP" x="73.66" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="PA_9/D5/SERIAL_DSR" x="73.66" y="22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="PA_8/D7/I2C3_SCL/SERIAL_DTR" x="73.66" y="25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="PA_3/D0/SERIAL_RX" x="73.66" y="27.94" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC_IN" x="73.66" y="30.48" visible="pin" length="middle" rot="R180"/>
+<pin name="LINK_STATUS" x="73.66" y="33.02" visible="pin" length="middle" rot="R180"/>
+<pin name="NRST" x="73.66" y="35.56" visible="pin" length="middle" rot="R180"/>
+<pin name="GND(4)" x="73.66" y="38.1" visible="pin" length="middle" rot="R180"/>
+<pin name="GND(5)" x="73.66" y="40.64" visible="pin" length="middle" rot="R180"/>
+<pin name="SWO" x="73.66" y="43.18" visible="pin" length="middle" rot="R180"/>
+<pin name="SWDIO" x="73.66" y="45.72" visible="pin" length="middle" rot="R180"/>
+<pin name="PB_7/USBRX" x="73.66" y="48.26" visible="pin" length="middle" rot="R180"/>
+<wire x1="0" y1="-2.54" x2="68.58" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="68.58" y1="-2.54" x2="68.58" y2="50.8" width="0.254" layer="94"/>
+<wire x1="68.58" y1="50.8" x2="0" y2="50.8" width="0.254" layer="94"/>
 <wire x1="0" y1="50.8" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <text x="0" y="-5.08" size="1.27" layer="94" ratio="12">MULITECH-DRAGONFLY BREAKOUT</text>
 <text x="0" y="-7.62" size="1.27" layer="95" ratio="12">&gt;NAME</text>
@@ -9829,46 +9829,46 @@ P260906</text>
 <devices>
 <device name="" package="MULITECH-DRAGONFLY-BREAKOUT">
 <connects>
-<connect gate="G$1" pin="A0" pad="18"/>
-<connect gate="G$1" pin="A1" pad="20"/>
-<connect gate="G$1" pin="A2" pad="22"/>
-<connect gate="G$1" pin="A3" pad="19"/>
-<connect gate="G$1" pin="A4" pad="21"/>
-<connect gate="G$1" pin="A5" pad="24"/>
-<connect gate="G$1" pin="D0" pad="32"/>
-<connect gate="G$1" pin="D1" pad="9"/>
-<connect gate="G$1" pin="D10" pad="27"/>
-<connect gate="G$1" pin="D11" pad="14"/>
-<connect gate="G$1" pin="D12" pad="26"/>
-<connect gate="G$1" pin="D13" pad="15"/>
-<connect gate="G$1" pin="D14" pad="25"/>
-<connect gate="G$1" pin="D15" pad="16"/>
-<connect gate="G$1" pin="D2" pad="17"/>
-<connect gate="G$1" pin="D3" pad="29"/>
-<connect gate="G$1" pin="D4" pad="10"/>
-<connect gate="G$1" pin="D5" pad="30"/>
-<connect gate="G$1" pin="D6" pad="12"/>
-<connect gate="G$1" pin="D7" pad="31"/>
-<connect gate="G$1" pin="D8" pad="11"/>
-<connect gate="G$1" pin="D9" pad="23"/>
 <connect gate="G$1" pin="GND(1)" pad="5"/>
 <connect gate="G$1" pin="GND(2)" pad="13"/>
 <connect gate="G$1" pin="GND(3)" pad="28"/>
 <connect gate="G$1" pin="GND(4)" pad="36"/>
 <connect gate="G$1" pin="GND(5)" pad="37"/>
-<connect gate="G$1" pin="JTAG_RST" pad="4"/>
-<connect gate="G$1" pin="JTAG_TCK" pad="2"/>
-<connect gate="G$1" pin="JTAG_TDO" pad="38"/>
-<connect gate="G$1" pin="JTAG_TMS" pad="39"/>
-<connect gate="G$1" pin="LS" pad="34"/>
-<connect gate="G$1" pin="MBED_RX" pad="40"/>
-<connect gate="G$1" pin="MBED_TX" pad="1"/>
-<connect gate="G$1" pin="NC(1)" pad="3"/>
-<connect gate="G$1" pin="NC(2)" pad="6"/>
-<connect gate="G$1" pin="NC(3)" pad="7"/>
+<connect gate="G$1" pin="LINK_STATUS" pad="34"/>
 <connect gate="G$1" pin="NRST" pad="35"/>
-<connect gate="G$1" pin="VCC_MTQ(1)" pad="8"/>
-<connect gate="G$1" pin="VCC_MTQ(2)" pad="33"/>
+<connect gate="G$1" pin="PA_0/D3/LED1/SERIAL_RTS/WAKEUP" pad="29"/>
+<connect gate="G$1" pin="PA_1/D6/SERIAL_CTS" pad="12"/>
+<connect gate="G$1" pin="PA_14" pad="2"/>
+<connect gate="G$1" pin="PA_15" pad="3"/>
+<connect gate="G$1" pin="PA_2/D1/SERIAL_TX" pad="9"/>
+<connect gate="G$1" pin="PA_3/D0/SERIAL_RX" pad="32"/>
+<connect gate="G$1" pin="PA_5/D13/SPI1_SCK" pad="15"/>
+<connect gate="G$1" pin="PA_6/D12/SPI1_MISO" pad="26"/>
+<connect gate="G$1" pin="PA_7/D4/SERIAL_DCD" pad="10"/>
+<connect gate="G$1" pin="PA_8/D7/I2C3_SCL/SERIAL_DTR" pad="31"/>
+<connect gate="G$1" pin="PA_9/D5/SERIAL_DSR" pad="30"/>
+<connect gate="G$1" pin="PB_0/A3" pad="19"/>
+<connect gate="G$1" pin="PB_1/D8/SERIAL_RI" pad="11"/>
+<connect gate="G$1" pin="PB_13/D9/SPI2_SCK" pad="23"/>
+<connect gate="G$1" pin="PB_15/D2/SPI2_MOSI" pad="17"/>
+<connect gate="G$1" pin="PB_4" pad="4"/>
+<connect gate="G$1" pin="PB_5/D11/SPI1_MOSI" pad="14"/>
+<connect gate="G$1" pin="PB_6/USBTX" pad="1"/>
+<connect gate="G$1" pin="PB_7/USBRX" pad="40"/>
+<connect gate="G$1" pin="PB_8/D15/I2C1_SCL" pad="16"/>
+<connect gate="G$1" pin="PB_9/D14/I2C1_SDA" pad="25"/>
+<connect gate="G$1" pin="PC_0/A1" pad="20"/>
+<connect gate="G$1" pin="PC_1/A4" pad="21"/>
+<connect gate="G$1" pin="PC_2/A0/SPI2_MISO" pad="18"/>
+<connect gate="G$1" pin="PC_4/A2" pad="22"/>
+<connect gate="G$1" pin="PC_8/D10" pad="27"/>
+<connect gate="G$1" pin="PC_9/A5/I2C3_SDA" pad="24"/>
+<connect gate="G$1" pin="SWDIO" pad="39"/>
+<connect gate="G$1" pin="SWO" pad="38"/>
+<connect gate="G$1" pin="USB_D+" pad="6"/>
+<connect gate="G$1" pin="USB_D-" pad="7"/>
+<connect gate="G$1" pin="VCC_IN" pad="33"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>

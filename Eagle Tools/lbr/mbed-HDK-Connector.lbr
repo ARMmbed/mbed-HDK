@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1272,46 +1272,46 @@
 <text x="-10.16" y="-10.16" size="1.778" layer="96">53261-0471</text>
 </symbol>
 <symbol name="DF17(2.0)-40DP-0.5V(57)">
-<pin name="MBED_TX" x="-5.08" y="50.8" visible="pin" length="middle"/>
-<pin name="JTAG_TCK" x="-5.08" y="48.26" visible="pin" length="middle"/>
-<pin name="NC(1)" x="-5.08" y="45.72" visible="pin" length="middle"/>
-<pin name="JTAG_RST" x="-5.08" y="43.18" visible="pin" length="middle"/>
-<pin name="GND(1)" x="-5.08" y="40.64" visible="pin" length="middle"/>
-<pin name="NC(2)" x="-5.08" y="38.1" visible="pin" length="middle"/>
-<pin name="NC(3)" x="-5.08" y="35.56" visible="pin" length="middle"/>
-<pin name="VCC_MTQ(1)" x="-5.08" y="33.02" visible="pin" length="middle"/>
-<pin name="D1" x="-5.08" y="30.48" visible="pin" length="middle"/>
-<pin name="D4" x="-5.08" y="27.94" visible="pin" length="middle"/>
-<pin name="D8" x="-5.08" y="25.4" visible="pin" length="middle"/>
-<pin name="D6" x="-5.08" y="22.86" visible="pin" length="middle"/>
-<pin name="GND(2)" x="-5.08" y="20.32" visible="pin" length="middle"/>
-<pin name="D11" x="-5.08" y="17.78" visible="pin" length="middle"/>
-<pin name="D13" x="-5.08" y="15.24" visible="pin" length="middle"/>
-<pin name="D15" x="-5.08" y="12.7" visible="pin" length="middle"/>
-<pin name="D2" x="-5.08" y="10.16" visible="pin" length="middle"/>
-<pin name="A0" x="-5.08" y="7.62" visible="pin" length="middle"/>
-<pin name="A3" x="-5.08" y="5.08" visible="pin" length="middle"/>
-<pin name="A1" x="-5.08" y="2.54" visible="pin" length="middle"/>
-<pin name="A4" x="40.64" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="A2" x="40.64" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="D9" x="40.64" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="A5" x="40.64" y="10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="D14" x="40.64" y="12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="D12" x="40.64" y="15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="D10" x="40.64" y="17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="GND(3)" x="40.64" y="20.32" visible="pin" length="middle" rot="R180"/>
-<pin name="D3" x="40.64" y="22.86" visible="pin" length="middle" rot="R180"/>
-<pin name="D5" x="40.64" y="25.4" visible="pin" length="middle" rot="R180"/>
-<pin name="D7" x="40.64" y="27.94" visible="pin" length="middle" rot="R180"/>
-<pin name="D0" x="40.64" y="30.48" visible="pin" length="middle" rot="R180"/>
-<pin name="VCC_MTQ(2)" x="40.64" y="33.02" visible="pin" length="middle" rot="R180"/>
-<pin name="LS" x="40.64" y="35.56" visible="pin" length="middle" rot="R180"/>
-<pin name="NRST" x="40.64" y="38.1" visible="pin" length="middle" rot="R180"/>
-<pin name="GND(4)" x="40.64" y="40.64" visible="pin" length="middle" rot="R180"/>
-<pin name="GND(5)" x="40.64" y="43.18" visible="pin" length="middle" rot="R180"/>
-<pin name="JTAG_TDO" x="40.64" y="45.72" visible="pin" length="middle" rot="R180"/>
-<pin name="JTAG_TMS" x="40.64" y="48.26" visible="pin" length="middle" rot="R180"/>
-<pin name="MBED_RX" x="40.64" y="50.8" visible="pin" length="middle" rot="R180"/>
+<pin name="1" x="-5.08" y="50.8" visible="pin" length="middle"/>
+<pin name="2" x="-5.08" y="48.26" visible="pin" length="middle"/>
+<pin name="3" x="-5.08" y="45.72" visible="pin" length="middle"/>
+<pin name="4" x="-5.08" y="43.18" visible="pin" length="middle"/>
+<pin name="5" x="-5.08" y="40.64" visible="pin" length="middle"/>
+<pin name="6" x="-5.08" y="38.1" visible="pin" length="middle"/>
+<pin name="7" x="-5.08" y="35.56" visible="pin" length="middle"/>
+<pin name="8" x="-5.08" y="33.02" visible="pin" length="middle"/>
+<pin name="9" x="-5.08" y="30.48" visible="pin" length="middle"/>
+<pin name="10" x="-5.08" y="27.94" visible="pin" length="middle"/>
+<pin name="11" x="-5.08" y="25.4" visible="pin" length="middle"/>
+<pin name="12" x="-5.08" y="22.86" visible="pin" length="middle"/>
+<pin name="13" x="-5.08" y="20.32" visible="pin" length="middle"/>
+<pin name="14" x="-5.08" y="17.78" visible="pin" length="middle"/>
+<pin name="15" x="-5.08" y="15.24" visible="pin" length="middle"/>
+<pin name="16" x="-5.08" y="12.7" visible="pin" length="middle"/>
+<pin name="17" x="-5.08" y="10.16" visible="pin" length="middle"/>
+<pin name="18" x="-5.08" y="7.62" visible="pin" length="middle"/>
+<pin name="19" x="-5.08" y="5.08" visible="pin" length="middle"/>
+<pin name="20" x="-5.08" y="2.54" visible="pin" length="middle"/>
+<pin name="21" x="40.64" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="22" x="40.64" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="23" x="40.64" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="24" x="40.64" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="25" x="40.64" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="26" x="40.64" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="27" x="40.64" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="28" x="40.64" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="29" x="40.64" y="22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="30" x="40.64" y="25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="31" x="40.64" y="27.94" visible="pin" length="middle" rot="R180"/>
+<pin name="32" x="40.64" y="30.48" visible="pin" length="middle" rot="R180"/>
+<pin name="33" x="40.64" y="33.02" visible="pin" length="middle" rot="R180"/>
+<pin name="34" x="40.64" y="35.56" visible="pin" length="middle" rot="R180"/>
+<pin name="35" x="40.64" y="38.1" visible="pin" length="middle" rot="R180"/>
+<pin name="36" x="40.64" y="40.64" visible="pin" length="middle" rot="R180"/>
+<pin name="37" x="40.64" y="43.18" visible="pin" length="middle" rot="R180"/>
+<pin name="38" x="40.64" y="45.72" visible="pin" length="middle" rot="R180"/>
+<pin name="39" x="40.64" y="48.26" visible="pin" length="middle" rot="R180"/>
+<pin name="40" x="40.64" y="50.8" visible="pin" length="middle" rot="R180"/>
 <wire x1="0" y1="0" x2="35.56" y2="0" width="0.254" layer="94"/>
 <wire x1="35.56" y1="0" x2="35.56" y2="53.34" width="0.254" layer="94"/>
 <wire x1="35.56" y1="53.34" x2="0" y2="53.34" width="0.254" layer="94"/>
@@ -3975,53 +3975,53 @@ push-push type</description>
 </devices>
 </deviceset>
 <deviceset name="DF17(2.0)-40DP-0.5V(57)" prefix="CON">
-<description>&lt;b&gt;Header 40 Position Connector&lt;/b&gt;</description>
+<description>&lt;b&gt;40 Position Header Connector&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="DF17(2.0)-40DP-0.5V(57)" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DF17(2.0)-40DP-0.5V(57)">
 <connects>
-<connect gate="G$1" pin="A0" pad="18"/>
-<connect gate="G$1" pin="A1" pad="20"/>
-<connect gate="G$1" pin="A2" pad="22"/>
-<connect gate="G$1" pin="A3" pad="19"/>
-<connect gate="G$1" pin="A4" pad="21"/>
-<connect gate="G$1" pin="A5" pad="24"/>
-<connect gate="G$1" pin="D0" pad="32"/>
-<connect gate="G$1" pin="D1" pad="9"/>
-<connect gate="G$1" pin="D10" pad="27"/>
-<connect gate="G$1" pin="D11" pad="14"/>
-<connect gate="G$1" pin="D12" pad="26"/>
-<connect gate="G$1" pin="D13" pad="15"/>
-<connect gate="G$1" pin="D14" pad="25"/>
-<connect gate="G$1" pin="D15" pad="16"/>
-<connect gate="G$1" pin="D2" pad="17"/>
-<connect gate="G$1" pin="D3" pad="29"/>
-<connect gate="G$1" pin="D4" pad="10"/>
-<connect gate="G$1" pin="D5" pad="30"/>
-<connect gate="G$1" pin="D6" pad="12"/>
-<connect gate="G$1" pin="D7" pad="31"/>
-<connect gate="G$1" pin="D8" pad="11"/>
-<connect gate="G$1" pin="D9" pad="23"/>
-<connect gate="G$1" pin="GND(1)" pad="5"/>
-<connect gate="G$1" pin="GND(2)" pad="13"/>
-<connect gate="G$1" pin="GND(3)" pad="28"/>
-<connect gate="G$1" pin="GND(4)" pad="36"/>
-<connect gate="G$1" pin="GND(5)" pad="37"/>
-<connect gate="G$1" pin="JTAG_RST" pad="4"/>
-<connect gate="G$1" pin="JTAG_TCK" pad="2"/>
-<connect gate="G$1" pin="JTAG_TDO" pad="38"/>
-<connect gate="G$1" pin="JTAG_TMS" pad="39"/>
-<connect gate="G$1" pin="LS" pad="34"/>
-<connect gate="G$1" pin="MBED_RX" pad="40"/>
-<connect gate="G$1" pin="MBED_TX" pad="1"/>
-<connect gate="G$1" pin="NC(1)" pad="3"/>
-<connect gate="G$1" pin="NC(2)" pad="6"/>
-<connect gate="G$1" pin="NC(3)" pad="7"/>
-<connect gate="G$1" pin="NRST" pad="35"/>
-<connect gate="G$1" pin="VCC_MTQ(1)" pad="8"/>
-<connect gate="G$1" pin="VCC_MTQ(2)" pad="33"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="38" pad="38"/>
+<connect gate="G$1" pin="39" pad="39"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="40" pad="40"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name="">
