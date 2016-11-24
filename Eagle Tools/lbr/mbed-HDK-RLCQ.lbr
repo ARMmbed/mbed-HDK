@@ -744,6 +744,18 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pin name="GND" x="-5.08" y="2.54" visible="pin" length="middle"/>
 <pin name="VCC" x="-5.08" y="7.62" visible="pin" length="middle"/>
 </symbol>
+<symbol name="FERRITE_BEAD">
+<wire x1="-1.905" y1="0" x2="-0.635" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0.635" y1="0" x2="1.905" y2="0" width="0.254" layer="94" curve="-180"/>
+<text x="-2.54" y="5.08" size="1.27" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="-2.54" y="2.54" size="1.27" layer="96" font="vector" ratio="12">&gt;VALUE</text>
+<pin name="P$1" x="-2.54" y="0" visible="off" length="point"/>
+<pin name="P$2" x="2.54" y="0" visible="off" length="point" rot="R180"/>
+<wire x1="-1.905" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<rectangle x1="-2.54" y1="1.27" x2="2.54" y2="1.778" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RESISTOR" prefix="R" uservalue="yes">
@@ -1073,6 +1085,32 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <connect gate="G$1" pin="EN" pad="P$1"/>
 <connect gate="G$1" pin="GND" pad="P$2"/>
 <connect gate="G$1" pin="VCC" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FERRITE" prefix="L" uservalue="yes">
+<description>&lt;b&gt;Ferrite Bead&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402" package="0402">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
