@@ -69,7 +69,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -730,6 +730,114 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="-2.54" y="-12.7" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
 <text x="-2.54" y="-13.97" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
 </package>
+<package name="WSON_3X2.5">
+<smd name="1" x="-1.397" y="0.751840625" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-1.397" y="0.251840625" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="-1.397" y="-0.248159375" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="-1.397" y="-0.748159375" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="1.403" y="0.751840625" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="1.403" y="0.251840625" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="1.403" y="-0.248159375" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="1.403" y="-0.748159375" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="9" x="0.003" y="0.001840625" dx="1.5" dy="1.6" layer="1" rot="R90"/>
+<circle x="-1.737359375" y="1.483359375" radius="0.127" width="0.127" layer="21"/>
+<text x="-2.49681875" y="-2.46888125" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="1.2319" x2="-1.5" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.25" x2="-1.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.25" x2="1.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.127" layer="21"/>
+</package>
+<package name="DSC-S-PWSON-N10">
+<wire x1="1.5" y1="1.475" x2="1.5" y2="-1.475" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="-1.475" x2="-1.4875" y2="-1.475" width="0.2032" layer="51"/>
+<wire x1="-1.4875" y1="-1.475" x2="-1.4875" y2="1.475" width="0.2032" layer="51"/>
+<wire x1="-1.4875" y1="1.475" x2="1.5" y2="1.475" width="0.2032" layer="51"/>
+<circle x="-1" y="-1.1775" radius="0.1752" width="0" layer="29"/>
+<circle x="-1" y="-1.1775" radius="0.115" width="0" layer="31"/>
+<circle x="-0.5" y="-1.1775" radius="0.115" width="0" layer="31"/>
+<circle x="0" y="-1.1775" radius="0.115" width="0" layer="31"/>
+<circle x="0.5" y="-1.1775" radius="0.115" width="0" layer="31"/>
+<circle x="1" y="-1.1775" radius="0.115" width="0" layer="31"/>
+<circle x="1" y="1.19" radius="0.115" width="0" layer="31"/>
+<circle x="0.5" y="1.19" radius="0.115" width="0" layer="31"/>
+<circle x="0" y="1.19" radius="0.115" width="0" layer="31"/>
+<circle x="-0.5" y="1.19" radius="0.115" width="0" layer="31"/>
+<circle x="-1" y="1.19" radius="0.115" width="0" layer="31"/>
+<circle x="-0.5" y="-1.1775" radius="0.1752" width="0" layer="29"/>
+<circle x="0" y="-1.1775" radius="0.1752" width="0" layer="29"/>
+<circle x="0.5" y="-1.1775" radius="0.1752" width="0" layer="29"/>
+<circle x="1" y="-1.1775" radius="0.1752" width="0" layer="29"/>
+<circle x="1" y="1.19" radius="0.1752" width="0" layer="29"/>
+<circle x="0.5" y="1.19" radius="0.1752" width="0" layer="29"/>
+<circle x="0" y="1.19" radius="0.1752" width="0" layer="29"/>
+<circle x="-0.5" y="1.19" radius="0.1752" width="0" layer="29"/>
+<circle x="-1" y="1.19" radius="0.1752" width="0" layer="29"/>
+<pad name="PP@5" x="0.5" y="0.5" drill="0.3" diameter="0.4" rot="R270" stop="no"/>
+<pad name="PP@7" x="0" y="0" drill="0.3" diameter="0.4" rot="R270" stop="no"/>
+<pad name="PP@8" x="0.5" y="-0.5" drill="0.3" diameter="0.4" rot="R270" stop="no"/>
+<pad name="PP@9" x="-0.5" y="0.5" drill="0.3" diameter="0.4" rot="R270" stop="no"/>
+<pad name="PP@10" x="-0.5" y="-0.5" drill="0.3" diameter="0.4" rot="R270" stop="no"/>
+<smd name="PP@1" x="0.6" y="0" dx="3.55" dy="0.25" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="PP" x="0" y="0" dx="2.15" dy="1.7" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="1" x="-1.4875" y="1" dx="0.85" dy="0.28" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-1.4875" y="0.5" dx="0.85" dy="0.28" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-1.4875" y="0" dx="0.85" dy="0.28" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-1.4875" y="-0.5" dx="0.85" dy="0.28" layer="1" stop="no" cream="no"/>
+<smd name="5" x="-1.4875" y="-1" dx="0.85" dy="0.28" layer="1" stop="no" cream="no"/>
+<smd name="6" x="1.5" y="-1" dx="0.85" dy="0.28" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="7" x="1.5" y="-0.5" dx="0.85" dy="0.28" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="8" x="1.5" y="0" dx="0.85" dy="0.28" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="9" x="1.5" y="0.5" dx="0.85" dy="0.28" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="10" x="1.5" y="1" dx="0.85" dy="0.28" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="PP@2" x="0.2" y="0" dx="3.55" dy="0.25" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="PP@3" x="-0.2" y="0" dx="3.55" dy="0.25" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="PP@4" x="-0.6" y="0" dx="3.55" dy="0.25" layer="1" rot="R270" stop="no" cream="no"/>
+<text x="-2.5" y="2.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-3.5" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8" y1="0.45" x2="-1.05" y2="0.75" layer="29"/>
+<rectangle x1="-1.8" y1="0.04" x2="-1.05" y2="0.365" layer="29"/>
+<rectangle x1="-1.2" y1="-0.9" x2="1.225" y2="0.9" layer="29"/>
+<rectangle x1="-1.775" y1="0.475" x2="-1.2" y2="0.725" layer="31"/>
+<rectangle x1="-1.775" y1="0.09" x2="-1.2" y2="0.315" layer="31"/>
+<rectangle x1="-1" y1="0.1" x2="-0.1" y2="0.775" layer="31"/>
+<rectangle x1="-1.175" y1="-1.9375" x2="-0.825" y2="-1.1775" layer="29"/>
+<rectangle x1="-1.3425" y1="-1.635" x2="-0.6575" y2="-1.405" layer="31" rot="R90"/>
+<rectangle x1="-0.8425" y1="-1.635" x2="-0.1575" y2="-1.405" layer="31" rot="R90"/>
+<rectangle x1="-0.3425" y1="-1.635" x2="0.3425" y2="-1.405" layer="31" rot="R90"/>
+<rectangle x1="0.1575" y1="-1.635" x2="0.8425" y2="-1.405" layer="31" rot="R90"/>
+<rectangle x1="0.6575" y1="-1.635" x2="1.3425" y2="-1.405" layer="31" rot="R90"/>
+<rectangle x1="0.6575" y1="1.4175" x2="1.3425" y2="1.6475" layer="31" rot="R270"/>
+<rectangle x1="0.1575" y1="1.4175" x2="0.8425" y2="1.6475" layer="31" rot="R270"/>
+<rectangle x1="-0.3425" y1="1.4175" x2="0.3425" y2="1.6475" layer="31" rot="R270"/>
+<rectangle x1="-0.8425" y1="1.4175" x2="-0.1575" y2="1.6475" layer="31" rot="R270"/>
+<rectangle x1="-1.3425" y1="1.4175" x2="-0.6575" y2="1.6475" layer="31" rot="R270"/>
+<rectangle x1="-0.675" y1="-1.9375" x2="-0.325" y2="-1.1775" layer="29"/>
+<rectangle x1="-0.175" y1="-1.9375" x2="0.175" y2="-1.1775" layer="29"/>
+<rectangle x1="0.325" y1="-1.9375" x2="0.675" y2="-1.1775" layer="29"/>
+<rectangle x1="0.825" y1="-1.9375" x2="1.175" y2="-1.1775" layer="29"/>
+<rectangle x1="0.825" y1="1.19" x2="1.175" y2="1.95" layer="29" rot="R180"/>
+<rectangle x1="0.325" y1="1.19" x2="0.675" y2="1.95" layer="29" rot="R180"/>
+<rectangle x1="-0.175" y1="1.19" x2="0.175" y2="1.95" layer="29" rot="R180"/>
+<rectangle x1="-0.675" y1="1.19" x2="-0.325" y2="1.95" layer="29" rot="R180"/>
+<rectangle x1="-1.175" y1="1.19" x2="-0.825" y2="1.95" layer="29" rot="R180"/>
+<rectangle x1="-1.775" y1="-0.725" x2="-1.2" y2="-0.475" layer="31"/>
+<rectangle x1="-1.8" y1="-0.75" x2="-1.05" y2="-0.45" layer="29"/>
+<rectangle x1="-1.8" y1="-0.365" x2="-1.05" y2="-0.04" layer="29"/>
+<rectangle x1="-1.775" y1="-0.315" x2="-1.2" y2="-0.09" layer="31"/>
+<rectangle x1="1.05" y1="-0.75" x2="1.8" y2="-0.45" layer="29" rot="R180"/>
+<rectangle x1="1.05" y1="-0.365" x2="1.8" y2="-0.04" layer="29" rot="R180"/>
+<rectangle x1="1.2" y1="-0.725" x2="1.775" y2="-0.475" layer="31" rot="R180"/>
+<rectangle x1="1.2" y1="-0.315" x2="1.775" y2="-0.09" layer="31" rot="R180"/>
+<rectangle x1="1.2" y1="0.475" x2="1.775" y2="0.725" layer="31" rot="R180"/>
+<rectangle x1="1.05" y1="0.45" x2="1.8" y2="0.75" layer="29" rot="R180"/>
+<rectangle x1="1.05" y1="0.04" x2="1.8" y2="0.365" layer="29" rot="R180"/>
+<rectangle x1="1.2" y1="0.09" x2="1.775" y2="0.315" layer="31" rot="R180"/>
+<rectangle x1="0.1" y1="-0.775" x2="1" y2="-0.1" layer="31" rot="R180"/>
+<rectangle x1="0.1" y1="0.1" x2="1" y2="0.775" layer="31"/>
+<rectangle x1="-1" y1="-0.775" x2="-0.1" y2="-0.1" layer="31" rot="R180"/>
+<circle x="-1.8034" y="1.8161" radius="0.127" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MMA8653FC">
@@ -1021,6 +1129,42 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="0" y="-5.08" size="1.778" layer="95" font="vector" ratio="12">&gt;NAME</text>
 <text x="0" y="-7.62" size="1.778" layer="96" font="vector" ratio="12">&gt;VALUE</text>
 </symbol>
+<symbol name="LP38502SD-ADJ">
+<pin name="GND(1)" x="-5.08" y="22.86" visible="pin" length="middle"/>
+<pin name="IN/EN" x="-5.08" y="20.32" visible="pin" length="middle"/>
+<pin name="IN(1)" x="-5.08" y="17.78" visible="pin" length="middle"/>
+<pin name="IN(2)" x="-5.08" y="15.24" visible="pin" length="middle"/>
+<pin name="OUT(3)" x="33.02" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT(2)" x="33.02" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT(1)" x="33.02" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="ADJ" x="33.02" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="DAP" x="33.02" y="22.86" visible="pin" length="middle" rot="R180"/>
+<wire x1="0" y1="25.4" x2="0" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="10.16" x2="27.94" y2="10.16" width="0.254" layer="94"/>
+<wire x1="27.94" y1="10.16" x2="27.94" y2="25.4" width="0.254" layer="94"/>
+<wire x1="27.94" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
+<text x="0" y="25.4" size="1.778" layer="95" ratio="12">&gt;NAME</text>
+<text x="0" y="7.62" size="1.778" layer="96" ratio="12">LP38502SD-ADJ</text>
+</symbol>
+<symbol name="TPS63060DSCR">
+<pin name="EN" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="FB" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="GND" x="-12.7" y="-12.7" length="short" direction="in"/>
+<pin name="L1" x="12.7" y="10.16" length="short" direction="in" rot="R180"/>
+<pin name="L2" x="12.7" y="7.62" length="short" direction="in" rot="R180"/>
+<pin name="PS/SYNC" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="PG" x="12.7" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="PGND" x="12.7" y="-12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="VIN" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="VOUT" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="VAUX" x="-12.7" y="0" length="short" direction="pwr"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-17.78" size="1.778" layer="96">TPS63060DSCR</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="USBLC6-2" prefix="IC">
@@ -1060,6 +1204,68 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LP38502SD-ADJ">
+<description>&lt;b&gt;LDO Adjustable Regulator 0.6 V ~ 5 V: 1.5A&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LP38502SD-ADJ" x="-15.24" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="WSON_3X2.5">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="8"/>
+<connect gate="G$1" pin="DAP" pad="9"/>
+<connect gate="G$1" pin="GND(1)" pad="1"/>
+<connect gate="G$1" pin="IN(1)" pad="3"/>
+<connect gate="G$1" pin="IN(2)" pad="4"/>
+<connect gate="G$1" pin="IN/EN" pad="2"/>
+<connect gate="G$1" pin="OUT(1)" pad="7"/>
+<connect gate="G$1" pin="OUT(2)" pad="6"/>
+<connect gate="G$1" pin="OUT(3)" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="TEXAS INSTRUMENTS" constant="no"/>
+<attribute name="MFN" value="LP38502SD-ADJ/NOPB" constant="no"/>
+<attribute name="OC-DIGIKEY" value="LP38502SD-ADJ/NOPBCT-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="926-38502SD-ADJ/NOPB" constant="no"/>
+<attribute name="OC-NEWARK" value="64M7066" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS63060DSCR">
+<description>&lt;b&gt; Buck Boost Conveter (2.5V-12Vin, 2.5V-8Vout, 2Aout) &lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS63060DSCR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DSC-S-PWSON-N10">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="FB" pad="8"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="L1" pad="1"/>
+<connect gate="G$1" pin="L2" pad="10"/>
+<connect gate="G$1" pin="PG" pad="5"/>
+<connect gate="G$1" pin="PGND" pad="PP PP@1 PP@2 PP@3 PP@4 PP@5 PP@7 PP@8 PP@9 PP@10"/>
+<connect gate="G$1" pin="PS/SYNC" pad="4"/>
+<connect gate="G$1" pin="VAUX" pad="6"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="TEXAS INSTRUMENTS" constant="no"/>
+<attribute name="MFN" value="TPS63060DSCR" constant="no"/>
+<attribute name="OC-DIGIKEY" value="296-30204-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="595-TPS63060DSCR" constant="no"/>
+<attribute name="OC-NEWARK" value="76T8143" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

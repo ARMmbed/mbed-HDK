@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -6409,16 +6409,16 @@
 <pad name="AREF" x="15.53" y="-2.75" drill="1" shape="long" rot="R90"/>
 <pad name="GPIOC_4/INT/I2C1_SDA(A)/SPI0_CS1/I2S1_SDRX/MII_TXD3" x="12.99" y="-2.75" drill="1" shape="long" rot="R90"/>
 <wire x1="46.2" y1="-54.49" x2="46.2" y2="-69.55" width="0.254" layer="20"/>
-<wire x1="46.19" y1="-69.55" x2="3.17" y2="-69.55" width="0.254" layer="20"/>
-<wire x1="57.59" y1="-0.05" x2="0.19" y2="-0.05" width="0.254" layer="20"/>
-<wire x1="0.09" y1="-0.05" x2="0.09" y2="-66.55" width="0.254" layer="20"/>
+<wire x1="46.19" y1="-69.55" x2="-0.33" y2="-69.55" width="0.254" layer="20"/>
+<wire x1="57.59" y1="-0.05" x2="-3.41" y2="-0.05" width="0.254" layer="20"/>
+<wire x1="-3.41" y1="-0.05" x2="-3.41" y2="-66.55" width="0.254" layer="20"/>
 <pad name="GPIOC_5/INT/I2C1_SCL(A)/SPI0_CS2/MII_TXEN" x="10.45" y="-2.75" drill="1" shape="long" rot="R90"/>
 <pad name="GPIOB_3/INT/I2C3_SDA" x="7.91" y="-2.75" drill="1" shape="long" rot="R90"/>
 <pad name="GPIOB_2/I2C3_SCL" x="5.37" y="-2.75" drill="1" shape="long" rot="R90"/>
 <wire x1="57.64" y1="-0.06" x2="57.65" y2="-54.49" width="0.254" layer="20"/>
 <pad name="P$1" x="22.8" y="-57.75" drill="3" diameter="5"/>
-<wire x1="0.11" y1="-66.43" x2="0.11" y2="-66.46" width="0.254" layer="20"/>
-<wire x1="0.11" y1="-66.46" x2="3.21" y2="-69.56" width="0.254" layer="20" curve="90"/>
+<wire x1="-0.35" y1="-69.55" x2="-0.48" y2="-69.55" width="0.254" layer="20"/>
+<wire x1="-0.48" y1="-69.55" x2="-3.4" y2="-66.63" width="0.254" layer="20" curve="-90"/>
 </package>
 <package name="MULITECH-DRAGONFLY-BREAKOUT">
 <wire x1="0.005" y1="-0.025" x2="-16.545" y2="-0.035" width="0.127" layer="49"/>
