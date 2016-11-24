@@ -1092,7 +1092,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FERRITE" prefix="L" uservalue="yes">
+<deviceset name="FERRITE" prefix="FB" uservalue="yes">
 <description>&lt;b&gt;Ferrite Bead&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
