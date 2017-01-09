@@ -775,6 +775,8 @@
 <wire x1="0.5" y1="-2.8" x2="0.5" y2="-4" width="0.127" layer="21"/>
 <wire x1="0.5" y1="-2.8" x2="4" y2="-2.8" width="0.127" layer="21"/>
 <wire x1="4" y1="-2.8" x2="4" y2="-2.9" width="0.01" layer="21"/>
+<rectangle x1="-1.27" y1="-2.794" x2="5.7785" y2="4.318" layer="39"/>
+<rectangle x1="0.508" y1="-4.0005" x2="4.0005" y2="-2.8575" layer="39"/>
 </package>
 <package name="EVQ-P7A01P">
 <smd name="1" x="0" y="0" dx="1.4" dy="1.05" layer="1"/>
@@ -791,6 +793,8 @@
 <wire x1="2.65" y1="-2.85" x2="0.95" y2="-2.85" width="0.127" layer="21"/>
 <wire x1="0.95" y1="-2.85" x2="0.95" y2="-2.15" width="0.127" layer="21"/>
 <text x="-0.1" y="1.27" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<rectangle x1="-0.0635" y1="-2.159" x2="3.556" y2="0.6985" layer="39"/>
+<rectangle x1="0.9525" y1="-2.8575" x2="2.6035" y2="-2.159" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -1191,48 +1195,8 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SPST-4" prefix="SW">
-<gates>
-<gate name="G$1" symbol="SPST-4" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="TP-1138K9-BE1125-GULL">
-<connects>
-<connect gate="G$1" pin="A1" pad="1"/>
-<connect gate="G$1" pin="A2" pad="4"/>
-<connect gate="G$1" pin="B1" pad="2"/>
-<connect gate="G$1" pin="B2" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_TP1154_J" package="TP-1154X">
-<connects>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="B1" pad="B1"/>
-<connect gate="G$1" pin="B2" pad="B2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_ST-1162JX" package="ST-1162JX">
-<connects>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="B1" pad="B1"/>
-<connect gate="G$1" pin="B2" pad="B2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SKRKAEE010" prefix="SW">
-<description>&lt;B&gt;SWITCH PUSH (SPST)&lt;/B&gt;</description>
+<description>&lt;B&gt;SWITCH PUSH VERTICAL (SPST)&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPST" x="0" y="0"/>
 </gates>
@@ -1243,7 +1207,13 @@
 <connect gate="G$1" pin="S" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="ALPS" constant="no"/>
+<attribute name="MFN" value="SKRKAEE010" constant="no"/>
+<attribute name="OC-DIGIKEY" value="" constant="no"/>
+<attribute name="OC-MOUSER" value="688-SKRKAE" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1260,7 +1230,13 @@
 <connect gate="G$1" pin="S" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Multicomp" constant="no"/>
+<attribute name="MFN" value="DTSM-32S-B" constant="no"/>
+<attribute name="OC-DIGIKEY" value="" constant="no"/>
+<attribute name="OC-MOUSER" value="" constant="no"/>
+<attribute name="OC-NEWARK" value="9471898" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

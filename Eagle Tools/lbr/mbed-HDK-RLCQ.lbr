@@ -668,6 +668,16 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <vertex x="-3.3" y="3.55"/>
 </polygon>
 </package>
+<package name="XFL4020-472MEC">
+<smd name="P$1" x="0" y="0" dx="0.98" dy="3.4" layer="1"/>
+<smd name="P$2" x="2.37" y="0" dx="0.98" dy="3.4" layer="1"/>
+<wire x1="-0.80695" y1="2.03125" x2="-0.80695" y2="-1.96875" width="0.127" layer="21"/>
+<wire x1="-0.80695" y1="-1.96875" x2="3.19305" y2="-1.96875" width="0.127" layer="21"/>
+<wire x1="3.19305" y1="-1.96875" x2="3.19305" y2="2.03125" width="0.127" layer="21"/>
+<wire x1="3.19305" y1="2.03125" x2="-0.80695" y2="2.03125" width="0.127" layer="21"/>
+<text x="-0.84455" y="2.49555" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-0.8636" y="-3.38455" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -1070,6 +1080,21 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+<device name="XFL4020" package="XFL4020-472MEC">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="CoilCraft" constant="no"/>
+<attribute name="MFN" value="XFL4020-472MEC" constant="no"/>
+<attribute name="OC-DIGIKEY" value="" constant="no"/>
+<attribute name="OC-MOUSER" value="" constant="no"/>
+<attribute name="OC-NEWARK" value="2289218" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

@@ -242,6 +242,7 @@
 </symbols>
 <devicesets>
 <deviceset name="ONSEMI-LAKOTA" prefix="MOD">
+<description>&lt;b&gt;Lakota RF Module 1.0&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ONSEMI-LAKOTA" x="0" y="0"/>
 </gates>
@@ -279,7 +280,13 @@
 <connect gate="G$1" pin="VDDIO" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MFN" value="" constant="no"/>
+<attribute name="OC-DIGIKEY" value="" constant="no"/>
+<attribute name="OC-MOUSER" value="" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

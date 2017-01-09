@@ -2802,6 +2802,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </symbols>
 <devicesets>
 <deviceset name="MKL25Z128VLK4" prefix="IC">
+<description>&lt;b&gt; Kinetis KL25: 48MHz Cortex-M0+ Ultra-Low Power MCU, 128KB Flash, 16KB SRAM, Full-Speed USB, 80-LQFP &lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MKL25Z128VLK4" x="0" y="0"/>
 </gates>
@@ -2890,12 +2891,19 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <connect gate="G$1" pin="XTALOUT" pad="41"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="MKL25Z128VLK4" constant="no"/>
+<attribute name="OC-DIGIKEY" value="MKL25Z128VLK4-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="841-MKL25Z128VLK4" constant="no"/>
+<attribute name="OC-NEWARK" value="44W0180" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MK64FN1M0VLL12" prefix="IC">
+<description>&lt;b&gt;Kinetis K64: 120MHz Cortex-M4F MCU, 1MB Flash, 256KB SRAM, Full-Speed USB, Ethernet, 100-LQFP&lt;/b&gt;</description>
 <gates>
 <gate name="IO" symbol="MK64FN1M0VLL12-IO" x="5.08" y="-2.54" addlevel="always"/>
 <gate name="SYSTEM" symbol="MK64FN1M0VLL12-SYSTEM" x="-50.8" y="5.08" addlevel="always"/>
@@ -3005,43 +3013,19 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <connect gate="SYSTEM" pin="XTAL32" pad="28"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="MK64FN1M0VLL12" constant="no"/>
+<attribute name="OC-DIGIKEY" value="MK64FN1M0VLL12-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="841-MK64FN1M0VLL12" constant="no"/>
+<attribute name="OC-NEWARK" value="2396526" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="LPC4088FET208" prefix="IC">
-<description>&lt;H2&gt;32-bit ARM Cortex-M4 MCU; up to 512 kB flash, 96 kB SRAM; 
-USB Device/Host/OTG; Ethernet; LCD; EMC; SPIFI&lt;/H2&gt;
-The LPC408x/7x is an ARM Cortex-M4 based digital signal controller for embedded 
-applications requiring a high level of integration and low power dissipation.
-The ARM Cortex-M4 is a next generation core that offers system enhancements such as 
-low power consumption, enhanced debug features, and a high level of support block 
-integration. The ARM Cortex-M4 CPU incorporates a 3-stage pipeline, uses a Harvard 
-architecture with separate local instruction and data buses as well as a third bus for 
-peripherals, and includes an internal prefetch unit that supports speculative branching. 
-The ARM Cortex-M4 supports single-cycle digital signal processing and SIMD 
-instructions. A hardware floating-point processor is integrated in the core for several 
-versions of the part. 
-The LPC408x/7x adds a specialized flash memory accelerator to accomplish optimal 
-performance when executing code from flash. The LPC408x/7x is targeted to operate at 
-up to 120 MHz CPU frequency.
-The peripheral complement of the LPC408x/7x includes up to 512 kB of flash program 
-memory, up to 96 kB of SRAM data memory, up to 4032 byte of EEPROM data memory, 
-External Memory controller (EMC), LCD, Ethernet, USB Device/Host/OTG, an SPI Flash 
-Interface (SPIFI), a General Purpose DMA controller, five UARTs, three SSP controllers, 
-three I
-2
-C-bus interfaces, a Quadrature Encoder Interface, four general purpose timers, 
-two general purpose PWMs with six outputs each and one motor control PWM, an 
-ultra-low power RTC with separate battery supply and event recorder, a windowed 
-watchdog timer, a CRC calculation engine and up to 165 general purpose I/O pins. 
-The analog peripherals include one eight-channel 12-bit ADC, two analog comparators, 
-and a DAC.
-The pinout of LPC408x/7x is intended to allow pin function compatibility with the 
-LPC24xx/23xx as well as the LPC178x/7x families.
-&lt;p&gt;&lt;author&gt;AAL Eindhoven MK&lt;/author&gt;&lt;hr&gt;&lt;p&gt;
- &lt;img src="http://www.nxp.com/img/NXP_logo.png"&gt;</description>
+<description>&lt;B&gt;LPC408x - 32-bit ARM Cortex-M4 MCU; up to 512 kB flash, 96 kB SRAM; USB Device/Host/OTG; Ethernet; LCD; EMC; SPIFI&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC40X8FYY208" x="0" y="0"/>
 </gates>
@@ -3236,12 +3220,19 @@ LPC24xx/23xx as well as the LPC178x/7x families.
 <connect gate="G$1" pin="XTAL2" pad="N4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="LPC4088FET208,551" constant="no"/>
+<attribute name="OC-DIGIKEY" value="568-9832-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="771-LPC4088FET208551" constant="no"/>
+<attribute name="OC-NEWARK" value="2285015" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LPC1768" prefix="IC">
+<deviceset name="LPC1768FBD100" prefix="IC">
+<description>&lt;b&gt;32 Bit Microcontroller, ARM Cortex-M3, 100 MHz, 512 KB, 64 KB, 100 Pins, LQFP&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC1768" x="-2.54" y="0"/>
 </gates>
@@ -3350,35 +3341,19 @@ LPC24xx/23xx as well as the LPC178x/7x families.
 <connect gate="G$1" pin="X2" pad="23"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="LPC1768FBD100" constant="no"/>
+<attribute name="OC-DIGIKEY" value="568-4796-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="771-LPC1768FBD100551" constant="no"/>
+<attribute name="OC-NEWARK" value="15R1840" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="LPC1347FBD64" prefix="IC">
-<description>&lt;H2&gt;32-bit ARM Cortex-M3 microcontroller; up to 64  kB flash;        
-up to 12 kB SRAM; USB device; USART; EEPROM&lt;/H2&gt;
-The LPC1315/16/17/45/46/47 are ARM Cortex-M3 based microcontrollers for embedded 
-applications featuring a high level of integration and low power consumption. The ARM 
-Cortex-M3 is a next generation core that offers system enhancements such as enhanced 
-debug features and a higher level of support block integration.
-The LPC1315/16/17/45/46/47 operate at CPU frequencies of up to 72 MHz. The ARM 
-Cortex-M3 CPU incorporates a 3-stage pipeline and uses a Harvard architecture with 
-separate local instruction and data buses as well as a third bus for peripherals. The ARM 
-Cortex-M3 CPU also includes an internal prefetch unit that supports speculative 
-branching. 
-Equipped with a highly flexible and configurable Full-Speed USB 2.0 device controller 
-available on the LPC1345/46/47, this series brings unparalleled design flexibility and 
-seamless integration to today’s demanding connectivity solutions.
-The peripheral complement of the LPC1315/16/17/45/46/47 includes up to 64 kB of flash 
-memory, 8 kB or 10 kB of SRAM data memory, one Fast-mode Plus I
-2
-C-bus interface, one 
-RS-485/EIA-485 USART with support for synchronous mode and smart card interface, 
-two SSP interfaces, four general purpose counter/timers, an 8-channel, 12-bit ADC, and 
-up to 51 general purpose I/O pins.
-&lt;p&gt;&lt;author&gt;AAL Eindhoven MK&lt;/author&gt;&lt;hr&gt;&lt;p&gt;
- &lt;img src="http://www.nxp.com/img/NXP_logo.png"&gt;</description>
+<description>&lt;B&gt;32 Bit Microcontroller, ARM Cortex-M3, 72 MHz, 64 KB, 10 KB, 64 Pins, LQFP&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC1347FBD64" x="0" y="0"/>
 </gates>
@@ -3449,38 +3424,18 @@ up to 51 general purpose I/O pins.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="EEPROM" value="4kB"/>
-<attribute name="FLASH" value="64kB"/>
-<attribute name="GPIO" value="51"/>
-<attribute name="SRAM0" value="8kB"/>
-<attribute name="SRAM1" value="2kB"/>
-<attribute name="SRAM_USB" value="2kB"/>
-<attribute name="USB" value="yes"/>
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="LPC1347FBD64" constant="no"/>
+<attribute name="OC-DIGIKEY" value="568-9597-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="771-LPC1347FBD64,551" constant="no"/>
+<attribute name="OC-NEWARK" value="2103478" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="LPC1114FN28" prefix="U">
-<description>&lt;H2&gt;32-bit ARM Cortex-M0 microcontroller; up to 64 kB flash and 8 kB SRAM&lt;/H2&gt;
-The LPC1110/11/12/13/14/15 are a ARM Cortex-M0 based, low-cost 32-bit MCU family, 
-designed for 8/16-bit microcontroller applications, offering performance, low power, simple 
-instruction set and memory addressing together with reduced code size compared to 
-existing 8/16-bit architectures.
-The LPC1110/11/12/13/14/15 operate at CPU frequencies of up to 50 MHz. 
-The peripheral complement of the LPC1110/11/12/13/14/15 includes up to 64 kB of flash 
-memory, up to 8 kB of data memory, one Fast-mode Plus I
-2
-C-bus interface, one 
-RS-485/EIA-485 UART, up to two SPI interfaces with SSP features, four general purpose 
-counter/timers, a 10-bit ADC, and up to 42 general purpose I/O pins.
-Remark: The LPC111x series consists of the LPC1100 series (parts 
-LPC111x/101/201/301), LPC1100L series (parts LPC111x/002/102/202/302), and the 
-LPC1100XL series (parts LPC111x/103/203/303/323/333). The LPC1100L and 
-LPC1100XL series include the power profiles, a windowed watchdog timer, and a 
-configurable open-drain mode.
-&lt;p&gt;&lt;author&gt;AAL Eindhoven MK&lt;/author&gt;&lt;hr&gt;&lt;p&gt;
- &lt;img src="http://www.nxp.com/img/NXP_logo.png"&gt;</description>
+<description>&lt;B&gt;32BIT MCU IC, CORTEX-M0, 50MHZ, DIP-28&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC1112FDH28" x="0" y="0"/>
 </gates>
@@ -3518,32 +3473,18 @@ configurable open-drain mode.
 </connects>
 <technologies>
 <technology name="/102">
-<attribute name="ADC" value="6"/>
-<attribute name="FLASH" value="32kB"/>
-<attribute name="GPIO" value="22"/>
-<attribute name="PWR_PROFILES" value="yes"/>
-<attribute name="SERIES" value="LPC1100L"/>
-<attribute name="SPI" value="1"/>
-<attribute name="SRAM" value="4kB"/>
+<attribute name="MF" value="NXP"/>
+<attribute name="MFN" value="LPC1114FN28/102"/>
+<attribute name="OC-DIGIKEY" value="568-10143-5-ND"/>
+<attribute name="OC-MOUSER" value=""/>
+<attribute name="OC-NEWARK" value="2290161"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="LPC812M101" prefix="IC">
-<description>&lt;H2&gt;32-bit ARM Cortex-M0+ microcontroller&lt;/H2&gt;
-The LPC81xM are an ARM Cortex-M0+ based, low-cost 32-bit MCU family operating at 
-CPU frequencies of up to 30 MHz. The LPC81xM support up to 16 kB of flash memory 
-and 4 kB of SRAM.
-The peripheral complement of the LPC81xM includes a CRC engine, one I
-2
-C-bus 
-interface, up to three USARTs, up to two SPI interfaces, one multi-rate timer, self wake-up 
-timer, and state-configurable timer, one comparator, function-configurable I/O ports 
-through a switch matrix, an input pattern match engine, and up to 18 general-purpose I/O 
-pins.
-&lt;p&gt;&lt;author&gt;AAL Eindhoven MK&lt;/author&gt;&lt;hr&gt;&lt;p&gt;
- &lt;img src="http://www.nxp.com/img/NXP_logo.png"&gt;</description>
+<description>&lt;B&gt;ARM Cortex M0+ RISC 16KB Flash 3.3V 20-Pin&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC812M101FD20-1" x="0" y="0"/>
 </gates>
@@ -3573,13 +3514,11 @@ pins.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COMP" value="1"/>
-<attribute name="FLASH" value="16k"/>
-<attribute name="GPIO" value="18"/>
-<attribute name="I2C" value="1"/>
-<attribute name="SPI" value="1"/>
-<attribute name="SRAM" value="4k"/>
-<attribute name="USART" value="2"/>
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="LPC812M101FD20" constant="no"/>
+<attribute name="OC-DIGIKEY" value="" constant="no"/>
+<attribute name="OC-MOUSER" value="" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3608,38 +3547,18 @@ pins.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="COMP" value="1"/>
-<attribute name="FLASH" value="16k"/>
-<attribute name="GPIO" value="18"/>
-<attribute name="I2C" value="1"/>
-<attribute name="SPI" value="2"/>
-<attribute name="SRAM" value="4k"/>
-<attribute name="USART" value="3"/>
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="LPC812M101FDH20" constant="no"/>
+<attribute name="OC-DIGIKEY" value="" constant="no"/>
+<attribute name="OC-MOUSER" value="" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="LPC11U35FHI33" prefix="IC">
-<description>&lt;H2&gt;32-bit ARM Cortex-M0 microcontroller; up to 128  kB flash; up 
-to 12  kB SRAM and 4 kB EEPROM; USB device; USART&lt;/H2&gt;
-The LPC11U3x are a ARM Cortex-M0 based, low-cost 32-bit MCU family, designed for 
-8/16-bit microcontroller applications, offering performance, low power, simple instruction 
-set and memory addressing together with reduced code size compared to existing 8/16-bit 
-architectures.
-The LPC11U3x operate at CPU frequencies of up to 50 MHz.
-Equipped with a highly flexible and configurable Full Speed USB 2.0 device controller, the 
-LPC11U3x brings unparalleled design flexibility and seamless integration to today’s 
-demanding connectivity solutions.
-The peripheral complement of the LPC11U3x includes up to 128 kB of flash memory, up 
-to 12 kB of SRAM data memory and 4 kB EEPROM, one Fast-mode Plus I
-2
-C-bus 
-interface, one RS-485/EIA-485 USART with support for synchronous mode and smart 
-card interface, two SSP interfaces, four general purpose counter/timers, a 10-bit ADC, 
-and up to 54 general purpose I/O pins.
-&lt;p&gt;&lt;author&gt;AAL Eindhoven MK&lt;/author&gt;&lt;hr&gt;&lt;p&gt;
- &lt;img src="http://www.nxp.com/img/NXP_logo.png"&gt;</description>
+<description>&lt;B&gt;32 Bit Microcontroller, ARM Cortex-M0, 50 MHz, 64 KB, 12 KB, 33 Pins, HVQFN&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC11U3X-HVQFN33" x="0" y="0"/>
 </gates>
@@ -3681,21 +3600,18 @@ and up to 54 general purpose I/O pins.
 </connects>
 <technologies>
 <technology name="/501">
-<attribute name="FLASH" value="64kB"/>
-<attribute name="GPIO" value="26"/>
-<attribute name="MF" value="NXP Semiconductors" constant="no"/>
-<attribute name="MFN" value="LPC11U35FHI33/501," constant="no"/>
-<attribute name="NEWARK-OC" value=" 24W5342" constant="no"/>
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="LPC11U35FHI33/501" constant="no"/>
 <attribute name="OC-DIGIKEY" value="568-9586-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="771-LPC11U35FHI33501" constant="no"/>
-<attribute name="SRAM" value="12kB"/>
+<attribute name="OC-NEWARK" value="2115658" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LPC11U24" prefix="IC">
-<description>NXP Cortex-M0 Micrcontroller</description>
+<deviceset name="LPC11U24FBD64/401" prefix="IC">
+<description>&lt;B&gt;32 Bit Microcontroller, ARM Cortex-M0, 50 MHz, 32 KB, 10 KB, 64 Pins, LQFP&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC11U24" x="0" y="0"/>
 </gates>
@@ -3768,13 +3684,19 @@ and up to 54 general purpose I/O pins.
 <connect gate="G$1" pin="XTALOUT" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="LPC11U24FBD64/401" constant="no"/>
+<attribute name="OC-DIGIKEY" value="568-12055-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="771-LPC11U24FBD64401" constant="no"/>
+<attribute name="OC-NEWARK" value="74T4531" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="IF_MKL26Z128VFM4" prefix="IC">
-<description>CMSIS-DAP Interface (MK20DX128)</description>
+<description>&lt;B&gt;CMSIS-DAP Interface - Kinetis KL26: 48MHz Cortex-M0+ Ultra-Low Power MCU, 128KB Flash, 16KB SRAM, Full-Speed USB, 32-QFN&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="MKL26Z128VFM4" x="0" y="0"/>
 </gates>
@@ -3815,13 +3737,19 @@ and up to 54 general purpose I/O pins.
 <connect gate="G$1" pin="XTALOUT" pad="18"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="MKL26Z128VFM4" constant="no"/>
+<attribute name="OC-DIGIKEY" value="MKL26Z128VFM4-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="841-MKL26Z128VFM4" constant="no"/>
+<attribute name="OC-NEWARK" value="69W2668" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IF-MK20DX128" prefix="IC">
-<description>&lt;b&gt;CMSIS-DAP Interface (MK20DX128)&lt;/b&gt;</description>
+<deviceset name="IF_MK20DX128VFM5" prefix="IC">
+<description>&lt;B&gt;CMSIS-DAP Interface : 32-bit K20 ARM Cortex M4 RISC 128KB Flash 1.8V/2.5V/3.3V 32-Pin QFN &lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="MK20DX128VFM5" x="0" y="2.54"/>
 </gates>
@@ -3863,12 +3791,19 @@ and up to 54 general purpose I/O pins.
 <connect gate="G$1" pin="XTALOUT" pad="18"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="MK20DX128VFM5" constant="no"/>
+<attribute name="OC-DIGIKEY" value="MK20DX128VFM5-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="841-MK20DX128VFM5" constant="no"/>
+<attribute name="OC-NEWARK" value="2133567" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IF-LPC11U35" prefix="IC" uservalue="yes">
+<deviceset name="IF_LPC11U35FHN33/401" prefix="IC" uservalue="yes">
+<description>&lt;B&gt;CMSIS-DAP Interface : 32-bit LPC11U00 ARM Cortex M3 RISC 64KB Flash 2.5V/3.3V 33-Pin HVQFN EP&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="IF-LPC11U35" x="0" y="2.54"/>
 </gates>
@@ -3910,7 +3845,13 @@ and up to 54 general purpose I/O pins.
 <connect gate="G$1" pin="XTALOUT" pad="5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="LPC11U35FHN33/401" constant="no"/>
+<attribute name="OC-DIGIKEY" value="LPC11U35FHN33/401,-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="771-LPC11U35FHN33401" constant="no"/>
+<attribute name="OC-NEWARK" value="2115659" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

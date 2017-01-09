@@ -425,6 +425,7 @@
 </symbols>
 <devicesets>
 <deviceset name="NRF51822" prefix="IC">
+<description>&lt;b&gt;nRF51822 BLUETOOTH based module&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NRF51822" x="0" y="0"/>
 </gates>
@@ -481,13 +482,19 @@
 <connect gate="G$1" pin="XC2" pad="38"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Nordic Semiconductor" constant="no"/>
+<attribute name="MFN" value="NRF51822-QFAA-R7" constant="no"/>
+<attribute name="OC-DIGIKEY" value="1490-1031-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="949-NRF51822-QFAA-R7" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="EYSGCNZWY" prefix="MOD" uservalue="yes">
-<description>nRF51822 based module, certified for Japan. As used by Switch Science</description>
+<description>&lt;b&gt;nRF51822 BLUETOOTH based module&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="EYSGCNZWY" x="0" y="0"/>
 </gates>
@@ -545,7 +552,13 @@
 <connect gate="G$1" pin="VCC_NRF" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Taiyo Yuden" constant="no"/>
+<attribute name="MFN" value="EYSGCNZWY" constant="no"/>
+<attribute name="OC-DIGIKEY" value="587-4369-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="963-EYSGCNZWY" constant="no"/>
+<attribute name="OC-NEWARK" value="95Y0806" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

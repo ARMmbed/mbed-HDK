@@ -188,6 +188,7 @@
 </symbols>
 <devicesets>
 <deviceset name="ANTENNA-MEANDER" prefix="ANT">
+<description>&lt;b&gt;Antenna Meander PCB&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ANTENNA-MEANDER" x="0" y="0"/>
 </gates>

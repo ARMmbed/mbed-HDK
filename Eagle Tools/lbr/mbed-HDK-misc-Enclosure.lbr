@@ -9252,14 +9252,21 @@ P260906</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SCHNEIDER_ENN05007_150X110" prefix="CASE">
+<deviceset name="ENN05007" prefix="CASE">
+<description>&lt;b&gt;Enclosure Layout&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="SCHNEIDER_ENN05007_150X110" x="2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="SCHNEIDER_ENN05007_150X110">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Schneider Electric" constant="no"/>
+<attribute name="MFN" value="ENN05007" constant="no"/>
+<attribute name="OC-DIGIKEY" value="" constant="no"/>
+<attribute name="OC-MOUSER" value="" constant="no"/>
+<attribute name="OC-NEWARK" value="1355992" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="_B" package="SCHNEIDER_ENN05007_150X110_B">
@@ -9274,26 +9281,40 @@ P260906</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NEWAGE-P260906" prefix="BRD">
+<deviceset name="P3A-260906U" prefix="BRD">
+<description>&lt;b&gt;Enclosure Layout&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NEWAGE-P260906" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="NEWAGE-P260906">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="New Age Enclosures" constant="no"/>
+<attribute name="MFN" value="P3A-260906U" constant="no"/>
+<attribute name="OC-DIGIKEY" value="" constant="no"/>
+<attribute name="OC-MOUSER" value="789-P3A-260906U" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="HAMMOND-1551USB3GY" prefix="BRD">
+<deviceset name="1551USB3GY" prefix="BRD">
+<description>&lt;b&gt;Enclosure Layout&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="HAMMOND-1551USB3GY" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="HAMMOND-1551USB3GY">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Hammond" constant="no"/>
+<attribute name="MFN" value="1551USB3GY" constant="no"/>
+<attribute name="OC-DIGIKEY" value="HM1466-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="546-1551USB3GY" constant="no"/>
+<attribute name="OC-NEWARK" value="82Y9619" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

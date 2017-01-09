@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -6421,20 +6421,20 @@
 <wire x1="-0.48" y1="-69.55" x2="-3.4" y2="-66.63" width="0.254" layer="20" curve="-90"/>
 </package>
 <package name="MULITECH-DRAGONFLY-BREAKOUT">
-<wire x1="0.005" y1="-0.025" x2="-16.545" y2="-0.035" width="0.127" layer="49"/>
-<wire x1="-16.545" y1="-0.035" x2="-24.545" y2="-0.035" width="0.127" layer="49"/>
-<wire x1="-24.545" y1="-0.035" x2="-34.945" y2="-0.035" width="0.127" layer="20"/>
-<wire x1="0.005" y1="-0.025" x2="0.055" y2="58.17" width="0.127" layer="49"/>
-<wire x1="0.055" y1="58.17" x2="-7.945" y2="58.17" width="0.127" layer="49"/>
-<wire x1="-7.945" y1="58.17" x2="-23.945" y2="58.17" width="0.127" layer="49"/>
-<wire x1="-23.945" y1="58.17" x2="-34.945" y2="58.17" width="0.127" layer="49"/>
-<wire x1="-34.945" y1="58.17" x2="-34.945" y2="-0.035" width="0.127" layer="49"/>
-<wire x1="-16.545" y1="-0.035" x2="-16.545" y2="-1.83" width="0.127" layer="49"/>
+<wire x1="0.005" y1="-0.025" x2="-16.545" y2="-0.035" width="0.127" layer="21"/>
+<wire x1="-16.545" y1="-0.035" x2="-24.545" y2="-0.035" width="0.127" layer="21"/>
+<wire x1="-24.545" y1="-0.035" x2="-34.945" y2="-0.035" width="0.127" layer="21"/>
+<wire x1="0.005" y1="-0.025" x2="0.055" y2="58.17" width="0.127" layer="21"/>
+<wire x1="0.055" y1="58.17" x2="-7.945" y2="58.17" width="0.127" layer="21"/>
+<wire x1="-7.945" y1="58.17" x2="-23.945" y2="58.17" width="0.127" layer="21"/>
+<wire x1="-23.945" y1="58.17" x2="-34.945" y2="58.17" width="0.127" layer="21"/>
+<wire x1="-34.945" y1="58.17" x2="-34.945" y2="-0.035" width="0.127" layer="21"/>
+<wire x1="-16.545" y1="-0.035" x2="-16.545" y2="-1.83" width="0.127" layer="21"/>
 <wire x1="-16.545" y1="-1.83" x2="-24.545" y2="-1.83" width="0.127" layer="49"/>
-<wire x1="-24.545" y1="-1.83" x2="-24.545" y2="-0.035" width="0.127" layer="49"/>
-<wire x1="-23.945" y1="58.17" x2="-23.945" y2="59.67" width="0.127" layer="49"/>
-<wire x1="-23.945" y1="59.67" x2="-7.945" y2="59.67" width="0.127" layer="49"/>
-<wire x1="-7.945" y1="59.67" x2="-7.945" y2="58.17" width="0.127" layer="49"/>
+<wire x1="-24.545" y1="-1.83" x2="-24.545" y2="-0.035" width="0.127" layer="21"/>
+<wire x1="-23.945" y1="58.17" x2="-23.945" y2="59.67" width="0.127" layer="21"/>
+<wire x1="-23.945" y1="59.67" x2="-7.945" y2="59.67" width="0.127" layer="21"/>
+<wire x1="-7.945" y1="59.67" x2="-7.945" y2="58.17" width="0.127" layer="21"/>
 <pad name="P$1" x="-31.37" y="54.81" drill="3.3" rot="R180"/>
 <pad name="P$2" x="-3.61" y="3.43" drill="3.3" rot="R180"/>
 <smd name="1" x="-22.11" y="7.08" dx="0.25" dy="1.15" layer="1"/>
@@ -6485,6 +6485,8 @@
 <wire x1="-23.66" y1="11.665" x2="-11.06" y2="11.665" width="0.127" layer="21"/>
 <hole x="-11.36" y="7.755" drill="0.6"/>
 <hole x="-23.36" y="7.755" drill="0.6"/>
+<rectangle x1="-23.5585" y1="7.747" x2="-11.176" y2="11.557" layer="43"/>
+<rectangle x1="-23.5585" y1="7.747" x2="-11.176" y2="11.557" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -9462,6 +9464,7 @@ P260906</text>
 </symbols>
 <devicesets>
 <deviceset name="RPI-HAT" prefix="BRD">
+<description>&lt;b&gt; Shield for RPi &lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="RPI-HAT" x="0" y="0"/>
 </gates>
@@ -9704,6 +9707,7 @@ P260906</text>
 </devices>
 </deviceset>
 <deviceset name="MBED-BOARD" prefix="BRD">
+<description>&lt;b&gt;MBED 40-PIN Layout (LPC1768)&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MBED-BOARD" x="0" y="0"/>
 </gates>
@@ -9758,6 +9762,7 @@ P260906</text>
 </devices>
 </deviceset>
 <deviceset name="DAPLINK-BOARD" prefix="BRD">
+<description>&lt;b&gt;DAPLINK Layout&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="DAPLINK-BOARD" x="2.54" y="2.54"/>
 </gates>
@@ -9769,7 +9774,8 @@ P260906</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="REALTEX_AMEBA-DEV01-SHIELD">
+<deviceset name="REALTEX-AMEBA-DEV01-SHIELD">
+<description>&lt;b&gt; Shield for Realtek AMEBA DEV01 &lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="REALTEK-AMEBA-DEV01-SHIELD" x="0" y="0"/>
 </gates>
@@ -9822,6 +9828,7 @@ P260906</text>
 </devices>
 </deviceset>
 <deviceset name="MULITECH-DRAGONFLY-BREAKOUT">
+<description>&lt;b&gt; Breakout for Multitech Dragonfly &lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MULITECH-DRAGONFLY-BREAKOUT" x="0" y="2.54"/>
 </gates>
@@ -9868,6 +9875,137 @@ P260906</text>
 <connect gate="G$1" pin="USB_D-" pad="7"/>
 <connect gate="G$1" pin="VCC_IN" pad="33"/>
 <connect gate="G$1" pin="VDD" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Hirose" constant="no"/>
+<attribute name="MFN" value="DF17(2.0)-40DP-0.5V(57)" constant="no"/>
+<attribute name="OC-DIGIKEY" value="H11130CT-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="798-DF172040DP05V57" constant="no"/>
+<attribute name="OC-NEWARK" value="2300341" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ARDUINO-R3" prefix="BRD">
+<description>&lt;b&gt;Shield for Arduino R3&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="ARDUINO-R3" x="0" y="60.96"/>
+</gates>
+<devices>
+<device name="" package="ARDUINO-R3">
+<connects>
+<connect gate="G$1" pin="3V3" pad="4"/>
+<connect gate="G$1" pin="5V" pad="5"/>
+<connect gate="G$1" pin="A0" pad="9"/>
+<connect gate="G$1" pin="A1" pad="10"/>
+<connect gate="G$1" pin="A2" pad="11"/>
+<connect gate="G$1" pin="A3" pad="12"/>
+<connect gate="G$1" pin="A4" pad="13"/>
+<connect gate="G$1" pin="A5" pad="14"/>
+<connect gate="G$1" pin="AREF" pad="30"/>
+<connect gate="G$1" pin="D0/RX" pad="15"/>
+<connect gate="G$1" pin="D1/TX" pad="16"/>
+<connect gate="G$1" pin="D10/SS" pad="25"/>
+<connect gate="G$1" pin="D11/MOSI" pad="26"/>
+<connect gate="G$1" pin="D12/MISO" pad="27"/>
+<connect gate="G$1" pin="D13/SCK" pad="28"/>
+<connect gate="G$1" pin="D2" pad="17"/>
+<connect gate="G$1" pin="D3" pad="18"/>
+<connect gate="G$1" pin="D4" pad="19"/>
+<connect gate="G$1" pin="D5" pad="20"/>
+<connect gate="G$1" pin="D6" pad="21"/>
+<connect gate="G$1" pin="D7" pad="22"/>
+<connect gate="G$1" pin="D8" pad="23"/>
+<connect gate="G$1" pin="D9" pad="24"/>
+<connect gate="G$1" pin="GND@29" pad="29"/>
+<connect gate="G$1" pin="GND@6" pad="6"/>
+<connect gate="G$1" pin="GND@7" pad="7"/>
+<connect gate="G$1" pin="IOREF" pad="2"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="NRESET" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="32"/>
+<connect gate="G$1" pin="SDA" pad="31"/>
+<connect gate="G$1" pin="VIN" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SILK" package="ARDUINO-R3-SILK">
+<connects>
+<connect gate="G$1" pin="3V3" pad="4"/>
+<connect gate="G$1" pin="5V" pad="5"/>
+<connect gate="G$1" pin="A0" pad="9"/>
+<connect gate="G$1" pin="A1" pad="10"/>
+<connect gate="G$1" pin="A2" pad="11"/>
+<connect gate="G$1" pin="A3" pad="12"/>
+<connect gate="G$1" pin="A4" pad="13"/>
+<connect gate="G$1" pin="A5" pad="14"/>
+<connect gate="G$1" pin="AREF" pad="30"/>
+<connect gate="G$1" pin="D0/RX" pad="15"/>
+<connect gate="G$1" pin="D1/TX" pad="16"/>
+<connect gate="G$1" pin="D10/SS" pad="25"/>
+<connect gate="G$1" pin="D11/MOSI" pad="26"/>
+<connect gate="G$1" pin="D12/MISO" pad="27"/>
+<connect gate="G$1" pin="D13/SCK" pad="28"/>
+<connect gate="G$1" pin="D2" pad="17"/>
+<connect gate="G$1" pin="D3" pad="18"/>
+<connect gate="G$1" pin="D4" pad="19"/>
+<connect gate="G$1" pin="D5" pad="20"/>
+<connect gate="G$1" pin="D6" pad="21"/>
+<connect gate="G$1" pin="D7" pad="22"/>
+<connect gate="G$1" pin="D8" pad="23"/>
+<connect gate="G$1" pin="D9" pad="24"/>
+<connect gate="G$1" pin="GND@29" pad="29"/>
+<connect gate="G$1" pin="GND@6" pad="6"/>
+<connect gate="G$1" pin="GND@7" pad="7"/>
+<connect gate="G$1" pin="IOREF" pad="2"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="NRESET" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="32"/>
+<connect gate="G$1" pin="SDA" pad="31"/>
+<connect gate="G$1" pin="VIN" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_APPS" package="ARDUINO-R3-APPS-SHEILD">
+<connects>
+<connect gate="G$1" pin="3V3" pad="4"/>
+<connect gate="G$1" pin="5V" pad="5"/>
+<connect gate="G$1" pin="A0" pad="9"/>
+<connect gate="G$1" pin="A1" pad="10"/>
+<connect gate="G$1" pin="A2" pad="11"/>
+<connect gate="G$1" pin="A3" pad="12"/>
+<connect gate="G$1" pin="A4" pad="13"/>
+<connect gate="G$1" pin="A5" pad="14"/>
+<connect gate="G$1" pin="AREF" pad="30"/>
+<connect gate="G$1" pin="D0/RX" pad="15"/>
+<connect gate="G$1" pin="D1/TX" pad="16"/>
+<connect gate="G$1" pin="D10/SS" pad="25"/>
+<connect gate="G$1" pin="D11/MOSI" pad="26"/>
+<connect gate="G$1" pin="D12/MISO" pad="27"/>
+<connect gate="G$1" pin="D13/SCK" pad="28"/>
+<connect gate="G$1" pin="D2" pad="17"/>
+<connect gate="G$1" pin="D3" pad="18"/>
+<connect gate="G$1" pin="D4" pad="19"/>
+<connect gate="G$1" pin="D5" pad="20"/>
+<connect gate="G$1" pin="D6" pad="21"/>
+<connect gate="G$1" pin="D7" pad="22"/>
+<connect gate="G$1" pin="D8" pad="23"/>
+<connect gate="G$1" pin="D9" pad="24"/>
+<connect gate="G$1" pin="GND@29" pad="29"/>
+<connect gate="G$1" pin="GND@6" pad="6"/>
+<connect gate="G$1" pin="GND@7" pad="7"/>
+<connect gate="G$1" pin="IOREF" pad="2"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="NRESET" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="32"/>
+<connect gate="G$1" pin="SDA" pad="31"/>
+<connect gate="G$1" pin="VIN" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>

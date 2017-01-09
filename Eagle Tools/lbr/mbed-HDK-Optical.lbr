@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -279,6 +279,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <wire x1="0" y1="-6.94" x2="2.54" y2="-6.94" width="0.127" layer="21"/>
 <wire x1="2.54" y1="-6.94" x2="2.54" y2="-4.4" width="0.127" layer="21"/>
 <text x="-1.27" y="2.54" size="1.016" layer="21">&gt;NAME</text>
+<rectangle x1="-1.2065" y1="-4.3815" x2="3.7465" y2="1.905" layer="39"/>
+<rectangle x1="0" y1="-6.9215" x2="2.54" y2="-4.445" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -380,8 +382,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" prefix="LED" uservalue="yes">
-<description>&lt;b&gt;SMD LED&lt;/b&gt;&lt;p&gt;</description>
+<deviceset name="SMD_LED" prefix="LED" uservalue="yes">
+<description>&lt;b&gt;LED SMD&lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -392,7 +394,13 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Wurth Electronics Inc" constant="no"/>
+<attribute name="MFN" value="150060RS75000" constant="no"/>
+<attribute name="OC-DIGIKEY" value="732-4978-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="710-150060RS75000" constant="no"/>
+<attribute name="OC-NEWARK" value="2322071" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0805" package="CHIPLED_0805">
@@ -401,7 +409,13 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Wurth Electronics Inc" constant="no"/>
+<attribute name="MFN" value="150080RS75000" constant="no"/>
+<attribute name="OC-DIGIKEY" value="732-4984-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="710-150080RS75000" constant="no"/>
+<attribute name="OC-NEWARK" value="2322077" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="1206" package="CHIPLED_1206">
@@ -410,7 +424,13 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Wurth Electronics Inc" constant="no"/>
+<attribute name="MFN" value="150120GS75000" constant="no"/>
+<attribute name="OC-DIGIKEY" value="732-4990-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="710-150120GS75000" constant="no"/>
+<attribute name="OC-NEWARK" value="2322085" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
