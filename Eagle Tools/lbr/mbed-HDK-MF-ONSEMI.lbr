@@ -241,7 +241,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ONSEMI-LAKOTA" prefix="MOD">
+<deviceset name="ONSEMI-LAKOTA" prefix="U">
 <description>&lt;b&gt;Lakota RF Module 1.0&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ONSEMI-LAKOTA" x="0" y="0"/>

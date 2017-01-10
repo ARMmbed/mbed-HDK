@@ -2801,7 +2801,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MKL25Z128VLK4" prefix="IC">
+<deviceset name="MKL25Z128VLK4" prefix="U">
 <description>&lt;b&gt; Kinetis KL25: 48MHz Cortex-M0+ Ultra-Low Power MCU, 128KB Flash, 16KB SRAM, Full-Speed USB, 80-LQFP &lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MKL25Z128VLK4" x="0" y="0"/>
@@ -2902,7 +2902,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="MK64FN1M0VLL12" prefix="IC">
+<deviceset name="MK64FN1M0VLL12" prefix="U">
 <description>&lt;b&gt;Kinetis K64: 120MHz Cortex-M4F MCU, 1MB Flash, 256KB SRAM, Full-Speed USB, Ethernet, 100-LQFP&lt;/b&gt;</description>
 <gates>
 <gate name="IO" symbol="MK64FN1M0VLL12-IO" x="5.08" y="-2.54" addlevel="always"/>
@@ -3024,7 +3024,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="LPC4088FET208" prefix="IC">
+<deviceset name="LPC4088FET208" prefix="U">
 <description>&lt;B&gt;LPC408x - 32-bit ARM Cortex-M4 MCU; up to 512 kB flash, 96 kB SRAM; USB Device/Host/OTG; Ethernet; LCD; EMC; SPIFI&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC40X8FYY208" x="0" y="0"/>
@@ -3231,7 +3231,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="LPC1768FBD100" prefix="IC">
+<deviceset name="LPC1768FBD100" prefix="U">
 <description>&lt;b&gt;32 Bit Microcontroller, ARM Cortex-M3, 100 MHz, 512 KB, 64 KB, 100 Pins, LQFP&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC1768" x="-2.54" y="0"/>
@@ -3352,7 +3352,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="LPC1347FBD64" prefix="IC">
+<deviceset name="LPC1347FBD64" prefix="U">
 <description>&lt;B&gt;32 Bit Microcontroller, ARM Cortex-M3, 72 MHz, 64 KB, 10 KB, 64 Pins, LQFP&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC1347FBD64" x="0" y="0"/>
@@ -3483,7 +3483,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="LPC812M101" prefix="IC">
+<deviceset name="LPC812M101" prefix="U">
 <description>&lt;B&gt;ARM Cortex M0+ RISC 16KB Flash 3.3V 20-Pin&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC812M101FD20-1" x="0" y="0"/>
@@ -3557,7 +3557,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="LPC11U35FHI33" prefix="IC">
+<deviceset name="LPC11U35FHI33" prefix="U">
 <description>&lt;B&gt;32 Bit Microcontroller, ARM Cortex-M0, 50 MHz, 64 KB, 12 KB, 33 Pins, HVQFN&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC11U3X-HVQFN33" x="0" y="0"/>
@@ -3610,7 +3610,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="LPC11U24FBD64/401" prefix="IC">
+<deviceset name="LPC11U24FBD64/401" prefix="U">
 <description>&lt;B&gt;32 Bit Microcontroller, ARM Cortex-M0, 50 MHz, 32 KB, 10 KB, 64 Pins, LQFP&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="LPC11U24" x="0" y="0"/>
@@ -3695,7 +3695,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="IF_MKL26Z128VFM4" prefix="IC">
+<deviceset name="IF_MKL26Z128VFM4" prefix="U">
 <description>&lt;B&gt;CMSIS-DAP Interface - Kinetis KL26: 48MHz Cortex-M0+ Ultra-Low Power MCU, 128KB Flash, 16KB SRAM, Full-Speed USB, 32-QFN&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="MKL26Z128VFM4" x="0" y="0"/>
@@ -3748,7 +3748,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="IF_MK20DX128VFM5" prefix="IC">
+<deviceset name="IF_MK20DX128VFM5" prefix="U">
 <description>&lt;B&gt;CMSIS-DAP Interface : 32-bit K20 ARM Cortex M4 RISC 128KB Flash 1.8V/2.5V/3.3V 32-Pin QFN &lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="MK20DX128VFM5" x="0" y="2.54"/>
@@ -3802,7 +3802,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="IF_LPC11U35FHN33/401" prefix="IC" uservalue="yes">
+<deviceset name="IF_LPC11U35FHN33/401" prefix="U" uservalue="yes">
 <description>&lt;B&gt;CMSIS-DAP Interface : 32-bit LPC11U00 ARM Cortex M3 RISC 64KB Flash 2.5V/3.3V 33-Pin HVQFN EP&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="IF-LPC11U35" x="0" y="2.54"/>

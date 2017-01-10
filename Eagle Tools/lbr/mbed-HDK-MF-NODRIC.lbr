@@ -424,8 +424,8 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NRF51822" prefix="IC">
-<description>&lt;b&gt;nRF51822 BLUETOOTH based module&lt;/b&gt;</description>
+<deviceset name="NRF51822" prefix="U">
+<description>&lt;b&gt;nRF51822 BLUETOOTH IC RF TXRX+MCU 48VFQFN&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NRF51822" x="0" y="0"/>
 </gates>
@@ -493,7 +493,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="EYSGCNZWY" prefix="MOD" uservalue="yes">
+<deviceset name="EYSGCNZWY" prefix="U" uservalue="yes">
 <description>&lt;b&gt;nRF51822 BLUETOOTH based module&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="EYSGCNZWY" x="0" y="0"/>

@@ -1155,7 +1155,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATZB-RF-233-1-C" prefix="MOD">
+<deviceset name="ATZB-RF-233-1-C" prefix="U">
 <description>&lt;b&gt;Atmel ZigBit Amp RF233 Module&lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="ATZB-RF-233-1-C" x="0" y="0"/>
@@ -1197,7 +1197,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATWINC1500_MR210PA" prefix="MOD">
+<deviceset name="ATWINC1500_MR210PA" prefix="U">
 <description>&lt;b&gt;WiFi Certified Module with ATWINC1500A-Mu Chip and PCB Antenna&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ATWINC1500_MR210PA" x="0" y="0"/>
@@ -1246,7 +1246,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATSAMW25-MR210PA" prefix="MOD">
+<deviceset name="ATSAMW25-MR210PA" prefix="U">
 <description>&lt;b&gt;Modules 802.11 2.4GHz 72000Kbps 51-Pin SMD&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ATSAMW25-MR210PA" x="0" y="0"/>
@@ -1318,7 +1318,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <technology name="">
 <attribute name="MF" value="Atmel" constant="no"/>
 <attribute name="MFN" value="ATSAMW25H18-MR210PA" constant="no"/>
-<attribute name="OC-DIGIKEY" value="ATSAMW25H18-MR210PA-ND	" constant="no"/>
+<attribute name="OC-DIGIKEY" value="ATSAMW25H18-MR210PA-ND " constant="no"/>
 <attribute name="OC-MOUSER" value="556-ATSAMW25MR210PA" constant="no"/>
 <attribute name="OC-NEWARK" value="" constant="no"/>
 </technology>
@@ -1326,7 +1326,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATSAM4E16CA-AU" prefix="IC">
+<deviceset name="ATSAM4E16CA-AU" prefix="U">
 <description>&lt;b&gt;32-bit SAM4E ARM Cortex M4 DSP/RISC/Thumb-2 1024KB Flash 1.2/3.3V 100-Pin LQFP&lt;/b&gt;</description>
 <gates>
 <gate name="_SYSTEM" symbol="ATSAM4E16CA-AU-SYSTEM" x="0" y="0" addlevel="must"/>
@@ -1450,7 +1450,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATSAM3U2C" prefix="IC">
+<deviceset name="ATSAM3U2C" prefix="U">
 <description>&lt;b&gt;SAM3U Series 96 MHz 128 kB Flash 36 kB SRAM 32-Bit Microcontroller - LQFP -100&lt;/b&gt;</description>
 <gates>
 <gate name="_POWER" symbol="AT91SAM3U2CA-AU_POWER" x="-50.8" y="25.4" addlevel="must"/>
@@ -1574,7 +1574,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </device>
 </devices>
 </deviceset>
-<deviceset name="AT86RF233-ZUR" prefix="IC">
+<deviceset name="AT86RF233-ZUR" prefix="U">
 <description>&lt;b&gt;2.4 GHZ ZigBee Transceiver&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="AT86RF233" x="0" y="0"/>
