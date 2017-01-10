@@ -41,3 +41,5 @@ eagle.epf
 
 # NUMBERS sheet
 *.numbers
+*.gitignore
+*.gitignore.swp
