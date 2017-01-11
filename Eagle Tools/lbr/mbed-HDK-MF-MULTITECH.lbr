@@ -307,7 +307,7 @@
 <device name="" package="MTXDOT-EU1/NA1-A00-1">
 <connects>
 <connect gate="G$1" pin="ANT1" pad="P$37"/>
-<connect gate="G$1" pin="ANT2" pad="P$48"/>
+<connect gate="G$1" pin="ANT2" pad="P$47"/>
 <connect gate="G$1" pin="GND(0)" pad="P$1"/>
 <connect gate="G$1" pin="GND(1)" pad="P$5"/>
 <connect gate="G$1" pin="GND(10)" pad="P$42"/>
@@ -315,7 +315,7 @@
 <connect gate="G$1" pin="GND(12)" pad="P$44"/>
 <connect gate="G$1" pin="GND(13)" pad="P$45"/>
 <connect gate="G$1" pin="GND(14)" pad="P$46"/>
-<connect gate="G$1" pin="GND(15)" pad="P$47"/>
+<connect gate="G$1" pin="GND(15)" pad="P$48"/>
 <connect gate="G$1" pin="GND(16)" pad="P$49"/>
 <connect gate="G$1" pin="GND(17)" pad="P$50"/>
 <connect gate="G$1" pin="GND(18)" pad="P$51"/>
@@ -386,7 +386,7 @@
 <device name="" package="MTXDOT-EU1/NA1-A00-1">
 <connects>
 <connect gate="G$1" pin="ANT1" pad="P$37"/>
-<connect gate="G$1" pin="ANT2" pad="P$48"/>
+<connect gate="G$1" pin="ANT2" pad="P$47"/>
 <connect gate="G$1" pin="GND(0)" pad="P$1"/>
 <connect gate="G$1" pin="GND(1)" pad="P$5"/>
 <connect gate="G$1" pin="GND(10)" pad="P$42"/>
@@ -394,7 +394,7 @@
 <connect gate="G$1" pin="GND(12)" pad="P$44"/>
 <connect gate="G$1" pin="GND(13)" pad="P$45"/>
 <connect gate="G$1" pin="GND(14)" pad="P$46"/>
-<connect gate="G$1" pin="GND(15)" pad="P$47"/>
+<connect gate="G$1" pin="GND(15)" pad="P$48"/>
 <connect gate="G$1" pin="GND(16)" pad="P$49"/>
 <connect gate="G$1" pin="GND(17)" pad="P$50"/>
 <connect gate="G$1" pin="GND(18)" pad="P$51"/>
