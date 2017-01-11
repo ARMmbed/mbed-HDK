@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1103,9 +1103,8 @@
 <pin name="NSD" x="-7.62" y="-5.08" length="middle"/>
 <pin name="VIN" x="-7.62" y="0" length="middle"/>
 <pin name="VOUT" x="17.78" y="0" length="middle" rot="R180"/>
-<text x="-2.54" y="-12.7" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-<text x="0" y="3.81" size="1.778" layer="94">TC101X</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="PEM1200">
 <pin name="VIN+@1" x="-5.08" y="30.48" length="middle"/>
@@ -1162,9 +1161,22 @@
 <text x="-10.16" y="13.97" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-17.78" size="1.778" layer="96">TPS63060DSCR</text>
 </symbol>
+<symbol name="TLV73333PDBVT">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="NC" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="-12.7" y="0" length="middle"/>
+<pin name="EN" x="-12.7" y="-2.54" length="middle"/>
+<pin name="IN" x="-12.7" y="2.54" length="middle"/>
+<pin name="OUT" x="12.7" y="2.54" length="middle" rot="R180"/>
+<text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="USBLC6-2SC6" prefix="IC">
+<deviceset name="USBLC6-2SC6" prefix="U">
 <description>&lt;b&gt;ESD USB Protection Bi-Directional&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="USBLC6-2" x="0" y="0"/>
@@ -1191,7 +1203,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TC1014-3.3VCT713" prefix="IC" uservalue="yes">
+<deviceset name="TC1014-3.3VCT713" prefix="U" uservalue="yes">
 <description>&lt;b&gt;LDO Fixed Regulator 3.3v, 50mA&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="TC101X" x="-5.08" y="2.54"/>
@@ -1217,7 +1229,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LP38502SD-ADJ">
+<deviceset name="LP38502SD-ADJ" prefix="U">
 <description>&lt;b&gt;LDO Adjustable (2.7V-5.5Vin, 0.6V-5Vout, 1.5Aout) &lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LP38502SD-ADJ" x="-15.24" y="-17.78"/>
@@ -1247,7 +1259,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TPS63060DSCR">
+<deviceset name="TPS63060DSCR" prefix="U">
 <description>&lt;b&gt; Buck Boost Conveter (2.5V-12Vin, 2.5V-8Vout, 2Aout) &lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="TPS63060DSCR" x="0" y="0"/>
@@ -1279,19 +1291,19 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLV73333PDBVT" prefix="IC" uservalue="yes">
+<deviceset name="TLV73333PDBVT" prefix="U" uservalue="yes">
 <description>&lt;b&gt;LDO Fixed Regulator 3.3v, 300mA&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="TC101X" x="-5.08" y="2.54"/>
+<gate name="G$1" symbol="TLV73333PDBVT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT23-5">
 <connects>
-<connect gate="G$1" pin="BYP" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="NSD" pad="3"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="5"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
 </connects>
 <technologies>
 <technology name="">
