@@ -1357,7 +1357,7 @@
 <attribute name="MF" value="TYCO" constant="no"/>
 <attribute name="MFN" value="1-6605834-1" constant="no"/>
 <attribute name="OC-DIGIKEY" value="1419-1002-ND" constant="no"/>
-<attribute name="OC-MOUSER" value="530-1-6605834-1	" constant="no"/>
+<attribute name="OC-MOUSER" value="530-1-6605834-1 " constant="no"/>
 <attribute name="OC-NEWARK" value="48T0576" constant="no"/>
 </technology>
 </technologies>
@@ -1862,7 +1862,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="53261-0871">
+<deviceset name="53261-0871" prefix="CON">
 <description>&lt;b&gt; 8 Position Header 1.25mm Pico Blade&lt;/b&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="53261-0871" x="0" y="0"/>
@@ -1891,7 +1891,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="53261-0471">
+<deviceset name="53261-0471" prefix="CON">
 <description>&lt;b&gt; 4 Position Header 1.25mm Pico Blade&lt;/b&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="53261-0471" x="0" y="0"/>

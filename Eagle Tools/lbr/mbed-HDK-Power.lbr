@@ -1203,7 +1203,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TC1014-3.3VCT713" prefix="U" uservalue="yes">
+<deviceset name="TC1014-3.3VCT713" prefix="U">
 <description>&lt;b&gt;LDO Fixed Regulator 3.3v, 50mA&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="TC101X" x="-5.08" y="2.54"/>
@@ -1291,7 +1291,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLV73333PDBVT" prefix="U" uservalue="yes">
+<deviceset name="TLV73333PDBVT" prefix="U">
 <description>&lt;b&gt;LDO Fixed Regulator 3.3v, 300mA&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="TLV73333PDBVT" x="0" y="0"/>
