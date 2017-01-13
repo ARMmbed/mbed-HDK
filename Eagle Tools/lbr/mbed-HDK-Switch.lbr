@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -805,7 +805,7 @@
 <wire x1="0.1" y1="-1" x2="0.1" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="3.1" y1="-1" x2="3.1" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="3.1" y1="1" x2="3.1" y2="0.8" width="0.127" layer="21"/>
-<text x="0" y="-2.286" size="1.016" layer="21" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="-2.286" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
