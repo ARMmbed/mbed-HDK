@@ -334,8 +334,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="1.778" y2="1.27" width="0.254" layer="94"/>
 <wire x1="0.762" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="2.54" y="2.54" size="1.778" layer="95" font="vector" ratio="12">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96" font="vector" ratio="12">&gt;VALUE</text>
+<text x="2.54" y="2.54" size="1.778" layer="95" ratio="12">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96" ratio="12">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="K" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
@@ -349,8 +349,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
 <wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
-<text x="5.08" y="-5.08" size="1.27" layer="95" font="vector" ratio="12" rot="R90">&gt;NAME</text>
-<text x="7.62" y="-5.08" size="1.27" layer="96" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
+<text x="5.08" y="-5.08" size="1.778" layer="95" ratio="12" rot="R90">&gt;NAME</text>
+<text x="7.62" y="-5.08" size="1.778" layer="96" ratio="12" rot="R90">&gt;VALUE</text>
 <pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <polygon width="0.1524" layer="94">
@@ -380,7 +380,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="FAIRCHILD SEMICONDUCTOR" constant="no"/>
+<attribute name="MF" value="Fairchild Semiconductor" constant="no"/>
 <attribute name="MFN" value="BSS84" constant="no"/>
 <attribute name="OC-DIGIKEY" value="BSS84CT-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="512-BSS84" constant="no"/>
@@ -437,7 +437,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BAT60A" prefix="D" uservalue="yes">
+<deviceset name="BAT60A" prefix="D">
 <description>&lt;b&gt;SCHOTTKY DIODE&lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="SCHOTTKY-DIODE" x="0" y="0"/>

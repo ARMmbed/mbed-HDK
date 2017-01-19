@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.85" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1987,7 +1987,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MF" value="Molex" constant="no"/>
 <attribute name="MFN" value="53261-0871" constant="no"/>
 <attribute name="OC-DIGIKEY" value="WM7626DKR-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="538-53261-0871" constant="no"/>
@@ -2012,7 +2012,7 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MF" value="Molex" constant="no"/>
 <attribute name="MFN" value="53261-0471" constant="no"/>
 <attribute name="OC-DIGIKEY" value="WM7622DKR-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="538-53261-0471" constant="no"/>

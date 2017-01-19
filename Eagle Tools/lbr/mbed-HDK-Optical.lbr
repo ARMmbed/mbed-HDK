@@ -382,7 +382,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMD_LED" prefix="LED" uservalue="yes">
+<deviceset name="SMD_LED" prefix="LED">
 <description>&lt;b&gt;LED SMD&lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
