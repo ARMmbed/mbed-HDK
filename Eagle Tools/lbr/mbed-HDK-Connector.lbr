@@ -1096,6 +1096,24 @@
 <wire x1="-1.27" y1="-3.81" x2="-1.27" y2="-1.27" width="0.4064" layer="21"/>
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="3.81" width="0.4064" layer="21"/>
 </package>
+<package name="3031">
+<smd name="NEG" x="0" y="0" dx="2.36" dy="2.36" layer="1"/>
+<pad name="POS1" x="-5.3" y="0" drill="1.85"/>
+<pad name="POS2" x="5.3" y="0" drill="1.85"/>
+<circle x="0" y="0" radius="5" width="0.127" layer="21"/>
+<wire x1="-6.10235" y1="-0.80645" x2="-6.10235" y2="0.76355" width="0.127" layer="21"/>
+<wire x1="-6.10235" y1="0.76355" x2="6.12765" y2="0.76355" width="0.127" layer="21"/>
+<wire x1="6.12765" y1="0.76355" x2="6.12765" y2="-0.80645" width="0.127" layer="21"/>
+<wire x1="6.12765" y1="-0.80645" x2="-6.10235" y2="-0.80645" width="0.127" layer="21"/>
+<wire x1="-5.2877" y1="4.33215" x2="-5.2877" y2="-4.27785" width="0.127" layer="21"/>
+<wire x1="-5.2877" y1="-4.27785" x2="5.3123" y2="-4.27785" width="0.127" layer="21"/>
+<wire x1="5.3123" y1="-4.27785" x2="5.3123" y2="4.33215" width="0.127" layer="21"/>
+<wire x1="5.3123" y1="4.33215" x2="-5.2877" y2="4.33215" width="0.127" layer="21"/>
+<wire x1="0" y1="3.5" x2="0" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="3" x2="0.5" y2="3" width="0.127" layer="21"/>
+<text x="-5.08" y="-6.35" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USB">
@@ -1652,6 +1670,16 @@
 <pin name="TGT_RX" x="27.94" y="5.08" length="middle" rot="R180"/>
 <pin name="GND@9" x="-5.08" y="2.54" length="middle"/>
 <pin name="NRESET" x="27.94" y="2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="BATTERY">
+<wire x1="-0.846665625" y1="-0.846665625" x2="0.846665625" y2="-0.846665625" width="0.254" layer="94"/>
+<wire x1="-0.846665625" y1="-2.54" x2="0.846665625" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.693334375" x2="2.54" y2="-1.693334375" width="0.254" layer="94"/>
+<pin name="+" x="0" y="5.08" visible="off" length="middle" rot="R270"/>
+<pin name="-" x="0" y="-7.62" visible="off" length="middle" rot="R90"/>
+<text x="2.54" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2472,6 +2500,29 @@
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3031" prefix="BAT">
+<description>&lt;B&gt;CR927, CR1025 Battery Holder for 9-10mm Cells-Tin Nickel Plated&lt;/B&gt;</description>
+<gates>
+<gate name="G$1" symbol="BATTERY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3031">
+<connects>
+<connect gate="G$1" pin="+" pad="POS1 POS2"/>
+<connect gate="G$1" pin="-" pad="NEG"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="KEYSTONE" constant="no"/>
+<attribute name="MFN" value="3031" constant="no"/>
+<attribute name="OC-DIGIKEY" value="36-3031-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="534-3031" constant="no"/>
+<attribute name="OC-NEWARK" value="06W4568" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -835,6 +835,16 @@
 <rectangle x1="-1" y1="-0.775" x2="-0.1" y2="-0.1" layer="31" rot="R180"/>
 <circle x="-1.8034" y="1.8161" radius="0.127" width="0.127" layer="21"/>
 </package>
+<package name="SOT223">
+<smd name="OUT(2)" x="0" y="0" dx="3.25" dy="2.15" layer="1"/>
+<smd name="OUT(1)" x="0" y="-5.8" dx="0.95" dy="2.15" layer="1"/>
+<smd name="GND" x="-2.3" y="-5.8" dx="0.95" dy="2.15" layer="1"/>
+<smd name="IN" x="2.3" y="-5.8" dx="0.95" dy="2.15" layer="1"/>
+<wire x1="-3.3694" y1="-1.016" x2="3.3306" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="3.3306" y1="-1.016" x2="3.3306" y2="-4.716" width="0.127" layer="21"/>
+<wire x1="3.3306" y1="-4.716" x2="-3.3694" y2="-4.716" width="0.127" layer="21"/>
+<wire x1="-3.3694" y1="-4.716" x2="-3.3694" y2="-1.016" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MMA8653FC">
@@ -1174,6 +1184,21 @@
 <text x="-7.62" y="5.842" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="TLV1117LV33DCYR">
+<wire x1="-2.54" y1="0" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="17.78" y2="7.62" width="0.254" layer="94"/>
+<wire x1="17.78" y1="7.62" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<rectangle x1="5.715" y1="7.62" x2="9.525" y2="8.255" layer="94"/>
+<pin name="IN" x="-7.62" y="5.08" visible="pin" length="middle"/>
+<pin name="OUT" x="22.86" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="7.62" y="-5.08" visible="off" length="middle" rot="R90"/>
+<text x="5.334" y="0.635" size="1.524" layer="97">GND</text>
+<text x="10.795" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="10.795" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="TAB" x="7.62" y="12.7" visible="off" length="middle" rot="R270"/>
+<text x="5.588" y="5.715" size="1.524" layer="97">TAB</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="USBLC6-2SC6" prefix="U">
@@ -1312,6 +1337,31 @@
 <attribute name="OC-DIGIKEY" value="296-38492-1-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="595-TLV73333PDBVT" constant="no"/>
 <attribute name="OC-NEWARK" value="2455145" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TLV1117LV33DCYR">
+<description>&lt;b&gt;LDO Fixed Regulator 3.3v, 1A&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TLV1117LV33DCYR" x="-7.62" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IN" pad="IN"/>
+<connect gate="G$1" pin="OUT" pad="OUT(1)"/>
+<connect gate="G$1" pin="TAB" pad="OUT(2)"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MFN" value="TLV1117LV33DCYR" constant="no"/>
+<attribute name="OC-DIGIKEY" value="296-28778-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="595-TLV1117LV33DCYR" constant="no"/>
+<attribute name="OC-NEWARK" value="2323647" constant="no"/>
 </technology>
 </technologies>
 </device>
