@@ -69,7 +69,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -207,8 +207,8 @@
 <smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-3.175" y="-1.905" size="1.27" layer="21" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-3.175" y="-1.905" size="1.016" layer="21" font="vector" ratio="12" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-2.54" size="1.016" layer="27" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
 <circle x="-3.175" y="-2.921" radius="0.127" width="0.4064" layer="21"/>
 </package>
 <package name="TSSOP8">
@@ -1063,6 +1063,22 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="-12.7" y="10.668" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="AT45DB321E-SHF-B">
+<wire x1="0" y1="-5.08" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="27.94" y2="15.24" width="0.254" layer="94"/>
+<wire x1="27.94" y1="15.24" x2="27.94" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<pin name="SI" x="-5.08" y="12.7" visible="pin" length="middle"/>
+<pin name="SCK" x="-5.08" y="7.62" visible="pin" length="middle"/>
+<pin name="!RESET" x="-5.08" y="2.54" visible="pin" length="middle"/>
+<pin name="!CS" x="-5.08" y="-2.54" visible="pin" length="middle"/>
+<pin name="!WP" x="33.02" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC" x="33.02" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="33.02" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="SO" x="33.02" y="12.7" visible="pin" length="middle" rot="R180"/>
+<text x="0" y="15.748" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MMA8653FCR1" prefix="U" uservalue="yes">
@@ -1552,6 +1568,35 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="OC-DIGIKEY" value="497-16538-1-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="511-VL53L0CXV0DH/1" constant="no"/>
 <attribute name="OC-NEWARK" value="79Y6076" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AT45DB321E-SHF-B" prefix="IC">
+<description>&lt;b&gt;Serial Flash 32 Mb 85 Mhz&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="AT45DB321E-SHF-B" x="-12.7" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SO8">
+<connects>
+<connect gate="G$1" pin="!CS" pad="4"/>
+<connect gate="G$1" pin="!RESET" pad="3"/>
+<connect gate="G$1" pin="!WP" pad="5"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="2"/>
+<connect gate="G$1" pin="SI" pad="1"/>
+<connect gate="G$1" pin="SO" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Adesto Technologies" constant="no"/>
+<attribute name="MFN" value="AT45DB321E-SHF-B" constant="no"/>
+<attribute name="OC-DIGIKEY" value="1265-1072-5-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="988-AT45DB321E-SHF-B" constant="no"/>
+<attribute name="OC-NEWARK" value="2414318" constant="no"/>
 </technology>
 </technologies>
 </device>

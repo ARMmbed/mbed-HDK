@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -809,6 +809,28 @@
 <wire x1="3.1" y1="1" x2="3.1" y2="0.8" width="0.127" layer="21"/>
 <text x="0" y="-2.286" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
 </package>
+<package name="SKHUALE010">
+<smd name="P$1" x="0" y="0" dx="2.75" dy="1.4" layer="1"/>
+<smd name="P$2" x="6.75" y="0" dx="2.75" dy="1.4" layer="1"/>
+<smd name="P$3" x="0" y="-4" dx="2.75" dy="1.4" layer="1"/>
+<smd name="P$4" x="6.75" y="-4" dx="2.75" dy="1.4" layer="1"/>
+<wire x1="0.3211" y1="1.14325" x2="0.3211" y2="-5.15675" width="0.127" layer="21"/>
+<wire x1="0.3211" y1="-5.15675" x2="6.5211" y2="-5.15675" width="0.127" layer="21"/>
+<wire x1="6.5211" y1="-5.15675" x2="6.5211" y2="1.14325" width="0.127" layer="21"/>
+<wire x1="6.5211" y1="1.14325" x2="0.3211" y2="1.14325" width="0.127" layer="21"/>
+<text x="0.31115" y="-6.52145" size="1.016" layer="21" font="vector" ratio="12">&gt;NAME</text>
+</package>
+<package name="EVQ-Q2Y03W">
+<smd name="P$1" x="0" y="0" dx="3.2" dy="1" layer="1"/>
+<smd name="P$3" x="0" y="-4" dx="3.2" dy="1" layer="1"/>
+<smd name="P$2" x="6.8" y="0" dx="3.2" dy="1" layer="1"/>
+<smd name="P$4" x="6.8" y="-4" dx="3.2" dy="1" layer="1"/>
+<wire x1="6.6421" y1="-4.97305" x2="0.1421" y2="-4.97305" width="0.127" layer="21"/>
+<wire x1="6.6421" y1="-4.97305" x2="6.6421" y2="1.02695" width="0.127" layer="21"/>
+<wire x1="6.6421" y1="1.02695" x2="0.1421" y2="1.02695" width="0.127" layer="21"/>
+<wire x1="0.1421" y1="-4.97305" x2="0.1421" y2="1.02695" width="0.127" layer="21"/>
+<text x="0.1524" y="-6.2738" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USB">
@@ -1254,7 +1276,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="PTS645VL39-2-LFS">
+<deviceset name="PTS645VL39-2-LFS" prefix="SW">
 <description>&lt;b&gt;SWITCH PUSH (SPST) Horizontal &lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPST" x="0" y="-2.54"/>
@@ -1277,7 +1299,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="EVQ-P7A01P">
+<deviceset name="EVQ-P7A01P" prefix="SW">
 <description>&lt;b&gt;SWITCH PUSH (SPST) Horizontal &lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPST-4" x="0" y="0"/>
@@ -1320,6 +1342,56 @@
 <attribute name="OC-DIGIKEY" value="CKN10585CT-ND" constant="no"/>
 <attribute name="OC-FARNELL" value="" constant="no"/>
 <attribute name="OC-MOUSER" value="611-KXT121LHS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SKHUALE010" prefix="SW">
+<description>&lt;B&gt;SWITCH PUSH VERTICAL (4-SPST)&lt;/B&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPST-4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SKHUALE010">
+<connects>
+<connect gate="G$1" pin="A1" pad="P$1"/>
+<connect gate="G$1" pin="A2" pad="P$2"/>
+<connect gate="G$1" pin="B1" pad="P$3"/>
+<connect gate="G$1" pin="B2" pad="P$4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="ALPS" constant="no"/>
+<attribute name="MFN" value="SKHUALE010" constant="no"/>
+<attribute name="OC-DIGIKEY" value="" constant="no"/>
+<attribute name="OC-MOUSER" value="688-SKHUALE010" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EVQ-Q2Y03W" prefix="SW">
+<description>&lt;B&gt;SWITCH PUSH VERTICAL (4-SPST)&lt;/B&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPST-4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="EVQ-Q2Y03W">
+<connects>
+<connect gate="G$1" pin="A1" pad="P$1"/>
+<connect gate="G$1" pin="A2" pad="P$2"/>
+<connect gate="G$1" pin="B1" pad="P$3"/>
+<connect gate="G$1" pin="B2" pad="P$4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Panasonic" constant="no"/>
+<attribute name="MFN" value="EVQ-Q2Y03W" constant="no"/>
+<attribute name="OC-DIGIKEY" value="P12961SCT-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
