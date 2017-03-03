@@ -1761,6 +1761,7 @@
 </devices>
 </deviceset>
 <deviceset name="SWD-10" prefix="CON">
+<description>&lt;b&gt;2.54mm pitch 10-Pin Cortex Programming Header&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="SWD-10" x="-5.08" y="0"/>
 </gates>
@@ -2375,6 +2376,7 @@
 </devices>
 </deviceset>
 <deviceset name="TC-2050" prefix="CON">
+<description>&lt;b&gt;2.54mm pitch TC2050&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="TC2050-CTX" x="0" y="0"/>
 </gates>
@@ -2399,6 +2401,7 @@
 </devices>
 </deviceset>
 <deviceset name="SWD-10/TC2050" prefix="CON">
+<description>&lt;b&gt; 1mm pitch 10-Pin Cortex Programming Header with optional TC2050 footprint solderless interchangeable&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="SWD-10-1" x="-5.08" y="0"/>
 </gates>

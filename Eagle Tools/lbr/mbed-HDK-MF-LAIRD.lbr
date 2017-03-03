@@ -278,6 +278,7 @@
 </symbols>
 <devicesets>
 <deviceset name="BL600" prefix="MOD">
+<description>&lt;b&gt;BLE Single Mode Bluetooth v4.0 Module w/ SmartBASIC (Integrated Ant.)&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="BL600" x="0" y="22.86"/>
 </gates>
@@ -330,7 +331,13 @@
 <connect gate="G$1" pin="VCC@10" pad="P$10"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Laird" constant="no"/>
+<attribute name="MFN" value="BL600-SA" constant="no"/>
+<attribute name="OC-DIGIKEY" value="BL600-SA-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="239-BL600-SA" constant="no"/>
+<attribute name="OC-NEWARK" value="2321469" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

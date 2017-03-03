@@ -2927,8 +2927,7 @@
 </symbols>
 <devicesets>
 <deviceset name="LISA-U2" prefix="LISA">
-<description>&lt;b&gt;LISA-U2:&lt;/b&gt; 3.75G HSPA / HSPA+ Cellular Module &lt;p&gt;
-&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<description>&lt;b&gt;HSPA / HSPA+ Cellular Module LISA-U2: 3.75G  &lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="LISA-XXA" x="0" y="0"/>
 <gate name="B" symbol="LISA-XXB" x="2.54" y="-71.12"/>
@@ -3020,8 +3019,7 @@
 </devices>
 </deviceset>
 <deviceset name="SARA-U2" prefix="U">
-<description>&lt;b&gt;SARA-U2:&lt;/b&gt; 3.75G HSPA Cellular Module&lt;p&gt;
-&lt;a href="http://www.u-blox.com"&gt;u-blox.com&lt;/a&gt;</description>
+<description>&lt;b&gt;HSPA Cellular Module SARA-U2:3.75G &lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="SARA-XXA" x="0" y="0"/>
 <gate name="B" symbol="SARA-XXB" x="0" y="-111.76"/>
