@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -773,11 +773,11 @@
 </package>
 <package name="TP50-SMD">
 <smd name="TP" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100"/>
-<text x="0.762" y="-0.508" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="0.762" y="-0.508" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
 </package>
 <package name="TP50-PTH">
 <pad name="TP" x="0" y="0" drill="1" shape="octagon"/>
-<text x="0.762" y="-0.508" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="0.762" y="-0.508" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
 </package>
 <package name="TP-6MIL-SMD">
 <smd name="P$1" x="0" y="0" dx="0.1524" dy="0.1524" layer="1" roundness="100"/>
@@ -1098,8 +1098,8 @@
 </package>
 <package name="3031">
 <smd name="NEG" x="0" y="0" dx="2.36" dy="2.36" layer="1"/>
-<pad name="POS1" x="-5.3" y="0" drill="1.85"/>
-<pad name="POS2" x="5.3" y="0" drill="1.85"/>
+<pad name="POS1" x="-5.3" y="0" drill="1.85" stop="no"/>
+<pad name="POS2" x="5.3" y="0" drill="1.85" stop="no"/>
 <circle x="0" y="0" radius="5" width="0.127" layer="21"/>
 <wire x1="-6.10235" y1="-0.80645" x2="-6.10235" y2="0.76355" width="0.127" layer="21"/>
 <wire x1="-6.10235" y1="0.76355" x2="6.12765" y2="0.76355" width="0.127" layer="21"/>
@@ -1113,6 +1113,28 @@
 <wire x1="-0.5" y1="3" x2="0.5" y2="3" width="0.127" layer="21"/>
 <text x="-5.08" y="-6.35" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<circle x="-5.2959" y="0.0127" radius="0.94783125" width="0" layer="29"/>
+<circle x="5.2959" y="0.0127" radius="0.94783125" width="0" layer="29"/>
+<circle x="-5.2832" y="0.0127" radius="1.520871875" width="0" layer="30"/>
+<circle x="5.3086" y="0" radius="1.520871875" width="0" layer="30"/>
+</package>
+<package name="3030">
+<smd name="NEG" x="0" y="0" dx="3.96" dy="3.96" layer="1"/>
+<circle x="0" y="0" radius="5" width="0.127" layer="21"/>
+<wire x1="-6.10235" y1="-0.80645" x2="-6.10235" y2="0.76355" width="0.127" layer="21"/>
+<wire x1="-6.10235" y1="0.76355" x2="6.12765" y2="0.76355" width="0.127" layer="21"/>
+<wire x1="6.12765" y1="0.76355" x2="6.12765" y2="-0.80645" width="0.127" layer="21"/>
+<wire x1="6.12765" y1="-0.80645" x2="-6.10235" y2="-0.80645" width="0.127" layer="21"/>
+<wire x1="-5.2877" y1="4.33215" x2="-5.2877" y2="-4.27785" width="0.127" layer="21"/>
+<wire x1="-5.2877" y1="-4.27785" x2="5.3123" y2="-4.27785" width="0.127" layer="21"/>
+<wire x1="5.3123" y1="-4.27785" x2="5.3123" y2="4.33215" width="0.127" layer="21"/>
+<wire x1="5.3123" y1="4.33215" x2="-5.2877" y2="4.33215" width="0.127" layer="21"/>
+<wire x1="0" y1="3.5" x2="0" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="3" x2="0.5" y2="3" width="0.127" layer="21"/>
+<text x="-5.08" y="-6.35" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<smd name="P$1" x="8.05" y="0" dx="2.9" dy="3.5" layer="1"/>
+<smd name="P$2" x="-8.05" y="0" dx="2.9" dy="3.5" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -2505,7 +2527,8 @@
 </devices>
 </deviceset>
 <deviceset name="3031" prefix="BAT">
-<description>&lt;B&gt;CR927, CR1025 Battery Holder for 9-10mm Cells-Tin Nickel Plated&lt;/B&gt;</description>
+<description>&lt;B&gt;CR927, CR1025 Battery Holder for 9-10mm Cells-Tin Nickel Plated PTH&lt;/B&gt;&lt;p&gt;
+&lt;B&gt;!WARNING! Cover Top Layer Hole! Otherwise Battery Negative will short to Positive Via&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="BATTERY" x="0" y="0"/>
 </gates>
@@ -2522,6 +2545,29 @@
 <attribute name="OC-DIGIKEY" value="36-3031-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="534-3031" constant="no"/>
 <attribute name="OC-NEWARK" value="06W4568" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3030">
+<description>&lt;B&gt;CR927, CR1025 Battery Holder for 9-10mm Cells-Tin Nickel Plated SMD&lt;/B&gt;</description>
+<gates>
+<gate name="G$1" symbol="BATTERY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3030">
+<connects>
+<connect gate="G$1" pin="+" pad="P$1 P$2"/>
+<connect gate="G$1" pin="-" pad="NEG"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Keystone" constant="no"/>
+<attribute name="MFN" value="3030" constant="no"/>
+<attribute name="OC-DIGIKEY" value="36-3030-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="534-3030" constant="no"/>
+<attribute name="OC-NEWARK" value="39T8899" constant="no"/>
 </technology>
 </technologies>
 </device>

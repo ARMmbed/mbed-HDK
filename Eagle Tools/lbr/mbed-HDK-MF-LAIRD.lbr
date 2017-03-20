@@ -277,7 +277,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BL600" prefix="MOD">
+<deviceset name="BL600" prefix="U">
 <description>&lt;b&gt;BLE Single Mode Bluetooth v4.0 Module w/ SmartBASIC (Integrated Ant.)&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="BL600" x="0" y="22.86"/>
