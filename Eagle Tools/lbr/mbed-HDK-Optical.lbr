@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -69,7 +69,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -283,6 +283,30 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <rectangle x1="0" y1="-6.9215" x2="2.54" y2="-4.445" layer="39"/>
 <text x="-1.27" y="-8.89" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
 </package>
+<package name="CHIPLED_1204">
+<smd name="P$1" x="0" y="0" dx="1" dy="1.5" layer="1"/>
+<smd name="P$3" x="0" y="3.5" dx="1" dy="1.5" layer="1"/>
+<smd name="P$2" x="-0.45" y="1.75" dx="1" dy="1" layer="1"/>
+<wire x1="0.25" y1="2.75" x2="0.25" y2="0.75" width="0.127" layer="21"/>
+<wire x1="0.25" y1="2.75" x2="1.25" y2="1.75" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.25" y1="1.75" x2="0.25" y2="0.75" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.5" y1="-0.9" x2="0.5" y2="-0.9" width="0.127" layer="21"/>
+<text x="-1.1938" y="-0.7747" size="1.016" layer="25" font="vector" ratio="12" rot="R90">&gt;NAME</text>
+<text x="-2.6416" y="-0.7874" size="1.016" layer="27" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
+</package>
+<package name="CLV1A-FKB-CHMKPEHBB7A363">
+<wire x1="-1.6" y1="-1.4" x2="1.6" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1.4" x2="1.6" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="1.4" x2="-1.6" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.6" x2="-1.6" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="21"/>
+<smd name="1" x="-1.4" y="0.9" dx="1.5" dy="0.9" layer="1"/>
+<smd name="4" x="1.4" y="0.9" dx="1.5" dy="0.9" layer="1"/>
+<smd name="3" x="1.4" y="-0.9" dx="1.5" dy="0.9" layer="1"/>
+<smd name="2" x="-1.4" y="-0.9" dx="1.5" dy="0.9" layer="1"/>
+<text x="-2.562" y="1.718" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-2.462" y="-2.878" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="P-MOS">
@@ -381,10 +405,133 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
 </symbol>
+<symbol name="SM1204BC-A/G">
+<wire x1="1.27" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="1.778" x2="-3.429" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="0.635" x2="-3.302" y2="-0.762" width="0.1524" layer="94"/>
+<text x="-0.254" y="2.794" size="1.27" layer="95" font="vector" ratio="12" rot="R90">G</text>
+<text x="5.588" y="0" size="1.27" layer="96" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
+<pin name="3" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="0.381"/>
+<vertex x="-3.048" y="1.27"/>
+<vertex x="-2.54" y="0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-0.762"/>
+<vertex x="-2.921" y="0.127"/>
+<vertex x="-2.413" y="-0.381"/>
+</polygon>
+<wire x1="-3.81" y1="2.54" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-7.112" y1="1.778" x2="-8.509" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="0.635" x2="-8.382" y2="-0.762" width="0.1524" layer="94"/>
+<pin name="2" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-8.509" y="0.381"/>
+<vertex x="-8.128" y="1.27"/>
+<vertex x="-7.62" y="0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-8.382" y="-0.762"/>
+<vertex x="-8.001" y="0.127"/>
+<vertex x="-7.493" y="-0.381"/>
+</polygon>
+<wire x1="-5.08" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="2.54" width="0.254" layer="94"/>
+<pin name="1" x="-2.54" y="10.16" visible="off" length="short" direction="pas" rot="R270"/>
+<text x="-5.334" y="2.794" size="1.27" layer="95" font="vector" ratio="12" rot="R90">A</text>
+<text x="3.81" y="0" size="1.27" layer="95" font="vector" ratio="12" rot="R90">&gt;NAME</text>
+</symbol>
+<symbol name="CLV1A-FKB-CHMKPEHBB7A363">
+<wire x1="6.35" y1="-2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-3.302" x2="1.651" y2="-4.699" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-4.445" x2="1.778" y2="-5.842" width="0.1524" layer="94"/>
+<text x="4.826" y="-2.286" size="1.27" layer="95" font="vector" ratio="12" rot="R90">B</text>
+<text x="10.668" y="-5.08" size="1.27" layer="96" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
+<pin name="3" x="5.08" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="1.651" y="-4.699"/>
+<vertex x="2.032" y="-3.81"/>
+<vertex x="2.54" y="-4.318"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.778" y="-5.842"/>
+<vertex x="2.159" y="-4.953"/>
+<vertex x="2.667" y="-5.461"/>
+</polygon>
+<wire x1="-3.81" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-7.112" y1="-3.302" x2="-8.509" y2="-4.699" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="-4.445" x2="-8.382" y2="-5.842" width="0.1524" layer="94"/>
+<pin name="1" x="-5.08" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-8.509" y="-4.699"/>
+<vertex x="-8.128" y="-3.81"/>
+<vertex x="-7.62" y="-4.318"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-8.382" y="-5.842"/>
+<vertex x="-8.001" y="-4.953"/>
+<vertex x="-7.493" y="-5.461"/>
+</polygon>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<text x="-5.334" y="-2.286" size="1.27" layer="95" font="vector" ratio="12" rot="R90">R</text>
+<text x="8.89" y="-5.08" size="1.27" layer="95" font="vector" ratio="12" rot="R90">&gt;NAME</text>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-3.302" x2="-3.429" y2="-4.699" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-4.445" x2="-3.302" y2="-5.842" width="0.1524" layer="94"/>
+<text x="-0.254" y="-2.286" size="1.27" layer="95" font="vector" ratio="12" rot="R90">G</text>
+<pin name="4" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="-4.699"/>
+<vertex x="-3.048" y="-3.81"/>
+<vertex x="-2.54" y="-4.318"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-5.842"/>
+<vertex x="-2.921" y="-4.953"/>
+<vertex x="-2.413" y="-5.461"/>
+</polygon>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SMD_LED" prefix="LED">
-<description>&lt;b&gt;LED SMD&lt;/b&gt;&lt;p&gt;</description>
+<description>&lt;b&gt;&lt;b&gt; LED SMD, Colour Red&lt;/b&gt;
+&lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
@@ -454,6 +601,147 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <attribute name="OC-DIGIKEY" value="350-1810-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="Mouser" constant="no"/>
 <attribute name="OC-NEWARK" value="30K1434" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM1204BC-A/G" prefix="LED">
+<description>&lt;b&gt;Dual Colour LED SMD Right Angle, Colour Amber/Green&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SM1204BC-A/G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CHIPLED_1204">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Bivar" constant="no"/>
+<attribute name="MFN" value="SM1204BC-A/G" constant="no"/>
+<attribute name="OC-DIGIKEY" value="492-1229-2-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="749-SM1204BC-A/G" constant="no"/>
+<attribute name="OC-NEWARK" value="1814269" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM1204URC" prefix="LED">
+<description>&lt;b&gt; LED SMD Right Angle, Colour Red&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="CHIPLED_1204">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Bivar" constant="no"/>
+<attribute name="MFN" value="SM1204URC" constant="no"/>
+<attribute name="OC-DIGIKEY" value="492-1241-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="749-SM1204URC" constant="no"/>
+<attribute name="OC-NEWARK" value="1814283" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM1204SBWC" prefix="LED">
+<description>&lt;b&gt; LED SMD Right Angle, Colour Blue&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="CHIPLED_1204">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Bivar" constant="no"/>
+<attribute name="MFN" value="SM1204SBWC" constant="no"/>
+<attribute name="OC-DIGIKEY" value="492-1234-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="749-SM1204SBWC" constant="no"/>
+<attribute name="OC-NEWARK" value="1814273" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM1204SGC" prefix="LED">
+<description>&lt;b&gt; LED SMD Right Angle, Colour Green&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="CHIPLED_1204">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Bivar" constant="no"/>
+<attribute name="MFN" value="SM1204SGC" constant="no"/>
+<attribute name="OC-DIGIKEY" value="492-1233-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="749-SM1204SGC" constant="no"/>
+<attribute name="OC-NEWARK" value="1814274" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM1204UAC" prefix="LED">
+<description>&lt;b&gt; LED SMD Right Angle, Colour Amber&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="CHIPLED_1204">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Bivar" constant="no"/>
+<attribute name="MFN" value="SM1204UAC" constant="no"/>
+<attribute name="OC-DIGIKEY" value="492-1237-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="749-SM1204UAC" constant="no"/>
+<attribute name="OC-NEWARK" value="1814277" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CLV1A-FKB-CHMKPEHBB7A363" prefix="LED">
+<description>&lt;B&gt;LED RGB SMD&lt;/B&gt;</description>
+<gates>
+<gate name="G$1" symbol="CLV1A-FKB-CHMKPEHBB7A363" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="CLV1A-FKB-CHMKPEHBB7A363">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Cree" constant="no"/>
+<attribute name="MFN" value=" CLV1A-FKB-CHMKPEHBB7A363" constant="no"/>
+<attribute name="OC-DIGIKEY" value="CLV1A-FKB-CHMKPEHBB7A363CT-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="941-V1AFKBCHMKPEH7A3" constant="no"/>
+<attribute name="OC-NEWARK" value="2430039" constant="no"/>
 </technology>
 </technologies>
 </device>

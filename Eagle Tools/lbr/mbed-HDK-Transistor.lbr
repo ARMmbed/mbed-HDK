@@ -160,7 +160,7 @@
 </layers>
 <library>
 <packages>
-<package name="SOT23">
+<package name="SOT23-3">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -372,7 +372,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <gate name="G$1" symbol="P-MOS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23">
+<device name="" package="SOT23-3">
 <connects>
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
@@ -396,7 +396,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT23">
+<device name="" package="SOT23-3">
 <connects>
 <connect gate="G$1" pin="B" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -69,7 +69,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -2710,6 +2710,32 @@
 <vertex x="-5.725" y="-2.525" curve="90"/>
 </polygon>
 </package>
+<package name="MAX-M8">
+<smd name="SAFEBOOT_N" x="0" y="0" dx="1.8" dy="0.7" layer="1"/>
+<smd name="GND(1)" x="9.5" y="0" dx="1.8" dy="0.7" layer="1"/>
+<smd name="GND(3)" x="0" y="8.8" dx="1.8" dy="0.7" layer="1"/>
+<smd name="RESET_N" x="9.5" y="8.8" dx="1.8" dy="0.7" layer="1"/>
+<smd name="RF_IN" x="0" y="7.7" dx="1.8" dy="0.8" layer="1"/>
+<smd name="GND(2)" x="0" y="6.6" dx="1.8" dy="0.8" layer="1"/>
+<smd name="LNA_EN/RESERVED" x="0" y="5.5" dx="1.8" dy="0.8" layer="1"/>
+<smd name="VCC_RF" x="0" y="4.4" dx="1.8" dy="0.8" layer="1"/>
+<smd name="V_ANT/RESERVED" x="0" y="3.3" dx="1.8" dy="0.8" layer="1"/>
+<smd name="SDA" x="0" y="2.2" dx="1.8" dy="0.8" layer="1"/>
+<smd name="SCL" x="0" y="1.1" dx="1.8" dy="0.8" layer="1"/>
+<smd name="TXD" x="9.5" y="1.1" dx="1.8" dy="0.8" layer="1"/>
+<smd name="RXD" x="9.5" y="2.2" dx="1.8" dy="0.8" layer="1"/>
+<smd name="TIMEPULSE" x="9.5" y="3.3" dx="1.8" dy="0.8" layer="1"/>
+<smd name="EXTINT" x="9.5" y="4.4" dx="1.8" dy="0.8" layer="1"/>
+<smd name="V_BCKP" x="9.5" y="5.5" dx="1.8" dy="0.8" layer="1"/>
+<smd name="VCC_IO" x="9.5" y="6.6" dx="1.8" dy="0.8" layer="1"/>
+<smd name="VCC" x="9.5" y="7.7" dx="1.8" dy="0.8" layer="1"/>
+<wire x1="-0.1" y1="-0.65" x2="9.6" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="9.45" x2="9.6" y2="9.45" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="9.45" x2="-0.1" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="9.6" y1="9.45" x2="9.6" y2="-0.65" width="0.127" layer="21"/>
+<text x="-0.1" y="-1.9" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-0.1" y="-3.2" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LISA-XXA">
@@ -2924,9 +2950,35 @@
 <text x="-22.86" y="68.58" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <text x="-5.08" y="2.54" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
 </symbol>
+<symbol name="MAX-M8C-0-10">
+<pin name="GND(1)" x="5.08" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="TXD" x="5.08" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="RXD" x="5.08" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="TIMEPULSE" x="5.08" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="EXTINT" x="5.08" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="V_BCKP" x="5.08" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC_IO" x="5.08" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC" x="5.08" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="RESET_N" x="5.08" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="GND(3)" x="-43.18" y="20.32" visible="pin" length="middle"/>
+<pin name="RF_IN" x="-43.18" y="17.78" visible="pin" length="middle"/>
+<pin name="GND(2)" x="-43.18" y="15.24" visible="pin" length="middle"/>
+<pin name="LNA_EN/RESERVED" x="-43.18" y="12.7" visible="pin" length="middle"/>
+<pin name="VCC_RF" x="-43.18" y="10.16" visible="pin" length="middle"/>
+<pin name="V_ANT/RESERVED" x="-43.18" y="7.62" visible="pin" length="middle"/>
+<pin name="SDA" x="-43.18" y="5.08" visible="pin" length="middle"/>
+<pin name="SCL" x="-43.18" y="2.54" visible="pin" length="middle"/>
+<pin name="SAFEBOOT_N" x="-43.18" y="0" visible="pin" length="middle"/>
+<wire x1="-38.1" y1="-2.54" x2="-38.1" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="22.86" x2="0" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-38.1" y2="-2.54" width="0.254" layer="94"/>
+<text x="-38.1" y="23.368" size="1.778" layer="95">&gt;NAME</text>
+<text x="-38.1" y="-4.826" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="LISA-U2" prefix="LISA">
+<deviceset name="LISA-U2" prefix="U">
 <description>&lt;b&gt;HSPA / HSPA+ Cellular Module LISA-U2: 3.75G  &lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="LISA-XXA" x="0" y="0"/>
@@ -3123,6 +3175,39 @@
 <connect gate="B" pin="VSIM" pad="41"/>
 <connect gate="B" pin="V_BCKP" pad="2"/>
 <connect gate="B" pin="V_INT" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX-M8C-0-10" prefix="U">
+<description>&lt;B&gt;RF UBLOX Receiver BeiDou, Galileo, GLONASS, GNSS, GPS 1.575GHz -167dBm&lt;/B&gt;</description>
+<gates>
+<gate name="G$1" symbol="MAX-M8C-0-10" x="17.78" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="MAX-M8">
+<connects>
+<connect gate="G$1" pin="EXTINT" pad="EXTINT"/>
+<connect gate="G$1" pin="GND(1)" pad="GND(1)"/>
+<connect gate="G$1" pin="GND(2)" pad="GND(2)"/>
+<connect gate="G$1" pin="GND(3)" pad="GND(3)"/>
+<connect gate="G$1" pin="LNA_EN/RESERVED" pad="LNA_EN/RESERVED"/>
+<connect gate="G$1" pin="RESET_N" pad="RESET_N"/>
+<connect gate="G$1" pin="RF_IN" pad="RF_IN"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="SAFEBOOT_N" pad="SAFEBOOT_N"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TIMEPULSE" pad="TIMEPULSE"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VCC_IO" pad="VCC_IO"/>
+<connect gate="G$1" pin="VCC_RF" pad="VCC_RF"/>
+<connect gate="G$1" pin="V_ANT/RESERVED" pad="V_ANT/RESERVED"/>
+<connect gate="G$1" pin="V_BCKP" pad="V_BCKP"/>
 </connects>
 <technologies>
 <technology name=""/>

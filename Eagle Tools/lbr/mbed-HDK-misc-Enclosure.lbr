@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -6371,6 +6371,63 @@
 <hole x="15.24" y="50.8" drill="3.2"/>
 <hole x="13.97" y="2.54" drill="3.2"/>
 </package>
+<package name="HAMMOND-1551FFL">
+<hole x="34.75" y="3" drill="2.51"/>
+<hole x="9.75" y="26.5" drill="2.51"/>
+<wire x1="0" y1="28.498" x2="0" y2="6.25" width="0" layer="20"/>
+<wire x1="6.25" y1="0" x2="6.25" y2="4.693" width="0" layer="20"/>
+<wire x1="4.753" y1="6.25" x2="0" y2="6.25" width="0" layer="20"/>
+<wire x1="4.753" y1="6.25" x2="6.251" y2="4.686" width="0" layer="20" curve="-92.042118" cap="flat"/>
+<wire x1="38.244" y1="29.5" x2="1.009" y2="29.5" width="0" layer="20"/>
+<wire x1="38.244" y1="29.5" x2="38.244" y2="24.838" width="0" layer="20"/>
+<wire x1="39.741" y1="23.281" x2="44.5" y2="23.281" width="0" layer="20"/>
+<wire x1="39.741" y1="23.281" x2="38.243" y2="24.845" width="0" layer="20" curve="-92.042118" cap="flat"/>
+<wire x1="0" y1="28.498" x2="1.009" y2="29.5" width="0" layer="20" curve="-90.71614" cap="flat"/>
+<wire x1="44.5" y1="0.999" x2="44.5" y2="0.996" width="0" layer="20" curve="-0.172009" cap="flat"/>
+<wire x1="44.5" y1="0.996" x2="43.489" y2="-0.001" width="0" layer="20" curve="-90.544177" cap="flat"/>
+<wire x1="6.251" y1="0" x2="43.492" y2="0" width="0" layer="20"/>
+<wire x1="44.5" y1="0.996" x2="44.5" y2="23.281" width="0" layer="20"/>
+</package>
+<package name="HAMMOND-1551JFL">
+<hole x="42.25" y="3" drill="2.51"/>
+<hole x="12.25" y="26.5" drill="2.51"/>
+<wire x1="0.011" y1="28.502" x2="0.011" y2="6.254" width="0" layer="20"/>
+<wire x1="6.261" y1="0.004" x2="6.261" y2="4.697" width="0" layer="20"/>
+<wire x1="4.764" y1="6.254" x2="0.011" y2="6.254" width="0" layer="20"/>
+<wire x1="4.764" y1="6.254" x2="6.262" y2="4.69" width="0" layer="20" curve="-92.042118" cap="flat"/>
+<wire x1="48.261" y1="29.445" x2="1.02" y2="29.504" width="0" layer="20"/>
+<wire x1="48.261" y1="29.445" x2="48.261" y2="24.783" width="0" layer="20"/>
+<wire x1="49.758" y1="23.226" x2="54.5" y2="23.226" width="0" layer="20"/>
+<wire x1="49.758" y1="23.226" x2="48.26" y2="24.79" width="0" layer="20" curve="-92.042118" cap="flat"/>
+<wire x1="0.011" y1="28.502" x2="1.02" y2="29.504" width="0" layer="20" curve="-90.71614" cap="flat"/>
+<wire x1="54.517" y1="0.944" x2="54.5" y2="0.941" width="0" layer="20" curve="-0.172009" cap="flat"/>
+<wire x1="54.5" y1="0.941" x2="53.506" y2="-0.056" width="0" layer="20" curve="-90.544177" cap="flat"/>
+<wire x1="6.262" y1="0.004" x2="53.509" y2="-0.055" width="0" layer="20"/>
+<wire x1="54.5" y1="0.941" x2="54.5" y2="23.226" width="0" layer="20"/>
+<wire x1="0.02" y1="-0.01" x2="0" y2="-0.01" width="0" layer="21"/>
+<wire x1="0" y1="-0.01" x2="0" y2="0" width="0" layer="21"/>
+</package>
+<package name="PN-1321-MB">
+<wire x1="18.1" y1="0" x2="93.7" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="10.0023" x2="0" y2="42.8714" width="0" layer="20"/>
+<wire x1="0" y1="42.8714" x2="0" y2="42.9055" width="0" layer="20"/>
+<hole x="4" y="40.5" drill="4.5"/>
+<hole x="99" y="12.5" drill="4.5"/>
+<wire x1="103" y1="10.0562" x2="103" y2="42.9748" width="0" layer="20"/>
+<wire x1="0" y1="10.0023" x2="8.7005" y2="10.0023" width="0" layer="20"/>
+<wire x1="9.3" y1="53" x2="9.3" y2="52.9276" width="0" layer="20"/>
+<wire x1="93.7002" y1="-0.0055" x2="93.7002" y2="0" width="0" layer="20"/>
+<wire x1="93.7002" y1="0" x2="103" y2="10.0562" width="0" layer="20" curve="-90"/>
+<wire x1="9.3" y1="52.9276" x2="0" y2="42.8714" width="0" layer="20" curve="-90"/>
+<wire x1="18.1005" y1="-0.0011" x2="18.1005" y2="0.5979" width="0" layer="20"/>
+<wire x1="18.1005" y1="0.5979" x2="8.7005" y2="10.0023" width="0" layer="20" curve="90"/>
+<wire x1="8.7005" y1="10.0023" x2="4.9841" y2="9.9979" width="0" layer="20"/>
+<wire x1="84.9161" y1="52.9507" x2="9.3161" y2="52.9507" width="0" layer="20"/>
+<wire x1="103.0161" y1="42.9484" x2="94.3156" y2="42.9484" width="0" layer="20"/>
+<wire x1="84.9156" y1="52.9518" x2="84.9156" y2="52.3528" width="0" layer="20"/>
+<wire x1="84.9156" y1="52.3528" x2="94.3156" y2="42.9484" width="0" layer="20" curve="90"/>
+<wire x1="94.3156" y1="42.9484" x2="98.032" y2="42.9528" width="0" layer="20"/>
+</package>
 </packages>
 <symbols>
 <symbol name="WEE-MARK">
@@ -9250,6 +9307,22 @@ P260906</text>
 <pin name="SDA" x="48.26" y="-10.16" length="middle" rot="R180"/>
 <pin name="SCL" x="48.26" y="-7.62" length="middle" rot="R180"/>
 </symbol>
+<symbol name="HAMMOND-1551FFL">
+<text x="1.27" y="2.54" size="1.778" layer="94" font="vector" ratio="12">Hammond
+1551FFL</text>
+<wire x1="0" y1="0" x2="22.86" y2="0" width="0.4064" layer="94"/>
+<wire x1="22.86" y1="0" x2="22.86" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="22.86" y1="10.16" x2="0" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="0" width="0.4064" layer="94"/>
+</symbol>
+<symbol name="BUD-PN-1321">
+<text x="1.27" y="2.54" size="1.778" layer="94" font="vector" ratio="12">Bud Industries
+PN-1321 </text>
+<wire x1="0" y1="0" x2="22.86" y2="0" width="0.4064" layer="94"/>
+<wire x1="22.86" y1="0" x2="22.86" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="22.86" y1="10.16" x2="0" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="0" width="0.4064" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ENN05007" prefix="CASE">
@@ -9314,6 +9387,51 @@ P260906</text>
 <attribute name="OC-DIGIKEY" value="HM1466-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="546-1551USB3GY" constant="no"/>
 <attribute name="OC-NEWARK" value="82Y9619" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1551FFL">
+<description>&lt;b&gt;Plastic - Miniature - Flanged Lid Enclosure&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="HAMMOND-1551FFL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HAMMOND-1551FFL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1551JFL">
+<description>&lt;b&gt;Plastic - Miniature - Flanged Lid Enclosure&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="HAMMOND-1551FFL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HAMMOND-1551JFL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PN-1321-MB">
+<description>&lt;b&gt; ABS Plastic -Flanged Enclosure - 115.01mm x 65.00mm&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="BUD-PN-1321" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PN-1321-MB">
+<technologies>
+<technology name="">
+<attribute name="MF" value="Bud Industries " constant="no"/>
+<attribute name="MFN" value="PN-1321-MB" constant="no"/>
+<attribute name="OC-DIGIKEY" value="377-1879-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="563-PN-1321-MB" constant="no"/>
+<attribute name="OC-NEWARK" value="40T8039" constant="no"/>
 </technology>
 </technologies>
 </device>

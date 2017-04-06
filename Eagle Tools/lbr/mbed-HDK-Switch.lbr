@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -831,6 +831,30 @@
 <wire x1="0.1421" y1="-4.97305" x2="0.1421" y2="1.02695" width="0.127" layer="21"/>
 <text x="0.1524" y="-6.2738" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
 </package>
+<package name="KMR431GLFS">
+<smd name="3" x="0" y="0" dx="0.9" dy="1" layer="1"/>
+<smd name="4" x="4.1" y="0" dx="0.9" dy="1" layer="1"/>
+<smd name="1" x="0" y="1.6" dx="0.9" dy="1" layer="1"/>
+<smd name="2" x="4.1" y="1.6" dx="0.9" dy="1" layer="1"/>
+<text x="-0.5" y="-1.8" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-0.5" y="2.7" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<smd name="5" x="2.05" y="2.225" dx="1.7" dy="0.55" layer="1"/>
+<wire x1="0" y1="-0.6" x2="4.1" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="4.1" y1="-0.6" x2="4.1" y2="2.2" width="0.127" layer="21"/>
+<wire x1="4.1" y1="2.2" x2="0" y2="2.2" width="0.127" layer="21"/>
+<wire x1="0" y1="2.2" x2="0" y2="-0.6" width="0.127" layer="21"/>
+</package>
+<package name="GPTS203211B">
+<text x="-1.27" y="0" size="1.016" layer="25" font="vector" ratio="12" rot="R90">&gt;NAME</text>
+<text x="-1.27" y="6.35" size="1.016" layer="27" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
+<wire x1="0" y1="0" x2="0" y2="13" width="0.127" layer="21"/>
+<wire x1="0" y1="13" x2="13" y2="13" width="0.127" layer="21"/>
+<wire x1="13" y1="13" x2="13" y2="0" width="0.127" layer="21"/>
+<wire x1="13" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="P$1" x="13" y="9.15" drill="1.2"/>
+<pad name="P$2" x="13" y="3.85" drill="1.2"/>
+<text x="3.81" y="-1.27" size="1.016" layer="21" font="vector" ratio="12">OFF/ON</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USB">
@@ -1228,10 +1252,28 @@
 <rectangle x1="7.0485" y1="-0.3175" x2="7.8105" y2="0.3175" layer="94" rot="R90"/>
 <pin name="TP" x="0" y="0" visible="off" length="short" direction="in"/>
 </symbol>
+<symbol name="SPST(OFF-ON)">
+<wire x1="-3.175" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="3.175" x2="1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="3.175" x2="-1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="3.175" x2="0" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="3.175" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.175" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<text x="-2.54" y="-2.286" size="1.27" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="-2.54" y="-4.318" size="1.27" layer="96" font="vector" ratio="12">&gt;VALUE</text>
+<pin name="P" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<circle x="-2.4638" y="0" radius="0.183159375" width="0.254" layer="94"/>
+<circle x="2.286" y="0.0254" radius="0.183159375" width="0.254" layer="94"/>
+<wire x1="-2.4384" y1="-0.0254" x2="2.5908" y2="0.3048" width="0.254" layer="94"/>
+<wire x1="2.413" y1="-0.0254" x2="2.2606" y2="0.0254" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SKRKAEE010" prefix="SW">
-<description>&lt;B&gt;SWITCH PUSH VERTICAL (SPST)&lt;/B&gt;</description>
+<description>&lt;B&gt;MOMENTARY SWITCH PUSH VERTICAL (SPST)&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPST" x="0" y="0"/>
 </gates>
@@ -1254,7 +1296,7 @@
 </devices>
 </deviceset>
 <deviceset name="DTSM-32S-B" prefix="SW">
-<description>&lt;B&gt;SWITCH PUSH VERTICAL (SPST)&lt;/B&gt;</description>
+<description>&lt;B&gt;MOMENTARY SWITCH PUSH VERTICAL (SPST)&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPST" x="0" y="0"/>
 </gates>
@@ -1277,7 +1319,7 @@
 </devices>
 </deviceset>
 <deviceset name="PTS645VL39-2-LFS" prefix="SW">
-<description>&lt;b&gt;SWITCH PUSH (SPST) Horizontal &lt;/b&gt;&lt;p&gt;</description>
+<description>&lt;b&gt;MOMENTARY SWITCH PUSH (SPST) Horizontal &lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPST" x="0" y="-2.54"/>
 </gates>
@@ -1300,7 +1342,7 @@
 </devices>
 </deviceset>
 <deviceset name="EVQ-P7A01P" prefix="SW">
-<description>&lt;b&gt;SWITCH PUSH (SPST) Horizontal &lt;/b&gt;&lt;p&gt;</description>
+<description>&lt;b&gt;MOMENTARY SWITCH PUSH (SPST) Horizontal &lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPST-4" x="0" y="0"/>
 </gates>
@@ -1325,7 +1367,7 @@
 </devices>
 </deviceset>
 <deviceset name="KXT121LHS" prefix="SW">
-<description>&lt;B&gt;SWITCH PUSH VERTICAL ULTRA LOW PROFILE (SPST)&lt;/B&gt;</description>
+<description>&lt;B&gt;MOMENTARY SWITCH PUSH VERTICAL ULTRA LOW PROFILE (SPST)&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPST" x="0" y="0"/>
 </gates>
@@ -1348,7 +1390,7 @@
 </devices>
 </deviceset>
 <deviceset name="SKHUALE010" prefix="SW">
-<description>&lt;B&gt;SWITCH PUSH VERTICAL (4-SPST)&lt;/B&gt;</description>
+<description>&lt;B&gt;MOMENTARY SWITCH PUSH VERTICAL (4-SPST)&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPST-4" x="0" y="0"/>
 </gates>
@@ -1373,7 +1415,7 @@
 </devices>
 </deviceset>
 <deviceset name="EVQ-Q2Y03W" prefix="SW">
-<description>&lt;B&gt;SWITCH PUSH VERTICAL (4-SPST)&lt;/B&gt;</description>
+<description>&lt;B&gt;MOMENTARY SWITCH PUSH VERTICAL (4-SPST)&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="SPST-4" x="0" y="0"/>
 </gates>
@@ -1391,6 +1433,54 @@
 <attribute name="MFN" value="EVQ-Q2Y03W" constant="no"/>
 <attribute name="OC-DIGIKEY" value="P12961SCT-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KMR431GLFS" prefix="SW">
+<description>&lt;B&gt;MOMENTARY SWITCH PUSH VERTICAL (4-SPST)&lt;/B&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPST-4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="KMR431GLFS">
+<connects>
+<connect gate="G$1" pin="A1" pad="1"/>
+<connect gate="G$1" pin="A2" pad="2"/>
+<connect gate="G$1" pin="B1" pad="3"/>
+<connect gate="G$1" pin="B2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="C&amp;K" constant="no"/>
+<attribute name="MFN" value="KMR431GLFS" constant="no"/>
+<attribute name="OC-DIGIKEY" value="CKN10250CT-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="611-KMR431GLFS" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GPTS203211B" prefix="SW">
+<description>&lt;B&gt;TOGGLE OFF-ON SWITCH PUSH&lt;B/&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPST(OFF-ON)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GPTS203211B">
+<connects>
+<connect gate="G$1" pin="P" pad="P$1"/>
+<connect gate="G$1" pin="S" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="CW Industries" constant="no"/>
+<attribute name="MFN" value="GPTS203211B" constant="no"/>
+<attribute name="OC-DIGIKEY" value="CW181-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="629-GPTS203211B" constant="no"/>
 <attribute name="OC-NEWARK" value="" constant="no"/>
 </technology>
 </technologies>
