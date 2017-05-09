@@ -1268,6 +1268,22 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <wire x1="-1.5" y1="-1.1" x2="-1.5" y2="1.1" width="0.1" layer="21"/>
 <text x="-2.54" y="-2.54" size="1.016" layer="21" font="vector" ratio="12">&gt;NAME</text>
 </package>
+<package name="JS202011JCQN">
+<smd name="5" x="0" y="0" dx="1.6" dy="1" layer="1" rot="R90"/>
+<smd name="6" x="2.5" y="0" dx="1.6" dy="1" layer="1" rot="R90"/>
+<smd name="7" x="5" y="0" dx="1.6" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="0" y="2.4" dx="1.6" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="2.5" y="2.4" dx="1.6" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="5" y="2.4" dx="1.6" dy="1" layer="1" rot="R90"/>
+<wire x1="-1.9555" y1="-0.6096" x2="-1.9555" y2="2.9904" width="0.127" layer="21"/>
+<wire x1="6.96625" y1="-0.60325" x2="6.96625" y2="2.99675" width="0.127" layer="21"/>
+<wire x1="-1.94945" y1="-0.61595" x2="6.95595" y2="-0.61595" width="0.127" layer="21"/>
+<wire x1="-1.94945" y1="3.00355" x2="6.95595" y2="3.00355" width="0.127" layer="21"/>
+<text x="-1.9047" y="-3.9491" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME
+</text>
+<text x="-1.9047" y="-5.20005" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE
+</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SPST">
@@ -1286,6 +1302,43 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <text x="-2.54" y="-5.08" size="1.27" layer="96" font="vector" ratio="12">&gt;VALUE</text>
 <pin name="P" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="DPDT">
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<circle x="5.08" y="0" radius="0.508" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<circle x="10.16" y="2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="15.24" y="2.54" radius="0.381" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.381" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<circle x="10.16" y="-2.54" radius="0.508" width="0.254" layer="94"/>
+<circle x="15.24" y="-2.54" radius="0.381" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<circle x="10.16" y="-7.62" radius="0.508" width="0.254" layer="94"/>
+<circle x="15.24" y="-7.62" radius="0.381" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<circle x="10.16" y="-12.7" radius="0.508" width="0.254" layer="94"/>
+<circle x="15.24" y="-12.7" radius="0.381" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<circle x="5.08" y="-10.16" radius="0.508" width="0.254" layer="94"/>
+<circle x="0" y="-10.16" radius="0.381" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-3.048" x2="7.62" y2="-4.064" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-4.572" x2="7.62" y2="-5.588" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-6.096" x2="7.62" y2="-7.112" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-8.89" width="0.254" layer="94"/>
+<pin name="2" x="0" y="0" visible="pin" length="point" rot="R180"/>
+<pin name="6" x="0" y="-10.16" visible="pin" length="point" rot="R180"/>
+<pin name="7" x="15.24" y="-12.7" visible="pin" length="point"/>
+<pin name="5" x="15.24" y="-7.62" visible="pin" length="point"/>
+<pin name="3" x="15.24" y="-2.54" visible="pin" length="point"/>
+<pin name="1" x="15.24" y="2.54" visible="pin" length="point"/>
+<wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-1.4986" x2="7.62" y2="-2.5146" width="0.254" layer="94"/>
+<wire x1="7.6454" y1="0" x2="7.6454" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="7.6708" y1="1.2446" x2="7.6454" y2="0.4064" width="0.254" layer="94"/>
+<text x="0" y="-15.24" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-17.78" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1306,6 +1359,33 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <attribute name="MFN" value="SKRKAEE010" constant="no"/>
 <attribute name="OC-DIGIKEY" value="" constant="no"/>
 <attribute name="OC-MOUSER" value="688-SKRKAE" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JS202011JCQN" prefix="SW">
+<description>&lt;B&gt;SLIDE TOGGLE SWITCH VERTICAL (DPDT)&lt;/B&gt;</description>
+<gates>
+<gate name="G$1" symbol="DPDT" x="-7.62" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="JS202011JCQN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="C&amp;K Components" constant="no"/>
+<attribute name="MFN" value="JS202011JCQN" constant="no"/>
+<attribute name="OC-DIGIKEY" value="CKN10723CT-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="611-JS202011JCQN" constant="no"/>
 <attribute name="OC-NEWARK" value="" constant="no"/>
 </technology>
 </technologies>
@@ -2108,7 +2188,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <part name="R5" library="mbed-HDK-RLCQ" deviceset="RESISTOR" device="0402" value="1.5K"/>
 <part name="PWR5" library="mbed-HDK-misc-Symbol" deviceset="+3.3V_TGT" device=""/>
 <part name="GND24" library="mbed-HDK-misc-Symbol" deviceset="GND" device=""/>
-<part name="SW2" library="mbed-HDK-Switch" deviceset="SKRKAEE010" device=""/>
+<part name="GPIO1" library="mbed-HDK-Switch" deviceset="SKRKAEE010" device=""/>
 <part name="GND25" library="mbed-HDK-misc-Symbol" deviceset="GND" device=""/>
 <part name="PWR7" library="mbed-HDK-misc-Symbol" deviceset="+3.3V_TGT" device=""/>
 <part name="BRD1" library="mbed-HDK-misc-Board" deviceset="K64F/K22F-SHIELD" device=""/>
@@ -2182,6 +2262,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <part name="DWG4" library="mbed-HDK-misc-Template" deviceset="MBED-HDK" device=""/>
 <part name="C16" library="mbed-HDK-RLCQ" deviceset="CAPACITOR" device="0603" value="10uF"/>
 <part name="GND32" library="mbed-HDK-misc-Symbol" deviceset="GND" device=""/>
+<part name="R27" library="mbed-HDK-RLCQ" deviceset="RESISTOR" device="0402" value="0"/>
+<part name="SW3" library="mbed-HDK-Switch" deviceset="JS202011JCQN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3283,7 +3365,7 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <attribute name="VALUE" x="101.6" y="114.554" size="2.286" layer="92"/>
 </instance>
 <instance part="GND24" gate="1" x="137.16" y="83.82" rot="R90"/>
-<instance part="SW2" gate="G$1" x="129.54" y="83.82"/>
+<instance part="GPIO1" gate="G$1" x="129.54" y="83.82"/>
 <instance part="LED1" gate="G$1" x="61.468" y="83.058"/>
 <instance part="GND19" gate="1" x="61.468" y="70.358"/>
 <instance part="GND20" gate="1" x="74.168" y="70.358"/>
@@ -3320,7 +3402,7 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <segment>
 <wire x1="134.62" y1="83.82" x2="137.16" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<pinref part="SW2" gate="G$1" pin="S"/>
+<pinref part="GPIO1" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
@@ -3377,7 +3459,7 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <pinref part="R5" gate="G$1" pin="P$1"/>
 <label x="109.22" y="83.82" size="2.286" layer="90"/>
 <junction x="119.38" y="83.82"/>
-<pinref part="SW2" gate="G$1" pin="P"/>
+<pinref part="GPIO1" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
@@ -3452,14 +3534,15 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <plain>
 <text x="123.698" y="139.446" size="2.54" layer="91">Board Headers</text>
 <text x="2.54" y="180.34" size="6.4516" layer="90">BOARD HEADERS</text>
+<text x="184.658" y="60.706" size="2.54" layer="91">UART Swap - DPDT Switch</text>
 </plain>
 <instances>
 <instance part="DWG4" gate="G$1" x="0" y="0"/>
 <instance part="GND17" gate="1" x="104.14" y="104.14" rot="R270"/>
 <instance part="GND22" gate="1" x="104.14" y="101.6" rot="R270"/>
 <instance part="GND25" gate="1" x="162.56" y="119.38" rot="R90"/>
-<instance part="PWR7" gate="G$1" x="78.74" y="119.38" smashed="yes">
-<attribute name="VALUE" x="79.248" y="124.206" size="2.286" layer="92" rot="R90"/>
+<instance part="PWR7" gate="G$1" x="78.74" y="129.54" smashed="yes">
+<attribute name="VALUE" x="79.248" y="134.366" size="2.286" layer="92" rot="R90"/>
 </instance>
 <instance part="BRD1" gate="G$1" x="111.76" y="134.62"/>
 <instance part="D1" gate="G$1" x="66.04" y="106.68"/>
@@ -3515,6 +3598,11 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <attribute name="NAME" x="161.544" y="128.016" size="1.27" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="170.434" y="128.016" size="1.27" layer="96" font="vector" ratio="12"/>
 </instance>
+<instance part="R27" gate="G$1" x="78.74" y="121.92" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.724" y="115.824" size="1.27" layer="95" font="vector" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="77.724" y="124.714" size="1.27" layer="96" font="vector" ratio="12" rot="R90"/>
+</instance>
+<instance part="SW3" gate="G$1" x="198.12" y="83.82"/>
 </instances>
 <busses>
 </busses>
@@ -3544,18 +3632,6 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <pinref part="BRD1" gate="G$1" pin="NRESET"/>
 </segment>
 </net>
-<net name="+3.3V_TGT" class="0">
-<segment>
-<pinref part="PWR7" gate="G$1" pin="+3.3V_TGT"/>
-<wire x1="78.74" y1="109.22" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="114.3" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="BRD1" gate="G$1" pin="3V3"/>
-<wire x1="106.68" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
-<junction x="78.74" y="114.3"/>
-<pinref part="BRD1" gate="G$1" pin="IOREF"/>
-</segment>
-</net>
 <net name="SPI_SCK" class="0">
 <segment>
 <junction x="177.8" y="116.84"/>
@@ -3578,22 +3654,6 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <label x="177.8" y="114.3" size="2.286" layer="90"/>
 <pinref part="R23" gate="G$1" pin="P$2"/>
 <wire x1="172.72" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="UART1_TX" class="0">
-<segment>
-<junction x="177.8" y="83.82"/>
-<label x="177.8" y="83.82" size="2.286" layer="90"/>
-<pinref part="R18" gate="G$1" pin="P$2"/>
-<wire x1="172.72" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="UART1_RX" class="0">
-<segment>
-<junction x="177.8" y="81.28"/>
-<label x="177.8" y="81.28" size="2.286" layer="90"/>
-<pinref part="R17" gate="G$1" pin="P$2"/>
-<wire x1="172.72" y1="81.28" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO3" class="0">
@@ -3671,9 +3731,9 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="63.5" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="106.68" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
-<junction x="58.42" y="121.92"/>
-<label x="58.674" y="122.936" size="2.286" layer="92" rot="R90"/>
+<wire x1="58.42" y1="106.68" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
+<junction x="58.42" y="132.08"/>
+<label x="58.674" y="133.096" size="2.286" layer="92" rot="R90"/>
 </segment>
 </net>
 <net name="P5V-VIN" class="0">
@@ -3775,11 +3835,73 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <wire x1="160.02" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$49" class="0">
+<segment>
+<wire x1="78.74" y1="109.22" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="BRD1" gate="G$1" pin="3V3"/>
+<wire x1="106.68" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="BRD1" gate="G$1" pin="IOREF"/>
+<pinref part="R27" gate="G$1" pin="P$1"/>
+<wire x1="78.74" y1="114.3" x2="78.74" y2="116.84" width="0.1524" layer="91"/>
+<junction x="78.74" y="114.3"/>
+</segment>
+</net>
+<net name="+3.3V_TGT" class="0">
+<segment>
+<pinref part="R27" gate="G$1" pin="P$2"/>
+<pinref part="PWR7" gate="G$1" pin="+3.3V_TGT"/>
+<wire x1="78.74" y1="127" x2="78.74" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="P$2"/>
+<wire x1="172.72" y1="81.28" x2="187.96" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="81.28" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="SW3" gate="G$1" pin="6"/>
+<wire x1="187.96" y1="73.66" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="P$2"/>
+<wire x1="172.72" y1="83.82" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SW3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="UART1_TX" class="0">
+<segment>
+<pinref part="SW3" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
+<junction x="220.98" y="86.36"/>
+<label x="220.98" y="86.36" size="2.286" layer="90"/>
+</segment>
+<segment>
+<pinref part="SW3" gate="G$1" pin="7"/>
+<wire x1="213.36" y1="71.12" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
+<junction x="220.98" y="71.12"/>
+<label x="220.98" y="71.12" size="2.286" layer="90"/>
+</segment>
+</net>
+<net name="UART1_RX" class="0">
+<segment>
+<pinref part="SW3" gate="G$1" pin="3"/>
+<wire x1="213.36" y1="81.28" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
+<junction x="220.98" y="81.28"/>
+<label x="220.98" y="81.28" size="2.286" layer="90"/>
+</segment>
+<segment>
+<pinref part="SW3" gate="G$1" pin="5"/>
+<wire x1="213.36" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
+<junction x="220.98" y="76.2"/>
+<label x="220.98" y="76.2" size="2.286" layer="90"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="106,1,134.62,91.44,ANT2,,,,,"/>
 <approved hash="106,1,91.44,132.08,RFU1,,,,,"/>
 <approved hash="106,1,91.44,119.38,RFU3,,,,,"/>
 <approved hash="106,1,91.44,116.84,RFU4,,,,,"/>
@@ -3787,8 +3909,7 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <approved hash="106,1,91.44,88.9,RFU6,,,,,"/>
 <approved hash="106,1,91.44,83.82,RFU7,,,,,"/>
 <approved hash="106,1,91.44,81.28,RFU8,,,,,"/>
-<approved hash="108,4,215.9,99.06,N$48,,,,,"/>
-<approved hash="113,3,139.7,81.0683,IC1,,,,,"/>
+<approved hash="113,3,139.7,81.0683,U4,,,,,"/>
 </errors>
 </schematic>
 </drawing>
