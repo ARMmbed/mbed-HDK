@@ -1255,6 +1255,29 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="BAT60J" prefix="D">
+<description>&lt;b&gt;SCHOTTKY DIODE&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY-DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="STMicroelectronics"/>
+<attribute name="MFN" value="BAT60JFILM"/>
+<attribute name="OC-DIGIKEY" value="497-3707-6-ND"/>
+<attribute name="OC-MOUSER" value="511-BAT60JFILM" constant="no"/>
+<attribute name="OC-NEWARK" value="89K1218"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="mbed-HDK-Switch">
@@ -2257,13 +2280,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <part name="GND21" library="mbed-HDK-misc-Symbol" deviceset="GND" device=""/>
 <part name="D5" library="mbed-HDK-Transistor" deviceset="BAT60A" device=""/>
 <part name="PWR6" library="mbed-HDK-misc-Symbol" deviceset="+3.3V_TGT" device=""/>
-<part name="D6" library="mbed-HDK-Transistor" deviceset="BAT60A" device=""/>
 <part name="DWG3" library="mbed-HDK-misc-Template" deviceset="MBED-HDK" device=""/>
 <part name="DWG4" library="mbed-HDK-misc-Template" deviceset="MBED-HDK" device=""/>
 <part name="C16" library="mbed-HDK-RLCQ" deviceset="CAPACITOR" device="0603" value="10uF"/>
 <part name="GND32" library="mbed-HDK-misc-Symbol" deviceset="GND" device=""/>
 <part name="R27" library="mbed-HDK-RLCQ" deviceset="RESISTOR" device="0402" value="0"/>
 <part name="SW3" library="mbed-HDK-Switch" deviceset="JS202011JCQN" device=""/>
+<part name="D6" library="mbed-HDK-Transistor" deviceset="BAT60J" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3290,8 +3313,8 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <junction x="91.44" y="101.6"/>
 <pinref part="RESET" gate="G$1" pin="S"/>
 <junction x="91.44" y="114.3"/>
-<pinref part="D6" gate="G$1" pin="K"/>
 <wire x1="91.44" y1="114.3" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="D6" gate="G$1" pin="K"/>
 </segment>
 </net>
 <net name="USB_D-" class="0">
@@ -3342,10 +3365,10 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <label x="170.18" y="86.36" size="2.286" layer="90"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="A"/>
 <wire x1="91.44" y1="129.54" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
 <junction x="91.44" y="132.08"/>
 <label x="91.44" y="132.334" size="2.286" layer="90" rot="R90"/>
+<pinref part="D6" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>

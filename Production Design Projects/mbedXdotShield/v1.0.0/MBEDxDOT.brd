@@ -5323,13 +5323,6 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="OC-DIGIKEY" value="BAT60AE6327HTSA1CT-ND" x="7.9248" y="-123.5964" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFN" value="BAT60AE6327HTSA1" x="7.9248" y="-123.5964" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D6" library="mbed-HDK-Transistor" package="SOD323" value="BAT60A" x="14.0208" y="-113.9952" rot="R180">
-<attribute name="OC-DIGIKEY" value="BAT60AE6327HTSA1CT-ND" x="14.0208" y="-113.9952" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFN" value="BAT60AE6327HTSA1" x="14.0208" y="-113.9952" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC-NEWARK" value="85X4127" x="14.0208" y="-113.9952" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC-MOUSER" value="726-BAT60AE6327" x="14.0208" y="-113.9952" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="Infineon" x="14.0208" y="-113.9952" size="1.778" layer="27" rot="R180" display="off"/>
-</element>
 <element name="C16" library="mbed-HDK-RLCQ" package="0603" value="10uF" x="9.906" y="-94.7928"/>
 <element name="R27" library="mbed-HDK-RLCQ" package="0402" value="0" x="34.634271875" y="-135.791040625" rot="MR90"/>
 <element name="SW3" library="mbed-HDK-Switch" package="JS202011JCQN" value="JS202011JCQN" x="53.0352" y="-99.3648" rot="R90">
@@ -5338,6 +5331,13 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="OC-DIGIKEY" value="CKN10723CT-ND" x="53.0352" y="-99.3648" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC-NEWARK" value="" x="53.0352" y="-99.3648" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC-MOUSER" value="611-JS202011JCQN" x="53.0352" y="-99.3648" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="D6" library="mbed-HDK-Transistor" package="SOD323" value="BAT60J" x="14.0208" y="-113.9952" rot="R180">
+<attribute name="OC-DIGIKEY" value="497-3707-6-ND" x="14.0208" y="-113.9952" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC-MOUSER" value="511-BAT60JFILM" x="14.0208" y="-113.9952" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFN" value="BAT60JFILM" x="14.0208" y="-113.9952" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="STMicroelectronics" x="14.0208" y="-113.9952" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC-NEWARK" value="89K1218" x="14.0208" y="-113.9952" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -5859,9 +5859,11 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <via x="19.3548" y="-123.9012" extent="1-16" drill="0.2032"/>
 <wire x1="19.3548" y1="-123.9012" x2="20.574" y2="-125.1204" width="0.1524" layer="16"/>
 <wire x1="20.574" y1="-125.1204" x2="22.2504" y2="-125.1204" width="0.1524" layer="16"/>
-<contactref element="D6" pad="A"/>
-<wire x1="12.7208" y1="-113.9952" x2="11.2014" y2="-113.9952" width="0.1524" layer="1"/>
+<wire x1="12.0396" y1="-113.9952" x2="11.2014" y2="-113.9952" width="0.1524" layer="1"/>
 <wire x1="11.2014" y1="-113.9952" x2="11.2014" y2="-114.0714" width="0.1524" layer="1"/>
+<contactref element="D6" pad="A"/>
+<wire x1="12.7208" y1="-113.9952" x2="12.0396" y2="-113.9952" width="0.1524" layer="1"/>
+<wire x1="12.7208" y1="-113.9952" x2="12.8016" y2="-113.9952" width="0.1524" layer="1"/>
 </signal>
 <signal name="WAKE">
 <contactref element="U1" pad="P$34"/>
@@ -6411,9 +6413,6 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <via x="7.62" y="-93.8784" extent="1-16" drill="0.2032"/>
 <wire x1="7.62" y1="-93.8784" x2="7.62" y2="-92.007" width="0.1524" layer="1"/>
 <wire x1="7.62" y1="-92.007" x2="7.053" y2="-91.44" width="0.1524" layer="1"/>
-<contactref element="D6" pad="K"/>
-<wire x1="15.3208" y1="-113.9952" x2="15.3924" y2="-113.9952" width="0.1524" layer="1"/>
-<wire x1="15.3924" y1="-113.9952" x2="15.3924" y2="-114.9096" width="0.1524" layer="1"/>
 <via x="15.3924" y="-114.9096" extent="1-16" drill="0.2032"/>
 <wire x1="15.3924" y1="-114.9096" x2="15.3924" y2="-114.1476" width="0.1524" layer="16"/>
 <wire x1="15.3924" y1="-114.1476" x2="12.4968" y2="-114.1476" width="0.1524" layer="16"/>
@@ -6422,6 +6421,9 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="4.2672" y1="-117.0432" x2="3.3528" y2="-116.1288" width="0.1524" layer="16"/>
 <wire x1="3.3528" y1="-116.1288" x2="3.3528" y2="-114.3" width="0.1524" layer="16"/>
 <wire x1="3.3528" y1="-114.3" x2="3.5052" y2="-114.1476" width="0.1524" layer="16"/>
+<contactref element="D6" pad="K"/>
+<wire x1="15.3208" y1="-113.9952" x2="15.3924" y2="-113.9952" width="0.1524" layer="1"/>
+<wire x1="15.3924" y1="-113.9952" x2="15.3924" y2="-114.9096" width="0.1524" layer="1"/>
 </signal>
 <signal name="+3.3V_IF">
 <contactref element="U2" pad="5"/>
