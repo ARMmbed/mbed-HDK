@@ -5236,9 +5236,9 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <element name="R7" library="mbed-HDK-RLCQ" package="0402" value="33R" x="6.7056" y="-99.5172"/>
 <element name="R8" library="mbed-HDK-RLCQ" package="0402" value="1.5K" x="8.6868" y="-103.3272" rot="R90"/>
 <element name="R10" library="mbed-HDK-RLCQ" package="0402" value="10K" x="11.43" y="-112.1664" rot="R90"/>
-<element name="R11" library="mbed-HDK-RLCQ" package="0402" value="1.5K" x="1.8288" y="-108.204"/>
-<element name="R12" library="mbed-HDK-RLCQ" package="0402" value="2K" x="1.8288" y="-110.3376"/>
-<element name="R13" library="mbed-HDK-RLCQ" package="0402" value="2K" x="1.8288" y="-112.4712"/>
+<element name="R11" library="mbed-HDK-RLCQ" package="0402" value="470R" x="1.8288" y="-108.204"/>
+<element name="R12" library="mbed-HDK-RLCQ" package="0402" value="1.5K" x="1.8288" y="-110.3376"/>
+<element name="R13" library="mbed-HDK-RLCQ" package="0402" value="1.5K" x="1.8288" y="-112.4712"/>
 <element name="R9" library="mbed-HDK-RLCQ" package="0402" value="10K" x="3.2004" y="-115.6716" rot="R180"/>
 <element name="LED3" library="mbed-HDK-Optical" package="CHIPLED_0603" value="RED" x="1.8288" y="-107.1372" smashed="yes" rot="R90">
 <attribute name="OC-DIGIKEY" value="732-4978-1-ND" x="1.8288" y="-107.1372" size="1.778" layer="27" rot="R90" display="off"/>
