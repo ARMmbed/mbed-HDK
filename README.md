@@ -23,6 +23,9 @@ The mbed HDK provides:
 - Production Design Projects 
     - mbed Application Shield
     - mbed 6LoWPAN border router HAT
+    - mbed USB border router
+    - mbed xDOT shield
+    - mbed LPC1768
     - CI Test Shield
     - DAPLink
        - SWDAP LPC11U35
