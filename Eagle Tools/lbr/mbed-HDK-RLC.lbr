@@ -839,59 +839,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRYSTAL" prefix="Q" uservalue="yes">
-<description>Crystal</description>
-<gates>
-<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_FC135" package="FC135">
-<connects>
-<connect gate="G$1" pin="1" pad="X1"/>
-<connect gate="G$1" pin="2" pad="X2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_HC49UP" package="HC49UP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_TC38" package="TC38">
-<connects>
-<connect gate="G$1" pin="1" pad="+"/>
-<connect gate="G$1" pin="2" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_3.2X2.5" package="3.2X.2.5">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_2.5X2.0" package="2.5X2.0">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CAPACITOR" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Capacitor&lt;/b&gt;&lt;p&gt;</description>
 <gates>
@@ -1095,24 +1042,6 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="OC-MOUSER" value="" constant="no"/>
 <attribute name="OC-NEWARK" value="2289218" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="OSCILLATOR" prefix="OSC" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="OSCILLATOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="3.2X2.5" package="3.2X.2.5">
-<connects>
-<connect gate="G$1" pin="CLK" pad="P$3"/>
-<connect gate="G$1" pin="EN" pad="P$1"/>
-<connect gate="G$1" pin="GND" pad="P$2"/>
-<connect gate="G$1" pin="VCC" pad="P$4"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
