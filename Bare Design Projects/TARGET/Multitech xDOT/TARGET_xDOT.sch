@@ -389,10 +389,10 @@
 <rectangle x1="-1.27" y1="-2.794" x2="1.27" y2="-2.032" layer="94"/>
 <pin name="GND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="+3.3V_TGT">
+<symbol name="+3.3V">
 <circle x="0" y="3.302" radius="0.762" width="0.4064" layer="94"/>
 <text x="-3.556" y="4.826" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+3.3V_TGT" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="+3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -409,9 +409,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="+3.3V_TGT" prefix="PWR">
+<deviceset name="+3.3V" prefix="PWR">
 <gates>
-<gate name="G$1" symbol="+3.3V_TGT" x="0" y="0"/>
+<gate name="G$1" symbol="+3.3V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -843,7 +843,6 @@
 <part name="GND7" library="mbed-HDK-misc-Symbol" deviceset="GND" device=""/>
 <part name="C1" library="mbed-HDK-RLCQ" deviceset="CAPACITOR" device="0603" value="10uF"/>
 <part name="GND8" library="mbed-HDK-misc-Symbol" deviceset="GND" device=""/>
-<part name="PWR1" library="mbed-HDK-misc-Symbol" deviceset="+3.3V_TGT" device=""/>
 <part name="C2" library="mbed-HDK-RLCQ" deviceset="CAPACITOR" device="0603" value="100nF"/>
 <part name="GND9" library="mbed-HDK-misc-Symbol" deviceset="GND" device=""/>
 <part name="C3" library="mbed-HDK-RLCQ" deviceset="CAPACITOR" device="0402" value="6.8pF"/>
@@ -858,6 +857,7 @@
 <part name="ANT1" library="mbed-HDK-RF" deviceset="M620720" device=""/>
 <part name="C7" library="mbed-HDK-RLCQ" deviceset="CAPACITOR" device="0402" value="6.8pF"/>
 <part name="GND13" library="mbed-HDK-misc-Symbol" deviceset="GND" device=""/>
+<part name="PWR1" library="mbed-HDK-misc-Symbol" deviceset="+3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -884,7 +884,6 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <attribute name="VALUE" x="-16.002" y="82.042" size="1.27" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="GND8" gate="1" x="-10.16" y="83.82" rot="R90"/>
-<instance part="PWR1" gate="G$1" x="-33.02" y="86.36"/>
 <instance part="C2" gate="G$1" x="-17.78" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="-13.462" y="80.264" size="1.27" layer="95" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="-10.16" y="78.232" size="1.27" layer="96" font="vector" ratio="12" rot="R180"/>
@@ -920,6 +919,7 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <attribute name="VALUE" x="108.966" y="30.734" size="1.27" layer="96" font="vector" ratio="12"/>
 </instance>
 <instance part="GND13" gate="1" x="116.84" y="30.48" rot="R90"/>
+<instance part="PWR1" gate="G$1" x="-33.02" y="86.36"/>
 </instances>
 <busses>
 </busses>
@@ -1154,7 +1154,7 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <label x="-48.26" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="UART0_TX" class="0">
+<net name="DAP_TX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="UART0_TX"/>
 <wire x1="-5.08" y1="38.1" x2="-48.26" y2="38.1" width="0.1524" layer="91"/>
@@ -1162,7 +1162,7 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <label x="-48.26" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="UART0_RX" class="0">
+<net name="DAP_RX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="UART0_RX"/>
 <wire x1="-5.08" y1="35.56" x2="-48.26" y2="35.56" width="0.1524" layer="91"/>
@@ -1250,7 +1250,7 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <label x="-48.26" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWCLK" class="0">
+<net name="DAP_SWCLK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SWCLK"/>
 <wire x1="-5.08" y1="2.54" x2="-48.26" y2="2.54" width="0.1524" layer="91"/>
@@ -1258,12 +1258,12 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <label x="-48.26" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SWDIO" class="0">
+<net name="DAP_SWDIO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SWDIO"/>
 <wire x1="38.1" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
 <junction x="78.74" y="73.66"/>
-<label x="70.612" y="73.66" size="1.778" layer="95"/>
+<label x="65.532" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART1_RTS" class="0">
@@ -1282,12 +1282,12 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <label x="64.516" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="NRESET" class="0">
+<net name="DAP_NRESET" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="NRESET"/>
 <wire x1="38.1" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
 <junction x="78.74" y="66.04"/>
-<label x="69.342" y="66.04" size="1.778" layer="95"/>
+<label x="64.262" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="WAKE" class="0">
@@ -1326,26 +1326,6 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <label x="72.39" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3.3V_TGT" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="VDD(1)"/>
-<wire x1="-5.08" y1="66.04" x2="-33.02" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="66.04" x2="-33.02" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VDD(0)"/>
-<wire x1="-33.02" y1="68.58" x2="-5.08" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-33.02" y="68.58"/>
-<wire x1="-33.02" y1="68.58" x2="-33.02" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="P$1"/>
-<wire x1="-33.02" y1="78.74" x2="-33.02" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="83.82" x2="-20.32" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-33.02" y="83.82"/>
-<pinref part="PWR1" gate="G$1" pin="+3.3V_TGT"/>
-<wire x1="-33.02" y1="83.82" x2="-33.02" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="78.74" x2="-20.32" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="P$1"/>
-<junction x="-33.02" y="78.74"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="C3" gate="G$1" pin="P$2"/>
@@ -1376,6 +1356,26 @@ http://media.digikey.com/pdf/Data%20Sheets/Ethertronics/M620720.pdf</text>
 <wire x1="99.06" y1="40.64" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="30.48" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="P$2"/>
+</segment>
+</net>
+<net name="+3.3V" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VDD(1)"/>
+<wire x1="-5.08" y1="66.04" x2="-33.02" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="66.04" x2="-33.02" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VDD(0)"/>
+<wire x1="-33.02" y1="68.58" x2="-5.08" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-33.02" y="68.58"/>
+<wire x1="-33.02" y1="68.58" x2="-33.02" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="P$1"/>
+<wire x1="-33.02" y1="78.74" x2="-33.02" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="83.82" x2="-20.32" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-33.02" y="83.82"/>
+<wire x1="-33.02" y1="83.82" x2="-33.02" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="78.74" x2="-20.32" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="P$1"/>
+<junction x="-33.02" y="78.74"/>
+<pinref part="PWR1" gate="G$1" pin="+3.3V"/>
 </segment>
 </net>
 </nets>
