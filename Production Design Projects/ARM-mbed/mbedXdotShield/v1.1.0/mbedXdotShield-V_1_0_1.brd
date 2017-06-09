@@ -5433,9 +5433,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="73.7616" y1="-135.1788" x2="63.246" y2="-135.1788" width="0.3048" layer="1"/>
 <wire x1="63.246" y1="-135.1788" x2="63.0936" y2="-135.0264" width="0.3048" layer="1"/>
 <wire x1="49.9872" y1="-135.4836" x2="49.0728" y2="-134.5692" width="0.3048" layer="1"/>
-<wire x1="49.0728" y1="-134.5692" x2="49.0728" y2="-127.5588" width="0.3048" layer="1"/>
-<wire x1="49.0728" y1="-127.5588" x2="43.2816" y2="-127.5588" width="0.3048" layer="1"/>
-<wire x1="43.2816" y1="-127.5588" x2="43.2816" y2="-125.0004" width="0.3048" layer="1"/>
+<wire x1="43.2816" y1="-127.254" x2="43.2816" y2="-125.0004" width="0.3048" layer="1"/>
 <wire x1="43.2816" y1="-125.0004" x2="43.2468" y2="-124.9656" width="0.3048" layer="1"/>
 <wire x1="76.6236" y1="-91.44" x2="76.6236" y2="-90.492" width="0.1524" layer="1"/>
 <wire x1="76.6236" y1="-90.492" x2="75.438" y2="-89.3064" width="0.1524" layer="1"/>
@@ -5466,12 +5464,19 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="15.4042" y1="-88.912278125" x2="15.4042" y2="-94.7674" width="0.3048" layer="1"/>
 <wire x1="64.008" y1="-89.6112" x2="64.008" y2="-89.32855" width="0.3048" layer="1"/>
 <wire x1="64.008" y1="-89.32855" x2="63.152578125" y2="-88.473128125" width="0.3048" layer="1"/>
-<wire x1="63.152578125" y1="-88.473128125" x2="53.848" y2="-88.473128125" width="0.3048" layer="1"/>
 <wire x1="53.848" y1="-88.473128125" x2="53.75701875" y2="-88.564109375" width="0.3048" layer="1"/>
-<wire x1="62.7888" y1="-88.5444" x2="53.171853125" y2="-88.5444" width="0.3048" layer="1"/>
 <wire x1="53.171853125" y1="-88.5444" x2="53.086103125" y2="-88.45865" width="0.3048" layer="1"/>
 <wire x1="53.086103125" y1="-88.45865" x2="36.81415" y2="-88.45865" width="0.3048" layer="1"/>
 <wire x1="36.81415" y1="-88.45865" x2="36.7284" y2="-88.5444" width="0.3048" layer="1"/>
+<wire x1="49.0728" y1="-134.5692" x2="49.0728" y2="-127.7112" width="0.3048" layer="1"/>
+<wire x1="49.0728" y1="-127.7112" x2="48.9204" y2="-127.5588" width="0.3048" layer="1"/>
+<wire x1="48.9204" y1="-127.5588" x2="43.5864" y2="-127.5588" width="0.3048" layer="1"/>
+<wire x1="43.5864" y1="-127.5588" x2="43.2816" y2="-127.254" width="0.3048" layer="1"/>
+<wire x1="53.848" y1="-88.473128125" x2="54.735271875" y2="-88.473128125" width="0.3048" layer="1"/>
+<wire x1="54.735271875" y1="-88.473128125" x2="54.76123125" y2="-88.44716875" width="0.3048" layer="1"/>
+<wire x1="54.76123125" y1="-88.44716875" x2="62.84396875" y2="-88.44716875" width="0.3048" layer="1"/>
+<wire x1="62.84396875" y1="-88.44716875" x2="62.9412" y2="-88.5444" width="0.3048" layer="1"/>
+<wire x1="62.84396875" y1="-88.44716875" x2="62.81231875" y2="-88.5444" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RFU1">
 <contactref element="U1" pad="P$2"/>
@@ -7023,28 +7028,28 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <approved hash="1,20,db0c2acc2b0fdacf"/>
 <approved hash="19,1,8ed852aa50428c30"/>
 <approved hash="6,1,7ad6585244a12b75"/>
-<approved hash="6,1,40ffcd8ed97bebc3"/>
 <approved hash="6,1,895c21ed0ad33150"/>
 <approved hash="6,1,db1ff565b41f7d59"/>
-<approved hash="6,1,df97d229910379c9"/>
 <approved hash="6,1,db1bfddbb9517d45"/>
 <approved hash="6,1,dc93c8c6842c7a4d"/>
+<approved hash="6,1,40ffcd8ed97bebc3"/>
+<approved hash="6,1,df97d229910379c9"/>
 <approved hash="6,1,e96af6b8fe36e1e4"/>
-<approved hash="6,1,4fe9439ec35edb15"/>
 <approved hash="6,1,cc1c5eee5e95cc67"/>
-<approved hash="6,1,fb7131b5b1b97b7d"/>
+<approved hash="6,1,4fe9439ec35edb15"/>
 <approved hash="6,1,c45c0d3f4d338450"/>
+<approved hash="6,1,fb7131b5b1b97b7d"/>
 <approved hash="6,1,8c048dae8cef8eba"/>
 <approved hash="6,1,4826c9e6ce244fe4"/>
 <approved hash="6,1,91e77306730f91ee"/>
-<approved hash="6,1,1d53c4f2c4fb1d5a"/>
 <approved hash="6,1,8edc587f58768ed5"/>
+<approved hash="6,1,1d53c4f2c4fb1d5a"/>
 <approved hash="6,1,dc411d92a3dba5da"/>
 <approved hash="6,1,875f41f70c7495b6"/>
 <approved hash="6,1,6c9a5e48673555e7"/>
 <approved hash="6,1,e5053a5aba576508"/>
-<approved hash="6,1,7065229723e37111"/>
 <approved hash="6,1,75e87688217b2615"/>
+<approved hash="6,1,7065229723e37111"/>
 <approved hash="6,1,194238cfddf52c54"/>
 <approved hash="6,1,dc411d92a3dba5da"/>
 <approved hash="6,1,635d16d7aa90f5fa"/>
