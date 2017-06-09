@@ -2,7 +2,7 @@
 
 The mbed xDOT shield features a Multitech xDOT LORA module, with mbed compatabile drag-drop programming. This device is both a independent platform or can act as a shield to make any device send or recieve LORA data via UART.
 
-<img src="" width="300" height="300" />
+<img src="http://i.imgur.com/FHe1Cg4.jpg" width="600" height="300" />
 
 ## Whats included here?
 
