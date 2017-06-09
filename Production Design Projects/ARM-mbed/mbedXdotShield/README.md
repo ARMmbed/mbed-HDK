@@ -26,12 +26,6 @@ The design features:
 
 The hardware design files can be found in this repo as part of the mbed HDK and are referenced by their most up-to-date version v’x.x.x’.(If you wish to find an older project version, navigate to releases or checkout a previous commit).
 
-## eBOM
-
-In the HDK we provide an eBOM (Online BOM) for each production design project. This regulary updated eBOM gives the user a precompiled online list for purchasing all of the components in the design in one easy click saving you a wealth of time!
-
-The eBOM for this project can be found [here]()
-
 ## Software and more info
 
 The software for tests and more info can be found in the [CI Test Shield github repository](http://www.github.com/armmbed/ci-test-shield). 
