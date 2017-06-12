@@ -1096,14 +1096,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="1.524" y1="0" x2="1.524" y2="-1.27" width="0.6096" layer="94"/>
 <wire x1="-1.524" y1="1.27" x2="-1.524" y2="0" width="0.6096" layer="94"/>
 <wire x1="-1.524" y1="0" x2="-1.524" y2="-1.27" width="0.6096" layer="94"/>
-<text x="-2.54" y="2.54" size="1.27" layer="95" font="vector" ratio="12">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="96" font="vector" ratio="12">&gt;VALUE</text>
+<text x="-2.54" y="2.286" size="1.27" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="-2.794" y="-3.556" size="1.27" layer="96" font="vector" ratio="12">&gt;VALUE</text>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="7M-12.000MAAJ-T" prefix="Q" uservalue="yes">
+<deviceset name="7M-12.000MAAJ-T" prefix="Y">
 <description>&lt;B&gt;Crystal, TXC 12MHz ±30ppm 18pF &lt;B&gt;</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
@@ -1481,7 +1481,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <part name="PWR4" library="mbed-HDK-misc-Symbol" deviceset="+3.3V" device=""/>
 <part name="PWR5" library="mbed-HDK-misc-Symbol" deviceset="+3.3V" device=""/>
 <part name="U1" library="mbed-HDK-MF-NXP" deviceset="IF_LPC11U35FHI33/501" device=""/>
-<part name="Q1" library="mbed-HDK-Oscillator" deviceset="7M-12.000MAAJ-T" device=""/>
+<part name="Y1" library="mbed-HDK-Oscillator" deviceset="7M-12.000MAAJ-T" device=""/>
 <part name="CON1" library="mbed-HDK-Connector" deviceset="47346-0001" device=""/>
 <part name="U2" library="mbed-HDK-Power" deviceset="TLV1117LV33DCYR" device=""/>
 <part name="GND1" library="mbed-HDK" deviceset="GND" device=""/>
@@ -1495,6 +1495,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <part name="C4" library="mbed-HDK-RLC" deviceset="CAPACITOR" device="0603" value="10uF"/>
 <part name="GND6" library="mbed-HDK" deviceset="GND" device=""/>
 <part name="PWR6" library="mbed-HDK-misc-Symbol" deviceset="+3.3V" device=""/>
+<part name="GND7" library="mbed-HDK" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1544,7 +1545,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <attribute name="NAME" x="100.076" y="159.766" size="1.27" layer="95" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="100.076" y="152.146" size="1.27" layer="96" font="vector" ratio="12" rot="R270"/>
 </instance>
-<instance part="LED3" gate="G$1" x="205.74" y="127" rot="R270"/>
+<instance part="LED3" gate="G$1" x="203.2" y="127" rot="R90"/>
 <instance part="LED4" gate="G$1" x="205.74" y="114.3" rot="R270"/>
 <instance part="LED5" gate="G$1" x="205.74" y="101.6" rot="R270"/>
 <instance part="C12" gate="G$1" x="43.18" y="81.28"/>
@@ -1571,7 +1572,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <attribute name="VALUE" x="91.694" y="77.724" size="2.286" layer="92" rot="R90"/>
 </instance>
 <instance part="U1" gate="G$1" x="139.7" y="111.76"/>
-<instance part="Q1" gate="G$1" x="104.14" y="55.88"/>
+<instance part="Y1" gate="G$1" x="104.14" y="55.88"/>
 <instance part="CON1" gate="A" x="142.24" y="170.18" rot="R180"/>
 <instance part="U2" gate="G$1" x="195.58" y="162.56"/>
 <instance part="GND1" gate="1" x="203.2" y="154.94"/>
@@ -1587,6 +1588,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <instance part="PWR6" gate="G$1" x="241.3" y="175.26" smashed="yes">
 <attribute name="VALUE" x="237.744" y="180.086" size="2.286" layer="92"/>
 </instance>
+<instance part="GND7" gate="1" x="210.82" y="127" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -1692,6 +1694,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="241.3" y1="160.02" x2="241.3" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="208.28" y1="127" x2="210.82" y2="127" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="IF_NRESET" class="0">
 <segment>
@@ -1739,13 +1746,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <pinref part="U1" gate="G$1" pin="USB_VBUS"/>
 </segment>
 </net>
-<net name="N$34" class="0">
-<segment>
-<wire x1="200.66" y1="127" x2="193.04" y2="127" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="P$1"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
-</segment>
-</net>
 <net name="N$35" class="0">
 <segment>
 <wire x1="200.66" y1="114.3" x2="193.04" y2="114.3" width="0.1524" layer="91"/>
@@ -1785,7 +1785,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <junction x="111.76" y="55.88"/>
 <pinref part="C15" gate="G$1" pin="P$1"/>
 <pinref part="U1" gate="G$1" pin="XTALOUT"/>
-<pinref part="Q1" gate="G$1" pin="2"/>
+<pinref part="Y1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -1797,7 +1797,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <junction x="96.52" y="55.88"/>
 <pinref part="C14" gate="G$1" pin="P$1"/>
 <pinref part="U1" gate="G$1" pin="XTALIN"/>
-<pinref part="Q1" gate="G$1" pin="1"/>
+<pinref part="Y1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DAP_RX" class="0">
@@ -1888,14 +1888,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 </segment>
 <segment>
 <wire x1="215.9" y1="101.6" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="114.3" x2="215.9" y2="127" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="127" x2="215.9" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="114.3" x2="215.9" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="101.6" x2="215.9" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="114.3" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="127" x2="215.9" y2="127" width="0.1524" layer="91"/>
-<junction x="215.9" y="127"/>
 <junction x="215.9" y="114.3"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
 <pinref part="LED4" gate="G$1" pin="A"/>
 <pinref part="LED5" gate="G$1" pin="A"/>
 <pinref part="PWR4" gate="G$1" pin="+3.3V"/>
@@ -1957,6 +1953,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="187.96" y1="165.1" x2="187.96" y2="167.64" width="0.1524" layer="91"/>
 <junction x="177.8" y="167.64"/>
 <junction x="187.96" y="167.64"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="P$1"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="193.04" y1="127" x2="200.66" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
