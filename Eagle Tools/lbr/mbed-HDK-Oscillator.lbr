@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -69,7 +69,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -678,6 +678,17 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <text x="-0.84455" y="2.49555" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
 <text x="-0.8636" y="-3.38455" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
 </package>
+<package name="CSTCE8M00G55-R0">
+<smd name="3" x="0" y="0" dx="0.4" dy="1.6" layer="1"/>
+<smd name="2" x="1.2" y="0" dx="0.4" dy="1.6" layer="1"/>
+<smd name="1" x="2.4" y="0" dx="0.4" dy="1.6" layer="1"/>
+<wire x1="-0.4" y1="0.7" x2="2.8" y2="0.7" width="0.127" layer="21"/>
+<wire x1="2.8" y1="0.7" x2="2.8" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="2.8" y1="-0.7" x2="-0.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-0.7" x2="-0.4" y2="0.7" width="0.127" layer="21"/>
+<text x="-0.45910625" y="-1.974215625" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-0.45910625" y="-3.295015625" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -701,8 +712,8 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="1.524" y1="0" x2="1.524" y2="-1.27" width="0.6096" layer="94"/>
 <wire x1="-1.524" y1="1.27" x2="-1.524" y2="0" width="0.6096" layer="94"/>
 <wire x1="-1.524" y1="0" x2="-1.524" y2="-1.27" width="0.6096" layer="94"/>
-<text x="-2.54" y="2.54" size="1.27" layer="95" font="vector" ratio="12">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="96" font="vector" ratio="12">&gt;VALUE</text>
+<text x="-2.54" y="2.286" size="1.27" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="-2.794" y="-3.556" size="1.27" layer="96" font="vector" ratio="12">&gt;VALUE</text>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 </symbol>
@@ -766,9 +777,28 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 <rectangle x1="-2.54" y1="1.27" x2="2.54" y2="1.778" layer="94"/>
 </symbol>
+<symbol name="RESONATOR">
+<wire x1="1.524" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.778" x2="-0.889" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-0.889" y1="-1.778" x2="0" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.778" x2="0.889" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-1.778" x2="0.889" y2="1.778" width="0.254" layer="94"/>
+<wire x1="0.889" y1="1.778" x2="-0.889" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.524" y1="1.27" x2="1.524" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.524" y1="0" x2="1.524" y2="-1.27" width="0.6096" layer="94"/>
+<wire x1="-1.524" y1="1.27" x2="-1.524" y2="0" width="0.6096" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-1.524" y2="-1.27" width="0.6096" layer="94"/>
+<text x="-2.54" y="2.286" size="1.27" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="-2.54" y="3.81" size="1.27" layer="96" font="vector" ratio="12">&gt;VALUE</text>
+<pin name="3" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="0" y1="-2.794" x2="0" y2="-1.778" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="GENERIC-CRYSTAL" prefix="Q" uservalue="yes">
+<deviceset name="GENERIC-CRYSTAL" prefix="Y" uservalue="yes">
 <description>&lt;B&gt; GENERIC Crystal &lt;B&gt;</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
@@ -821,7 +851,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="GENERIC-OSCILLATOR" prefix="OSC" uservalue="yes">
+<deviceset name="GENERIC-OSCILLATOR" prefix="Y" uservalue="yes">
 <description>&lt;B&gt; GENERIC Oscillator &lt;B&gt;</description>
 <gates>
 <gate name="G$1" symbol="OSCILLATOR" x="0" y="0"/>
@@ -840,16 +870,18 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ASE-50.000MHZ-LC-T" prefix="Q" uservalue="yes">
+<deviceset name="ASE-50.000MHZ-LC-T" prefix="Y" uservalue="yes">
 <description>&lt;B&gt;Oscillator, Abracon 50MHz ±50ppm &lt;B&gt;</description>
 <gates>
-<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+<gate name="G$1" symbol="OSCILLATOR" x="-2.54" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="3.2X.2.5">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$3"/>
+<connect gate="G$1" pin="CLK" pad="P$3"/>
+<connect gate="G$1" pin="EN" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="VCC" pad="P$4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -863,7 +895,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="7M-12.000MAAJ-T" prefix="Q" uservalue="yes">
+<deviceset name="7M-12.000MAAJ-T" prefix="Y">
 <description>&lt;B&gt;Crystal, TXC 12MHz ±30ppm 18pF &lt;B&gt;</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
@@ -886,7 +918,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ABS07-32.768KHZ-T" prefix="Q" uservalue="yes">
+<deviceset name="ABS07-32.768KHZ-T" prefix="Y">
 <description>&lt;B&gt;Crystal, Abracon 32.768kHz ±20ppm 12.5pF &lt;B&gt;</description>
 <gates>
 <gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
@@ -904,6 +936,30 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <attribute name="OC-DIGIKEY" value="535-9542-1-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="535-9542-1-ND" constant="no"/>
 <attribute name="OC-NEWARK" value="2101347" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CSTCE8M00G55-R0" prefix="Y">
+<description>&lt;B&gt;Resonator Cermanic, Murata 8MHz 33pF &lt;B&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESONATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CSTCE8M00G55-R0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Murata" constant="no"/>
+<attribute name="MFN" value="CSTCE8M00G55-R0" constant="no"/>
+<attribute name="OC-DIGIKEY" value="490-1195-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="81-CSTCE8M00G55-R0" constant="no"/>
+<attribute name="OC-NEWARK" value="2443270" constant="no"/>
 </technology>
 </technologies>
 </device>
