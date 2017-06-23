@@ -37,10 +37,14 @@ The software for tests and more info can be found in the [CI Test Shield github 
 
 
 ## Revisions
+- **v 1.2.0** (01/06/17)
+	-  'D2' Replaced with 'R29' 0ohm.
+	-  mbed enabled logo on silkscreen
+	-  Modified 'CON2' now recommended voltage is 4.5V (From 3V) for VBAT, rerouted to iput of LDO 'U2'.
 - **v 1.1.0** (01/06/17)
-	- 	R3:1.5K->220R
-	-  R13,R14:470R->1.5K
-	-  Placed resistors R14-to-R27 on front of PCB (no components on rear)
+	- 	'R3':1.5K->220R
+	-  'R13','R14':470R->1.5K
+	-  Placed resistors 'R14'-to-'R27' on front of PCB (no components on rear)
 	-  Rerouted UART1TX, UART1RX (improved antenna performance)
 	-  Moved USB micro further into board
 - **v 1.0.0** (18/05/17)
