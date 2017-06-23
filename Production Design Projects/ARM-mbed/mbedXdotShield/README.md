@@ -37,7 +37,7 @@ The software for tests and more info can be found in the [CI Test Shield github 
 
 
 ## Revisions
-- **v 1.2.0** (01/06/17)
+- **v 1.2.0** (23/06/17)
 	-  'D2' Replaced with 'R29' 0ohm.
 	-  mbed enabled logo on silkscreen
 	-  Modified 'CON2' now recommended voltage is 4.5V (from 3V) for VBAT, rerouted to input of LDO 'U2'
