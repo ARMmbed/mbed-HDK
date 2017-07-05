@@ -1037,7 +1037,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="7.9756" y1="-9.5504" x2="8.7122" y2="-8.8138" width="0.1524" layer="1"/>
 <wire x1="8.7122" y1="-8.8138" x2="8.7122" y2="-5.6388" width="0.1524" layer="1"/>
 </signal>
-<signal name="DAP_RX">
+<signal name="TGT_RX">
 <contactref element="U1" pad="32"/>
 <wire x1="5.778" y1="-3.4772" x2="4.981" y2="-3.4772" width="0.1524" layer="1"/>
 <via x="4.5974" y="-3.8608" extent="1-16" drill="0.2032"/>
@@ -1090,7 +1090,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="3.5052" y1="-4.572" x2="2.1336" y2="-4.572" width="0.1524" layer="16"/>
 <wire x1="2.1336" y1="-4.572" x2="1.8288" y2="-4.2672" width="0.1524" layer="16"/>
 </signal>
-<signal name="DAP_USB_D-">
+<signal name="TGT_USB_D-">
 <contactref element="R7" pad="1"/>
 <wire x1="2.4257" y1="2.156459375" x2="2.4257" y2="2.733040625" width="0.1524" layer="1"/>
 <wire x1="2.4257" y1="2.733040625" x2="2.313940625" y2="2.8448" width="0.1524" layer="1"/>
@@ -1110,7 +1110,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="-9.2964" y1="5.4864" x2="-11.028" y2="5.4864" width="0.1524" layer="1"/>
 <wire x1="-11.028" y1="5.4864" x2="-11.0684" y2="5.5268" width="0.1524" layer="1"/>
 </signal>
-<signal name="DAP_USB_D+">
+<signal name="TGT_USB_D+">
 <contactref element="R4" pad="1"/>
 <wire x1="4.51611875" y1="2.156459375" x2="4.51611875" y2="2.95148125" width="0.1524" layer="1"/>
 <wire x1="4.51611875" y1="2.95148125" x2="3.9624" y2="3.5052" width="0.1524" layer="1"/>
@@ -1119,7 +1119,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="-11.0684" y1="4.8768" x2="-0.6096" y2="4.8768" width="0.1524" layer="1"/>
 <wire x1="-0.6096" y1="4.8768" x2="0.762" y2="3.5052" width="0.1524" layer="1"/>
 </signal>
-<signal name="DAP_SWCLK">
+<signal name="TGT_SWCLK">
 <contactref element="U1" pad="16"/>
 <wire x1="10.478" y1="0.0228" x2="10.8432" y2="0.0228" width="0.1524" layer="1"/>
 <wire x1="10.8432" y1="0.0228" x2="11.2776" y2="0.4572" width="0.1524" layer="1"/>
@@ -1133,7 +1133,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="14.478" y1="-4.8768" x2="16.1544" y2="-4.8768" width="0.1524" layer="16"/>
 <wire x1="16.1544" y1="-4.8768" x2="16.4592" y2="-4.572" width="0.1524" layer="16"/>
 </signal>
-<signal name="DAP_SWDIO">
+<signal name="TGT_SWDIO">
 <contactref element="U1" pad="17"/>
 <wire x1="9.878" y1="0.6228" x2="10.5288" y2="0.6228" width="0.1524" layer="1"/>
 <wire x1="10.5288" y1="0.6228" x2="11.2776" y2="1.3716" width="0.1524" layer="1"/>
@@ -1149,7 +1149,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="15.6972" y1="-4.2672" x2="16.002" y2="-3.9624" width="0.1524" layer="1"/>
 <wire x1="16.002" y1="-3.9624" x2="17.0688" y2="-3.9624" width="0.1524" layer="1"/>
 </signal>
-<signal name="DAP_TX">
+<signal name="TGT_TX">
 <contactref element="U1" pad="31"/>
 <wire x1="5.778" y1="-2.9772" x2="4.6682" y2="-2.9772" width="0.1524" layer="1"/>
 <wire x1="4.6682" y1="-2.9772" x2="4.6228" y2="-3.0226" width="0.1524" layer="1"/>
@@ -1246,7 +1246,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="-5.334" y1="1.9812" x2="-0.9024" y2="-1.0668" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.334" y1="5.6388" x2="-5.334" y2="3.9624" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="DAP_NRESET">
+<signal name="TGT_NRESET">
 <contactref element="U1" pad="8"/>
 <contactref element="D6" pad="A"/>
 <wire x1="10.5918" y1="-6.1422" x2="10.571" y2="-6.2738" width="0.1524" layer="1"/>

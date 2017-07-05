@@ -1492,7 +1492,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <sheets>
 <sheet>
 <plain>
-<text x="116.84" y="119.38" size="2.54" layer="91">LCP11u35 DAPLINK Interface</text>
+<text x="116.84" y="129.54" size="2.54" layer="91">MK20DX128VFM5 DAPLINK Interface</text>
 <text x="2.54" y="180.34" size="6.4516" layer="90">DAPLINK INTERFACE</text>
 </plain>
 <instances>
@@ -1794,6 +1794,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="111.76" y1="58.42" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="3"/>
 <wire x1="106.68" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
+<junction x="111.76" y="53.34"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -1805,60 +1806,39 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <wire x1="116.84" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
+<junction x="96.52" y="53.34"/>
 </segment>
 </net>
-<net name="DAP_RX" class="0">
+<net name="TGT_RX" class="0">
 <segment>
 <wire x1="170.18" y1="63.5" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
 <label x="170.18" y="63.5" size="2.286" layer="90"/>
 <pinref part="U3" gate="G$1" pin="TGT_RX"/>
+<junction x="170.18" y="63.5"/>
 </segment>
 </net>
-<net name="DAP_USB_D-" class="0">
-<segment>
-<wire x1="27.94" y1="96.52" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
-<label x="10.16" y="96.52" size="2.286" layer="90"/>
-<pinref part="R7" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
-<pinref part="CON1" gate="A" pin="D-"/>
-<wire x1="147.32" y1="165.1" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
-<junction x="152.4" y="165.1"/>
-<label x="152.4" y="165.1" size="2.286" layer="90"/>
-</segment>
-</net>
-<net name="DAP_USB_D+" class="0">
-<segment>
-<wire x1="35.56" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
-<label x="15.24" y="104.14" size="2.286" layer="90"/>
-<pinref part="R4" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
-<pinref part="CON1" gate="A" pin="D+"/>
-<wire x1="147.32" y1="162.56" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
-<junction x="152.4" y="162.56"/>
-<label x="152.4" y="162.56" size="2.286" layer="90"/>
-</segment>
-</net>
-<net name="DAP_SWCLK" class="0">
+<net name="TGT_SWCLK" class="0">
 <segment>
 <wire x1="162.56" y1="91.44" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
 <label x="170.18" y="91.44" size="2.286" layer="90"/>
 <pinref part="U3" gate="G$1" pin="TGT_SWCLK"/>
+<junction x="170.18" y="91.44"/>
 </segment>
 </net>
-<net name="DAP_SWDIO" class="0">
+<net name="TGT_SWDIO" class="0">
 <segment>
 <wire x1="162.56" y1="88.9" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
 <label x="170.18" y="88.9" size="2.286" layer="90"/>
 <pinref part="U3" gate="G$1" pin="TGT_SWDIO"/>
+<junction x="170.18" y="88.9"/>
 </segment>
 </net>
-<net name="DAP_TX" class="0">
+<net name="TGT_TX" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="TGT_TX"/>
 <wire x1="162.56" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
 <label x="170.18" y="66.04" size="2.286" layer="90"/>
+<junction x="170.18" y="66.04"/>
 </segment>
 </net>
 <net name="+3.3V" class="0">
@@ -1915,7 +1895,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <pinref part="PWR8" gate="G$1" pin="+3.3V"/>
 </segment>
 </net>
-<net name="DAP_NRESET" class="0">
+<net name="TGT_NRESET" class="0">
 <segment>
 <wire x1="81.28" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="114.3" x2="91.44" y2="104.14" width="0.1524" layer="91"/>
@@ -1955,7 +1935,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <pinref part="PWR3" gate="G$1" pin="+5V"/>
 </segment>
 </net>
-<net name="TMS" class="0">
+<net name="IF_SWDIO" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="NC7"/>
 <wire x1="147.32" y1="45.72" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
@@ -1969,7 +1949,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <label x="175.26" y="33.02" size="2.286" layer="90" rot="R180"/>
 </segment>
 </net>
-<net name="TDO" class="0">
+<net name="IF_TDO" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="NC6"/>
 <wire x1="144.78" y1="45.72" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
@@ -1983,7 +1963,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <label x="175.26" y="38.1" size="2.286" layer="90" rot="R180"/>
 </segment>
 </net>
-<net name="TDI" class="0">
+<net name="IF_TDI" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="NC5"/>
 <wire x1="142.24" y1="45.72" x2="142.24" y2="40.64" width="0.1524" layer="91"/>
@@ -1997,7 +1977,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <label x="175.26" y="40.64" size="2.286" layer="90" rot="R180"/>
 </segment>
 </net>
-<net name="TCLK" class="0">
+<net name="IF_SWCLK" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="NC4"/>
 <wire x1="139.7" y1="45.72" x2="139.7" y2="40.64" width="0.1524" layer="91"/>
@@ -2016,6 +1996,34 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <pinref part="R11" gate="G$1" pin="P$1"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="193.04" y1="127" x2="200.66" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TGT_USB_D+" class="0">
+<segment>
+<wire x1="35.56" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
+<label x="15.24" y="104.14" size="2.286" layer="90"/>
+<pinref part="R4" gate="G$1" pin="P$1"/>
+<junction x="27.94" y="104.14"/>
+</segment>
+<segment>
+<pinref part="CON1" gate="A" pin="D+"/>
+<wire x1="147.32" y1="162.56" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
+<junction x="152.4" y="162.56"/>
+<label x="152.4" y="162.56" size="2.286" layer="90"/>
+</segment>
+</net>
+<net name="TGT_USB_D-" class="0">
+<segment>
+<wire x1="27.94" y1="96.52" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
+<label x="10.16" y="96.52" size="2.286" layer="90"/>
+<pinref part="R7" gate="G$1" pin="P$1"/>
+<junction x="27.94" y="96.52"/>
+</segment>
+<segment>
+<pinref part="CON1" gate="A" pin="D-"/>
+<wire x1="147.32" y1="165.1" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
+<junction x="152.4" y="165.1"/>
+<label x="152.4" y="165.1" size="2.286" layer="90"/>
 </segment>
 </net>
 </nets>

@@ -1800,7 +1800,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <pinref part="Y1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="DAP_RX" class="0">
+<net name="TGT_RX" class="0">
 <segment>
 <wire x1="170.18" y1="68.58" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
 <label x="170.18" y="68.58" size="2.286" layer="90"/>
@@ -1823,7 +1823,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <pinref part="U1" gate="G$1" pin="NRESET_FB_ISP"/>
 </segment>
 </net>
-<net name="DAP_USB_D-" class="0">
+<net name="TGT_USB_D-" class="0">
 <segment>
 <wire x1="27.94" y1="96.52" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
 <label x="10.16" y="96.52" size="2.286" layer="90"/>
@@ -1836,7 +1836,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <label x="152.4" y="165.1" size="2.286" layer="90"/>
 </segment>
 </net>
-<net name="DAP_USB_D+" class="0">
+<net name="TGT_USB_D+" class="0">
 <segment>
 <wire x1="35.56" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
 <label x="15.24" y="104.14" size="2.286" layer="90"/>
@@ -1849,21 +1849,21 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <label x="152.4" y="162.56" size="2.286" layer="90"/>
 </segment>
 </net>
-<net name="DAP_SWCLK" class="0">
+<net name="TGT_SWCLK" class="0">
 <segment>
 <wire x1="162.56" y1="96.52" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
 <label x="170.18" y="96.52" size="2.286" layer="90"/>
 <pinref part="U1" gate="G$1" pin="TGT_SWCLK"/>
 </segment>
 </net>
-<net name="DAP_SWDIO" class="0">
+<net name="TGT_SWDIO" class="0">
 <segment>
 <wire x1="162.56" y1="93.98" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
 <label x="170.18" y="93.98" size="2.286" layer="90"/>
 <pinref part="U1" gate="G$1" pin="TGT_SWDIO"/>
 </segment>
 </net>
-<net name="DAP_TX" class="0">
+<net name="TGT_TX" class="0">
 <segment>
 <wire x1="162.56" y1="71.12" x2="170.18" y2="71.12" width="0.1524" layer="91"/>
 <label x="170.18" y="71.12" size="2.286" layer="90"/>
@@ -1928,7 +1928,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <pinref part="PWR6" gate="G$1" pin="+3.3V"/>
 </segment>
 </net>
-<net name="DAP_NRESET" class="0">
+<net name="TGT_NRESET" class="0">
 <segment>
 <wire x1="162.56" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
 <label x="170.18" y="86.36" size="2.286" layer="90"/>
