@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.00635" altunitdist="mm" altunit="mm"/>
+<grid distance="6" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.00635" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -484,17 +484,13 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="VALUE" x="0.4445" y="17.0434" size="1.016" layer="27" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="C2" library="mbed-HDK-RLCQ" package="0603" value="100nF" x="2.9972" y="19.2151" rot="R90"/>
-<element name="C3" library="mbed-HDK-RLCQ" package="0402" value="6.8pF" x="29.3624" y="21.9456" smashed="yes">
-<attribute name="NAME" x="32.1056" y="22.1869" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
+<element name="C3" library="mbed-HDK-RLCQ" package="0402" value="9.1pF" x="29.3624" y="21.9456" smashed="yes">
+<attribute name="NAME" x="30.4292" y="23.5585" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="28.0924" y="18.1356" size="1.016" layer="27" font="vector" ratio="12"/>
 </element>
-<element name="C4" library="mbed-HDK-RLCQ" package="0402" value="10pF" x="28.6004" y="20.4724" smashed="yes" rot="R90">
+<element name="C4" library="mbed-HDK-RLCQ" package="0402" value="5.6pF" x="28.6004" y="20.4724" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.1084" y="17.8689" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="32.4104" y="19.2024" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
-</element>
-<element name="C5" library="mbed-HDK-RLCQ" package="0402" value="10pF" x="30.0228" y="20.4724" smashed="yes" rot="R90">
-<attribute name="NAME" x="30.5943" y="17.8689" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="33.8328" y="19.2024" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="C6" library="mbed-HDK-RLCQ" package="0402" value="82pF" x="36.6268" y="22.4028" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.9758" y="23.4823" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
@@ -503,14 +499,6 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <element name="C7" library="mbed-HDK-RLCQ" package="0402" value="6.8pF" x="39.4208" y="11.4808" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.7858" y="10.7823" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="43.2308" y="10.2108" size="1.016" layer="27" font="vector" ratio="12" rot="R90"/>
-</element>
-<element name="L1" library="mbed-HDK-RLCQ" package="0402" value="7.5uH" x="29.3624" y="23.1648" smashed="yes">
-<attribute name="NAME" x="30.2514" y="23.0378" size="1.016" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="28.0924" y="19.3548" size="1.016" layer="27" font="vector" ratio="12"/>
-</element>
-<element name="R1" library="mbed-HDK-RLCQ" package="0402" value="0" x="29.3624" y="24.384" smashed="yes">
-<attribute name="NAME" x="28.6004" y="25.0825" size="1.016" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="28.0924" y="20.574" size="1.016" layer="27" font="vector" ratio="12"/>
 </element>
 <element name="U1" library="mbed-HDK-MF-MULTITECH" package="MTXDOT-EU1/NA1-A00-1" value="MTXDOT-EU1-A00-1" x="5.334" y="22.86" smashed="yes">
 <attribute name="OC-MOUSER" value="" x="5.334" y="22.86" size="1.778" layer="27" display="off"/>
@@ -553,7 +541,6 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C4" pad="1"/>
-<contactref element="C5" pad="1"/>
 <contactref element="C6" pad="1"/>
 <contactref element="C7" pad="1"/>
 <polygon width="0.4064" layer="1">
@@ -587,10 +574,10 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <signal name="SPI_MISO">
 <contactref element="U1" pad="P$12"/>
 </signal>
-<signal name="UART1_TX">
+<signal name="TGT_TX">
 <contactref element="U1" pad="P$13"/>
 </signal>
-<signal name="UART1_RX">
+<signal name="TGT_RX">
 <contactref element="U1" pad="P$14"/>
 </signal>
 <signal name="DAP_TX">
@@ -629,10 +616,10 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <signal name="I2C0_SDA">
 <contactref element="U1" pad="P$28"/>
 </signal>
-<signal name="DAP_SWCLK">
+<signal name="TGT_SWCLK">
 <contactref element="U1" pad="P$29"/>
 </signal>
-<signal name="DAP_SWDIO">
+<signal name="TGT_SWDIO">
 <contactref element="U1" pad="P$30"/>
 </signal>
 <signal name="UART1_RTS">
@@ -641,7 +628,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <signal name="UART1_CTS">
 <contactref element="U1" pad="P$32"/>
 </signal>
-<signal name="DAP_NRESET">
+<signal name="TGT_NRESET">
 <contactref element="U1" pad="P$33"/>
 </signal>
 <signal name="WAKE">
@@ -649,42 +636,35 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 </signal>
 <signal name="ANT1">
 <contactref element="U1" pad="P$37"/>
-<contactref element="R1" pad="1"/>
-<contactref element="L1" pad="1"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C3" pad="1"/>
-<wire x1="28.9052" y1="24.384" x2="28.9052" y2="23.1648" width="0.2032" layer="1"/>
-<wire x1="28.9052" y1="23.1648" x2="28.9052" y2="21.9456" width="0.2032" layer="1"/>
 <wire x1="24.914" y1="23.75" x2="24.914" y2="23.5492" width="0.2032" layer="1"/>
 <wire x1="24.914" y1="23.5492" x2="25.5016" y2="22.9616" width="0.2032" layer="1"/>
 <wire x1="25.5016" y1="22.9616" x2="28.702" y2="22.9616" width="0.2032" layer="1"/>
-<wire x1="28.702" y1="22.9616" x2="28.9052" y2="23.1648" width="0.2032" layer="1"/>
 <wire x1="28.6004" y1="20.9296" x2="28.9052" y2="21.2344" width="0.2032" layer="1"/>
 <wire x1="28.9052" y1="21.2344" x2="28.9052" y2="21.9456" width="0.2032" layer="1"/>
+<wire x1="28.9052" y1="21.9456" x2="28.9052" y2="22.7584" width="0.2032" layer="1"/>
+<wire x1="28.9052" y1="22.7584" x2="28.702" y2="22.9616" width="0.2032" layer="1"/>
 </signal>
 <signal name="ANT2">
 <contactref element="U1" pad="P$47"/>
 </signal>
 <signal name="N$4">
 <contactref element="C3" pad="2"/>
-<contactref element="C5" pad="2"/>
-<contactref element="R1" pad="2"/>
-<contactref element="L1" pad="2"/>
 <contactref element="C6" pad="2"/>
 <contactref element="ANT1" pad="P$1"/>
-<wire x1="29.8196" y1="24.384" x2="29.8196" y2="23.1648" width="0.2032" layer="1"/>
-<wire x1="29.8196" y1="23.1648" x2="29.8196" y2="21.9456" width="0.2032" layer="1"/>
-<wire x1="30.0228" y1="20.9296" x2="29.8196" y2="21.1328" width="0.2032" layer="1"/>
 <wire x1="29.8196" y1="21.1328" x2="29.8196" y2="21.9456" width="0.2032" layer="1"/>
 <wire x1="39.0144" y1="21.1428" x2="39.0044" y2="21.1328" width="1.1" layer="1"/>
 <wire x1="39.0044" y1="21.1328" x2="36.4744" y2="21.1328" width="1.1" layer="1"/>
-<wire x1="36.4744" y1="21.1328" x2="30.20695" y2="21.13915" width="1.1" layer="1"/>
+<wire x1="36.4744" y1="21.1328" x2="30.32755625" y2="21.139028125" width="1.1" layer="1"/>
+<wire x1="30.32755625" y1="21.139028125" x2="30.20695" y2="21.13915" width="1.1" layer="1"/>
 <wire x1="36.6268" y1="21.9456" x2="36.6776" y2="21.8948" width="0.2032" layer="1"/>
 <wire x1="36.6776" y1="21.8948" x2="36.6776" y2="21.7424" width="0.2032" layer="1"/>
 <wire x1="36.6776" y1="21.7424" x2="36.4744" y2="21.5392" width="0.508" layer="1"/>
 <wire x1="36.4744" y1="21.5392" x2="36.4744" y2="21.1328" width="0.508" layer="1"/>
 <wire x1="30.20695" y1="21.13915" x2="30.2387" y2="20.9296" width="0.2032" layer="1"/>
-<wire x1="30.2387" y1="20.9296" x2="30.0228" y2="20.9296" width="0.2032" layer="1"/>
+<wire x1="29.8196" y1="21.1328" x2="30.321328125" y2="21.1328" width="0.2032" layer="1"/>
+<wire x1="30.321328125" y1="21.1328" x2="30.32755625" y2="21.139028125" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="ANT1" pad="P$3"/>
