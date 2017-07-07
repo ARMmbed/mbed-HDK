@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1161,6 +1161,44 @@
 <text x="-2.54" y="-8.89" size="1.016" layer="27" font="vector" ratio="12">&gt;Value</text>
 <text x="2.286" y="-6.096" size="1.4224" layer="21" ratio="12">+</text>
 <text x="-3.429" y="-6.096" size="1.4224" layer="21" ratio="12">-</text>
+</package>
+<package name="3020-10-0200-00">
+<pad name="9" x="0" y="0" drill="1.02"/>
+<pad name="7" x="2.54" y="0" drill="1.02"/>
+<pad name="5" x="5.08" y="0" drill="1.02"/>
+<pad name="3" x="7.62" y="0" drill="1.02"/>
+<pad name="1" x="10.16" y="0" drill="1.02"/>
+<pad name="10" x="0" y="-2.54" drill="1.02"/>
+<pad name="8" x="2.54" y="-2.54" drill="1.02"/>
+<pad name="6" x="5.08" y="-2.54" drill="1.02"/>
+<pad name="4" x="7.62" y="-2.54" drill="1.02"/>
+<pad name="2" x="10.16" y="-2.54" drill="1.02"/>
+<wire x1="-5.08" y1="-5.51" x2="15.24" y2="-5.51" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-5.51" x2="-5.08" y2="-14.31" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-14.31" x2="15.24" y2="-14.31" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-5.51" x2="15.24" y2="-14.31" width="0.127" layer="21"/>
+<circle x="11.6260875" y="0.004571875" radius="0.3666375" width="0.127" layer="21"/>
+<text x="-5.648834375" y="-14.2612125" size="1.016" layer="25" font="vector" ratio="12" rot="R90">&gt;NAME</text>
+<text x="16.66113125" y="-14.2612125" size="1.016" layer="28" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
+</package>
+<package name="3220-10-0200-00">
+<pad name="9" x="0" y="0" drill="0.55" diameter="0.9"/>
+<pad name="7" x="1.27" y="0" drill="0.55" diameter="0.9"/>
+<pad name="5" x="2.54" y="0" drill="0.55" diameter="0.9"/>
+<pad name="3" x="3.81" y="0" drill="0.55" diameter="0.9"/>
+<pad name="1" x="5.08" y="0" drill="0.55" diameter="0.9"/>
+<pad name="10" x="0" y="-1.27" drill="0.55" diameter="0.9"/>
+<pad name="8" x="1.27" y="-1.27" drill="0.55" diameter="0.9"/>
+<pad name="6" x="2.54" y="-1.27" drill="0.55" diameter="0.9"/>
+<pad name="4" x="3.81" y="-1.27" drill="0.55" diameter="0.9"/>
+<pad name="2" x="5.08" y="-1.27" drill="0.55" diameter="0.9"/>
+<wire x1="-3.81" y1="-2.1" x2="8.89" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-2.1" x2="-3.81" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-7.5" x2="8.89" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-2.1" x2="8.89" y2="-7.5" width="0.127" layer="21"/>
+<circle x="6.1650875" y="0.512571875" radius="0.3666375" width="0.127" layer="21"/>
+<text x="-4.378834375" y="-7.5302125" size="1.016" layer="25" font="vector" ratio="12" rot="R90">&gt;NAME</text>
+<text x="10.43813125" y="-7.5302125" size="1.016" layer="28" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -2627,6 +2665,68 @@
 <attribute name="OC-DIGIKEY" value="455-1749-1-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="" constant="no"/>
 <attribute name="OC-NEWARK" value="38K8067" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3020-10-0200-00" prefix="CON" uservalue="yes">
+<description>&lt;b&gt;10 Positions Header Connector 0.100" (2.54mm) Through Hole, Right Angle Gold&lt;b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SWD-10-1" x="-10.16" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="3020-10-0200-00">
+<connects>
+<connect gate="G$1" pin="GND@3" pad="3"/>
+<connect gate="G$1" pin="GND@5" pad="5"/>
+<connect gate="G$1" pin="GND@9" pad="9"/>
+<connect gate="G$1" pin="NRESET" pad="10"/>
+<connect gate="G$1" pin="SWCLK" pad="4"/>
+<connect gate="G$1" pin="SWDIO" pad="2"/>
+<connect gate="G$1" pin="SWO" pad="6"/>
+<connect gate="G$1" pin="TGT_RX" pad="8"/>
+<connect gate="G$1" pin="TGT_TX" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="CNC Tech" constant="no"/>
+<attribute name="MFN" value="3020-10-0200-00" constant="no"/>
+<attribute name="OC-DIGIKEY" value="1175-1615-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3220-10-0200-00" prefix="CON" uservalue="yes">
+<description>&lt;b&gt;10 Positions Header Connector 0.050" (1.27mm) Through Hole, Right Angle Gold&lt;b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SWD-10-1" x="-10.16" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="3220-10-0200-00">
+<connects>
+<connect gate="G$1" pin="GND@3" pad="3"/>
+<connect gate="G$1" pin="GND@5" pad="5"/>
+<connect gate="G$1" pin="GND@9" pad="9"/>
+<connect gate="G$1" pin="NRESET" pad="10"/>
+<connect gate="G$1" pin="SWCLK" pad="4"/>
+<connect gate="G$1" pin="SWDIO" pad="2"/>
+<connect gate="G$1" pin="SWO" pad="6"/>
+<connect gate="G$1" pin="TGT_RX" pad="8"/>
+<connect gate="G$1" pin="TGT_TX" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="CNC Tech" constant="no"/>
+<attribute name="MFN" value="3220-10-0200-00" constant="no"/>
+<attribute name="OC-DIGIKEY" value="1175-1628-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
