@@ -744,7 +744,7 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <attribute name="NAME" x="7.04215" y="20.04695" size="1.016" layer="21" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="C13" library="mbed-HDK-RLC" package="0402" value="18pF" x="9.46785" y="7.7724" smashed="yes">
-<attribute name="NAME" x="8.19785" y="5.2324" size="1.016" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="11.85545" y="7.0612" size="1.016" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="8.19785" y="3.9624" size="1.016" layer="27" font="vector" ratio="12"/>
 </element>
 <element name="C14" library="mbed-HDK-RLC" package="0402" value="18pF" x="7.7724" y="7.7724" smashed="yes" rot="R180">
