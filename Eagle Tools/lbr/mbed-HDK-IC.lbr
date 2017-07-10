@@ -1266,6 +1266,22 @@
 <text x="0" y="5.588" size="1.27" layer="95">&gt;NAME</text>
 <text x="0.254" y="-27.178" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="MX25R3235FM1IH0">
+<wire x1="0" y1="-5.08" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="27.94" y2="15.24" width="0.254" layer="94"/>
+<wire x1="27.94" y1="15.24" x2="27.94" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<pin name="SI" x="-5.08" y="12.7" visible="pin" length="middle"/>
+<pin name="SCK" x="-5.08" y="7.62" visible="pin" length="middle"/>
+<pin name="!RESET" x="-5.08" y="2.54" visible="pin" length="middle"/>
+<pin name="!CS" x="-5.08" y="-2.54" visible="pin" length="middle"/>
+<pin name="!WP" x="33.02" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC" x="33.02" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="33.02" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="SO" x="33.02" y="12.7" visible="pin" length="middle" rot="R180"/>
+<text x="0" y="15.748" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MMA8653FCR1" prefix="U" uservalue="yes">
@@ -1984,6 +2000,35 @@
 <attribute name="OC-DIGIKEY" value="1727-6684-1-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="771-74LVC3G07DP-G" constant="no"/>
 <attribute name="OC-NEWARK" value="71R3483" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MX25R3235FM1IH0" prefix="U">
+<description>&lt;b&gt;Serial Flash 32 Mb 80 Mhz&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MX25R3235FM1IH0" x="-12.7" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SO8">
+<connects>
+<connect gate="G$1" pin="!CS" pad="1"/>
+<connect gate="G$1" pin="!RESET" pad="7"/>
+<connect gate="G$1" pin="!WP" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Macronix" constant="no"/>
+<attribute name="MFN" value="MX25R3235FM2IH0" constant="no"/>
+<attribute name="OC-DIGIKEY" value="1092-1174-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
