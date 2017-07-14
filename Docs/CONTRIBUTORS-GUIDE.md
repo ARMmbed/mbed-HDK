@@ -96,7 +96,7 @@ $ git checkout -feature/MYCHANGES
 ## How to Contribute: Bare Design Projects
 If you wish to contribute devices one of your own Bare Design Projects to our HDK for others to use open source you can do.
 
-1. Refer to the [How to Contribute Guidelines: Bare Design Projects guide](Docs/CONTRIBUTION-GUIDELINES-BARE-DESIGN-PROJECTS.md)
+1. Refer to the [How to Contribute Guidelines: Bare Design Projects guide](CONTRIBUTION-GUIDELINES-BARE-DESIGN-PROJECTS.md)
 2. Pull the lastest upstream from ARMmbed/mbed-HDK
 
 ```
