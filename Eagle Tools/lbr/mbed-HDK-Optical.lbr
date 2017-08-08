@@ -307,6 +307,37 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <text x="-2.562" y="1.718" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
 <text x="-2.462" y="-2.878" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
 </package>
+<package name="C12832A1Z">
+<wire x1="0" y1="0" x2="0" y2="24.3" width="0.127" layer="21"/>
+<wire x1="0" y1="24.3" x2="41.4" y2="24.3" width="0.127" layer="21"/>
+<wire x1="41.4" y1="24.3" x2="41.4" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="7.8" y2="0" width="0.127" layer="21"/>
+<wire x1="41.4" y1="0" x2="33.6" y2="0" width="0.127" layer="21"/>
+<pad name="A" x="3.4" y="2.55" drill="1.4"/>
+<pad name="K" x="38" y="2.55" drill="1.4"/>
+<pad name="P$1" x="8.7" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$2" x="10.2" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$3" x="11.7" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$4" x="13.2" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$5" x="14.7" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$6" x="16.2" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$7" x="17.7" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$8" x="19.2" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$9" x="20.7" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$10" x="22.2" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$11" x="23.7" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$12" x="25.2" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$13" x="26.7" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$14" x="28.2" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$15" x="29.7" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$16" x="31.2" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<pad name="P$17" x="32.7" y="0.6" drill="0.6" shape="long" rot="R90"/>
+<text x="36.957" y="-1.651" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<hole x="0.6" y="0.6" drill="0.8"/>
+<hole x="40.8" y="0.6" drill="0.8"/>
+<hole x="40.8" y="23.7" drill="0.8"/>
+<hole x="0.6" y="23.7" drill="0.8"/>
+</package>
 </packages>
 <symbols>
 <symbol name="P-MOS">
@@ -527,6 +558,38 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </polygon>
 <wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
+<symbol name="C12832A1Z_128X32_LCD">
+<wire x1="-2.54" y1="5.08" x2="53.34" y2="5.08" width="0.254" layer="94"/>
+<wire x1="53.34" y1="5.08" x2="53.34" y2="38.1" width="0.254" layer="94"/>
+<wire x1="53.34" y1="38.1" x2="-2.54" y2="38.1" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="38.1" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="33.02" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="48.26" y2="17.78" width="0.254" layer="94"/>
+<wire x1="48.26" y1="17.78" x2="48.26" y2="33.02" width="0.254" layer="94"/>
+<wire x1="48.26" y1="33.02" x2="2.54" y2="33.02" width="0.254" layer="94"/>
+<pin name="A" x="48.26" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="A0" x="35.56" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="C1+" x="17.78" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="C1-" x="20.32" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="C2+" x="15.24" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="C2-" x="12.7" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="CS1B" x="40.64" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="K" x="50.8" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="RST" x="38.1" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="SCL" x="33.02" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="SDA" x="30.48" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="V0" x="0" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="V1" x="2.54" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="V2" x="5.08" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="V3" x="7.62" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="V4" x="10.16" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="VDD" x="27.94" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="VOUT" x="22.86" y="0" visible="pin" length="middle" rot="R90"/>
+<pin name="VSS" x="25.4" y="0" visible="pin" length="middle" rot="R90"/>
+<text x="17.78" y="25.4" size="2.54" layer="94" font="vector" ratio="12">128 x 32</text>
+<text x="10.16" y="20.32" size="1.27" layer="94" font="vector" ratio="12">NHD-C12832A1Z-FSW-FBW-3V3-ND</text>
+<text x="55.88" y="7.62" size="1.27" layer="95" font="vector" ratio="12" rot="R90">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SMD_LED" prefix="LED">
@@ -743,6 +806,39 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <attribute name="OC-MOUSER" value="941-V1AFKBCHMKPEH7A3" constant="no"/>
 <attribute name="OC-NEWARK" value="2430039" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C12832A1Z" prefix="LCD">
+<gates>
+<gate name="G$1" symbol="C12832A1Z_128X32_LCD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C12832A1Z">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="A0" pad="P$15"/>
+<connect gate="G$1" pin="C1+" pad="P$8"/>
+<connect gate="G$1" pin="C1-" pad="P$9"/>
+<connect gate="G$1" pin="C2+" pad="P$7"/>
+<connect gate="G$1" pin="C2-" pad="P$6"/>
+<connect gate="G$1" pin="CS1B" pad="P$17"/>
+<connect gate="G$1" pin="K" pad="K"/>
+<connect gate="G$1" pin="RST" pad="P$16"/>
+<connect gate="G$1" pin="SCL" pad="P$14"/>
+<connect gate="G$1" pin="SDA" pad="P$13"/>
+<connect gate="G$1" pin="V0" pad="P$1"/>
+<connect gate="G$1" pin="V1" pad="P$2"/>
+<connect gate="G$1" pin="V2" pad="P$3"/>
+<connect gate="G$1" pin="V3" pad="P$4"/>
+<connect gate="G$1" pin="V4" pad="P$5"/>
+<connect gate="G$1" pin="VDD" pad="P$12"/>
+<connect gate="G$1" pin="VOUT" pad="P$10"/>
+<connect gate="G$1" pin="VSS" pad="P$11"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
