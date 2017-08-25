@@ -2308,6 +2308,7 @@
 <technology name="">
 <attribute name="MF" value="MOLEX" constant="no"/>
 <attribute name="MFN" value="47346-0001" constant="no"/>
+<attribute name="OC-DIGIKEY" value="WM17141CT-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="538-47346-0001" constant="no"/>
 <attribute name="OC-NEWARK" value="1568026" constant="no"/>
 </technology>
@@ -2516,82 +2517,6 @@
 <connect gate="G$1" pin="SWO" pad="8"/>
 <connect gate="G$1" pin="TGT_RX" pad="7"/>
 <connect gate="G$1" pin="TGT_TX" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SWD-10/TC2050" prefix="CON">
-<description>&lt;b&gt; 1mm pitch 10-Pin Cortex Programming Header with optional TC2050 footprint solderless interchangeable&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="SWD-10-1" x="-5.08" y="0"/>
-</gates>
-<devices>
-<device name="_TC2050-WITHOUT" package="TC2050-WITHOUT-PASTE">
-<connects>
-<connect gate="G$1" pin="GND@3" pad="3"/>
-<connect gate="G$1" pin="GND@5" pad="5"/>
-<connect gate="G$1" pin="GND@9" pad="9"/>
-<connect gate="G$1" pin="NRESET" pad="10"/>
-<connect gate="G$1" pin="SWCLK" pad="4"/>
-<connect gate="G$1" pin="SWDIO" pad="2"/>
-<connect gate="G$1" pin="SWO" pad="6"/>
-<connect gate="G$1" pin="TGT_RX" pad="8"/>
-<connect gate="G$1" pin="TGT_TX" pad="7"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_SMD" package="FTSH-105-02">
-<connects>
-<connect gate="G$1" pin="GND@3" pad="3"/>
-<connect gate="G$1" pin="GND@5" pad="5"/>
-<connect gate="G$1" pin="GND@9" pad="9"/>
-<connect gate="G$1" pin="NRESET" pad="10"/>
-<connect gate="G$1" pin="SWCLK" pad="4"/>
-<connect gate="G$1" pin="SWDIO" pad="2"/>
-<connect gate="G$1" pin="SWO" pad="6"/>
-<connect gate="G$1" pin="TGT_RX" pad="8"/>
-<connect gate="G$1" pin="TGT_TX" pad="7"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_PTH" package="SWD-10-PTH">
-<connects>
-<connect gate="G$1" pin="GND@3" pad="3"/>
-<connect gate="G$1" pin="GND@5" pad="5"/>
-<connect gate="G$1" pin="GND@9" pad="9"/>
-<connect gate="G$1" pin="NRESET" pad="10"/>
-<connect gate="G$1" pin="SWCLK" pad="4"/>
-<connect gate="G$1" pin="SWDIO" pad="2"/>
-<connect gate="G$1" pin="SWO" pad="6"/>
-<connect gate="G$1" pin="TGT_RX" pad="8"/>
-<connect gate="G$1" pin="TGT_TX" pad="7"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_TC2050-WITH-PASTE" package="TC050-WITH-PASTE">
-<connects>
-<connect gate="G$1" pin="GND@3" pad="3"/>
-<connect gate="G$1" pin="GND@5" pad="5"/>
-<connect gate="G$1" pin="GND@9" pad="9"/>
-<connect gate="G$1" pin="NRESET" pad="10"/>
-<connect gate="G$1" pin="SWCLK" pad="4"/>
-<connect gate="G$1" pin="SWDIO" pad="2"/>
-<connect gate="G$1" pin="SWO" pad="6"/>
-<connect gate="G$1" pin="TGT_RX" pad="8"/>
-<connect gate="G$1" pin="TGT_TX" pad="7"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>

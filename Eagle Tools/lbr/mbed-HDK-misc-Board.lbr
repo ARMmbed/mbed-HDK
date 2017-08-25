@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -109,7 +109,17 @@
 <layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="no"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-02" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-15" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -6484,6 +6494,134 @@
 <rectangle x1="-23.5585" y1="7.747" x2="-11.176" y2="11.557" layer="43"/>
 <rectangle x1="-23.5585" y1="7.747" x2="-11.176" y2="11.557" layer="39"/>
 </package>
+<package name="MODULE_DAUGHTER">
+<pad name="1" x="0" y="0" drill="0.8" shape="square"/>
+<pad name="2" x="0" y="-2.54" drill="0.8"/>
+<pad name="3" x="0" y="-5.08" drill="0.8"/>
+<pad name="4" x="0" y="-7.62" drill="0.8"/>
+<pad name="5" x="0" y="-10.16" drill="0.8"/>
+<pad name="6" x="0" y="-12.7" drill="0.8"/>
+<pad name="7" x="0" y="-15.24" drill="0.8"/>
+<pad name="8" x="0" y="-17.78" drill="0.8"/>
+<pad name="9" x="0" y="-20.32" drill="0.8"/>
+<pad name="10" x="0" y="-22.86" drill="0.8"/>
+<pad name="11" x="0" y="-25.4" drill="0.8"/>
+<pad name="12" x="0" y="-27.94" drill="0.8"/>
+<pad name="13" x="0" y="-30.48" drill="0.8"/>
+<pad name="14" x="0" y="-33.02" drill="0.8"/>
+<pad name="15" x="0" y="-35.56" drill="0.8"/>
+<pad name="16" x="0" y="-38.1" drill="0.8"/>
+<pad name="17" x="0" y="-40.64" drill="0.8"/>
+<pad name="18" x="0" y="-43.18" drill="0.8"/>
+<pad name="19" x="0" y="-45.72" drill="0.8"/>
+<pad name="20" x="0" y="-48.26" drill="0.8"/>
+<pad name="21" x="76.2" y="-48.26" drill="0.8"/>
+<pad name="22" x="76.2" y="-45.72" drill="0.8"/>
+<pad name="23" x="76.2" y="-43.18" drill="0.8"/>
+<pad name="24" x="76.2" y="-40.64" drill="0.8"/>
+<pad name="25" x="76.2" y="-38.1" drill="0.8"/>
+<pad name="26" x="76.2" y="-35.56" drill="0.8"/>
+<pad name="27" x="76.2" y="-33.02" drill="0.8"/>
+<pad name="28" x="76.2" y="-30.48" drill="0.8"/>
+<pad name="29" x="76.2" y="-27.94" drill="0.8"/>
+<pad name="30" x="76.2" y="-25.4" drill="0.8"/>
+<pad name="31" x="76.2" y="-22.86" drill="0.8"/>
+<pad name="32" x="76.2" y="-20.32" drill="0.8"/>
+<pad name="33" x="76.2" y="-17.78" drill="0.8"/>
+<pad name="34" x="76.2" y="-15.24" drill="0.8"/>
+<pad name="35" x="76.2" y="-12.7" drill="0.8"/>
+<pad name="36" x="76.2" y="-10.16" drill="0.8"/>
+<pad name="37" x="76.2" y="-7.62" drill="0.8"/>
+<pad name="38" x="76.2" y="-5.08" drill="0.8"/>
+<pad name="39" x="76.2" y="-2.54" drill="0.8"/>
+<pad name="40" x="76.2" y="0" drill="0.8"/>
+<wire x1="-1.27" y1="-49.53" x2="77.47" y2="-49.53" width="0" layer="20"/>
+<wire x1="77.47" y1="-49.53" x2="77.47" y2="1.27" width="0" layer="20"/>
+<wire x1="77.47" y1="1.27" x2="-1.27" y2="1.27" width="0" layer="20"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-49.53" width="0" layer="20"/>
+</package>
+<package name="MODULE_SOCKET">
+<pad name="1" x="0" y="0" drill="0.8" shape="square"/>
+<pad name="2" x="0" y="-2.54" drill="0.8"/>
+<pad name="3" x="0" y="-5.08" drill="0.8"/>
+<pad name="4" x="0" y="-7.62" drill="0.8"/>
+<pad name="5" x="0" y="-10.16" drill="0.8"/>
+<pad name="6" x="0" y="-12.7" drill="0.8"/>
+<pad name="7" x="0" y="-15.24" drill="0.8"/>
+<pad name="8" x="0" y="-17.78" drill="0.8"/>
+<pad name="9" x="0" y="-20.32" drill="0.8"/>
+<pad name="10" x="0" y="-22.86" drill="0.8"/>
+<pad name="11" x="0" y="-25.4" drill="0.8"/>
+<pad name="12" x="0" y="-27.94" drill="0.8"/>
+<pad name="13" x="0" y="-30.48" drill="0.8"/>
+<pad name="14" x="0" y="-33.02" drill="0.8"/>
+<pad name="15" x="0" y="-35.56" drill="0.8"/>
+<pad name="16" x="0" y="-38.1" drill="0.8"/>
+<pad name="17" x="0" y="-40.64" drill="0.8"/>
+<pad name="18" x="0" y="-43.18" drill="0.8"/>
+<pad name="19" x="0" y="-45.72" drill="0.8"/>
+<pad name="20" x="0" y="-48.26" drill="0.8"/>
+<pad name="21" x="76.2" y="-48.26" drill="0.8"/>
+<pad name="22" x="76.2" y="-45.72" drill="0.8"/>
+<pad name="23" x="76.2" y="-43.18" drill="0.8"/>
+<pad name="24" x="76.2" y="-40.64" drill="0.8"/>
+<pad name="25" x="76.2" y="-38.1" drill="0.8"/>
+<pad name="26" x="76.2" y="-35.56" drill="0.8"/>
+<pad name="27" x="76.2" y="-33.02" drill="0.8"/>
+<pad name="28" x="76.2" y="-30.48" drill="0.8"/>
+<pad name="29" x="76.2" y="-27.94" drill="0.8"/>
+<pad name="30" x="76.2" y="-25.4" drill="0.8"/>
+<pad name="31" x="76.2" y="-22.86" drill="0.8"/>
+<pad name="32" x="76.2" y="-20.32" drill="0.8"/>
+<pad name="33" x="76.2" y="-17.78" drill="0.8"/>
+<pad name="34" x="76.2" y="-15.24" drill="0.8"/>
+<pad name="35" x="76.2" y="-12.7" drill="0.8"/>
+<pad name="36" x="76.2" y="-10.16" drill="0.8"/>
+<pad name="37" x="76.2" y="-7.62" drill="0.8"/>
+<pad name="38" x="76.2" y="-5.08" drill="0.8"/>
+<pad name="39" x="76.2" y="-2.54" drill="0.8"/>
+<pad name="40" x="76.2" y="0" drill="0.8"/>
+<pad name="P$41" x="-2.54" y="0" drill="0.8" rot="R180"/>
+<pad name="P$42" x="-2.54" y="-2.54" drill="0.8" rot="R180"/>
+<pad name="P$43" x="-2.54" y="-5.08" drill="0.8" rot="R180"/>
+<pad name="P$44" x="-2.54" y="-7.62" drill="0.8" rot="R180"/>
+<pad name="P$45" x="-2.54" y="-10.16" drill="0.8" rot="R180"/>
+<pad name="P$46" x="-2.54" y="-12.7" drill="0.8" rot="R180"/>
+<pad name="P$47" x="-2.54" y="-15.24" drill="0.8" rot="R180"/>
+<pad name="P$48" x="-2.54" y="-17.78" drill="0.8" rot="R180"/>
+<pad name="P$49" x="-2.54" y="-20.32" drill="0.8" rot="R180"/>
+<pad name="P$50" x="-2.54" y="-22.86" drill="0.8" rot="R180"/>
+<pad name="P$51" x="-2.54" y="-25.4" drill="0.8" rot="R180"/>
+<pad name="P$52" x="-2.54" y="-27.94" drill="0.8" rot="R180"/>
+<pad name="P$53" x="-2.54" y="-30.48" drill="0.8" rot="R180"/>
+<pad name="P$54" x="-2.54" y="-33.02" drill="0.8" rot="R180"/>
+<pad name="P$55" x="-2.54" y="-35.56" drill="0.8" rot="R180"/>
+<pad name="P$56" x="-2.54" y="-38.1" drill="0.8" rot="R180"/>
+<pad name="P$57" x="-2.54" y="-40.64" drill="0.8" rot="R180"/>
+<pad name="P$58" x="-2.54" y="-43.18" drill="0.8" rot="R180"/>
+<pad name="P$59" x="-2.54" y="-45.72" drill="0.8" rot="R180"/>
+<pad name="P$60" x="-2.54" y="-48.26" drill="0.8" rot="R180"/>
+<pad name="P$61" x="78.74" y="-48.26" drill="0.8"/>
+<pad name="P$62" x="78.74" y="-45.72" drill="0.8"/>
+<pad name="P$63" x="78.74" y="-43.18" drill="0.8"/>
+<pad name="P$64" x="78.74" y="-40.64" drill="0.8"/>
+<pad name="P$65" x="78.74" y="-38.1" drill="0.8"/>
+<pad name="P$66" x="78.74" y="-35.56" drill="0.8"/>
+<pad name="P$67" x="78.74" y="-33.02" drill="0.8"/>
+<pad name="P$68" x="78.74" y="-30.48" drill="0.8"/>
+<pad name="P$69" x="78.74" y="-27.94" drill="0.8"/>
+<pad name="P$70" x="78.74" y="-25.4" drill="0.8"/>
+<pad name="P$71" x="78.74" y="-22.86" drill="0.8"/>
+<pad name="P$72" x="78.74" y="-20.32" drill="0.8"/>
+<pad name="P$73" x="78.74" y="-17.78" drill="0.8"/>
+<pad name="P$74" x="78.74" y="-15.24" drill="0.8"/>
+<pad name="P$75" x="78.74" y="-12.7" drill="0.8"/>
+<pad name="P$76" x="78.74" y="-10.16" drill="0.8"/>
+<pad name="P$77" x="78.74" y="-7.62" drill="0.8"/>
+<pad name="P$78" x="78.74" y="-5.08" drill="0.8"/>
+<pad name="P$79" x="78.74" y="-2.54" drill="0.8"/>
+<pad name="P$80" x="78.74" y="0" drill="0.8"/>
+</package>
 </packages>
 <symbols>
 <symbol name="WEE-MARK">
@@ -9452,6 +9590,270 @@ P260906</text>
 <text x="0" y="-5.08" size="1.27" layer="94" ratio="12">MULITECH-DRAGONFLY BREAKOUT</text>
 <text x="0" y="-7.62" size="1.27" layer="95" ratio="12">&gt;NAME</text>
 </symbol>
+<symbol name="MODULE_DAUGHTER">
+<pin name="GND@1" x="-25.4" y="0" length="middle"/>
+<pin name="3V3" x="-25.4" y="-2.54" length="middle"/>
+<pin name="5V-USB" x="-25.4" y="-5.08" length="middle"/>
+<pin name="SWDIO" x="-25.4" y="-7.62" length="middle"/>
+<pin name="SWCLK" x="-25.4" y="-10.16" length="middle"/>
+<pin name="NRESET" x="-25.4" y="-12.7" length="middle"/>
+<pin name="TGT_TX" x="-25.4" y="-15.24" length="middle"/>
+<pin name="TGT_RX" x="-25.4" y="-17.78" length="middle"/>
+<pin name="TX1" x="-25.4" y="-20.32" length="middle"/>
+<pin name="RX1" x="-25.4" y="-22.86" length="middle"/>
+<pin name="SDA1" x="-25.4" y="-25.4" length="middle"/>
+<pin name="SCL1" x="-25.4" y="-27.94" length="middle"/>
+<pin name="MOSI1" x="-25.4" y="-30.48" length="middle"/>
+<pin name="MISO1" x="-25.4" y="-33.02" length="middle"/>
+<pin name="SCK1" x="-25.4" y="-35.56" length="middle"/>
+<pin name="GP0" x="-25.4" y="-38.1" length="middle"/>
+<pin name="GP1" x="-25.4" y="-40.64" length="middle"/>
+<pin name="AIN0" x="-25.4" y="-43.18" length="middle"/>
+<pin name="AIN1" x="-25.4" y="-45.72" length="middle"/>
+<pin name="AIN2" x="-25.4" y="-48.26" length="middle"/>
+<pin name="PWM0" x="25.4" y="-48.26" length="middle" rot="R180"/>
+<pin name="PWM1" x="25.4" y="-45.72" length="middle" rot="R180"/>
+<pin name="PWM2" x="25.4" y="-43.18" length="middle" rot="R180"/>
+<pin name="GP2" x="25.4" y="-40.64" length="middle" rot="R180"/>
+<pin name="GP3" x="25.4" y="-38.1" length="middle" rot="R180"/>
+<pin name="SCK2" x="25.4" y="-35.56" length="middle" rot="R180"/>
+<pin name="MISO2" x="25.4" y="-33.02" length="middle" rot="R180"/>
+<pin name="MOSI2" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="SCL2" x="25.4" y="-27.94" length="middle" rot="R180"/>
+<pin name="SDA2" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="RX2" x="25.4" y="-22.86" length="middle" rot="R180"/>
+<pin name="TX2" x="25.4" y="-20.32" length="middle" rot="R180"/>
+<pin name="GP4" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="GP5" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="GP6" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="GP7" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="GP8" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="GP9" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="GP10" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND@40" x="25.4" y="0" length="middle" rot="R180"/>
+<wire x1="-20.32" y1="5.08" x2="-20.32" y2="-53.34" width="0.4064" layer="94"/>
+<wire x1="-20.32" y1="-53.34" x2="20.32" y2="-53.34" width="0.4064" layer="94"/>
+<wire x1="20.32" y1="-53.34" x2="20.32" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="20.32" y1="5.08" x2="-20.32" y2="5.08" width="0.4064" layer="94"/>
+</symbol>
+<symbol name="MODULE_SOCKET">
+<pin name="GND@1" x="-25.4" y="0" length="middle"/>
+<pin name="3V3" x="-25.4" y="-2.54" length="middle"/>
+<pin name="5V-USB" x="-25.4" y="-5.08" length="middle"/>
+<pin name="SWDIO" x="-25.4" y="-7.62" length="middle"/>
+<pin name="SWCLK" x="-25.4" y="-10.16" length="middle"/>
+<pin name="NRESET" x="-25.4" y="-12.7" length="middle"/>
+<pin name="TGT_TX" x="-25.4" y="-15.24" length="middle"/>
+<pin name="TGT_RX" x="-25.4" y="-17.78" length="middle"/>
+<pin name="TX1" x="-25.4" y="-20.32" length="middle"/>
+<pin name="RX1" x="-25.4" y="-22.86" length="middle"/>
+<pin name="SDA1" x="-25.4" y="-25.4" length="middle"/>
+<pin name="SCL1" x="-25.4" y="-27.94" length="middle"/>
+<pin name="MOSI1" x="-25.4" y="-30.48" length="middle"/>
+<pin name="MISO1" x="-25.4" y="-33.02" length="middle"/>
+<pin name="SCK1" x="-25.4" y="-35.56" length="middle"/>
+<pin name="GP0" x="-25.4" y="-38.1" length="middle"/>
+<pin name="GP1" x="-25.4" y="-40.64" length="middle"/>
+<pin name="AIN0" x="-25.4" y="-43.18" length="middle"/>
+<pin name="AIN1" x="-25.4" y="-45.72" length="middle"/>
+<pin name="AIN2" x="-25.4" y="-48.26" length="middle"/>
+<pin name="PWM0" x="25.4" y="-48.26" length="middle" rot="R180"/>
+<pin name="PWM1" x="25.4" y="-45.72" length="middle" rot="R180"/>
+<pin name="PWM2" x="25.4" y="-43.18" length="middle" rot="R180"/>
+<pin name="GP2" x="25.4" y="-40.64" length="middle" rot="R180"/>
+<pin name="GP3" x="25.4" y="-38.1" length="middle" rot="R180"/>
+<pin name="SCK2" x="25.4" y="-35.56" length="middle" rot="R180"/>
+<pin name="MISO2" x="25.4" y="-33.02" length="middle" rot="R180"/>
+<pin name="MOSI2" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="SCL2" x="25.4" y="-27.94" length="middle" rot="R180"/>
+<pin name="SDA2" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="RX2" x="25.4" y="-22.86" length="middle" rot="R180"/>
+<pin name="TX2" x="25.4" y="-20.32" length="middle" rot="R180"/>
+<pin name="GP4" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="GP5" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="GP6" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="GP7" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="GP8" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="GP9" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="GP10" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND@40" x="25.4" y="0" length="middle" rot="R180"/>
+<wire x1="-20.32" y1="5.08" x2="-20.32" y2="-53.34" width="0.4064" layer="94"/>
+<wire x1="-20.32" y1="-53.34" x2="20.32" y2="-53.34" width="0.4064" layer="94"/>
+<wire x1="20.32" y1="-53.34" x2="20.32" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="20.32" y1="5.08" x2="-20.32" y2="5.08" width="0.4064" layer="94"/>
+<pin name="P$41" x="-25.4" y="0" visible="off" length="middle"/>
+<pin name="P$42" x="-25.4" y="-2.54" visible="off" length="middle"/>
+<pin name="P$43" x="-25.4" y="-5.08" visible="off" length="middle"/>
+<pin name="P$44" x="-25.4" y="-7.62" visible="off" length="middle"/>
+<pin name="P$45" x="-25.4" y="-10.16" visible="off" length="middle"/>
+<pin name="P$46" x="-25.4" y="-12.7" visible="off" length="middle"/>
+<pin name="P$47" x="-25.4" y="-15.24" visible="off" length="middle"/>
+<pin name="P$48" x="-25.4" y="-17.78" visible="off" length="middle"/>
+<pin name="P$49" x="-25.4" y="-20.32" visible="off" length="middle"/>
+<pin name="P$50" x="-25.4" y="-22.86" visible="off" length="middle"/>
+<pin name="P$51" x="-25.4" y="-25.4" visible="off" length="middle"/>
+<pin name="P$52" x="-25.4" y="-27.94" visible="off" length="middle"/>
+<pin name="P$53" x="-25.4" y="-30.48" visible="off" length="middle"/>
+<pin name="P$54" x="-25.4" y="-33.02" visible="off" length="middle"/>
+<pin name="P$55" x="-25.4" y="-35.56" visible="off" length="middle"/>
+<pin name="P$56" x="-25.4" y="-38.1" visible="off" length="middle"/>
+<pin name="P$57" x="-25.4" y="-40.64" visible="off" length="middle"/>
+<pin name="P$58" x="-25.4" y="-43.18" visible="off" length="middle"/>
+<pin name="P$59" x="-25.4" y="-45.72" visible="off" length="middle"/>
+<pin name="P$60" x="-25.4" y="-48.26" visible="off" length="middle"/>
+<pin name="P$61" x="25.4" y="-48.26" visible="off" length="middle" rot="R180"/>
+<pin name="P$62" x="25.4" y="-45.72" visible="off" length="middle" rot="R180"/>
+<pin name="P$63" x="25.4" y="-43.18" visible="off" length="middle" rot="R180"/>
+<pin name="P$64" x="25.4" y="-40.64" visible="off" length="middle" rot="R180"/>
+<pin name="P$65" x="25.4" y="-38.1" visible="off" length="middle" rot="R180"/>
+<pin name="P$66" x="25.4" y="-35.56" visible="off" length="middle" rot="R180"/>
+<pin name="P$67" x="25.4" y="-33.02" visible="off" length="middle" rot="R180"/>
+<pin name="P$68" x="25.4" y="-30.48" visible="off" length="middle" rot="R180"/>
+<pin name="P$69" x="25.4" y="-27.94" visible="off" length="middle" rot="R180"/>
+<pin name="P$70" x="25.4" y="-25.4" visible="off" length="middle" rot="R180"/>
+<pin name="P$71" x="25.4" y="-22.86" visible="off" length="middle" rot="R180"/>
+<pin name="P$72" x="25.4" y="-20.32" visible="off" length="middle" rot="R180"/>
+<pin name="P$73" x="25.4" y="-17.78" visible="off" length="middle" rot="R180"/>
+<pin name="P$74" x="25.4" y="-15.24" visible="off" length="middle" rot="R180"/>
+<pin name="P$75" x="25.4" y="-12.7" visible="off" length="middle" rot="R180"/>
+<pin name="P$76" x="25.4" y="-10.16" visible="off" length="middle" rot="R180"/>
+<pin name="P$77" x="25.4" y="-7.62" visible="off" length="middle" rot="R180"/>
+<pin name="P$78" x="25.4" y="-5.08" visible="off" length="middle" rot="R180"/>
+<pin name="P$79" x="25.4" y="-2.54" visible="off" length="middle" rot="R180"/>
+<pin name="P$80" x="25.4" y="0" visible="off" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MODULE_DAUGHTER-1">
+<pin name="GND@1" x="-25.4" y="0" length="middle"/>
+<pin name="3V3" x="-25.4" y="-2.54" length="middle"/>
+<pin name="5V-USB" x="-25.4" y="-5.08" length="middle"/>
+<pin name="SWDIO" x="-25.4" y="-7.62" length="middle"/>
+<pin name="SWCLK" x="-25.4" y="-10.16" length="middle"/>
+<pin name="NRESET" x="-25.4" y="-12.7" length="middle"/>
+<pin name="TGT_TX" x="-25.4" y="-15.24" length="middle"/>
+<pin name="TGT_RX" x="-25.4" y="-17.78" length="middle"/>
+<pin name="TX1" x="-25.4" y="-20.32" length="middle"/>
+<pin name="RX1" x="-25.4" y="-22.86" length="middle"/>
+<pin name="SDA1" x="-25.4" y="-25.4" length="middle"/>
+<pin name="SCL1" x="-25.4" y="-27.94" length="middle"/>
+<pin name="MOSI1" x="-25.4" y="-30.48" length="middle"/>
+<pin name="MISO1" x="-25.4" y="-33.02" length="middle"/>
+<pin name="SCK1" x="-25.4" y="-35.56" length="middle"/>
+<pin name="GP0" x="-25.4" y="-38.1" length="middle"/>
+<pin name="GP1" x="-25.4" y="-40.64" length="middle"/>
+<pin name="AIN0" x="-25.4" y="-43.18" length="middle"/>
+<pin name="AIN1" x="-25.4" y="-45.72" length="middle"/>
+<pin name="AIN2" x="-25.4" y="-48.26" length="middle"/>
+<pin name="PWM0" x="25.4" y="-48.26" length="middle" rot="R180"/>
+<pin name="PWM1" x="25.4" y="-45.72" length="middle" rot="R180"/>
+<pin name="PWM2" x="25.4" y="-43.18" length="middle" rot="R180"/>
+<pin name="GP2" x="25.4" y="-40.64" length="middle" rot="R180"/>
+<pin name="GP3" x="25.4" y="-38.1" length="middle" rot="R180"/>
+<pin name="SCK2" x="25.4" y="-35.56" length="middle" rot="R180"/>
+<pin name="MISO2" x="25.4" y="-33.02" length="middle" rot="R180"/>
+<pin name="MOSI2" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="SCL2" x="25.4" y="-27.94" length="middle" rot="R180"/>
+<pin name="SDA2" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="RX2" x="25.4" y="-22.86" length="middle" rot="R180"/>
+<pin name="TX2" x="25.4" y="-20.32" length="middle" rot="R180"/>
+<pin name="GP4" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="GP5" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="GP6" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="GP7" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="GP8" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="TGT_RTS" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="TGT_CTS" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND@40" x="25.4" y="0" length="middle" rot="R180"/>
+<wire x1="-20.32" y1="5.08" x2="-20.32" y2="-53.34" width="0.4064" layer="94"/>
+<wire x1="-20.32" y1="-53.34" x2="20.32" y2="-53.34" width="0.4064" layer="94"/>
+<wire x1="20.32" y1="-53.34" x2="20.32" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="20.32" y1="5.08" x2="-20.32" y2="5.08" width="0.4064" layer="94"/>
+</symbol>
+<symbol name="MODULE_SOCKET-1">
+<pin name="GND@1" x="-25.4" y="0" length="middle"/>
+<pin name="3V3" x="-25.4" y="-2.54" length="middle"/>
+<pin name="5V-USB" x="-25.4" y="-5.08" length="middle"/>
+<pin name="SWDIO" x="-25.4" y="-7.62" length="middle"/>
+<pin name="SWCLK" x="-25.4" y="-10.16" length="middle"/>
+<pin name="NRESET" x="-25.4" y="-12.7" length="middle"/>
+<pin name="TGT_TX" x="-25.4" y="-15.24" length="middle"/>
+<pin name="TGT_RX" x="-25.4" y="-17.78" length="middle"/>
+<pin name="TX1" x="-25.4" y="-20.32" length="middle"/>
+<pin name="RX1" x="-25.4" y="-22.86" length="middle"/>
+<pin name="SDA1" x="-25.4" y="-25.4" length="middle"/>
+<pin name="SCL1" x="-25.4" y="-27.94" length="middle"/>
+<pin name="MOSI1" x="-25.4" y="-30.48" length="middle"/>
+<pin name="MISO1" x="-25.4" y="-33.02" length="middle"/>
+<pin name="SCK1" x="-25.4" y="-35.56" length="middle"/>
+<pin name="GP0" x="-25.4" y="-38.1" length="middle"/>
+<pin name="GP1" x="-25.4" y="-40.64" length="middle"/>
+<pin name="AIN0" x="-25.4" y="-43.18" length="middle"/>
+<pin name="AIN1" x="-25.4" y="-45.72" length="middle"/>
+<pin name="AIN2" x="-25.4" y="-48.26" length="middle"/>
+<pin name="PWM0" x="25.4" y="-48.26" length="middle" rot="R180"/>
+<pin name="PWM1" x="25.4" y="-45.72" length="middle" rot="R180"/>
+<pin name="PWM2" x="25.4" y="-43.18" length="middle" rot="R180"/>
+<pin name="GP2" x="25.4" y="-40.64" length="middle" rot="R180"/>
+<pin name="GP3" x="25.4" y="-38.1" length="middle" rot="R180"/>
+<pin name="SCK2" x="25.4" y="-35.56" length="middle" rot="R180"/>
+<pin name="MISO2" x="25.4" y="-33.02" length="middle" rot="R180"/>
+<pin name="MOSI2" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="SCL2" x="25.4" y="-27.94" length="middle" rot="R180"/>
+<pin name="SDA2" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="RX2" x="25.4" y="-22.86" length="middle" rot="R180"/>
+<pin name="TX2" x="25.4" y="-20.32" length="middle" rot="R180"/>
+<pin name="GP4" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="GP5" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="GP6" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="GP7" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="GP8" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="TGT_RTS" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="TGT_CTS" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND@40" x="25.4" y="0" length="middle" rot="R180"/>
+<wire x1="-20.32" y1="5.08" x2="-20.32" y2="-53.34" width="0.4064" layer="94"/>
+<wire x1="-20.32" y1="-53.34" x2="20.32" y2="-53.34" width="0.4064" layer="94"/>
+<wire x1="20.32" y1="-53.34" x2="20.32" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="20.32" y1="5.08" x2="-20.32" y2="5.08" width="0.4064" layer="94"/>
+<pin name="P$41" x="-25.4" y="0" visible="off" length="middle"/>
+<pin name="P$42" x="-25.4" y="-2.54" visible="off" length="middle"/>
+<pin name="P$43" x="-25.4" y="-5.08" visible="off" length="middle"/>
+<pin name="P$44" x="-25.4" y="-7.62" visible="off" length="middle"/>
+<pin name="P$45" x="-25.4" y="-10.16" visible="off" length="middle"/>
+<pin name="P$46" x="-25.4" y="-12.7" visible="off" length="middle"/>
+<pin name="P$47" x="-25.4" y="-15.24" visible="off" length="middle"/>
+<pin name="P$48" x="-25.4" y="-17.78" visible="off" length="middle"/>
+<pin name="P$49" x="-25.4" y="-20.32" visible="off" length="middle"/>
+<pin name="P$50" x="-25.4" y="-22.86" visible="off" length="middle"/>
+<pin name="P$51" x="-25.4" y="-25.4" visible="off" length="middle"/>
+<pin name="P$52" x="-25.4" y="-27.94" visible="off" length="middle"/>
+<pin name="P$53" x="-25.4" y="-30.48" visible="off" length="middle"/>
+<pin name="P$54" x="-25.4" y="-33.02" visible="off" length="middle"/>
+<pin name="P$55" x="-25.4" y="-35.56" visible="off" length="middle"/>
+<pin name="P$56" x="-25.4" y="-38.1" visible="off" length="middle"/>
+<pin name="P$57" x="-25.4" y="-40.64" visible="off" length="middle"/>
+<pin name="P$58" x="-25.4" y="-43.18" visible="off" length="middle"/>
+<pin name="P$59" x="-25.4" y="-45.72" visible="off" length="middle"/>
+<pin name="P$60" x="-25.4" y="-48.26" visible="off" length="middle"/>
+<pin name="P$61" x="25.4" y="-48.26" visible="off" length="middle" rot="R180"/>
+<pin name="P$62" x="25.4" y="-45.72" visible="off" length="middle" rot="R180"/>
+<pin name="P$63" x="25.4" y="-43.18" visible="off" length="middle" rot="R180"/>
+<pin name="P$64" x="25.4" y="-40.64" visible="off" length="middle" rot="R180"/>
+<pin name="P$65" x="25.4" y="-38.1" visible="off" length="middle" rot="R180"/>
+<pin name="P$66" x="25.4" y="-35.56" visible="off" length="middle" rot="R180"/>
+<pin name="P$67" x="25.4" y="-33.02" visible="off" length="middle" rot="R180"/>
+<pin name="P$68" x="25.4" y="-30.48" visible="off" length="middle" rot="R180"/>
+<pin name="P$69" x="25.4" y="-27.94" visible="off" length="middle" rot="R180"/>
+<pin name="P$70" x="25.4" y="-25.4" visible="off" length="middle" rot="R180"/>
+<pin name="P$71" x="25.4" y="-22.86" visible="off" length="middle" rot="R180"/>
+<pin name="P$72" x="25.4" y="-20.32" visible="off" length="middle" rot="R180"/>
+<pin name="P$73" x="25.4" y="-17.78" visible="off" length="middle" rot="R180"/>
+<pin name="P$74" x="25.4" y="-15.24" visible="off" length="middle" rot="R180"/>
+<pin name="P$75" x="25.4" y="-12.7" visible="off" length="middle" rot="R180"/>
+<pin name="P$76" x="25.4" y="-10.16" visible="off" length="middle" rot="R180"/>
+<pin name="P$77" x="25.4" y="-7.62" visible="off" length="middle" rot="R180"/>
+<pin name="P$78" x="25.4" y="-5.08" visible="off" length="middle" rot="R180"/>
+<pin name="P$79" x="25.4" y="-2.54" visible="off" length="middle" rot="R180"/>
+<pin name="P$80" x="25.4" y="0" visible="off" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RPI-HAT" prefix="BRD">
@@ -10044,6 +10446,154 @@ P260906</text>
 <connect gate="G$1" pin="SCL" pad="32"/>
 <connect gate="G$1" pin="SDA" pad="31"/>
 <connect gate="G$1" pin="VIN" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MODULE_DAUGHTER">
+<gates>
+<gate name="G$1" symbol="MODULE_DAUGHTER-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MODULE_DAUGHTER">
+<connects>
+<connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="5V-USB" pad="3"/>
+<connect gate="G$1" pin="AIN0" pad="18"/>
+<connect gate="G$1" pin="AIN1" pad="19"/>
+<connect gate="G$1" pin="AIN2" pad="20"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@40" pad="40"/>
+<connect gate="G$1" pin="GP0" pad="16"/>
+<connect gate="G$1" pin="GP1" pad="17"/>
+<connect gate="G$1" pin="GP2" pad="24"/>
+<connect gate="G$1" pin="GP3" pad="25"/>
+<connect gate="G$1" pin="GP4" pad="33"/>
+<connect gate="G$1" pin="GP5" pad="34"/>
+<connect gate="G$1" pin="GP6" pad="35"/>
+<connect gate="G$1" pin="GP7" pad="36"/>
+<connect gate="G$1" pin="GP8" pad="37"/>
+<connect gate="G$1" pin="MISO1" pad="14"/>
+<connect gate="G$1" pin="MISO2" pad="27"/>
+<connect gate="G$1" pin="MOSI1" pad="13"/>
+<connect gate="G$1" pin="MOSI2" pad="28"/>
+<connect gate="G$1" pin="NRESET" pad="6"/>
+<connect gate="G$1" pin="PWM0" pad="21"/>
+<connect gate="G$1" pin="PWM1" pad="22"/>
+<connect gate="G$1" pin="PWM2" pad="23"/>
+<connect gate="G$1" pin="RX1" pad="10"/>
+<connect gate="G$1" pin="RX2" pad="31"/>
+<connect gate="G$1" pin="SCK1" pad="15"/>
+<connect gate="G$1" pin="SCK2" pad="26"/>
+<connect gate="G$1" pin="SCL1" pad="12"/>
+<connect gate="G$1" pin="SCL2" pad="29"/>
+<connect gate="G$1" pin="SDA1" pad="11"/>
+<connect gate="G$1" pin="SDA2" pad="30"/>
+<connect gate="G$1" pin="SWCLK" pad="5"/>
+<connect gate="G$1" pin="SWDIO" pad="4"/>
+<connect gate="G$1" pin="TGT_CTS" pad="39"/>
+<connect gate="G$1" pin="TGT_RTS" pad="38"/>
+<connect gate="G$1" pin="TGT_RX" pad="8"/>
+<connect gate="G$1" pin="TGT_TX" pad="7"/>
+<connect gate="G$1" pin="TX1" pad="9"/>
+<connect gate="G$1" pin="TX2" pad="32"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MODULE_SOCKET" prefix="SKT">
+<gates>
+<gate name="G$1" symbol="MODULE_SOCKET-1" x="0" y="22.86"/>
+</gates>
+<devices>
+<device name="" package="MODULE_SOCKET">
+<connects>
+<connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="5V-USB" pad="3"/>
+<connect gate="G$1" pin="AIN0" pad="18"/>
+<connect gate="G$1" pin="AIN1" pad="19"/>
+<connect gate="G$1" pin="AIN2" pad="20"/>
+<connect gate="G$1" pin="GND@1" pad="1"/>
+<connect gate="G$1" pin="GND@40" pad="40"/>
+<connect gate="G$1" pin="GP0" pad="16"/>
+<connect gate="G$1" pin="GP1" pad="17"/>
+<connect gate="G$1" pin="GP2" pad="24"/>
+<connect gate="G$1" pin="GP3" pad="25"/>
+<connect gate="G$1" pin="GP4" pad="33"/>
+<connect gate="G$1" pin="GP5" pad="34"/>
+<connect gate="G$1" pin="GP6" pad="35"/>
+<connect gate="G$1" pin="GP7" pad="36"/>
+<connect gate="G$1" pin="GP8" pad="37"/>
+<connect gate="G$1" pin="MISO1" pad="14"/>
+<connect gate="G$1" pin="MISO2" pad="27"/>
+<connect gate="G$1" pin="MOSI1" pad="13"/>
+<connect gate="G$1" pin="MOSI2" pad="28"/>
+<connect gate="G$1" pin="NRESET" pad="6"/>
+<connect gate="G$1" pin="P$41" pad="P$41"/>
+<connect gate="G$1" pin="P$42" pad="P$42"/>
+<connect gate="G$1" pin="P$43" pad="P$43"/>
+<connect gate="G$1" pin="P$44" pad="P$44"/>
+<connect gate="G$1" pin="P$45" pad="P$45"/>
+<connect gate="G$1" pin="P$46" pad="P$46"/>
+<connect gate="G$1" pin="P$47" pad="P$47"/>
+<connect gate="G$1" pin="P$48" pad="P$48"/>
+<connect gate="G$1" pin="P$49" pad="P$49"/>
+<connect gate="G$1" pin="P$50" pad="P$50"/>
+<connect gate="G$1" pin="P$51" pad="P$51"/>
+<connect gate="G$1" pin="P$52" pad="P$52"/>
+<connect gate="G$1" pin="P$53" pad="P$53"/>
+<connect gate="G$1" pin="P$54" pad="P$54"/>
+<connect gate="G$1" pin="P$55" pad="P$55"/>
+<connect gate="G$1" pin="P$56" pad="P$56"/>
+<connect gate="G$1" pin="P$57" pad="P$57"/>
+<connect gate="G$1" pin="P$58" pad="P$58"/>
+<connect gate="G$1" pin="P$59" pad="P$59"/>
+<connect gate="G$1" pin="P$60" pad="P$60"/>
+<connect gate="G$1" pin="P$61" pad="P$61"/>
+<connect gate="G$1" pin="P$62" pad="P$62"/>
+<connect gate="G$1" pin="P$63" pad="P$63"/>
+<connect gate="G$1" pin="P$64" pad="P$64"/>
+<connect gate="G$1" pin="P$65" pad="P$65"/>
+<connect gate="G$1" pin="P$66" pad="P$66"/>
+<connect gate="G$1" pin="P$67" pad="P$67"/>
+<connect gate="G$1" pin="P$68" pad="P$68"/>
+<connect gate="G$1" pin="P$69" pad="P$69"/>
+<connect gate="G$1" pin="P$70" pad="P$70"/>
+<connect gate="G$1" pin="P$71" pad="P$71"/>
+<connect gate="G$1" pin="P$72" pad="P$72"/>
+<connect gate="G$1" pin="P$73" pad="P$73"/>
+<connect gate="G$1" pin="P$74" pad="P$74"/>
+<connect gate="G$1" pin="P$75" pad="P$75"/>
+<connect gate="G$1" pin="P$76" pad="P$76"/>
+<connect gate="G$1" pin="P$77" pad="P$77"/>
+<connect gate="G$1" pin="P$78" pad="P$78"/>
+<connect gate="G$1" pin="P$79" pad="P$79"/>
+<connect gate="G$1" pin="P$80" pad="P$80"/>
+<connect gate="G$1" pin="PWM0" pad="21"/>
+<connect gate="G$1" pin="PWM1" pad="22"/>
+<connect gate="G$1" pin="PWM2" pad="23"/>
+<connect gate="G$1" pin="RX1" pad="10"/>
+<connect gate="G$1" pin="RX2" pad="31"/>
+<connect gate="G$1" pin="SCK1" pad="15"/>
+<connect gate="G$1" pin="SCK2" pad="26"/>
+<connect gate="G$1" pin="SCL1" pad="12"/>
+<connect gate="G$1" pin="SCL2" pad="29"/>
+<connect gate="G$1" pin="SDA1" pad="11"/>
+<connect gate="G$1" pin="SDA2" pad="30"/>
+<connect gate="G$1" pin="SWCLK" pad="5"/>
+<connect gate="G$1" pin="SWDIO" pad="4"/>
+<connect gate="G$1" pin="TGT_CTS" pad="39"/>
+<connect gate="G$1" pin="TGT_RTS" pad="38"/>
+<connect gate="G$1" pin="TGT_RX" pad="8"/>
+<connect gate="G$1" pin="TGT_TX" pad="7"/>
+<connect gate="G$1" pin="TX1" pad="9"/>
+<connect gate="G$1" pin="TX2" pad="32"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -836,16 +836,47 @@
 <circle x="-1.8034" y="1.8161" radius="0.127" width="0.127" layer="21"/>
 </package>
 <package name="SOT223">
-<smd name="OUT(2)" x="0" y="0" dx="3.25" dy="2.15" layer="1"/>
-<smd name="OUT(1)" x="0" y="-5.8" dx="0.95" dy="2.15" layer="1"/>
-<smd name="GND" x="-2.3" y="-5.8" dx="0.95" dy="2.15" layer="1"/>
-<smd name="IN" x="2.3" y="-5.8" dx="0.95" dy="2.15" layer="1"/>
+<smd name="4" x="0" y="0" dx="3.25" dy="2.15" layer="1"/>
+<smd name="2" x="0" y="-5.8" dx="0.95" dy="2.15" layer="1"/>
+<smd name="1" x="-2.3" y="-5.8" dx="0.95" dy="2.15" layer="1"/>
+<smd name="3" x="2.3" y="-5.8" dx="0.95" dy="2.15" layer="1"/>
 <wire x1="-3.3694" y1="-1.016" x2="3.3306" y2="-1.016" width="0.127" layer="21"/>
 <wire x1="3.3306" y1="-1.016" x2="3.3306" y2="-4.716" width="0.127" layer="21"/>
 <wire x1="3.3306" y1="-4.716" x2="-3.3694" y2="-4.716" width="0.127" layer="21"/>
 <wire x1="-3.3694" y1="-4.716" x2="-3.3694" y2="-1.016" width="0.127" layer="21"/>
 <text x="3.81" y="-2.54" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
 <text x="3.81" y="-3.81" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+</package>
+<package name="QFN-16">
+<smd name="5" x="0" y="0" dx="0.35" dy="0.85" layer="1"/>
+<smd name="6" x="0.65" y="0" dx="0.35" dy="0.85" layer="1"/>
+<smd name="7" x="1.3" y="0" dx="0.35" dy="0.85" layer="1"/>
+<smd name="8" x="1.95" y="0" dx="0.35" dy="0.85" layer="1"/>
+<smd name="16" x="0" y="3.95" dx="0.35" dy="0.85" layer="1"/>
+<smd name="15" x="0.65" y="3.95" dx="0.35" dy="0.85" layer="1"/>
+<smd name="14" x="1.3" y="3.95" dx="0.35" dy="0.85" layer="1"/>
+<smd name="13" x="1.95" y="3.95" dx="0.35" dy="0.85" layer="1"/>
+<smd name="4" x="-1" y="1" dx="0.35" dy="0.85" layer="1" rot="R90"/>
+<smd name="3" x="-1" y="1.65" dx="0.35" dy="0.85" layer="1" rot="R90"/>
+<smd name="2" x="-1" y="2.3" dx="0.35" dy="0.85" layer="1" rot="R90"/>
+<smd name="1" x="-1" y="2.95" dx="0.35" dy="0.85" layer="1" rot="R90"/>
+<smd name="9" x="2.95" y="1" dx="0.35" dy="0.85" layer="1" rot="R90"/>
+<smd name="10" x="2.95" y="1.65" dx="0.35" dy="0.85" layer="1" rot="R90"/>
+<smd name="11" x="2.95" y="2.3" dx="0.35" dy="0.85" layer="1" rot="R90"/>
+<smd name="12" x="2.95" y="2.95" dx="0.35" dy="0.85" layer="1" rot="R90"/>
+<smd name="17" x="0.975" y="1.975" dx="2.7" dy="2.7" layer="1"/>
+<wire x1="-0.9986" y1="1.974596875" x2="-0.9898375" y2="1.974596875" width="0.00126875" layer="1"/>
+<wire x1="1.95294375" y1="-0.42671875" x2="1.953196875" y2="-0.42671875" width="0.00126875" layer="1"/>
+<wire x1="-0.370396875" y1="1.5628625" x2="-0.370396875" y2="1.558796875" width="0.00126875" layer="1"/>
+<wire x1="3.376421875" y1="1.58781875" x2="3.376421875" y2="1.588009375" width="0.00126875" layer="1"/>
+<wire x1="2.12725" y1="0" x2="2.12725" y2="-0.0024125" width="0.00126875" layer="1"/>
+<text x="-1.30289375" y="-2.075815625" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-1.310896875" y="-3.2973" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<wire x1="-1" y1="0" x2="2.95" y2="0" width="0.127" layer="21"/>
+<wire x1="2.95" y1="0" x2="2.95" y2="3.95" width="0.127" layer="21"/>
+<wire x1="2.95" y1="3.95" x2="-1" y2="3.95" width="0.127" layer="21"/>
+<wire x1="-1" y1="3.95" x2="-1" y2="0" width="0.127" layer="21"/>
+<circle x="-1.3462" y="3.6703" radius="0.1439625" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1191,15 +1222,30 @@
 <wire x1="-2.54" y1="7.62" x2="17.78" y2="7.62" width="0.254" layer="94"/>
 <wire x1="17.78" y1="7.62" x2="17.78" y2="0" width="0.254" layer="94"/>
 <wire x1="17.78" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<rectangle x1="5.715" y1="7.62" x2="9.525" y2="8.255" layer="94"/>
 <pin name="IN" x="-7.62" y="5.08" visible="pin" length="middle"/>
 <pin name="OUT" x="22.86" y="5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="GND" x="7.62" y="-5.08" visible="off" length="middle" rot="R90"/>
 <text x="5.334" y="0.635" size="1.524" layer="97">GND</text>
 <text x="10.795" y="-2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="10.795" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="TAB" x="7.62" y="12.7" visible="off" length="middle" rot="R270"/>
-<text x="5.588" y="5.715" size="1.524" layer="97">TAB</text>
+</symbol>
+<symbol name="TPS61090RSAR">
+<pin name="GND" x="-5.08" y="0" length="middle"/>
+<pin name="SYNC" x="-5.08" y="7.62" length="middle"/>
+<pin name="LBI" x="-5.08" y="15.24" length="middle"/>
+<pin name="EN" x="-5.08" y="17.78" length="middle"/>
+<pin name="VBAT" x="-5.08" y="20.32" length="middle"/>
+<pin name="SW" x="-5.08" y="25.4" length="middle"/>
+<pin name="VOUT" x="30.48" y="25.4" length="middle" rot="R180"/>
+<pin name="FB" x="30.48" y="17.78" length="middle" rot="R180"/>
+<pin name="LBO" x="30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="PGND" x="30.48" y="0" length="middle" rot="R180"/>
+<wire x1="0" y1="27.94" x2="25.4" y2="27.94" width="0.254" layer="94"/>
+<wire x1="25.4" y1="27.94" x2="25.4" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="27.94" width="0.254" layer="94"/>
+<text x="0.254" y="28.702" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1352,10 +1398,9 @@
 <devices>
 <device name="" package="SOT223">
 <connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="IN" pad="IN"/>
-<connect gate="G$1" pin="OUT" pad="OUT(1)"/>
-<connect gate="G$1" pin="TAB" pad="OUT(2)"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1364,6 +1409,61 @@
 <attribute name="OC-DIGIKEY" value="296-28778-1-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="595-TLV1117LV33DCYR" constant="no"/>
 <attribute name="OC-NEWARK" value="2323647" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TL1963A-33DCYR" prefix="U">
+<description>&lt;b&gt;LDO Fixed Regulator 3.3v, 1.5A&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TLV1117LV33DCYR" x="-7.62" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MFN" value="TL1963A-33DCYR" constant="no"/>
+<attribute name="OC-DIGIKEY" value="296-24897-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="595-TL1963A-33DCYR" constant="no"/>
+<attribute name="OC-NEWARK" value="94T5083" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS61090RSAR" prefix="U">
+<description>&lt;b&gt;Boost Converter 2A Switch, 96% Efficient Boost &lt;b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS61090RSAR" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="QFN-16">
+<connects>
+<connect gate="G$1" pin="EN" pad="11"/>
+<connect gate="G$1" pin="FB" pad="14"/>
+<connect gate="G$1" pin="GND" pad="13"/>
+<connect gate="G$1" pin="LBI" pad="9"/>
+<connect gate="G$1" pin="LBO" pad="12"/>
+<connect gate="G$1" pin="PGND" pad="5 6 7 17"/>
+<connect gate="G$1" pin="SW" pad="3 4"/>
+<connect gate="G$1" pin="SYNC" pad="10"/>
+<connect gate="G$1" pin="VBAT" pad="8"/>
+<connect gate="G$1" pin="VOUT" pad="1 15 16"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MFN" value="TPS61090RSAR" constant="no"/>
+<attribute name="OC-DIGIKEY" value="296-15259-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="595-TPS61090RSAR" constant="no"/>
+<attribute name="OC-NEWARK" value="73H4652" constant="no"/>
 </technology>
 </technologies>
 </device>
