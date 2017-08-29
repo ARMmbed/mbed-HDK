@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -546,7 +546,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <text x="-5.334" y="2.794" size="1.27" layer="95" font="vector" ratio="12" rot="R90">A</text>
 <text x="3.81" y="0" size="1.27" layer="95" font="vector" ratio="12" rot="R90">&gt;NAME</text>
 </symbol>
-<symbol name="CLV1A-FKB-CHMKPEHBB7A363">
+<symbol name="CLP6C-FKB-CKNPRGJBB7A363">
 <wire x1="6.35" y1="-2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="6.35" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -589,9 +589,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <vertex x="-8.001" y="-4.953"/>
 <vertex x="-7.493" y="-5.461"/>
 </polygon>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" rot="R270"/>
 <text x="-5.334" y="-2.286" size="1.27" layer="95" font="vector" ratio="12" rot="R90">R</text>
 <text x="8.89" y="-5.08" size="1.27" layer="95" font="vector" ratio="12" rot="R90">&gt;NAME</text>
 <wire x1="1.27" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
@@ -615,9 +613,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <vertex x="-2.921" y="-4.953"/>
 <vertex x="-2.413" y="-5.461"/>
 </polygon>
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<pin name="1" x="-5.08" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="3" x="5.08" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="3" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 <symbol name="C12832A1Z_128X32_LCD">
 <wire x1="-2.54" y1="5.08" x2="53.34" y2="5.08" width="0.254" layer="94"/>
@@ -651,7 +648,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <text x="10.16" y="20.32" size="1.27" layer="94" font="vector" ratio="12">NHD-C12832A1Z-FSW-FBW-3V3-ND</text>
 <text x="55.88" y="7.62" size="1.27" layer="95" font="vector" ratio="12" rot="R90">&gt;NAME</text>
 </symbol>
-<symbol name="CLP6C-FKB-CKNPRGJBB7A363">
+<symbol name="CLV1A-FKB-CHMKPEHBB7A363">
 <wire x1="6.35" y1="-2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="6.35" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -959,10 +956,10 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <devices>
 <device name="" package="CLV1A-FKB-CHMKPEHBB7A363">
 <connects>
+<connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="4" pad="3"/>
-<connect gate="G$1" pin="5" pad="4"/>
-<connect gate="G$1" pin="6" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name="">
@@ -1012,7 +1009,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <deviceset name="CLP6C-FKB-CKNPRGJBB7A363" prefix="LED">
 <description>&lt;B&gt;LED RGB SMD Diffused&lt;/B&gt;</description>
 <gates>
-<gate name="G$1" symbol="CLV1A-FKB-CHMKPEHBB7A363" x="0" y="2.54"/>
+<gate name="G$1" symbol="CLP6C-FKB-CKNPRGJBB7A363" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="6-PLCC">
