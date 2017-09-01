@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -865,11 +865,6 @@
 <smd name="11" x="2.95" y="2.3" dx="0.35" dy="0.85" layer="1" rot="R90"/>
 <smd name="12" x="2.95" y="2.95" dx="0.35" dy="0.85" layer="1" rot="R90"/>
 <smd name="17" x="0.975" y="1.975" dx="2.7" dy="2.7" layer="1"/>
-<wire x1="-0.9986" y1="1.974596875" x2="-0.9898375" y2="1.974596875" width="0.00126875" layer="1"/>
-<wire x1="1.95294375" y1="-0.42671875" x2="1.953196875" y2="-0.42671875" width="0.00126875" layer="1"/>
-<wire x1="-0.370396875" y1="1.5628625" x2="-0.370396875" y2="1.558796875" width="0.00126875" layer="1"/>
-<wire x1="3.376421875" y1="1.58781875" x2="3.376421875" y2="1.588009375" width="0.00126875" layer="1"/>
-<wire x1="2.12725" y1="0" x2="2.12725" y2="-0.0024125" width="0.00126875" layer="1"/>
 <text x="-1.30289375" y="-2.075815625" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
 <text x="-1.310896875" y="-3.2973" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
 <wire x1="-1" y1="0" x2="2.95" y2="0" width="0.127" layer="21"/>
