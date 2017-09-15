@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -184,10 +185,10 @@
 <text x="-1.27" y="-2.54" size="1.016" layer="25" ratio="12">&gt;NAME</text>
 </package>
 <package name="SO8">
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="1.7222" x2="2.4" y2="-1.7302" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.7302" x2="-2.4" y2="1.7222" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.7222" x2="2.4" y2="1.7222" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.7302" x2="-2.4" y2="-1.7302" width="0.2032" layer="21"/>
 <rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
 <rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
 <rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
@@ -2433,8 +2434,8 @@
 <technologies>
 <technology name="">
 <attribute name="MF" value="Macronix" constant="no"/>
-<attribute name="MFN" value="MX25R3235FM2IH0" constant="no"/>
-<attribute name="OC-DIGIKEY" value="1092-1174-ND" constant="no"/>
+<attribute name="MFN" value="MX25R3235FM1IH0" constant="no"/>
+<attribute name="OC-DIGIKEY" value="1092-1175-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="" constant="no"/>
 <attribute name="OC-NEWARK" value="" constant="no"/>
 </technology>
@@ -2443,6 +2444,7 @@
 </devices>
 </deviceset>
 <deviceset name="MMA7660FC" prefix="U">
+<description>&lt;b&gt;ACCELEROMETER 1.5G I2C 10DFN&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="MMA7660FC" x="-2.54" y="-5.08"/>
 </gates>
@@ -2461,7 +2463,13 @@
 <connect gate="G$1" pin="SDA" pad="P$7"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="NXP" constant="no"/>
+<attribute name="MFN" value="MMA7660FCT" constant="no"/>
+<attribute name="OC-DIGIKEY" value="MMA7660FCT-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="841-MMA7660FCT" constant="no"/>
+<attribute name="OC-NEWARK" value="2238133" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

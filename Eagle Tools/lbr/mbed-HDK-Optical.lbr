@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -755,7 +755,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SMD_LED" prefix="LED">
+<deviceset name="LED-SMD-RED" prefix="LED">
 <description>&lt;b&gt;&lt;b&gt; LED SMD, Colour Red&lt;/b&gt;
 &lt;/b&gt;&lt;p&gt;</description>
 <gates>
@@ -1065,6 +1065,114 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <attribute name="OC-DIGIKEY" value="1528-1502-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="" constant="no"/>
 <attribute name="OC-NEWARK" value="53W5770" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-SMD-BLUE" prefix="LED">
+<description>&lt;b&gt;&lt;b&gt; LED SMD, Colour Blue&lt;/b&gt;
+&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="CHIPLED_0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Wurth Electronics Inc" constant="no"/>
+<attribute name="MFN" value="150060BS75000" constant="no"/>
+<attribute name="OC-DIGIKEY" value="732-4966-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="732-4966-1-ND" constant="no"/>
+<attribute name="OC-NEWARK" value="2322069" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0805" package="CHIPLED_0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Wurth Electronics Inc" constant="no"/>
+<attribute name="MFN" value="150080RS75000" constant="no"/>
+<attribute name="OC-DIGIKEY" value="732-4984-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="710-150080RS75000" constant="no"/>
+<attribute name="OC-NEWARK" value="2322077" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="CHIPLED_1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Wurth Electronics Inc" constant="no"/>
+<attribute name="MFN" value="150120GS75000" constant="no"/>
+<attribute name="OC-DIGIKEY" value="732-4990-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="710-150120GS75000" constant="no"/>
+<attribute name="OC-NEWARK" value="2322085" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED-SMD-GREEN" prefix="LED">
+<description>&lt;b&gt;&lt;b&gt; LED SMD, Colour Green&lt;/b&gt;
+&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="CHIPLED_0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Wurth Electronics Inc" constant="no"/>
+<attribute name="MFN" value="150060GS75000" constant="no"/>
+<attribute name="OC-DIGIKEY" value="732-4971-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="732-4971-1-ND" constant="no"/>
+<attribute name="OC-NEWARK" value="2322070" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0805" package="CHIPLED_0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Wurth Electronics Inc" constant="no"/>
+<attribute name="MFN" value="150080RS75000" constant="no"/>
+<attribute name="OC-DIGIKEY" value="732-4984-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="710-150080RS75000" constant="no"/>
+<attribute name="OC-NEWARK" value="2322077" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="CHIPLED_1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Wurth Electronics Inc" constant="no"/>
+<attribute name="MFN" value="150120GS75000" constant="no"/>
+<attribute name="OC-DIGIKEY" value="732-4990-1-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="710-150120GS75000" constant="no"/>
+<attribute name="OC-NEWARK" value="2322085" constant="no"/>
 </technology>
 </technologies>
 </device>
