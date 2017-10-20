@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -549,6 +549,22 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <vertex x="94" y="68"/>
 <vertex x="-62.5" y="68.5"/>
 </polygon>
+<via x="39.3192" y="9.7536" extent="1-16" drill="0.6"/>
+<via x="37.1856" y="9.7536" extent="1-16" drill="0.6"/>
+<via x="35.052" y="9.7536" extent="1-16" drill="0.6"/>
+<via x="32.9184" y="9.7536" extent="1-16" drill="0.6"/>
+<via x="31.0896" y="9.7536" extent="1-16" drill="0.6"/>
+<via x="31.0896" y="11.5824" extent="1-16" drill="0.6"/>
+<via x="31.0896" y="13.4112" extent="1-16" drill="0.6"/>
+<via x="31.0896" y="15.24" extent="1-16" drill="0.6"/>
+<via x="31.0896" y="17.3736" extent="1-16" drill="0.6"/>
+<via x="31.0896" y="19.5072" extent="1-16" drill="0.6"/>
+<via x="31.0896" y="22.5552" extent="1-16" drill="0.6"/>
+<via x="31.0896" y="24.384" extent="1-16" drill="0.6"/>
+<via x="32.9184" y="24.384" extent="1-16" drill="0.6"/>
+<via x="35.052" y="24.384" extent="1-16" drill="0.6"/>
+<via x="37.1856" y="24.384" extent="1-16" drill="0.6"/>
+<via x="39.3192" y="24.384" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="RFU1">
 <contactref element="U1" pad="P$2"/>
@@ -667,54 +683,6 @@ Allgemeine dseign Regeln, die die meisten Anwendungen passen. Bitte überprüfen
 <wire x1="39.5224" y1="15.5348" x2="39.5224" y2="12.3952" width="1.1" layer="1"/>
 <wire x1="39.5224" y1="12.3952" x2="39.4208" y2="12.2936" width="0.508" layer="1"/>
 <wire x1="39.4208" y1="12.2936" x2="39.4208" y2="11.938" width="0.508" layer="1"/>
-</signal>
-<signal name="N$2">
-<via x="39.3192" y="24.384" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$3">
-<via x="37.1856" y="24.384" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$5">
-<via x="35.052" y="24.384" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$6">
-<via x="32.9184" y="24.384" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$7">
-<via x="31.0896" y="24.384" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$8">
-<via x="31.0896" y="22.5552" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$9">
-<via x="31.0896" y="19.5072" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$10">
-<via x="31.0896" y="17.3736" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$11">
-<via x="31.0896" y="15.24" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$12">
-<via x="31.0896" y="13.4112" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$13">
-<via x="31.0896" y="11.5824" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$14">
-<via x="31.0896" y="9.7536" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$15">
-<via x="32.9184" y="9.7536" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$16">
-<via x="35.052" y="9.7536" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$17">
-<via x="37.1856" y="9.7536" extent="1-16" drill="0.6"/>
-</signal>
-<signal name="N$18">
-<via x="39.3192" y="9.7536" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="+3.3V">
 <polygon width="0.4064" layer="16">
