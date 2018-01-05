@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -821,10 +821,10 @@
 <text x="0.31115" y="-6.52145" size="1.016" layer="21" font="vector" ratio="12">&gt;NAME</text>
 </package>
 <package name="EVQ-Q2Y03W">
-<smd name="P$1" x="0" y="0" dx="3.2" dy="1" layer="1"/>
-<smd name="P$3" x="0" y="-4" dx="3.2" dy="1" layer="1"/>
-<smd name="P$2" x="6.8" y="0" dx="3.2" dy="1" layer="1"/>
-<smd name="P$4" x="6.8" y="-4" dx="3.2" dy="1" layer="1"/>
+<smd name="P$1" x="0" y="0" dx="2" dy="1" layer="1"/>
+<smd name="P$3" x="0" y="-4" dx="2" dy="1" layer="1"/>
+<smd name="P$2" x="6.8" y="0" dx="2" dy="1" layer="1"/>
+<smd name="P$4" x="6.8" y="-4" dx="2" dy="1" layer="1"/>
 <wire x1="6.6421" y1="-4.97305" x2="0.1421" y2="-4.97305" width="0.127" layer="21"/>
 <wire x1="6.6421" y1="-4.97305" x2="6.6421" y2="1.02695" width="0.127" layer="21"/>
 <wire x1="6.6421" y1="1.02695" x2="0.1421" y2="1.02695" width="0.127" layer="21"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -400,6 +400,52 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <hole x="77.46" y="33.46" drill="2.8"/>
 <hole x="77.46" y="2.54" drill="2.8"/>
 </package>
+<package name="UG-2864HSWEG01_0.96IN_WRAPAROUND">
+<wire x1="-13.353" y1="14.36" x2="13.35" y2="14.36" width="0.2032" layer="21"/>
+<wire x1="13.35" y1="14.36" x2="13.35" y2="-4.9" width="0.2032" layer="21"/>
+<wire x1="13.35" y1="-4.9" x2="-13.35" y2="-4.9" width="0.2032" layer="21"/>
+<wire x1="-13.35" y1="-4.9" x2="-13.353" y2="14.36" width="0.2032" layer="21"/>
+<wire x1="-10.872" y1="12.26" x2="10.872" y2="12.26" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="10.872" y1="12.26" x2="10.872" y2="1.396" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="10.872" y1="1.396" x2="-10.872" y2="1.396" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="-10.872" y1="1.396" x2="-10.872" y2="12.26" width="0.2032" layer="51" style="shortdash"/>
+<smd name="1" x="-10.15" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="2" x="-9.45" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="3" x="-8.75" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="4" x="-8.05" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="5" x="-7.35" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="6" x="-6.65" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="7" x="-5.95" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="8" x="-5.25" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="9" x="-4.55" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="10" x="-3.85" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="11" x="-3.15" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="12" x="-2.45" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="13" x="-1.75" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="14" x="-1.05" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="15" x="-0.35" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="16" x="0.35" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="17" x="1.05" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="18" x="1.75" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="19" x="2.45" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="20" x="3.15" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="21" x="3.85" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="22" x="4.55" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="23" x="5.25" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="24" x="5.95" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="25" x="6.65" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="26" x="7.35" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="27" x="8.05" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="28" x="8.75" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="29" x="9.45" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<smd name="30" x="10.15" y="-1.2" dx="2.2" dy="0.35" layer="1" rot="R90"/>
+<text x="-9.95" y="0.512" size="0.8128" layer="52" font="vector" rot="R90">1</text>
+<text x="-3.65" y="0.412" size="0.8128" layer="52" font="vector" rot="R90">10</text>
+<text x="3.3" y="0.412" size="0.8128" layer="52" font="vector" rot="R90">20</text>
+<text x="10.45" y="0.412" size="0.8128" layer="52" font="vector" rot="R90">30</text>
+<text x="-13.09" y="14.42" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-13.09" y="-6.56" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="P-MOS">
@@ -754,6 +800,69 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <pin name="VDD" x="-5.08" y="5.08" length="middle" direction="sup"/>
 <pin name="VSS" x="-5.08" y="2.54" length="middle" direction="sup"/>
 <text x="15.24" y="17.78" size="2.286" layer="94" rot="R90">16X2 LCD</text>
+</symbol>
+<symbol name="UG-2864HSWEG01">
+<wire x1="-22.86" y1="38.1" x2="21.59" y2="38.1" width="0.254" layer="94"/>
+<wire x1="21.59" y1="38.1" x2="21.59" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="21.59" y1="-40.64" x2="-22.86" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-40.64" x2="-22.86" y2="38.1" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="97" style="shortdash"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="-12.7" width="0.254" layer="97" style="shortdash"/>
+<wire x1="7.62" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="97" style="shortdash"/>
+<wire x1="-14.605" y1="12.7" x2="-5.715" y2="12.7" width="0.254" layer="97" style="shortdash"/>
+<wire x1="-14.605" y1="10.16" x2="-5.715" y2="10.16" width="0.254" layer="97" style="shortdash"/>
+<wire x1="-14.605" y1="7.62" x2="-5.715" y2="7.62" width="0.254" layer="97" style="shortdash"/>
+<text x="-22.86" y="40.64" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-22.86" y="-43.18" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<text x="-11.43" y="29.21" size="2.54" layer="94">128x64 OLED</text>
+<text x="-4.445" y="15.24" size="1.778" layer="97">I2C</text>
+<text x="3.81" y="15.24" size="1.778" layer="97">SPI3</text>
+<text x="-3.175" y="12.065" size="1.778" layer="97">0</text>
+<text x="-3.175" y="6.985" size="1.778" layer="97">0</text>
+<text x="5.08" y="9.525" size="1.778" layer="97">0</text>
+<text x="5.08" y="6.985" size="1.778" layer="97">0</text>
+<text x="5.08" y="12.065" size="1.778" layer="97">1</text>
+<text x="-3.175" y="9.525" size="1.778" layer="97">1</text>
+<text x="8.89" y="-10.795" size="1.778" layer="97">Connect</text>
+<text x="8.89" y="-13.335" size="1.778" layer="97">for I2C</text>
+<text x="-12.7" y="22.86" size="1.778" layer="97">Controller:</text>
+<text x="5.08" y="22.86" size="1.778" layer="97">SSD1306</text>
+<text x="-12.7" y="20.32" size="1.778" layer="97">VDD:</text>
+<text x="5.08" y="20.32" size="1.778" layer="97">2.8-3.3V</text>
+<text x="11.43" y="15.24" size="1.778" layer="97">SPI4</text>
+<text x="12.7" y="9.525" size="1.778" layer="97">0</text>
+<text x="12.7" y="12.065" size="1.778" layer="97">0</text>
+<text x="12.7" y="6.985" size="1.778" layer="97">0</text>
+<pin name="NC(GND)@1" x="-25.4" y="35.56" length="short" direction="in"/>
+<pin name="C2P" x="-25.4" y="33.02" length="short" direction="in"/>
+<pin name="C2N" x="-25.4" y="30.48" length="short" direction="in"/>
+<pin name="C1P" x="-25.4" y="27.94" length="short" direction="in"/>
+<pin name="C1N" x="-25.4" y="25.4" length="short" direction="in"/>
+<pin name="VBAT" x="-25.4" y="22.86" length="short" direction="in"/>
+<pin name="NC" x="-25.4" y="20.32" length="short" direction="nc"/>
+<pin name="VSS" x="-25.4" y="17.78" length="short" direction="pwr"/>
+<pin name="VDD" x="-25.4" y="15.24" length="short" direction="pwr"/>
+<pin name="BS0" x="-25.4" y="12.7" length="short" direction="in"/>
+<pin name="BS1" x="-25.4" y="10.16" length="short" direction="in"/>
+<pin name="BS2" x="-25.4" y="7.62" length="short" direction="in"/>
+<pin name="/CS" x="-25.4" y="5.08" length="short" direction="in"/>
+<pin name="/RES" x="-25.4" y="2.54" length="short" direction="in"/>
+<pin name="DC/I2C_SA0" x="-25.4" y="0" length="short" direction="in"/>
+<pin name="R/W" x="-25.4" y="-2.54" length="short" direction="in"/>
+<pin name="E/RD" x="-25.4" y="-5.08" length="short" direction="in"/>
+<pin name="D0/SPI_SCLK/I2C_SCK" x="-25.4" y="-7.62" length="short"/>
+<pin name="D1/SPI_SDIN/I2C_SDA" x="-25.4" y="-10.16" length="short"/>
+<pin name="D2/I2C_SDA" x="-25.4" y="-12.7" length="short"/>
+<pin name="D3" x="-25.4" y="-15.24" length="short"/>
+<pin name="D4" x="-25.4" y="-17.78" length="short"/>
+<pin name="D5" x="-25.4" y="-20.32" length="short"/>
+<pin name="D6" x="-25.4" y="-22.86" length="short"/>
+<pin name="D7" x="-25.4" y="-25.4" length="short"/>
+<pin name="IREF" x="-25.4" y="-27.94" length="short" direction="in"/>
+<pin name="VCOMH" x="-25.4" y="-30.48" length="short" direction="out"/>
+<pin name="VCC" x="-25.4" y="-33.02" length="short" direction="pwr"/>
+<pin name="VLSS" x="-25.4" y="-35.56" length="short" direction="pwr"/>
+<pin name="NC(GND)@2" x="-25.4" y="-38.1" length="short" direction="in"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1175,6 +1284,59 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <attribute name="OC-DIGIKEY" value="732-4990-1-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="710-150120GS75000" constant="no"/>
 <attribute name="OC-NEWARK" value="2322085" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UG-2864HMBEG01" prefix="U" uservalue="yes">
+<description>&lt;b&gt;OLED 128x64 display 0.96inch UG-2864HSWEG01 &lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="UG-2864HSWEG01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UG-2864HSWEG01_0.96IN_WRAPAROUND">
+<connects>
+<connect gate="G$1" pin="/CS" pad="13"/>
+<connect gate="G$1" pin="/RES" pad="14"/>
+<connect gate="G$1" pin="BS0" pad="10"/>
+<connect gate="G$1" pin="BS1" pad="11"/>
+<connect gate="G$1" pin="BS2" pad="12"/>
+<connect gate="G$1" pin="C1N" pad="5"/>
+<connect gate="G$1" pin="C1P" pad="4"/>
+<connect gate="G$1" pin="C2N" pad="3"/>
+<connect gate="G$1" pin="C2P" pad="2"/>
+<connect gate="G$1" pin="D0/SPI_SCLK/I2C_SCK" pad="18"/>
+<connect gate="G$1" pin="D1/SPI_SDIN/I2C_SDA" pad="19"/>
+<connect gate="G$1" pin="D2/I2C_SDA" pad="20"/>
+<connect gate="G$1" pin="D3" pad="21"/>
+<connect gate="G$1" pin="D4" pad="22"/>
+<connect gate="G$1" pin="D5" pad="23"/>
+<connect gate="G$1" pin="D6" pad="24"/>
+<connect gate="G$1" pin="D7" pad="25"/>
+<connect gate="G$1" pin="DC/I2C_SA0" pad="15"/>
+<connect gate="G$1" pin="E/RD" pad="17"/>
+<connect gate="G$1" pin="IREF" pad="26"/>
+<connect gate="G$1" pin="NC" pad="7"/>
+<connect gate="G$1" pin="NC(GND)@1" pad="1"/>
+<connect gate="G$1" pin="NC(GND)@2" pad="30"/>
+<connect gate="G$1" pin="R/W" pad="16"/>
+<connect gate="G$1" pin="VBAT" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="28"/>
+<connect gate="G$1" pin="VCOMH" pad="27"/>
+<connect gate="G$1" pin="VDD" pad="9"/>
+<connect gate="G$1" pin="VLSS" pad="29"/>
+<connect gate="G$1" pin="VSS" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="WiseChip" constant="no"/>
+<attribute name="MFN" value="UG-2864HMBEG01" constant="no"/>
+<attribute name="OC-DIGIKEY" value="" constant="no"/>
+<attribute name="OC-FUTURE" value="UG-2864HMBEG01" constant="no"/>
+<attribute name="OC-MOUSER" value="" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
+<attribute name="OC-OTHER" value="https://www.aliexpress.com/item/1pcs-0-96-inch-OLED-Display-LCD-module-with-128x64-Resolution-Blue-and-Yellow-color-on/1436111338.html?spm=2114.search0104.3.106.5N4Miv&amp;ws_ab_test=searchweb0_0,searchweb201602_2_10152_10065_10151_10344_10068_10130_10345_10324_10342_10547_10325_10343_51102_10340_10341_10548_10609_10192_10541_5130013_5000013_10190_10084_10083_10307_10301_5080013_10303_10610_5870020_10312_10059_10313_10314_10184_10534_100031_10604_10603_10103_10605_5060013_10594_10142_10107,searchweb201603_2,ppcSwitch_5&amp;algo_expid=f76b08ed-b75e-4e2b-aa35-328708cbae68-16&amp;algo_pvid=f76b08ed-b75e-4e2b-aa35-328708cbae68&amp;rmStoreLevelAB=5" constant="no"/>
 </technology>
 </technologies>
 </device>
