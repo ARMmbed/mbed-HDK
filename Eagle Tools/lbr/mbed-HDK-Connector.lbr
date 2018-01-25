@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.00025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1215,6 +1216,19 @@
 <text x="-1.27" y="-2.54" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
 <text x="-1.27" y="-3.81" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
 </package>
+<package name="PJ-063BH">
+<pad name="P$5" x="0" y="0" drill="1.7" diameter="1.778" shape="long"/>
+<pad name="2" x="0" y="-3" drill="2" diameter="1.9304" shape="long"/>
+<pad name="1" x="0" y="-9" drill="2.7" diameter="2.54" shape="long"/>
+<pad name="P$3" x="-4.5" y="-2" drill="2.2" diameter="2.1844" shape="long" rot="R90"/>
+<pad name="P$4" x="4.5" y="-2" drill="2.2" diameter="2.1844" shape="long" rot="R90"/>
+<wire x1="-5.08" y1="3" x2="5.08" y2="3" width="0.127" layer="21"/>
+<text x="-5.08" y="-13.97" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-5.08" y="-15.24" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<wire x1="-5.08" y1="3" x2="-5.08" y2="-10.795" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-10.795" x2="5.08" y2="-10.795" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-10.795" x2="5.08" y2="3" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB">
@@ -1807,6 +1821,16 @@
 <pin name="6" x="5.08" y="7.62" visible="pin" length="short" direction="pas" function="dot"/>
 <pin name="7" x="5.08" y="5.08" visible="pin" length="short" direction="pas" function="dot"/>
 <pin name="8" x="5.08" y="2.54" visible="pin" length="short" direction="pas" function="dot"/>
+</symbol>
+<symbol name="PJ-063BH">
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="6.604" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="6.604" y1="1.778" x2="7.874" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="6.604" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-3.048" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="2.54" y1="4.572" x2="7.874" y2="5.588" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="0" y="0" visible="pad" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2711,6 +2735,29 @@
 <attribute name="MFN" value="M20-7910842R" constant="no"/>
 <attribute name="OC-DIGIKEY" value="952-3200-1-ND" constant="no"/>
 <attribute name="OC-MOUSER" value="855-M20-7910842R" constant="no"/>
+<attribute name="OC-NEWARK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PJ-063BH" prefix="CON">
+<description>&lt;b&gt;CONN POWER JACK 2.5X5.5MM&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PJ-063BH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PJ-063BH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="CUI Inc." constant="no"/>
+<attribute name="MFN" value="PJ-063BH" constant="no"/>
+<attribute name="OC-DIGIKEY" value="CP-063BH-ND" constant="no"/>
+<attribute name="OC-MOUSER" value="490-PJ-063BH" constant="no"/>
 <attribute name="OC-NEWARK" value="" constant="no"/>
 </technology>
 </technologies>
