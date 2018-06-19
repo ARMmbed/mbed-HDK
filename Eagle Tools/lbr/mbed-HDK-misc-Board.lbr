@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6622,6 +6622,46 @@
 <pad name="P$79" x="78.74" y="-2.54" drill="0.8"/>
 <pad name="P$80" x="78.74" y="0" drill="0.8"/>
 </package>
+<package name="K64F/K22F(HALF_SHIELD)">
+<pad name="1" x="27.94" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="2" x="30.48" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="3" x="33.02" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="4" x="35.56" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="5" x="38.1" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="6" x="40.64" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="7" x="43.18" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="8" x="45.72" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="9" x="50.8" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="10" x="53.34" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="11" x="55.88" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="12" x="58.42" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="13" x="60.96" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<pad name="14" x="63.5" y="2.54" drill="1" diameter="1.778" rot="R90"/>
+<hole x="14.9479" y="2.8194" drill="3.2"/>
+<wire x1="74.93" y1="17.78" x2="81.28" y2="11.43" width="0.254" layer="20" curve="-90"/>
+<wire x1="74.93" y1="0" x2="81.28" y2="6.35" width="0.254" layer="20" curve="90"/>
+<wire x1="74.93" y1="0" x2="6.35" y2="0" width="0.254" layer="20"/>
+<wire x1="6.35" y1="0" x2="0" y2="6.35" width="0.254" layer="20" curve="-90"/>
+<wire x1="74.93" y1="17.78" x2="6.35" y2="17.78" width="0.254" layer="20"/>
+<wire x1="6.35" y1="17.78" x2="0" y2="11.43" width="0.254" layer="20" curve="90"/>
+<hole x="68.6562" y="2.8194" drill="3.2"/>
+<wire x1="0" y1="6.35" x2="0" y2="11.43" width="0.254" layer="20"/>
+<wire x1="81.28" y1="6.35" x2="81.28" y2="11.43" width="0.254" layer="20"/>
+<pad name="15" x="27.94" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="16" x="30.48" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="17" x="33.02" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="18" x="35.56" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="19" x="38.1" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="20" x="40.64" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="21" x="43.18" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="22" x="45.72" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="23" x="50.8" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="24" x="53.34" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="25" x="55.88" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="26" x="58.42" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="27" x="60.96" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+<pad name="28" x="63.5" y="5.08" drill="1" diameter="1.778" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="WEE-MARK">
@@ -9854,6 +9894,40 @@ P260906</text>
 <pin name="P$79" x="25.4" y="-2.54" visible="off" length="middle" rot="R180"/>
 <pin name="P$80" x="25.4" y="0" visible="off" length="middle" rot="R180"/>
 </symbol>
+<symbol name="K64F/K22F(HALF_SHIELD)">
+<wire x1="0" y1="45.72" x2="27.94" y2="45.72" width="0.254" layer="94"/>
+<wire x1="27.94" y1="45.72" x2="27.94" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="45.72" width="0.254" layer="94"/>
+<pin name="NC" x="-5.08" y="40.64" length="middle"/>
+<pin name="IOREF" x="-5.08" y="38.1" length="middle"/>
+<pin name="NRESET" x="-5.08" y="35.56" length="middle"/>
+<pin name="3V3" x="-5.08" y="33.02" length="middle"/>
+<pin name="5V" x="-5.08" y="30.48" length="middle"/>
+<pin name="GND@6" x="-5.08" y="27.94" length="middle"/>
+<pin name="GND@7" x="-5.08" y="25.4" length="middle"/>
+<pin name="VIN" x="-5.08" y="22.86" length="middle"/>
+<pin name="A0" x="-5.08" y="17.78" length="middle"/>
+<pin name="A1" x="-5.08" y="15.24" length="middle"/>
+<pin name="A2" x="-5.08" y="12.7" length="middle"/>
+<pin name="A3" x="-5.08" y="10.16" length="middle"/>
+<pin name="A4" x="-5.08" y="7.62" length="middle"/>
+<pin name="A5" x="-5.08" y="5.08" length="middle"/>
+<pin name="DAC0_OUT" x="33.02" y="5.08" length="middle" rot="R180"/>
+<pin name="PTB20" x="33.02" y="7.62" length="middle" rot="R180"/>
+<pin name="ADC1_DM1" x="33.02" y="10.16" length="middle" rot="R180"/>
+<pin name="ADC0_DP1" x="33.02" y="17.78" length="middle" rot="R180"/>
+<pin name="ADC1_DP1" x="33.02" y="12.7" length="middle" rot="R180"/>
+<pin name="ADC0_DM1" x="33.02" y="15.24" length="middle" rot="R180"/>
+<pin name="NC@8" x="33.02" y="22.86" length="middle" rot="R180"/>
+<pin name="NC@7" x="33.02" y="25.4" length="middle" rot="R180"/>
+<pin name="NC@6" x="33.02" y="27.94" length="middle" rot="R180"/>
+<pin name="NC@5" x="33.02" y="30.48" length="middle" rot="R180"/>
+<pin name="NC@4" x="33.02" y="33.02" length="middle" rot="R180"/>
+<pin name="NC@3" x="33.02" y="35.56" length="middle" rot="R180"/>
+<pin name="NC@2" x="33.02" y="38.1" length="middle" rot="R180"/>
+<pin name="NC@1" x="33.02" y="40.64" length="middle" rot="R180"/>
+<wire x1="0" y1="0" x2="27.94" y2="0" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RPI-HAT" prefix="BRD">
@@ -10594,6 +10668,49 @@ P260906</text>
 <connect gate="G$1" pin="TGT_TX" pad="7"/>
 <connect gate="G$1" pin="TX1" pad="9"/>
 <connect gate="G$1" pin="TX2" pad="32"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="K64F/K22F(HALF_SHIELD)" prefix="BRD">
+<description>&lt;b&gt;Half Shield for K64F/K22F&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="K64F/K22F(HALF_SHIELD)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="K64F/K22F(HALF_SHIELD)">
+<connects>
+<connect gate="G$1" pin="3V3" pad="4"/>
+<connect gate="G$1" pin="5V" pad="5"/>
+<connect gate="G$1" pin="A0" pad="9"/>
+<connect gate="G$1" pin="A1" pad="10"/>
+<connect gate="G$1" pin="A2" pad="11"/>
+<connect gate="G$1" pin="A3" pad="12"/>
+<connect gate="G$1" pin="A4" pad="13"/>
+<connect gate="G$1" pin="A5" pad="14"/>
+<connect gate="G$1" pin="ADC0_DM1" pad="24"/>
+<connect gate="G$1" pin="ADC0_DP1" pad="23"/>
+<connect gate="G$1" pin="ADC1_DM1" pad="26"/>
+<connect gate="G$1" pin="ADC1_DP1" pad="25"/>
+<connect gate="G$1" pin="DAC0_OUT" pad="28"/>
+<connect gate="G$1" pin="GND@6" pad="6"/>
+<connect gate="G$1" pin="GND@7" pad="7"/>
+<connect gate="G$1" pin="IOREF" pad="2"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="NC@1" pad="15"/>
+<connect gate="G$1" pin="NC@2" pad="16"/>
+<connect gate="G$1" pin="NC@3" pad="17"/>
+<connect gate="G$1" pin="NC@4" pad="18"/>
+<connect gate="G$1" pin="NC@5" pad="19"/>
+<connect gate="G$1" pin="NC@6" pad="20"/>
+<connect gate="G$1" pin="NC@7" pad="21"/>
+<connect gate="G$1" pin="NC@8" pad="22"/>
+<connect gate="G$1" pin="NRESET" pad="3"/>
+<connect gate="G$1" pin="PTB20" pad="27"/>
+<connect gate="G$1" pin="VIN" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
