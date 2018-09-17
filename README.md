@@ -1,3 +1,5 @@
+## This repository is not actively maintained anymore. For the latest updates, please visit: https://github.com/ARMmbed/mbed-HDK-Eagle-Projects
+
 <img src="https://www.mbed.com/static/img/ARMmbedLogo.svg" width="300" height="" />
 
 # mbed-HDK
